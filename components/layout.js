@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Navbar from './navbar';
 
 export const siteTitle = 'TSG';
 
@@ -28,7 +29,11 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      <main>{children}</main>
+      <main>
+        <Navbar />
+        
+        {children}
+       </main>
     </div>
   );
 }

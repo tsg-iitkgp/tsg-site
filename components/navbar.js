@@ -16,13 +16,13 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/docs/events">
+            <Link href="#">
               Updates 
             </Link>
           </li>
           <li>
             <Link href="#">
-              Contact
+              Innovation Lab
             </Link>
           </li>
           <li>
