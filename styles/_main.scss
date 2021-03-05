@@ -5,6 +5,7 @@ body {
   background-position: bottom;
   background-image: url("/bg-svg.svg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
 
   .content {
     display: flex;

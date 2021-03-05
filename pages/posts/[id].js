@@ -27,7 +27,7 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
+      <article class="post content">
         <h1>{postData.title}</h1>
         <div>
           <Date dateString={postData.date} />
