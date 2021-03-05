@@ -7,7 +7,7 @@ export default function About() {
       <Head>
         <title>About</title>
       </Head>
-      <section>
+      <section class="about content">
         <h2>About</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's

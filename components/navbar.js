@@ -6,22 +6,22 @@ export default function Navbar() {
       <nav class="menu">
         <div className="wrapper">
           <ul>
-            <li>
+            <li data-text="Home">
               <Link href="/">Home</Link>
             </li>
-            <li>
+            <li data-text="About">
               <Link href="/about">About</Link>
             </li>
-            <li>
+            <li data-text="Updates">
               <Link href="#">Updates</Link>
             </li>
-            <li>
+            <li data-text="Innovation Lab">
               <Link href="#">Innovation Lab</Link>
             </li>
-            <li>
+            <li data-text="Blog">
               <Link href="/blog">Blog</Link>
             </li>
-            <li>
+            <li data-text="Contacts">
               <Link href="/contacts">Contacts</Link>
             </li>
           </ul>
@@ -37,22 +37,22 @@ export default function Navbar() {
         <nav>
           <div className="wrapper">
             <ul>
-              <li>
+              <li data-text="Home">
                 <Link href="/">Home</Link>
               </li>
-              <li>
+              <li data-text="About">
                 <Link href="/about">About</Link>
               </li>
-              <li>
+              <li data-text="Updates">
                 <Link href="#">Updates</Link>
               </li>
-              <li>
+              <li data-text="Innovation Lab">
                 <Link href="#">Innovation Lab</Link>
               </li>
-              <li>
+              <li data-text="Blog">
                 <Link href="/blog">Blog</Link>
               </li>
-              <li>
+              <li data-text="Contacts">
                 <Link href="/contacts">Contacts</Link>
               </li>
             </ul>

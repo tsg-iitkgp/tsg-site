@@ -24,13 +24,11 @@ export default function Blog({
       <Head>
         <title>Blog</title>
       </Head>
-      <section>
+      <section class="blog content">
         <h2>Blog</h2>
         <p>
           This is a basic design for the blog of Student's Gymkhana, made using next.js.
         </p>
-      </section>
-      <section>
         <p>The blog is the basic flat normal structure.</p>
         <ul>
           {allPostsData.map(({ id, date, title }) => (

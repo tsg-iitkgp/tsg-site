@@ -27,7 +27,7 @@ export default function Home({
       <section class="intro">
         <h1>Technology Student's Gymkhana</h1>
         <p>
-          This is a basic design for the new website of Student's Gymkhana, made using next.js.
+          Indian Institute of Technology Kharagpur
         </p>
       </section>
     </Layout>
