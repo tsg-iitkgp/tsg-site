@@ -1,12 +1,13 @@
-nav {
+.menu {
   .wrapper {
     ul {
       display: flex;
+      justify-content: center;
       list-style: none;
       padding: 0;
 
       li {
-        margin: 0 1rem;
+        margin: 0 2em;
 
         a {
           text-decoration: none;
@@ -16,9 +17,15 @@ nav {
     }
   }
 
-  .mobile-navbar {
+  @include sm {
     display: none;
+  }
+}
 
+.mobile-navbar {
+  display: none;
+
+  .wrapper {
     ul {
       display: flex;
       flex-direction: column;
@@ -34,9 +41,12 @@ nav {
         }
       }
     }
+  }
 
-    .active {
-      display: visible;
+  .mobile-navbar-icon {
+    color: #111;
+    @include sm {
+      display: inline-block;
     }
   }
 }
