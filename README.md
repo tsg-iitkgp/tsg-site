@@ -1,5 +1,8 @@
 # Technology Student's Gymkhana website revamp
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c5fc833-1398-4d2e-98d2-3bb5bf99b8bb/deploy-status)](https://app.netlify.com/sites/tsg-site/deploys)
+
+Deployed at: [:earth_asia: tsg-site](https://tsg-site.netlify.app/)
 
 ## Getting Started
 
@@ -12,8 +15,6 @@ yarn
 Then, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
