@@ -1,11 +1,19 @@
 body {
   //   background: linear-gradient(to top left, rgb(255, 91, 132), rgb(255, 150, 111));
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
   background-position: bottom;
   background-image: url("/bg-svg.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+  main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
 
   .content {
     display: flex;

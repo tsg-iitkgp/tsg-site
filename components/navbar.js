@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <nav class="menu">
+      <nav className="menu">
         <div className="wrapper">
           <ul>
             <li data-text="Home">
@@ -28,8 +28,8 @@ export default function Navbar() {
         </div>
       </nav>
 
-      <div class="mobile-navbar">
-        <div class="mobile-navbar-icon">
+      <div className="mobile-navbar">
+        <div className="mobile-navbar-icon">
           <span></span>
           <span></span>
           <span></span>

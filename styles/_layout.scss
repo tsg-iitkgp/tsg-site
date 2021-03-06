@@ -1,12 +1,9 @@
 .container {
+  height: 100%;
   padding: 0 1rem;
   margin: 3rem auto 3rem;
 
   .intro {
-    position: absolute;
-    margin-left: 10%;
-    top: 30%;
-
     h1 {
       font-size: 3rem;
       font-weight: bold;

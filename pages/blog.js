@@ -24,7 +24,7 @@ export default function Blog({
       <Head>
         <title>Blog</title>
       </Head>
-      <section class="blog content">
+      <section className="blog content">
         <h2>Blog</h2>
         <p>
           This is a basic design for the blog of Student's Gymkhana, made using next.js.

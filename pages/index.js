@@ -24,7 +24,7 @@ export default function Home({
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section class="intro">
+      <section className="intro">
         <h1>Technology Student's Gymkhana</h1>
         <p>
           Indian Institute of Technology Kharagpur
