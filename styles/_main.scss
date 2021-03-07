@@ -1,6 +1,5 @@
 body {
   //   background: linear-gradient(to top left, rgb(255, 91, 132), rgb(255, 150, 111));
-  height: 80vh;
   background-size: cover;
   background-position: bottom;
   background-image: url("/bg-svg.svg");
@@ -10,6 +9,7 @@ body {
   main {
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;

@@ -1,6 +1,13 @@
+import { useState } from 'react';
 import Link from "next/link";
 
 export default function Navbar() {
+  const [isActive, setIsActive] = useState(false);
+
+  const navbarNikal = () => {
+    isActive ? setIsActive(false) : setIsActive(true);
+  };
+
   return (
     <>
       <nav className="menu">
@@ -29,13 +36,13 @@ export default function Navbar() {
       </nav>
 
       <div className="mobile-navbar">
-        <div className="mobile-navbar-icon">
+        <div className={`mobile-navbar-icon ${isActive ? "out" : ""}`} onClick={navbarNikal}>
           <span></span>
           <span></span>
           <span></span>
         </div>
         <nav>
-          <div className="wrapper">
+          <div className={`wrapper ${isActive ? "active" : ""}`}>
             <ul>
               <li data-text="Home">
                 <Link href="/">Home</Link>
