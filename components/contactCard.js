@@ -1,16 +1,12 @@
 import * as Icon from "react-feather";
-import Image from "next/image";
 
 export default function Card(props) {
   return (
     <div className="card">
       <div className="intro">
-        <Image
-          src={`/contacts/${props.RollNo}.png`}
+        <img
+          src={require(`../public/contacts/${props.RollNo}.png`)}
           alt={`Picture of ${props.Post}`}
-          layout="responsive"
-          height={500}
-          width={500}
         />
         <span>{props.Name}</span>
       </div>
