@@ -1,16 +1,23 @@
 import * as Icon from "react-feather";
+import Image from "next/image";
 
 export default function Card(props) {
   return (
     <div className="card">
       <div className="intro">
-        <img src={`/contacts/${props.RollNo}.png`} />
+        <Image
+          src={`/contacts/${props.RollNo}.png`}
+          alt={`Picture of ${props.Post}`}
+          layout="responsive"
+          height={500}
+          width={500}
+        />
         <span>{props.Name}</span>
       </div>
 
       <div className="card-content">
         <h3>
-          {props.Post}  {props.Contact != "" ? `| ${props.Contact}` : ("")}
+          {props.Post} {props.Contact != "" ? `| ${props.Contact}` : ""}
         </h3>
         <hr />
         {props.Post === "President" ? (

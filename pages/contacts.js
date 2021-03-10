@@ -23,6 +23,7 @@ export default function Contacts() {
           {contactsData.data.map((contact) => {
             return (
               <Card
+                key={contact.RollNo}
                 Name={contact.Name}
                 Contact={contact.Contact}
                 RollNo={contact.RollNo}
