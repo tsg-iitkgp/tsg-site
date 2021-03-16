@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
 
+    li {
+      margin-top: 0.75rem;
+    }
+
     @include sm {
       flex-direction: column;
     }

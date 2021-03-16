@@ -51,10 +51,8 @@ export default function About() {
             <li>
               Technology
               <ul>
-                <li>Product</li>
-                <li>Design</li>
-                <li>Hardware</li>
-                <li>Modeling</li>
+                <li>Product Design</li>
+                <li>Hardware Modeling</li>
                 <li>Data Analytics</li>
                 <li>Case Study</li>
                 <li>Ad Design</li>

@@ -5,8 +5,8 @@ export default {
       Name: "Professor Ajay Kumar Singh",
       Post: "President",
       Contact: "",
-      Email: "http://www.iitkgp.ac.in/department/PH/faculty/ph-sing",
-      "Institue ids": "http://www.iitkgp.ac.in/department/PH/faculty/ph-sing",
+      Email: "http://www.iitkgp.ac.in/department/PH/faculty/ph-singh",
+      "Institue ids": "http://www.iitkgp.ac.in/department/PH/faculty/ph-singh",
       "Institute mail ids": "",
     },
     {
@@ -21,7 +21,7 @@ export default {
     {
       RollNo: "18HS20022",
       Name: "Manas Patidar",
-      Post: "GSec-Sports & Games",
+      Post: "GSec - Sports & Games",
       Contact: 7024447788,
       Email: "manas.patidar.9@gmail.com",
       "Institue ids": "manaspatidar@iitkgp.ac.in",
@@ -30,7 +30,7 @@ export default {
     {
       RollNo: "18CH30028",
       Name: "Madhuri Endluri",
-      Post: "GSec-Sports & Games",
+      Post: "GSec - Sports & Games",
       Contact: 9652576213,
       Email: "madhuriendluri10@gmail.com",
       "Institue ids": "madhuriendlluri@iitkgp.ac.in",
@@ -75,7 +75,7 @@ export default {
     {
       RollNo: "18CE10040",
       Name: "Nikhil Kumar",
-      Post: "Gsec- Students' Welfare",
+      Post: "GSec - Students' Welfare",
       Contact: 6387364648,
       Email: "nikhilkumar041299@gmail.com",
       "Institue ids": "nikhilkumar0412@iitkgp.ac.in",
@@ -84,7 +84,7 @@ export default {
     {
       RollNo: "18EE10004",
       Name: "Aditi Singhania",
-      Post: "Gsec- Students' Welfare",
+      Post: "GSec - Students' Welfare",
       Contact: 9340087534,
       Email: "singhania2603@gmail.com",
       "Institue ids": "aditi2000@iitkgp.ac.in",
