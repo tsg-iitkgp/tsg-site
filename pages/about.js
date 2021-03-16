@@ -10,12 +10,62 @@ export default function About() {
       <section className="about content">
         <h2>About</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-          make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-          sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
+          Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT
+          Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the students,
+          under the guidance and active participation of the faculty and staff members. "Yogah Karmasu Kausalam" The
+          moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in action
+          is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their
+          extra-curricular talents.
+        </p>
+        <p>
+          <ul className="events">
+            <li>
+              SoCult
+              <ul>
+                <li>Choreography</li>
+                <li>Dramatics</li>
+                <li>Street Play</li>
+                <li>Western Music</li>
+                <li>Eastern Music</li>
+                <li>English Elocution</li>
+                <li>Hindi Elocution</li>
+                <li>Standup Comedy</li>
+              </ul>
+            </li>
+            <li>
+              Sports
+              <ul>
+                <li>Cricket</li>
+                <li>Football</li>
+                <li>Hockey</li>
+                <li>Basketball</li>
+                <li>Volleyball</li>
+                <li>Lawn Tennis</li>
+                <li>Table Tennis</li>
+                <li>Athletics</li>
+                <li>Long Jump</li>
+                <li>Sprint</li>
+                <li>Squash</li>
+              </ul>
+            </li>
+            <li>
+              Technology
+              <ul>
+                <li>Product</li>
+                <li>Design</li>
+                <li>Hardware</li>
+                <li>Modeling</li>
+                <li>Data Analytics</li>
+                <li>Case Study</li>
+                <li>Ad Design</li>
+                <li>Opensoft</li>
+                <li>Chemquest</li>
+                <li>Biz Quiz</li>
+                <li>Tech Quiz</li>
+                <li>Maths Olympiad</li>
+              </ul>
+            </li>
+          </ul>
         </p>
       </section>
     </Layout>

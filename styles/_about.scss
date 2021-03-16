@@ -1,0 +1,10 @@
+.about {
+  .events {
+    display: flex;
+    justify-content: space-between;
+
+    @include sm {
+      flex-direction: column;
+    }
+  }
+}
