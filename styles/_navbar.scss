@@ -29,6 +29,39 @@
           visibility: hidden;
         }
       }
+
+      .dropdown-title {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .dropdown-content {
+          display: none;
+
+          background: rgba(255, 255, 255, 0.8);
+          backdrop-filter: blur(20px);
+          -webkit-backdrop-filter: blur(20px);
+          border-radius: 0.5rem;
+          border: 1px solid rgba(255, 255, 255, 0.18);
+
+          a {
+            color: #111;
+          }
+        }
+
+        &:hover {
+          .dropdown-content {
+            display: block;
+            position: fixed;
+            margin-top: 1.75rem;
+
+            li {
+              margin: 0.5rem 0;
+            }
+          }
+        }
+      }
     }
   }
 
