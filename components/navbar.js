@@ -62,6 +62,9 @@ export default function Navbar() {
                 <li data-text="Technology">
                   <Link href="/tech">Technology</Link>
                 </li>
+                <li data-text="Awards">
+                  <Link href="/awards">Awards</Link>
+                </li>
               </ul>
             </li>
             <li data-text="Societies">
@@ -131,6 +134,9 @@ export default function Navbar() {
                   </li>
                   <li data-text="Technology">
                     <Link href="/tech">Technology</Link>
+                  </li>
+                  <li data-text="Awards">
+                    <Link href="/awards">Awards</Link>
                   </li>
                 </ul>
               </li>
