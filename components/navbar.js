@@ -19,9 +19,9 @@ export default function Navbar() {
             <li data-text="About">
               <Link href="/about">About</Link>
             </li>
-            <li data-text="Updates">
+            {/* <li data-text="Updates">
               <Link href="#">Updates</Link>
-            </li>
+            </li> */}
             <li data-text="Facilities" className="dropdown-title">
               Facilities
               <ul className="dropdown-content">
@@ -81,9 +81,9 @@ export default function Navbar() {
               <li data-text="About">
                 <Link href="/about">About</Link>
               </li>
-              <li data-text="Updates">
+              {/* <li data-text="Updates">
                 <Link href="#">Updates</Link>
-              </li>
+              </li> */}
               <li data-text="Swimming Pool">
                 <Link href="/pool">Swimming Pool</Link>
               </li>
