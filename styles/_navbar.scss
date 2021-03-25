@@ -94,6 +94,20 @@
     }
   }
 
+  .dropdown-title {
+    cursor: pointer;
+    .dropdown-content {
+      display: none;
+    }
+  }
+
+  .down {
+    .dropdown-content {
+      display: block;
+      margin: 0.5rem 0 0 0;
+    }
+  }
+
   .active {
     display: block;
     position: fixed;
