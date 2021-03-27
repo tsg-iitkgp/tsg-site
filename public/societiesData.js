@@ -1,6 +1,13 @@
 export default {
   data: [
     {
+      name: "Student Welfare Group",
+      description: "",
+      facebook_link: "https://www.facebook.com/SWGIITKGP",
+      wiki_link: "https://wiki.metakgp.org/w/Student_Welfare_Group",
+      shortform: "swg",
+    },
+    {
       name: "Technology Literary Society",
       description:
         "The Technology Literary Society, IIT Kharagpur abbreviated as TLS, is IIT Kharagpurs literary organization involving a group of enthusiastic English & Hindi writers, and designers. The society used to publish the monthly wall magazine Hang On, and the literary newsletter KGP Pulse but they have been discontinued in favour of using social media to reach a larger population.TLS continues to publish the annual campus magazine Alankar.",

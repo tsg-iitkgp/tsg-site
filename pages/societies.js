@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import Card from "../components/societyCard";
 import societiesData from "../public/societiesData";
+import Router from "next/router";
 
 export default function Societies() {
   return (
