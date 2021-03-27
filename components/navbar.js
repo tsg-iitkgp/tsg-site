@@ -71,7 +71,9 @@ export default function Navbar() {
               <Link href="/societies">Societies</Link>
             </li>
             <li data-text="Blog">
-              <Link href="/blog">Blog</Link>
+              <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">
+                Blog <Icon.ExternalLink />
+              </a>
             </li>
             <li data-text="Contacts">
               <Link href="/contacts">Contacts</Link>
@@ -144,7 +146,9 @@ export default function Navbar() {
                 <Link href="/societies">Societies</Link>
               </li>
               <li data-text="Blog">
-                <Link href="/blog">Blog</Link>
+                <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">
+                  Blog <Icon.ExternalLink />
+                </a>
               </li>
               <li data-text="Contacts">
                 <Link href="/contacts">Contacts</Link>
