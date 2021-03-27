@@ -54,6 +54,7 @@
           .dropdown-content {
             display: block;
             position: fixed;
+            z-index: 99;
             margin-top: 1.75rem;
 
             li {
