@@ -6,6 +6,7 @@ export default {
       facebook_link: "https://www.facebook.com/SWGIITKGP",
       wiki_link: "https://wiki.metakgp.org/w/Student_Welfare_Group",
       shortform: "swg",
+      category: "Socult",
     },
     {
       name: "Technology Literary Society",
@@ -14,6 +15,7 @@ export default {
       facebook_link: "https://www.facebook.com/tls.iitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Literary_Society",
       shortform: "tls",
+      category: "Socult",
     },
     {
       name: "Debating Society",
@@ -22,6 +24,7 @@ export default {
       facebook_link: "https://www.facebook.com/kgpdebsoc",
       wiki_link: "https://wiki.metakgp.org/w/Debating_Society",
       shortform: "debsoc",
+      category: "Socult",
     },
     {
       name: "Technology Filmmaking & Photography Society",
@@ -30,6 +33,7 @@ export default {
       facebook_link: "https://www.facebook.com/tfps.iitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Filmmaking_%26_Photography_Society",
       shortform: "tfps",
+      category: "Tech",
     },
     {
       name: "Technology Dance Society",
@@ -38,6 +42,7 @@ export default {
       facebook_link: "https://www.facebook.com/Breakfreenowornever/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Dance_Society",
       shortform: "tds",
+      category: "Socult",
     },
     {
       name: "Pravah",
@@ -46,6 +51,7 @@ export default {
       facebook_link: "https://www.facebook.com/Pravaah/",
       wiki_link: "https://wiki.metakgp.org/w/Pravah",
       shortform: "pravah",
+      category: "Socult",
     },
     {
       name: "Encore",
@@ -54,6 +60,7 @@ export default {
       facebook_link: "https://www.facebook.com/TDSEncore/",
       wiki_link: "https://wiki.metakgp.org/w/Encore",
       shortform: "encore",
+      category: "Socult",
     },
     {
       name: "Prasthanam",
@@ -62,6 +69,7 @@ export default {
       facebook_link: "https://www.facebook.com/Prasthanam.TDS/",
       wiki_link: "https://wiki.metakgp.org/w/Prasthanam",
       shortform: "prasthanam",
+      category: "Socult",
     },
     {
       name: "Druheen",
@@ -70,6 +78,7 @@ export default {
       facebook_link: "https://www.facebook.com/tdsdruheen/",
       wiki_link: "https://wiki.metakgp.org/w/Druheen",
       shortform: "druheen",
+      category: "Socult",
     },
     {
       name: "Technology Robotix Society",
@@ -78,6 +87,7 @@ export default {
       facebook_link: "https://www.facebook.com/robotixiitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Robotix_Society",
       shortform: "trs",
+      category: "Tech",
     },
     {
       name: "Communique",
@@ -86,6 +96,7 @@ export default {
       facebook_link: "https://www.facebook.com/communique.iitkgp",
       wiki_link: "https://wiki.metakgp.org/w/Communique",
       shortform: "communique",
+      category: "Socult",
     },
     {
       name: "Business Club",
@@ -94,6 +105,7 @@ export default {
       facebook_link: "https://www.facebook.com/bclubkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Business_Club",
       shortform: "bclub",
+      category: "Tech",
     },
     {
       name: "Technology Adventure Society",
@@ -102,6 +114,7 @@ export default {
       facebook_link: "https://www.facebook.com/TAdS.IIT/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Adventure_Society",
       shortform: "tads",
+      category: "Sports",
     },
     {
       name: "Eastern Technology Music Society",
@@ -110,6 +123,7 @@ export default {
       facebook_link: "https://www.facebook.com/pg/ETMSIITKGP",
       wiki_link: "https://wiki.metakgp.org/w/Eastern_Technology_Music_Society",
       shortform: "etms",
+      category: "Socult",
     },
     {
       name: "Western Technology Music Society",
@@ -118,6 +132,7 @@ export default {
       facebook_link: "https://www.facebook.com/wtmsiitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Western_Technology_Music_Society",
       shortform: "wtms",
+      category: "Socult",
     },
     {
       name: "Chess Club",
@@ -126,6 +141,7 @@ export default {
       facebook_link: "https://www.facebook.com/ChessClubIITKGP/",
       wiki_link: "https://wiki.metakgp.org/w/Chess_IITKGP",
       shortform: "chess",
+      category: "Tech",
     },
     {
       name: "IIT Kharagpur Quiz Club",
@@ -134,6 +150,7 @@ export default {
       facebook_link: "https://www.facebook.com/iitkgp.quizclub/",
       wiki_link: "https://wiki.metakgp.org/w/Quiz_Club",
       shortform: "quiz",
+      category: "Tech",
     },
     {
       name: "Spectra",
@@ -142,6 +159,7 @@ export default {
       facebook_link: "https://www.facebook.com/Spectra.IITKGP/",
       wiki_link: "https://wiki.metakgp.org/w/Spectra",
       shortform: "spectra",
+      category: "Socult",
     },
     {
       name: "Technology Culinary Arts Society",
@@ -150,6 +168,7 @@ export default {
       facebook_link: "https://www.facebook.com/tcaskgp/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Culinary_Arts_Society",
       shortform: "tcas",
+      category: "Socult",
     },
   ],
 };
