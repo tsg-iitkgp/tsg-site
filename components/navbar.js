@@ -45,6 +45,9 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
+            <li data-text="Notices">
+              <Link href="/notices">Notices</Link>
+            </li>
             <li data-text="Facilities" className="dropdown-title">
               Facilities
               <ul className="dropdown-content">
@@ -73,9 +76,6 @@ export default function Navbar() {
                 </li>
                 <li data-text="Technology">
                   <Link href="/tech">Technology</Link>
-                </li>
-                <li data-text="Awards">
-                  <Link href="/awards">Awards</Link>
                 </li>
               </ul>
             </li>
@@ -121,6 +121,9 @@ export default function Navbar() {
                   </li>
                 </ul>
               </li>
+              <li data-text="Notices">
+                <Link href="/notices">Notices</Link>
+              </li>
               <li
                 data-text="Facilities"
                 className={`dropdown-title ${isDown_1 ? "down" : ""}`}
@@ -157,9 +160,6 @@ export default function Navbar() {
                   </li>
                   <li data-text="Technology">
                     <Link href="/tech">Technology</Link>
-                  </li>
-                  <li data-text="Awards">
-                    <Link href="/awards">Awards</Link>
                   </li>
                 </ul>
               </li>
