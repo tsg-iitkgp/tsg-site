@@ -1,6 +1,5 @@
 ---
 title: 'Spectra (Fine Arts and Design Group)'
-date: '2021-03-28'
 ---
 
 ![](https://drive.google.com/uc?id=1ZdH9mBJM6nwjvI96Nr348obRdSgMpJDQ)

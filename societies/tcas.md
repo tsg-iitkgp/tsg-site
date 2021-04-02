@@ -1,6 +1,5 @@
 ---
 title: 'Aroma: Technology Culinary Arts Society'
-date: '2021-03-28'
 ---
 
 ![](https://drive.google.com/uc?id=1DhcqWd2Zya6o_I8AdgRfOuBa4YqFs_He)

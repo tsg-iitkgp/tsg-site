@@ -1,6 +1,5 @@
 ---
 title: 'Encore'
-date: '2020-03-28'
 --- 
 
 ![](https://drive.google.com/uc?id=1PshaPSo6ffM1yg8XA9mtj80tlOD5Wygi)

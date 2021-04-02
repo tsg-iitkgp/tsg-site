@@ -1,6 +1,5 @@
 ---
 title: 'Druheen: Technology Dramatic Society (Bengali)'
-date: '2020-03-28'
 ---
 
 ![](https://drive.google.com/uc?id=1p5m3k3-xmXFGoRBnFCB2xsN-5-1O-27E)

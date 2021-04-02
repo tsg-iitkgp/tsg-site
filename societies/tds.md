@@ -1,6 +1,5 @@
 ---
 title: 'Technology Dance Society'
-date: '2020-03-28'
 ---
 
 ![](https://drive.google.com/uc?id=1zBPQHWhpI3BJms35c0dAwt2krWF3x3E9)

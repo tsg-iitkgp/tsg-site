@@ -1,6 +1,5 @@
 ---
 title: 'Communique'
-date: '2020-03-28'
 ---
 
 ![](https://drive.google.com/uc?id=18lOR_N18EObhFxFjYhtKEq_vXy1ZjVrq)

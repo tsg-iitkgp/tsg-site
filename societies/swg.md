@@ -1,6 +1,5 @@
 ---
 title: 'Student Welfare Group'
-date: '2020-01-01'
 ---
 
 ![](https://drive.google.com/uc?id=FILE_ID)

@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/societies";
-import Date from "../../components/date";
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
@@ -27,11 +26,8 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article className="post content">
+      <article className="details content">
         <h1>{postData.title}</h1>
-        <div>
-          <Date dateString={postData.date} />
-        </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>

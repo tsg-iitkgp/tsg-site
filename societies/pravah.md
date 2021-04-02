@@ -1,6 +1,5 @@
 ---
 title: 'Pravah: Technology Dramatics Society'
-date: '2020-02-28'
 ---
 
 ![](https://drive.google.com/uc?id=18TbJvUOetCL0bT_2YCiLnT-pCi26TcuD)

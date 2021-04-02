@@ -1,6 +1,5 @@
 ---
 title: 'Debating Society'
-date: '2020-03-28'
 ---
 
 ![](https://drive.google.com/uc?id=1L9flYBR2bqc1UFi1L9pcoKnaA78Wk-GC)

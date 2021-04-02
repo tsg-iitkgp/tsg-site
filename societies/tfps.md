@@ -1,6 +1,5 @@
 ---
 title: 'Technology Filmmaking and Photography Society'
-date: '2020-03-28'
 ---
 
 ![](https://drive.google.com/uc?id=19AC9dfvjGu4ymKlbTBlDttKtbLT2BGiy)

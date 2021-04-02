@@ -1,6 +1,5 @@
 ---
 title: 'Technology Literary Society'
-date: '2020-03-28'
 ---
 
 ![](https://drive.google.com/uc?id=1P_niaH5sHMWIyI8haqXs-twmQJ7ATvWR)

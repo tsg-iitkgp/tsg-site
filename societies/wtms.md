@@ -1,6 +1,5 @@
 ---
 title: 'Western Technology Music Society'
-date: '2020-03-28'
 ---
 
 ![](https://drive.google.com/uc?id=1gywlEirLSMhdwmmb5TKgES9ylXreiQ_Y)
