@@ -18,6 +18,10 @@ body {
   .home {
     display: flex;
 
+    @include sm {
+      flex-direction: column;
+    }
+
     img {
       width: 150px;
       padding: 0 2rem;
