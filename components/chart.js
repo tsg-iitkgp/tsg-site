@@ -5,9 +5,23 @@ export default function Chart() {
   return (
     <ResponsiveBar
       data={pointsData.data}
-      keys={["hot dog", "burger", "sandwich", "kebab", "fries", "donut"]}
-      indexBy="country"
-      margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
+      keys={[
+        "badminton",
+        "lawnTennis",
+        "football",
+        "basketball",
+        "hockey",
+        "bridge",
+        "tableTennis",
+        "volleyball",
+        "weightlifting",
+        "sqaush",
+        "chess",
+        "cricket",
+        "athletics",
+      ]}
+      indexBy="hall"
+      margin={{ top: 50, right: 130, bottom: 150, left: 60 }}
       padding={0.3}
       valueScale={{ type: "linear" }}
       indexScale={{ type: "band", round: true }}
@@ -35,13 +49,13 @@ export default function Chart() {
       fill={[
         {
           match: {
-            id: "fries",
+            id: "badminton",
           },
           id: "dots",
         },
         {
           match: {
-            id: "sandwich",
+            id: "football",
           },
           id: "lines",
         },
@@ -53,7 +67,7 @@ export default function Chart() {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: "country",
+        legend: "hall",
         legendPosition: "middle",
         legendOffset: 32,
       }}
@@ -61,7 +75,7 @@ export default function Chart() {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: "food",
+        legend: "points",
         legendPosition: "middle",
         legendOffset: -40,
       }}
