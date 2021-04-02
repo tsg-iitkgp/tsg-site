@@ -8,4 +8,8 @@ Spectra is the Fine Arts and Design Group of IIT Kharagpur. We are a group of cr
 
 Governors: <br />
 Abhijeet Mahato
-mahato.abhijeet7@gmail.com
+mahato.abhijeet7@gmail.com <br/>
+Rachana Verma
+rachana8476@gmail.com <br/>
+Ashutosh Singh
+singhashutosh.iitkgp@gmail.com

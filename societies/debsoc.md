@@ -8,4 +8,8 @@ How you express yourself is singularly the most powerful resource you have avail
 
 Governors: <br />
 Devika Narayanan
-devika247@gmail.com
+devika247@gmail.com <br/>
+Saugandh Philkhana
+saugandh30@gmail.com <br/>
+Simran Rajagopalan
+simranrajagopalan2000@gmail.com

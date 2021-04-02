@@ -8,4 +8,8 @@ Everyone loves dancing. Be it in front of others or alone. At Technology Dance S
 
 Governors: <br />
 Pranali Rahangdale
-pranalirahangdale27@gmail.com
+pranalirahangdale27@gmail.com <br/>
+Shivam Sengar
+sengarshivam84@gmail.com <br/>
+Monika Choudhary
+monikachoudhary.2112@gmail.com

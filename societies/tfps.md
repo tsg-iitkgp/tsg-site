@@ -14,4 +14,8 @@ http://www.instagram.com/tfps.iitkgp"
 
 Governors: <br />
 Rohit Ahirrao
-rohitahirrao.iitkgp@gmail.com
+rohitahirrao.iitkgp@gmail.com <br/>
+Kartik Verma
+kv3675@gmail.com <br/>
+Shubhra Mishra
+shubhramishrakota2310@gmail.com

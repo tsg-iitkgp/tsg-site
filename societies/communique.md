@@ -8,4 +8,8 @@ Communiqué IIT Kharagpur aims to provide customized attention and support to al
 
 Governors: <br />
 Abhishek Chandak
-abbhchhan@gmail.com
+abbhchhan@gmail.com <br/>
+Anushka Agrawal
+anushkaagrawal718@gmail.com <br/>
+Abhishek Jangid
+abhishekjangidiitkgp@gmail.com

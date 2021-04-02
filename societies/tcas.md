@@ -14,4 +14,8 @@ http://www.instagram.com/tfps.iitkgp"
 
 Governors: <br />
 Hardik Tibrewal
-hardikti@gmail.com
+hardikti@gmail.com <br/>
+Tanaya Pakhale
+tanayapakhale2012@gmail.com <br/>
+Pooja Reddy
+poojaoct.reddy@gmail.com

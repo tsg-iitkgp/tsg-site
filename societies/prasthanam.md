@@ -7,4 +7,8 @@ There's more to dramatics rather than just acting and we intend to explore it to
 
 Governors: <br />
 Avanthika  Didroy
-avanthikadidroy2000@gmail.com
+avanthikadidroy2000@gmail.com <br/>
+Sai Jyotish Vudikavalasa
+vsj.civil@gmail.com <br/>
+Nukala Divakar Sai
+divakarsainukala@gmail.com
