@@ -7,7 +7,7 @@ export default function Sports() {
       <Head>
         <title>Sports &amp; Games</title>
       </Head>
-      <section className="about content">
+      <section className="awards content">
         <h2>Sports &amp; Games</h2>
         <p>
           Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in IIT
@@ -17,6 +17,38 @@ export default function Sports() {
           is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their
           extra-curricular talents.
         </p>
+        <div className="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Event Cup</th>
+                <th>Event Name</th>
+                <th>Name</th>
+                <th>Medal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cricket</td>
+                <td>Sports</td>
+                <td>
+                  <ul>
+                    <li>Patel</li>
+                    <li>Nehru</li>
+                    <li>LLR</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>Gold</li>
+                    <li>Silver</li>
+                    <li>Bronze</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
     </Layout>
   );
