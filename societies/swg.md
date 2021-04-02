@@ -12,6 +12,8 @@ The Student Mentorship Programme is the flagship initiative of SWG which is held
 - Enabling constructive and positive interaction, guidance and mentorship of junior students by senior students. 
 - Providing a reliable and comprehensive support system from within and for the student community to motivate students to excel in both academic and non-academic fields and to make the most of their life at IIT Kharagpur. 
 
-
+Governors: <br />
+Nikil Kumar 
+nikhilkumar041299@gmail.com
 
 
