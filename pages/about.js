@@ -1,9 +1,10 @@
 import Head from "next/head";
+import Footer from "../components/footer";
 import Layout from "../components/layout";
 
 export default function About() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>About</title>
       </Head>
@@ -66,6 +67,7 @@ export default function About() {
           </ul>
         </p>
       </section>
+      <Footer />
     </Layout>
   );
 }

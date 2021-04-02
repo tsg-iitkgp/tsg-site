@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 export default function Pool() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Swimming Pool</title>
       </Head>

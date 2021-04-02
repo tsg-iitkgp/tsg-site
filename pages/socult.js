@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 export default function Socult() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Socult</title>
       </Head>

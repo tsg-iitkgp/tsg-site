@@ -15,13 +15,16 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className="intro">
-        <h1>Technology Students' Gymkhana</h1>
-        <p>Indian Institute of Technology Kharagpur</p>
+      <section className="home intro">
+        <img src="IIT_Kharagpur_Logo.svg" />
+        <div className="headings">
+          <h1>Technology Students' Gymkhana</h1>
+          <p>Indian Institute of Technology Kharagpur</p>
+        </div>
       </section>
     </Layout>
   );

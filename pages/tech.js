@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 export default function Tech() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Technology</title>
       </Head>

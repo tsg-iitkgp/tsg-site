@@ -1,10 +1,9 @@
 import Head from "next/head";
-import Link from "next/link";
 import Navbar from "./navbar";
 
 export const siteTitle = "TSG";
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <div className="container">
       <Head>
@@ -26,16 +25,7 @@ export default function Layout({ children, home }) {
         <meta property="twitter:image" content="%PUBLIC_URL%/preview.png" />
       </Head>
       <Navbar />
-      <main>
-        {/* {!home && (
-          <div className="backToHome">
-            <Link href="/">
-              <a>← Back to home</a>
-            </Link>
-          </div>
-        )} */}
-        {children}
-      </main>
+      <main>{children}</main>
     </div>
   );
 }

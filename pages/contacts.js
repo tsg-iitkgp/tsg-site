@@ -5,13 +5,16 @@ import contactsData from "../public/contactsData";
 
 export default function Contacts() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Contacts</title>
       </Head>
       <section className="contact content">
         <h1>Contact Us</h1>
-        <p>Technology Students' Gymkhana <br /> IIT Kharagpur, Kharagpur  <br />West Bengal - 721302</p>
+        <p>
+          Technology Students' Gymkhana <br /> IIT Kharagpur, Kharagpur <br />
+          West Bengal - 721302
+        </p>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSft9FXZYvLiNt3oy0K3Iu4d6HoE830RhNWFHMXx1R4IjlhHKA/viewform?usp=sf_link"
           traget="_blank"
