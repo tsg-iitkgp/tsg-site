@@ -8,3 +8,7 @@ title: 'Encore'
 YouTube:  Encore : Technology Dramatics Society
 Instagram:  @iitkgpencore
 Facebook: https://www.facebook.com/TDSEncore"
+
+Governors: <br />
+Saumyata Khandewal
+saumyata0427@gmail.com

@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  min-width: 80vw;
+
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  .events {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      margin: 0 1rem;
+    }
+
+    @include sm {
+      flex-direction: column;
+    }
+  }
+}

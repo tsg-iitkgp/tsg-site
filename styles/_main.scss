@@ -15,6 +15,15 @@ body {
     align-content: center;
   }
 
+  .home {
+    display: flex;
+
+    img {
+      width: 150px;
+      padding: 0 2rem;
+    }
+  }
+
   .content {
     display: flex;
     flex-direction: column;

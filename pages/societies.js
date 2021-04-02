@@ -6,7 +6,7 @@ import Router from "next/router";
 
 export default function Societies() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Societies</title>
       </Head>

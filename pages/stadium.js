@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 export default function Stadium() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Jnan Ghosh Stadium</title>
       </Head>

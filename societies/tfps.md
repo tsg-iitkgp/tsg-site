@@ -11,3 +11,7 @@ Subscribe to our YouTube channel to watch our complete works. http://www.youtube
 
 Visit our Instagram Page:
 http://www.instagram.com/tfps.iitkgp"
+
+Governors: <br />
+Rohit Ahirrao
+rohitahirrao.iitkgp@gmail.com

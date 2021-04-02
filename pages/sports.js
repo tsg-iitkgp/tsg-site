@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 export default function Sports() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Sports &amp; Games</title>
       </Head>

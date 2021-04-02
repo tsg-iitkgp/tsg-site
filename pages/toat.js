@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 export default function Toat() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>TOAT</title>
       </Head>
