@@ -99,6 +99,15 @@ export default {
       category: "Socult",
     },
     {
+      name: "IWG",
+      description:
+        "Institute Wellness Group, under the Students’ Welfare portfolio of Technology Students’ Gymkhana, consists of trained students who enforce welfare activities among the student community and act as primary nodes of mature student counseling. We conduct interactive events, seminars, and guest lectures on mental wellness, depression, suicide prevention, and state of mind round the year. Institute Wellness Group IIT Kharagpur aims to build a happier KGP and firmly believes in rising by lifting others.",
+      facebook_link: "https://www.facebook.com/iwg.iitkgp",
+      wiki_link: "",
+      shortform: "iwg",
+      category: "Socult",
+    },
+    {
       name: "Business Club",
       description:
         "Business Club, popularly known as B-Club, is IIT Kharagpur’s in-campus society for all things business. It is a knowledge sharing interface for like-minded individuals operating through a ‘knowledge-session’ approach. The Club also reaches out to the student community by organising Open House sessions, and increasingly, the general public, through initiatives like the Financial Literacy Drive.",

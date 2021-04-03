@@ -21,7 +21,7 @@ export default function About() {
         <p>
           <ul className="events">
             <li>
-              SoCult
+              Social &amp; Cultural
               <ul>
                 <li>Choreography</li>
                 <li>Dramatics</li>

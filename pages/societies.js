@@ -13,10 +13,10 @@ export default function Societies() {
       <section className="contact content">
         <h1>Societies &amp; Clubs</h1>
 
-        <h2>Tech Societies</h2>
+        <h2>Social &amp; Cultural Societies</h2>
         <div className="society-cards">
           {societiesData.data
-            .filter((a) => a.category === "Tech")
+            .filter((a) => a.category === "Socult")
             .map((society) => {
               return (
                 <Card
@@ -30,10 +30,10 @@ export default function Societies() {
             })}
         </div>
 
-        <h2>Social &amp; Cultural Societies</h2>
+        <h2>Tech Societies</h2>
         <div className="society-cards">
           {societiesData.data
-            .filter((a) => a.category === "Socult")
+            .filter((a) => a.category === "Tech")
             .map((society) => {
               return (
                 <Card
