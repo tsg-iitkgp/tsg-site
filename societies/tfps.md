@@ -12,6 +12,10 @@ Subscribe to our YouTube channel to watch our complete works. http://www.youtube
 Visit our Instagram Page:
 http://www.instagram.com/tfps.iitkgp"
 
-Governors: <br />
+<span style="font-size: 24px;">Governors:</span> <br />
 Rohit Ahirrao
-rohitahirrao.iitkgp@gmail.com
+rohitahirrao.iitkgp@gmail.com <br/>
+Kartik Verma
+kv3675@gmail.com <br/>
+Shubhra Mishra
+shubhramishrakota2310@gmail.com

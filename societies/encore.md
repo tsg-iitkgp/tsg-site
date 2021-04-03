@@ -9,6 +9,10 @@ YouTube:  Encore : Technology Dramatics Society
 Instagram:  @iitkgpencore
 Facebook: https://www.facebook.com/TDSEncore"
 
-Governors: <br />
+<span style="font-size: 24px;">Governors:</span> <br />
 Saumyata Khandewal
-saumyata0427@gmail.com
+saumyata0427@gmail.com <br />
+Karmanya GB
+karmanyagb@gmail.com <br />
+Karan Singh
+singh.karan118@gmail.com

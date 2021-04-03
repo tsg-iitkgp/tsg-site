@@ -12,6 +12,10 @@ Subscribe to our YouTube channel to watch our complete works. http://www.youtube
 Visit our Instagram Page:
 http://www.instagram.com/tfps.iitkgp"
 
-Governors: <br />
+<span style="font-size: 24px;">Governors:</span> <br />
 Hardik Tibrewal
-hardikti@gmail.com
+hardikti@gmail.com <br/>
+Tanaya Pakhale
+tanayapakhale2012@gmail.com <br/>
+Pooja Reddy
+poojaoct.reddy@gmail.com

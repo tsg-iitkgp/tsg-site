@@ -6,6 +6,8 @@ title: 'Western Technology Music Society'
 
 Western Technology Music Society, IIT Kharagpur is the official western music society of IIT KGP. Enjoying significant campus cultural importance, we conduct bi-annual music productions while simultaneously honing our craft through internal workshops and jam sessions. From the scintillating guitar solos of progressive rock to the pocket grooves of jazz and funk, no genre is out of bounds for the group.
 
-Governors: <br />
+<span style="font-size: 24px;">Governors:</span> <br />
 Siddhartha Kapuria
-siddharthakapuria@gmail.com
+siddharthakapuria@gmail.com <br/>
+Unnikrishnan Nambiar
+unnikrishnan.nambiar.iitkgp@gmail.com <br/>
