@@ -1,11 +1,10 @@
 .footer {
   display: flex;
-  margin: 2rem;
+  margin: 2rem 0;
   min-width: 80vw;
   flex-direction: row;
   justify-content: center;
 
-  padding: 1rem;
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -16,7 +15,7 @@
     display: flex;
     justify-content: space-between;
 
-    .footer-block{
+    .footer-block {
       margin-right: 4rem;
     }
     li > ul > li {
