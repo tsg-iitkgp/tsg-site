@@ -1,66 +1,56 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import * as Icon from "react-feather";
 
 export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
-  const [isDown_1, setIsDown_1] = useState(false);
-  const [isDown_2, setIsDown_2] = useState(false);
-  const [isDown_3, setIsDown_3] = useState(false);
+  // const [isDown_1, setIsDown_1] = useState(false);
+  // const [isDown_2, setIsDown_2] = useState(false);
+  // const [isDown_3, setIsDown_3] = useState(false);
+
+  const router = useRouter();
 
   const navbarNikal = () => {
     isActive ? setIsActive(false) : setIsActive(true);
   };
 
-  const dropdownNikal = (n) => {
-    switch (n) {
-      case 1:
-        setIsDown_1(!isDown_1);
-        break;
-      case 2:
-        setIsDown_2(!isDown_2);
-        break;
-      case 3:
-        setIsDown_3(!isDown_3);
-        break;
-    }
-  };
+  // const dropdownNikal = (n) => {
+  //   switch (n) {
+  //     case 1:
+  //       setIsDown_1(!isDown_1);
+  //       break;
+  //     case 2:
+  //       setIsDown_2(!isDown_2);
+  //       break;
+  //     case 3:
+  //       setIsDown_3(!isDown_3);
+  //       break;
+  //   }
+  // };
 
   return (
     <>
       <nav className="menu">
         <div className="wrapper">
           <ul>
-            <li data-text="Home">
-              <Link href="/">Home</Link>
-            </li>
-            <li data-text="About">
-              <Link href="/about">About</Link>
-            </li>
-            <li data-text="Updates" className="dropdown-title">
-              Updates
-              <ul className="dropdown-content">
-                <li data-text="GC 18-19">
-                  <Link href="/gc18-19">GC 18-19</Link>
-                </li>
-              </ul>
+            {router.pathname !== "/" ? (
+              <li classname="dropdown-title">
+                <Link href="/">
+                  <img src="IIT_Kharagpur_Logo.svg" />
+                </Link>
+              </li>
+            ) : (
+              ""
+            )}
+            <li data-text="updates" classname="dropdown-title">
+              <Link href="/updates">Updates</Link>
             </li>
             <li data-text="Notices">
               <Link href="/notices">Notices</Link>
             </li>
             <li data-text="Hall of Fame" className="dropdown-title">
-              Hall of Fame
-              <ul className="dropdown-content">
-                <li data-text="Sports &amp; Games">
-                  <Link href="/sports">Sports &amp; Games</Link>
-                </li>
-                <li data-text="Social &amp; Cultural">
-                  <Link href="/socult">Social &amp; Cultural</Link>
-                </li>
-                <li data-text="Technology">
-                  <Link href="/tech">Technology</Link>
-                </li>
-              </ul>
+              <Link href="/fame">Hall of Fame</Link>
             </li>
             <li data-text="Societies">
               <Link href="/societies">Societies</Link>
@@ -86,44 +76,23 @@ export default function Navbar() {
         <nav>
           <div className={`wrapper ${isActive ? "active" : ""}`}>
             <ul>
-              <li data-text="Home">
-                <Link href="/">Home</Link>
-              </li>
-              <li data-text="About">
-                <Link href="/about">About</Link>
-              </li>
-              <li
-                data-text="Updates"
-                className={`dropdown-title ${isDown_3 ? "down" : ""}`}
-                onClick={() => dropdownNikal(3)}
-              >
-                Updates <Icon.ChevronDown />
-                <ul className="dropdown-content">
-                  <li data-text="GC 18-19">
-                    <Link href="/gc18-19">GC 18-19</Link>
-                  </li>
-                </ul>
+              {router.pathname !== "/" ? (
+                <li classname="dropdown-title">
+                  <Link href="/">
+                    <img src="IIT_Kharagpur_Logo.svg" />
+                  </Link>
+                </li>
+              ) : (
+                ""
+              )}
+              <li data-text="Updates">
+                <Link href="/updates">Updates</Link>
               </li>
               <li data-text="Notices">
                 <Link href="/notices">Notices</Link>
               </li>
-              <li
-                data-text="Hall of Fame"
-                className={`dropdown-title ${isDown_2 ? "down" : ""}`}
-                onClick={() => dropdownNikal(2)}
-              >
-                Hall of Fame <Icon.ChevronDown />
-                <ul className="dropdown-content">
-                  <li data-text="Sports &amp; Games">
-                    <Link href="/sports">Sports &amp; Games</Link>
-                  </li>
-                  <li data-text="Social &amp; Cultural">
-                    <Link href="/socult">Social &amp; Cultural</Link>
-                  </li>
-                  <li data-text="Technology">
-                    <Link href="/tech">Technology</Link>
-                  </li>
-                </ul>
+              <li data-text="Hall of Fame">
+                <Link href="/fame">Hall of Fame</Link>
               </li>
               <li data-text="Societies">
                 <Link href="/societies">Societies</Link>

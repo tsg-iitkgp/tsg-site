@@ -16,13 +16,23 @@
 @import "awards";
 @import "soc-detailes";
 #__next {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   height: 100%;
+  position: relative;
+  margin: 0 auto;
+
+  max-width: 1280px;
+  width: 75%;
 }
 
 * {
   -webkit-tap-highlight-color: transparent;
 }
 
-html {
-  height: 100vh;
+html body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f44336, #673ab7);
 }
