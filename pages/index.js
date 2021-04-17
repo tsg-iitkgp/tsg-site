@@ -5,6 +5,7 @@ import { getSortedPostsData } from "../lib/societies";
 
 import facilitiesData from "../public/facilities";
 import ImageModal from "../components/imageModal";
+import Footer from "../components/footer";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -18,27 +19,47 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className="home intro">
-        <img src="IIT_Kharagpur_Logo.svg" />
-        <div className="headings">
-          <h1>Technology Students' Gymkhana</h1>
-          <p>Indian Institute of Technology Kharagpur</p>
-        </div>
-      </section>
+    <>
+      <Layout>
+        <Head>
+          <title>{siteTitle}</title>
+        </Head>
+        <section className="home intro">
+          <div className="logo">
+            <img src="IIT_Kharagpur_Logo.svg" />
+          </div>
+          <div className="headings">
+            <h1>Technology Students' Gymkhana</h1>
+            <h2>Indian Institute of Technology Kharagpur</h2>
+          </div>
+        </section>
+        <img className="intro-image" src="TSG.svg" />
 
-      {/* uncomment the code below after making the website single paged */}
-      {/* <section className="facilities">
-        <h2>Facilities &amp; Events</h2>
-        <div className="image-modals">
-          {facilitiesData.data.map((facility) => (
-            <ImageModal images={facility.images} description={facility.description} title={facility.title} />
-          ))}
-        </div>
-      </section> */}
-    </Layout>
+        <section className="about">
+          <h2>About</h2>
+          <p>
+            Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in
+            IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the
+            students, under the guidance and active participation of the faculty and staff members.{" "}
+          </p>
+          <p>"Yogah Karmasu Kausalam"</p>
+          <p>
+            The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in
+            action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their
+            extra-curricular talents.
+          </p>
+        </section>
+
+        <section className="facilities">
+          <h2>Facilities and Events</h2>
+          <div className="image-modals">
+            {facilitiesData.data.map((facility) => (
+              <ImageModal images={facility.images} description={facility.description} title={facility.title} />
+            ))}
+          </div>
+        </section>
+      </Layout>
+      <Footer />
+    </>
   );
 }

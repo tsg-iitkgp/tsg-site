@@ -4,13 +4,10 @@
   min-width: 80vw;
   flex-direction: row;
   justify-content: center;
+  border-radius: 2rem;
 
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-radius: 2.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-
+  background: linear-gradient(45deg, #c2185b, #f44336);
+  color: #fff;
   .events {
     display: flex;
     justify-content: space-between;
@@ -20,10 +17,10 @@
     }
     li > ul > li {
       margin: 0 1rem;
-      list-style-type: "\2192";
+      list-style-type: none;
     }
     a {
-      color: black;
+      color: #fff;
       text-decoration: none;
       margin-left: 1rem;
     }

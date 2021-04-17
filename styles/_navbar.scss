@@ -1,10 +1,11 @@
 .menu {
+  padding-top: 0.5rem;
   .wrapper {
     ul {
       display: flex;
       justify-content: center;
       list-style: none;
-      font-size: 1.5rem;
+      font-size: rem;
       padding: 0;
 
       li {
@@ -13,25 +14,12 @@
 
         a {
           text-decoration: none;
-          color: #fff;
-
-          &:hover {
-            font-weight: bold;
-          }
-        }
-        &::after {
-          display: block;
-          content: attr(data-text);
-          font-weight: bold;
-          height: 1px;
-          color: transparent;
-          overflow: hidden;
-          visibility: hidden;
+          color: #000;
         }
       }
 
       .dropdown-title {
-        color: #fff;
+        color: #000;
         display: flex;
         flex-direction: column;
         align-items: center;
