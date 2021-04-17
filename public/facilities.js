@@ -1,12 +1,6 @@
 export default {
   data: [
     {
-      title: "Jnan Ghosh Stadium",
-      images: ["facilities/stadium.jpeg"],
-      description:
-        "Jnan Ghosh Stadium, named after the first director of IIT Kharagpur Sir Jnan Chandra Ghosh is an athletics stadium which has a 400m track, enclosures for Hammer throw, along with a gallery. It is actively used during Inter-IIT and Inter-Hall Events. It is the regular venue for the NSO Health and Fitness classes. The stadium is also used for live shows during Spring Fest.",
-    },
-    {
       title: "Technology Swimming Pool",
       images: ["facilities/pool.jpeg"],
       description:
@@ -17,6 +11,12 @@ export default {
       images: ["facilities/court.jpeg"],
       description:
         " There are 3 courts (2 Synthetic, 1 Hard Court), a Practice wall, enough for 6 people. The students are expected to fill the registration and pay a sum of 300 Rupees per year to avail the facilities. This also includes upto 3 Tennis Balls. In 2018, Vinod Gupta funded the lawn tennis court for 2 new courts as well as 2 coaches for a 3-week tennis training camp (open for all) in the same year (Jan - Feb). The 2 new courts are expected to be ready before the Inter IIT Sports 2019 (Dec), to be organised by Kharagpur.",
+    },
+    {
+      title: "Jnan Ghosh Stadium",
+      images: ["facilities/stadium.jpeg"],
+      description:
+        "Jnan Ghosh Stadium, named after the first director of IIT Kharagpur Sir Jnan Chandra Ghosh is an athletics stadium which has a 400m track, enclosures for Hammer throw, along with a gallery. It is actively used during Inter-IIT and Inter-Hall Events. It is the regular venue for the NSO Health and Fitness classes. The stadium is also used for live shows during Spring Fest.",
     },
     {
       title: "Tagore Open Air Theatre",

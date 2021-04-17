@@ -25,6 +25,13 @@ body {
 
       @include sm {
         text-align: center;
+
+        h1 {
+          font-size: 2.5rem;
+        }
+        h2 {
+          font-size: 1.4rem;
+        }
       }
     }
 
@@ -32,6 +39,10 @@ body {
       img {
         width: 150px;
         padding: 0 2rem;
+
+        @include sm {
+          width: 100px;
+        }
       }
 
       @include sm {

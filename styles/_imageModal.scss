@@ -30,6 +30,11 @@
   justify-content: center;
   align-items: center;
   .modal-image {
+    width: 100%;
     max-width: 40rem;
+  }
+
+  @include sm {
+    display: inline-block;
   }
 }
