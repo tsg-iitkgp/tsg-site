@@ -6,7 +6,7 @@ export default {
       facebook_link: "https://www.facebook.com/SWGIITKGP",
       wiki_link: "https://wiki.metakgp.org/w/Student_Welfare_Group",
       shortform: "swg",
-      category: "Socult",
+      category: "Welfare",
     },
     {
       name: "Technology Literary Society",
@@ -105,7 +105,7 @@ export default {
       facebook_link: "https://www.facebook.com/iwg.iitkgp",
       wiki_link: "",
       shortform: "iwg",
-      category: "Socult",
+      category: "Welfare",
     },
     {
       name: "Business Club",
