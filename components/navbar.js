@@ -1,12 +1,15 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import * as Icon from "react-feather";
 
 export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
-  const [isDown_1, setIsDown_1] = useState(false);
-  const [isDown_2, setIsDown_2] = useState(false);
-  const [isDown_3, setIsDown_3] = useState(false);
+  // const [isDown_1, setIsDown_1] = useState(false);
+  // const [isDown_2, setIsDown_2] = useState(false);
+  // const [isDown_3, setIsDown_3] = useState(false);
+
+  const router = useRouter();
 
   const navbarNikal = () => {
     isActive ? setIsActive(false) : setIsActive(true);
@@ -31,7 +34,16 @@ export default function Navbar() {
       <nav className="menu">
         <div className="wrapper">
           <ul>
-            <li data-text="Updates" className="dropdown-title">
+            {router.pathname !== "/" ? (
+              <li classname="dropdown-title">
+                <Link href="/">
+                  <img src="IIT_Kharagpur_Logo.svg" />
+                </Link>
+              </li>
+            ) : (
+              ""
+            )}
+            <li data-text="updates" classname="dropdown-title">
               <Link href="/updates">Updates</Link>
             </li>
             <li data-text="Notices">
@@ -64,6 +76,15 @@ export default function Navbar() {
         <nav>
           <div className={`wrapper ${isActive ? "active" : ""}`}>
             <ul>
+              {router.pathname !== "/" ? (
+                <li classname="dropdown-title">
+                  <Link href="/">
+                    <img src="IIT_Kharagpur_Logo.svg" />
+                  </Link>
+                </li>
+              ) : (
+                ""
+              )}
               <li data-text="Updates">
                 <Link href="/updates">Updates</Link>
               </li>
