@@ -3,6 +3,9 @@ import Layout, { siteTitle } from "../components/layout";
 
 import { getSortedPostsData } from "../lib/societies";
 
+import facilitiesData from "../public/facilities";
+import ImageModal from "../components/imageModal";
+
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
 
@@ -26,6 +29,16 @@ export default function Home({ allPostsData }) {
           <p>Indian Institute of Technology Kharagpur</p>
         </div>
       </section>
+
+      {/* uncomment the code below after making the website single paged */}
+      {/* <section className="facilities">
+        <h2>Facilities &amp; Events</h2>
+        <div className="image-modals">
+          {facilitiesData.data.map((facility) => (
+            <ImageModal images={facility.images} description={facility.description} title={facility.title} />
+          ))}
+        </div>
+      </section> */}
     </Layout>
   );
 }

@@ -48,23 +48,6 @@ export default function Navbar() {
             <li data-text="Notices">
               <Link href="/notices">Notices</Link>
             </li>
-            <li data-text="Facilities" className="dropdown-title">
-              Facilities
-              <ul className="dropdown-content">
-                <li data-text="Swimming Pool">
-                  <Link href="/pool">Swimming Pool</Link>
-                </li>
-                <li data-text="Tennis Court">
-                  <Link href="/court">Tennis Court</Link>
-                </li>
-                <li data-text="Jnan Ghosh Stadium">
-                  <Link href="/stadium">Jnan Ghosh Stadium</Link>
-                </li>
-                <li data-text="Tagore Open Air Theater">
-                  <Link href="/toat">Tagore Open Air Theater</Link>
-                </li>
-              </ul>
-            </li>
             <li data-text="Hall of Fame" className="dropdown-title">
               Hall of Fame
               <ul className="dropdown-content">
@@ -123,27 +106,6 @@ export default function Navbar() {
               </li>
               <li data-text="Notices">
                 <Link href="/notices">Notices</Link>
-              </li>
-              <li
-                data-text="Facilities"
-                className={`dropdown-title ${isDown_1 ? "down" : ""}`}
-                onClick={() => dropdownNikal(1)}
-              >
-                Facilities <Icon.ChevronDown />
-                <ul className="dropdown-content">
-                  <li data-text="Swimming Pool">
-                    <Link href="/pool">Swimming Pool</Link>
-                  </li>
-                  <li data-text="Tennis Court">
-                    <Link href="/court">Tennis Court</Link>
-                  </li>
-                  <li data-text="Jnan Ghosh Stadium">
-                    <Link href="/stadium">Jnan Ghosh Stadium</Link>
-                  </li>
-                  <li data-text="Tagore Open Air Theater">
-                    <Link href="/toat">Tagore Open Air Theater</Link>
-                  </li>
-                </ul>
               </li>
               <li
                 data-text="Hall of Fame"
