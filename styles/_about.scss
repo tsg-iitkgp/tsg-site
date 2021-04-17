@@ -1,17 +1,5 @@
 .about {
   width: 75%;
-  .events {
-    display: flex;
-    justify-content: space-around;
-
-    li {
-      margin-top: 0.75rem;
-    }
-
-    @include sm {
-      flex-direction: column;
-    }
-  }
 
   @include sm {
     width: 100%;
