@@ -14,14 +14,14 @@ export default function ImageModal(props) {
 
   return (
     <div className="image-container">
-      <img className="main-image" src={props.images[0]} onClick={handleModalOpen} />
+      <img className="main-image" src={props.images} onClick={handleModalOpen} />
 
       <Modal isOpen={modalIsOpen} onRequestClose={handleModalClose} contentLabel="Image description">
         <h1> {props.title} </h1>
 
-        {props.images.map((image) => (
-          <img className="modal-image" src={image} />
-        ))}
+        {/* {props.images.map((image) => ( */}
+        <img className="modal-image" src={props.images} />
+        {/* ))} */}
 
         <p>{props.description}</p>
       </Modal>

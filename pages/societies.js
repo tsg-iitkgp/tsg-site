@@ -13,6 +13,23 @@ export default function Societies() {
       <section className="contact content">
         <h1>Societies &amp; Clubs</h1>
 
+        <h2>Student Welfare</h2>
+        <div className="society-cards">
+          {societiesData.data
+            .filter((a) => a.category === "Welfare")
+            .map((society) => {
+              return (
+                <Card
+                  name={society.name}
+                  facebook_link={society.facebook_link}
+                  wiki_link={society.wiki_link}
+                  shortform={society.shortform}
+                  description={society.description}
+                />
+              );
+            })}
+        </div>
+
         <h2>Social &amp; Cultural Societies</h2>
         <div className="society-cards">
           {societiesData.data

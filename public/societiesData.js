@@ -6,7 +6,7 @@ export default {
       facebook_link: "https://www.facebook.com/SWGIITKGP",
       wiki_link: "https://wiki.metakgp.org/w/Student_Welfare_Group",
       shortform: "swg",
-      category: "Socult",
+      category: "Welfare",
     },
     {
       name: "Technology Literary Society",
@@ -105,7 +105,7 @@ export default {
       facebook_link: "https://www.facebook.com/iwg.iitkgp",
       wiki_link: "",
       shortform: "iwg",
-      category: "Socult",
+      category: "Welfare",
     },
     {
       name: "Business Club",
@@ -137,7 +137,7 @@ export default {
     {
       name: "Western Technology Music Society",
       description:
-        " Western Technology Music Society, popularly known as WTMS, is one of the two official music societies in IIT Kharagpur,                                     which governs the western music scene in the campus. The society aims at spreading diverse music genres, nurturing and motivating musicians,                                   inculcating values and expression through music, and develop good music taste among our audience.",
+        " Western Technology Music Society, popularly known as WTMS, is one of the two official music societies in IIT Kharagpur, which governs the western music scene in the campus. The society aims at spreading diverse music genres, nurturing and motivating musicians, inculcating values and expression through music, and develop good music taste among our audience.",
       facebook_link: "https://www.facebook.com/wtmsiitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Western_Technology_Music_Society",
       shortform: "wtms",
@@ -155,7 +155,7 @@ export default {
     {
       name: "IIT Kharagpur Quiz Club",
       description:
-        "IIT Kharagpur Quiz Club is the official quiz society of IIT Kharagpur. A great place for quiz enthusiasts, it is an open society where any sort of exclusive                                    membership is not required. It organises regular quiz sessions on the campus. These sessions are usually held at the Sports library in Gymkhana at 10 PM. Prior                                    information is circulated via the facebook page of Quiz club. Students participate in various competitions like Inter IIT Tech Meet, Inter IIT Cultural Meet,                                    Nihilanth, Tata Crucible Biz Quiz, TAPMI QoTB, DDM IT Quiz and various other college and open quizzes in and around Kharagpur. The recent exploits of IIT Kgp Quiz Club in various quizzes all over India has garnered them respect in the Kolkata quizzing circuit.",
+        "IIT Kharagpur Quiz Club is the official quiz society of IIT Kharagpur. A great place for quiz enthusiasts, it is an open society where any sort of exclusive membership is not required. It organises regular quiz sessions on the campus. These sessions are usually held at the Sports library in Gymkhana at 10 PM. Prior information is circulated via the facebook page of Quiz club. Students participate in various competitions like Inter IIT Tech Meet, Inter IIT Cultural Meet, Nihilanth, Tata Crucible Biz Quiz, TAPMI QoTB, DDM IT Quiz and various other college and open quizzes in and around Kharagpur. The recent exploits of IIT Kgp Quiz Club in various quizzes all over India has garnered them respect in the Kolkata quizzing circuit.",
       facebook_link: "https://www.facebook.com/iitkgp.quizclub/",
       wiki_link: "https://wiki.metakgp.org/w/Quiz_Club",
       shortform: "quiz",
@@ -164,7 +164,7 @@ export default {
     {
       name: "Spectra",
       description:
-        "Spectra - the 'Fine Arts and Design Group of IIT Kharagpur' aims to strengthen and promote the roots of fine arts among the students of IIT Kharagpur.                                     With many talented artists and exhibitionists as its members, it promises to be a valued treasure for the connoisseurs of fine arts.",
+        "Spectra - the 'Fine Arts and Design Group of IIT Kharagpur' aims to strengthen and promote the roots of fine arts among the students of IIT Kharagpur. With many talented artists and exhibitionists as its members, it promises to be a valued treasure for the connoisseurs of fine arts.",
       facebook_link: "https://www.facebook.com/Spectra.IITKGP/",
       wiki_link: "https://wiki.metakgp.org/w/Spectra",
       shortform: "spectra",
@@ -173,7 +173,7 @@ export default {
     {
       name: "Technology Culinary Arts Society",
       description:
-        "Technology Culinary Arts Society (abbreviated TCAS) was created in Spring 2019.                                    It was created in response to the introduction of culinary events in the 3rd Inter IIT Cultural Meet held at IIT Roorkee in December 2018.                                    The objective of the society was to encourage the interest of students in culinary activities.",
+        "Technology Culinary Arts Society (abbreviated TCAS) was created in Spring 2019. It was created in response to the introduction of culinary events in the 3rd Inter IIT Cultural Meet held at IIT Roorkee in December 2018. The objective of the society was to encourage the interest of students in culinary activities.",
       facebook_link: "https://www.facebook.com/tcaskgp/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Culinary_Arts_Society",
       shortform: "tcas",

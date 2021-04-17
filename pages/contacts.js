@@ -16,6 +16,7 @@ export default function Contacts() {
           West Bengal - 721302
         </p>
         <a
+          className="fake-button"
           href="https://docs.google.com/forms/d/e/1FAIpQLSft9FXZYvLiNt3oy0K3Iu4d6HoE830RhNWFHMXx1R4IjlhHKA/viewform?usp=sf_link"
           traget="_blank"
           rel="noreferrer noopener"
