@@ -1,14 +1,11 @@
 .about {
-  .events {
-    display: flex;
-    justify-content: space-around;
+  width: 75%;
 
-    li {
-      margin-top: 0.75rem;
-    }
+  @include sm {
+    width: 100%;
 
-    @include sm {
-      flex-direction: column;
+    h2 {
+      text-align: center;
     }
   }
 }

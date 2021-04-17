@@ -35,7 +35,7 @@ export default function Home({ allPostsData }) {
         </section>
         <img className="intro-image" src="TSG.svg" />
 
-        <section className="about">
+        <section className="about" id="about">
           <h2>About</h2>
           <p>
             Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in

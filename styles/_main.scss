@@ -47,6 +47,7 @@ body {
   }
 
   .facilities {
+    width: 75%;
     .image-modals {
       display: grid;
       grid-template-columns: auto auto;
@@ -58,6 +59,13 @@ body {
       @include sm {
         grid-template-columns: auto;
       }
+    }
+
+    @include sm {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 
