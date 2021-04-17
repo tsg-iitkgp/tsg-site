@@ -28,6 +28,21 @@ body {
     }
   }
 
+  .facilities {
+    .image-modals {
+      display: grid;
+      grid-template-columns: auto auto;
+
+      .image-container {
+        padding: 0.5rem;
+      }
+
+      @include sm {
+        grid-template-columns: auto;
+      }
+    }
+  }
+
   .content {
     display: flex;
     flex-direction: column;
