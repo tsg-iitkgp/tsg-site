@@ -11,10 +11,8 @@
   .events {
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
 
-    .footer-block {
-      margin-right: 4rem;
-    }
     li > ul > li {
       margin: 0 1rem;
       list-style-type: none;
