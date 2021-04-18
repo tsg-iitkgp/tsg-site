@@ -46,9 +46,6 @@ export default function Navbar() {
             <li data-text="updates" classname="dropdown-title">
               <Link href="/updates">Updates</Link>
             </li>
-            <li data-text="Notices">
-              <Link href="/notices">Notices</Link>
-            </li>
             <li data-text="Hall of Fame" className="dropdown-title">
               <Link href="/fame">Hall of Fame</Link>
             </li>
@@ -57,7 +54,7 @@ export default function Navbar() {
             </li>
             <li data-text="Blog">
               <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">
-                Blog <Icon.ExternalLink />
+                Blog &thinsp; <Icon.ExternalLink />
               </a>
             </li>
             <li data-text="Contacts">
@@ -88,9 +85,6 @@ export default function Navbar() {
               <li data-text="Updates">
                 <Link href="/updates">Updates</Link>
               </li>
-              <li data-text="Notices">
-                <Link href="/notices">Notices</Link>
-              </li>
               <li data-text="Hall of Fame">
                 <Link href="/fame">Hall of Fame</Link>
               </li>
@@ -99,7 +93,7 @@ export default function Navbar() {
               </li>
               <li data-text="Blog">
                 <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">
-                  Blog <Icon.ExternalLink />
+                  Blog &thinsp; <Icon.ExternalLink />
                 </a>
               </li>
               <li data-text="Contacts">

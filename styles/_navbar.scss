@@ -13,6 +13,8 @@
         padding: 0 0.5rem;
 
         a {
+          display: flex;
+          align-items: center;
           text-decoration: none;
           color: #000;
         }
@@ -75,6 +77,8 @@
         margin: 0.5rem 1rem;
 
         a {
+          display: flex;
+          align-items: center;
           text-decoration: none;
           color: #111;
         }
@@ -136,7 +140,7 @@
       }
 
       &:nth-child(3) {
-        transform: translateY(-9px);
+        transform: translateY(-7px);
       }
     }
 
