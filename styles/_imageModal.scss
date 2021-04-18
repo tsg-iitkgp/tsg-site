@@ -32,9 +32,18 @@
   .modal-image {
     width: 100%;
     max-width: 40rem;
+    border-radius: 20px;
+  }
+
+  p {
+    width: 75%;
   }
 
   @include sm {
     display: inline-block;
+
+    p {
+      width: 100%;
+    }
   }
 }
