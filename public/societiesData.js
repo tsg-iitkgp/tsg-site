@@ -2,7 +2,8 @@ export default {
   data: [
     {
       name: "Student Welfare Group",
-      description: "",
+      description:
+        "Student Welfare Group (SWG), is a student body under the office of Dean of Students’ Affairs, IIT Kharagpur. SWG works towards ensuring the smooth functioning of student’s lives on the campus by assisting students of IIT Kharagpur in developing their skills and personality. SWG provides the required resources contributing to the success of student’s college life as well as flaring productivity by organizing informatory and interactive events. Our Group strives to contribute to the overall educational mission of the Institute by facilitating academic, emotional, social, and vocational development of the entire student community. Respect for diversity and a commitment to students’ personal growth are guiding principles in the work we do. ",
       facebook_link: "https://www.facebook.com/SWGIITKGP",
       wiki_link: "https://wiki.metakgp.org/w/Student_Welfare_Group",
       shortform: "swg",
