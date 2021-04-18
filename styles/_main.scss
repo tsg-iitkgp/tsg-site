@@ -109,6 +109,38 @@ body {
     }
   }
 
+  .fests {
+    width: 75%;
+    margin-bottom: 2rem;
+
+    .main-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .society-cards {
+      .card {
+        width: 25rem;
+
+        @include sm {
+          width: 20rem;
+        }
+      }
+    }
+
+    @include sm {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .main-content {
+        flex-direction: column;
+      }
+    }
+  }
+
   .fake-button {
     color: #fff;
     text-decoration: none;
@@ -127,9 +159,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 75vh;
-    padding: 1rem 2rem;
-
-    padding: 1rem;
 
     h1 {
       font-weight: 800;
