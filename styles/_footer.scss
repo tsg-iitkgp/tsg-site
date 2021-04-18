@@ -1,33 +1,35 @@
 .footer {
   display: flex;
-  margin: 2rem 0;
-  min-width: 80vw;
   flex-direction: row;
-  justify-content: center;
-  border-radius: 2rem;
+  justify-content: space-between;
+
+  margin: 2rem 0;
+  padding: 2rem 0;
+  width: 90%;
+  border-radius: 20px;
 
   background: linear-gradient(45deg, #c2185b, #f44336);
   color: #fff;
-  .events {
-    display: flex;
-    justify-content: space-between;
+
+  ul {
+    margin: 0 1rem;
     list-style-type: none;
 
-    li > ul > li {
-      margin: 0 1rem;
-      list-style-type: none;
-    }
-    a {
-      color: #fff;
-      text-decoration: none;
-      margin-left: 1rem;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
+    li {
+      a {
+        color: #fff;
+        text-decoration: dotted;
+        margin-left: 1rem;
 
-    @include sm {
-      flex-direction: column;
+        &:hover {
+          color: white;
+          text-decoration: underline !important;
+        }
+      }
     }
+  }
+
+  @include sm {
+    flex-direction: column;
   }
 }
