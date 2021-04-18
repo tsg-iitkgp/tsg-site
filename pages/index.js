@@ -8,6 +8,7 @@ import ImageModal from "../components/imageModal";
 import Footer from "../components/footer";
 import Card from "../components/societyCard";
 import societiesData from "../public/societiesData";
+import festData from "../public/festData";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -44,7 +45,7 @@ export default function Home({ allPostsData }) {
             IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the
             students, under the guidance and active participation of the faculty and staff members.{" "}
           </p>
-          <p>"Yogah Karmasu Kausalam"</p>
+          <blockquote>"Yogah Karmasu Kausalam"</blockquote>
           <p>
             The moto of Technology Students' Gymkhana is YOGAH KARMASU KAUSALAM which in English means "Perfection in
             action is Yoga". Our goal is to bring overall development in IITians through cultivating and nurturing their
@@ -82,6 +83,25 @@ export default function Home({ allPostsData }) {
             <a className="fake-button" href="/societies">
               More
             </a>
+          </div>
+        </section>
+
+        <section className="fests">
+          <h2>Fests</h2>
+          <div className="main-content">
+            <div className="society-cards">
+              {festData.data.map((fest) => {
+                return (
+                  <Card
+                    name={fest.name}
+                    facebook_link={fest.facebook_link}
+                    wiki_link={fest.wiki_link}
+                    shortform={fest.shortform}
+                    description={fest.description}
+                  />
+                );
+              })}
+            </div>
           </div>
         </section>
       </Layout>
