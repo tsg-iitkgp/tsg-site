@@ -9,7 +9,12 @@ export default function Card(props) {
       // onClick={() => Router.push(`/societies/${props.shortform}`)}
     >
       <div className="intro">
-        <ImageModal images={`societies/${props.shortform}.png`} description={props.description} title={props.name} />
+        <ImageModal
+          images={`societies/${props.shortform}.png`}
+          description={props.description}
+          title={props.name}
+          governors={props.governors}
+        />
         {/* <img src={require(`../public/societies/${props.shortform}.png`)} alt={`Picture of ${props.name}`} /> */}
       </div>
 
