@@ -24,6 +24,16 @@ export default function ImageModal(props) {
         {/* ))} */}
 
         <p>{props.description}</p>
+        {props.governors?.length > 0 ? (
+          <p>
+            Governors:
+            {props.governors.map((governor) => (
+              <p> {governor} </p>
+            ))}
+          </p>
+        ) : (
+          ""
+        )}
       </Modal>
     </div>
   );

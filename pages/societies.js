@@ -25,6 +25,7 @@ export default function Societies() {
                   wiki_link={society.wiki_link}
                   shortform={society.shortform}
                   description={society.description}
+                  governors={society.governors}
                 />
               );
             })}
@@ -42,6 +43,7 @@ export default function Societies() {
                   wiki_link={society.wiki_link}
                   shortform={society.shortform}
                   description={society.description}
+                  governors={society.governors}
                 />
               );
             })}
@@ -59,6 +61,7 @@ export default function Societies() {
                   wiki_link={society.wiki_link}
                   shortform={society.shortform}
                   description={society.description}
+                  governors={society.governors}
                 />
               );
             })}
@@ -76,6 +79,7 @@ export default function Societies() {
                   wiki_link={society.wiki_link}
                   shortform={society.shortform}
                   description={society.description}
+                  governors={society.governors}
                 />
               );
             })}
