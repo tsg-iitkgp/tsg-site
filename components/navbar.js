@@ -43,8 +43,8 @@ export default function Navbar() {
             ) : (
               ""
             )}
-            <li data-text="updates" classname="dropdown-title">
-              <Link href="/updates">Updates</Link>
+            <li data-text="GC" classname="dropdown-title">
+              <Link href="/gc">GC results</Link>
             </li>
             <li data-text="Hall of Fame" className="dropdown-title">
               <Link href="/fame">Hall of Fame</Link>
@@ -82,8 +82,8 @@ export default function Navbar() {
               ) : (
                 ""
               )}
-              <li data-text="Updates">
-                <Link href="/updates">Updates</Link>
+              <li data-text="GC" classname="dropdown-title">
+                <Link href="/gc">GC results</Link>
               </li>
               <li data-text="Hall of Fame">
                 <Link href="/fame">Hall of Fame</Link>
