@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 
-import { getSortedPostsData } from "../lib/societies";
-
 import facilitiesData from "../public/facilities";
 import ImageModal from "../components/imageModal";
 import Footer from "../components/footer";
@@ -10,17 +8,7 @@ import Card from "../components/societyCard";
 import societiesData from "../public/societiesData";
 import festData from "../public/festData";
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
-
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-}
-
-export default function Home({ allPostsData }) {
+export default function Home() {
   return (
     <>
       <Layout>
