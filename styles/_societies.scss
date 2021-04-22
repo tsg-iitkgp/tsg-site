@@ -21,15 +21,17 @@
     &:hover {
       cursor: pointer;
 
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      transform: scale(1.05);
+      box-shadow: 0 2px 30px rgba(44, 52, 60, 0.6);
+      -webkit-transform: translateY(-5px);
+      -moz-transform: translateY(-5px);
+      -ms-transform: translateY(-5px);
+      -o-transform: translateY(-5px);
+      transform: translateY(-5px);
     }
 
     .main-image {
-      transform: scale(1);
+      box-shadow: 0 30px rgba(44, 52, 60, 0);
+      transform: translateY(0);
     }
 
     .intro {
