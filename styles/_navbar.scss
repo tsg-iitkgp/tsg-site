@@ -1,6 +1,25 @@
 .menu {
+  font-size: 1.1rem;
   padding-top: 0.5rem;
+  border-bottom: 1px solid #fff6f8;
   .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      a {
+        display: flex;
+        text-decoration: none;
+        color: #000;
+      }
+
+      img {
+        height: 24px;
+        cursor: pointer;
+      }
+    }
+
     ul {
       display: flex;
       justify-content: center;
@@ -12,16 +31,15 @@
         margin: 0 2rem;
         padding: 0 0.5rem;
 
+        svg {
+          width: 20px;
+        }
+
         a {
           display: flex;
           align-items: center;
           text-decoration: none;
           color: #000;
-        }
-
-        img {
-          width: 25px;
-          cursor: pointer;
         }
       }
 
@@ -62,7 +80,15 @@
 
 .mobile-navbar {
   .wrapper {
-    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    max-height: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
     ul {
       display: flex;
       flex-direction: column;
@@ -75,12 +101,14 @@
 
       li {
         margin: 0.5rem 1rem;
+        opacity: 0;
 
         a {
           display: flex;
           align-items: center;
+          justify-content: center;
           text-decoration: none;
-          color: #111;
+          color: #fff;
         }
 
         img {
@@ -106,18 +134,40 @@
   }
 
   .active {
-    display: block;
+    visibility: visible;
+    max-height: 100%;
     position: fixed;
     z-index: 98;
     top: 0;
     left: 0;
     height: 100vh;
     width: 100vw;
+    opacity: 0.9;
 
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    @include mobile-navbar-items();
+    transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+    background: #e5261f;
   }
+
+  .bar {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      margin-top: 0.5rem;
+      a {
+        display: flex;
+        text-decoration: none;
+        color: #000;
+      }
+
+      img {
+        height: 40px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  @include mobile-navbar-icon();
 
   .mobile-navbar-icon {
     display: none;
@@ -131,17 +181,9 @@
 
     span {
       position: absolute;
-      width: 25px;
-      height: 1px;
-      background-color: #000;
-
-      &:nth-child(1) {
-        transform: translateY(7px);
-      }
-
-      &:nth-child(3) {
-        transform: translateY(-7px);
-      }
+      width: 36px;
+      height: 3px;
+      background-color: #e5261f;
     }
 
     @include sm {
@@ -156,18 +198,7 @@
     span {
       position: absolute;
       z-index: 99;
-      background-color: #000;
-      &:nth-child(1) {
-        transform: rotate(-45deg);
-      }
-
-      &:nth-child(2) {
-        display: none;
-      }
-
-      &:nth-child(3) {
-        transform: rotate(45deg);
-      }
+      background-color: #fff;
     }
   }
 }
