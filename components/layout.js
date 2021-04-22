@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "./navbar";
+import Footer from "./footer";
 
 export const siteTitle = "TSG";
 
@@ -26,6 +27,9 @@ export default function Layout({ children }) {
       </Head>
       <Navbar />
       <main>{children}</main>
+      <div className="footer-container">
+        <Footer />
+      </div>
     </div>
   );
 }
