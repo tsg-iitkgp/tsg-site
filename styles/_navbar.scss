@@ -154,6 +154,7 @@
     justify-content: space-between;
     .logo {
       margin-top: 0.5rem;
+      display: none;
       a {
         display: flex;
         text-decoration: none;
@@ -163,6 +164,10 @@
       img {
         height: 40px;
         cursor: pointer;
+      }
+
+      @include sm {
+        display: inline-block;
       }
     }
   }

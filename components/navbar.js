@@ -43,7 +43,7 @@ export default function Navbar() {
             )}
           </div>
           <ul>
-            <li data-text="GC" classname="dropdown-title">
+            <li data-text="GC" className="dropdown-title">
               <Link href="/gc">GC results</Link>
             </li>
             <li data-text="Hall of Fame" className="dropdown-title">
@@ -83,7 +83,7 @@ export default function Navbar() {
         </div>
         <div className={`wrapper ${isActive ? "active" : ""}`}>
           <ul>
-            <li data-text="GC" classname="dropdown-title">
+            <li data-text="GC" className="dropdown-title">
               <Link href="/gc">GC results</Link>
             </li>
             <li data-text="Hall of Fame">

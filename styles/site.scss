@@ -35,5 +35,10 @@
 
 html body {
   min-height: 100vh;
-  background: linear-gradient(135deg, #f44336, #673ab7);
+  margin: 0;
+  // background: linear-gradient(135deg, #f44336, #673ab7);
+  background: #f7f8f9;
+  // background: url(../public/wave1.svg);
+  // background-size: contain;
+  // background-repeat: no-repeat;
 }
