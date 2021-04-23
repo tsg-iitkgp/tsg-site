@@ -1,7 +1,7 @@
 .menu {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding-top: 0.5rem;
-  border-bottom: 1px solid #fff6f8;
+  // border-bottom: 1px solid #fff6f8;
   .wrapper {
     display: flex;
     align-items: center;
@@ -9,6 +9,7 @@
 
     .logo {
       a {
+        margin-left: 1rem;
         display: flex;
         text-decoration: none;
         color: #000;
@@ -40,6 +41,25 @@
           align-items: center;
           text-decoration: none;
           color: #000;
+          position: relative;
+
+          &::before {
+            content: "";
+            width: 0;
+            height: 2px;
+
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-color: #f44336;
+            visibility: hidden;
+            transition: all 0.3s ease-in-out;
+          }
+
+          &:hover::before {
+            visibility: visible;
+            width: 100%;
+          }
         }
       }
 

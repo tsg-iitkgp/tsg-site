@@ -1,11 +1,19 @@
 .container {
-  width: 90%;
-  padding: 0 1rem;
-  background: #fff;
-  border-left: 1px solid #eceef1;
-  border-right: 1px solid #eceef1;
+  width: 100%;
+  // background: #fff;
+  // border-left: 1px solid #eceef1;
+  // border-right: 1px solid #eceef1;
+
+  .wave {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 50vh;
+    transform: scale(-1);
+  }
 
   .intro {
+    width: 100%;
     h1 {
       font-size: 3rem;
       font-weight: bold;
