@@ -3,7 +3,6 @@ import Layout, { siteTitle } from "../components/layout";
 
 import facilitiesData from "../public/facilities";
 import ImageModal from "../components/imageModal";
-import Footer from "../components/footer";
 import Card from "../components/societyCard";
 import societiesData from "../public/societiesData";
 import festData from "../public/festData";
@@ -15,16 +14,19 @@ export default function Home() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <section className="home intro">
-          <div className="logo">
-            <img src="IIT_Kharagpur_Logo.svg" />
-          </div>
-          <div className="headings">
-            <h1>Technology Students' Gymkhana</h1>
-            <h2>Indian Institute of Technology Kharagpur</h2>
-          </div>
+
+        <section className="intro">
+          <section className="home">
+            <div className="logo">
+              <img src="IIT_Kharagpur_Logo.svg" />
+            </div>
+            <div className="headings">
+              <h1>Technology Students' Gymkhana</h1>
+              <h2>Indian Institute of Technology Kharagpur</h2>
+            </div>
+          </section>
+          <img className="intro-image" src="TSG.svg" />
         </section>
-        <img className="intro-image" src="TSG.svg" />
 
         <section className="about" id="about">
           <h2>About</h2>
@@ -94,7 +96,6 @@ export default function Home() {
           </div>
         </section>
       </Layout>
-      <Footer />
     </>
   );
 }

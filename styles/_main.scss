@@ -11,9 +11,16 @@ body {
   .home {
     display: flex;
     margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
 
     @include sm {
       flex-direction: column;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
     }
 
     .headings {
@@ -158,6 +165,7 @@ body {
   .content {
     display: flex;
     flex-direction: column;
+    width: 100%;
     min-height: 75vh;
 
     h1 {

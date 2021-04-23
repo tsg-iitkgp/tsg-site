@@ -33,17 +33,17 @@ export default function Navbar() {
     <>
       <nav className="menu">
         <div className="wrapper">
-          <ul>
+          <div className="logo">
             {router.pathname !== "/" ? (
-              <li classname="dropdown-title">
-                <Link href="/">
-                  <img src="IIT_Kharagpur_Logo.svg" />
-                </Link>
-              </li>
+              <a href="/">
+                <img src="IIT_Kharagpur_Logo.svg" /> &thinsp; Technology Students' Gymkhana
+              </a>
             ) : (
               ""
             )}
-            <li data-text="GC" classname="dropdown-title">
+          </div>
+          <ul>
+            <li data-text="GC" className="dropdown-title">
               <Link href="/gc">GC results</Link>
             </li>
             <li data-text="Hall of Fame" className="dropdown-title">
@@ -65,43 +65,43 @@ export default function Navbar() {
       </nav>
 
       <div className="mobile-navbar">
-        <div className={`mobile-navbar-icon ${isActive ? "out" : ""}`} onClick={navbarNikal}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <nav>
-          <div className={`wrapper ${isActive ? "active" : ""}`}>
-            <ul>
-              {router.pathname !== "/" ? (
-                <li classname="dropdown-title">
-                  <Link href="/">
-                    <img src="IIT_Kharagpur_Logo.svg" />
-                  </Link>
-                </li>
-              ) : (
-                ""
-              )}
-              <li data-text="GC" classname="dropdown-title">
-                <Link href="/gc">GC results</Link>
-              </li>
-              <li data-text="Hall of Fame">
-                <Link href="/fame">Hall of Fame</Link>
-              </li>
-              <li data-text="Societies">
-                <Link href="/societies">Societies</Link>
-              </li>
-              <li data-text="Blog">
-                <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">
-                  Blog &thinsp; <Icon.ExternalLink />
-                </a>
-              </li>
-              <li data-text="Contacts">
-                <Link href="/contacts">Contacts</Link>
-              </li>
-            </ul>
+        <div className="bar">
+          <div className="logo">
+            {router.pathname !== "/" ? (
+              <a href="/">
+                <img src="IIT_Kharagpur_Logo.svg" />
+              </a>
+            ) : (
+              ""
+            )}
           </div>
-        </nav>
+          <div className={`mobile-navbar-icon ${isActive ? "out" : "nope"}`} onClick={navbarNikal}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div className={`wrapper ${isActive ? "active" : ""}`}>
+          <ul>
+            <li data-text="GC" className="dropdown-title">
+              <Link href="/gc">GC results</Link>
+            </li>
+            <li data-text="Hall of Fame">
+              <Link href="/fame">Hall of Fame</Link>
+            </li>
+            <li data-text="Societies">
+              <Link href="/societies">Societies</Link>
+            </li>
+            <li data-text="Blog">
+              <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">
+                Blog &thinsp; <Icon.ExternalLink />
+              </a>
+            </li>
+            <li data-text="Contacts">
+              <Link href="/contacts">Contacts</Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );

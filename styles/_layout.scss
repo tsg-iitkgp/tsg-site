@@ -1,11 +1,9 @@
 .container {
   width: 90%;
   padding: 0 1rem;
-  margin-top: 1rem;
   background: #fff;
-  border-radius: 1rem;
-  box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12),
-    0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  border-left: 1px solid #eceef1;
+  border-right: 1px solid #eceef1;
 
   .intro {
     h1 {
@@ -16,6 +14,12 @@
     p {
       font-size: 1.5rem;
     }
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
