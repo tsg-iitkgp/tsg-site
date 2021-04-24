@@ -8,7 +8,7 @@ body {
     align-content: center;
 
     max-width: 1280px;
-    background-color: #fff;
+    // background-color: #fff;
     width: 80vw;
     margin: 0 auto;
     padding: 1rem;
@@ -20,6 +20,7 @@ body {
     margin-top: 2rem;
     justify-content: center;
     align-items: center;
+    height: 40vh;
 
     @include sm {
       flex-direction: column;
@@ -73,6 +74,8 @@ body {
 
   .m-content {
     background-color: #fff;
+    border-radius: 20px;
+    padding: 1rem;
   }
 
   .facilities {

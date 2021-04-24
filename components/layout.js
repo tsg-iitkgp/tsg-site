@@ -38,10 +38,10 @@ export default function Layout({ children }) {
         }}
       />
       <Navbar />
-      <main>
-        {children}
+      <main>{children}</main>
+      <div className="footer-container">
         <Footer />
-      </main>
+      </div>
     </div>
   );
 }
