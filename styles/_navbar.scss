@@ -1,5 +1,5 @@
 .menu {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding-top: 0.5rem;
   // border-bottom: 1px solid #fff6f8;
   .wrapper {
@@ -173,6 +173,7 @@
     display: flex;
     justify-content: space-between;
     .logo {
+      margin-left: 1rem;
       margin-top: 0.5rem;
       display: none;
       a {
@@ -200,6 +201,7 @@
     top: 25px;
     width: 30px;
     height: 50px;
+    margin-right: 1rem;
 
     text-align: center;
     cursor: pointer;

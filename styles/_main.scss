@@ -11,7 +11,7 @@ body {
     // background-color: #fff;
     width: 80vw;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 20px;
   }
 
@@ -177,6 +177,12 @@ body {
     &:hover {
       background-color: #2bbbad;
     }
+  }
+
+  .points {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1rem;
   }
 
   .content {

@@ -10,7 +10,7 @@ export default function Sports() {
       <Head>
         <title>Sports &amp; Games</title>
       </Head>
-      <section className="about content">
+      <section className="points content">
         <div className="chart">
           <h2> Points Tally GC 18-19</h2>
           <Chart />
