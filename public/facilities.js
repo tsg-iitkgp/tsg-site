@@ -24,5 +24,25 @@ export default {
       description:
         " Tagore Open Air Theatre (also called TOAT) is the open-theatre of IIT Kharagpur where musical events, dance performances, stand-up comedy, open-session and numerous other events are organized during throughout the year. The place especially hosts a range of activities during annual technical and cultural fests Spring Fest and Kshitij. It is located next to the Department of Computer Science and has two entry gates. One gate is directly infront of the Netaji Auditorium and the other is next to staff canteen (can be reached through the road near main security control centre). It has a capacity of over 1000 students.",
     },
+    {
+      title: "NSS",
+      images: ["facilities/nss.png"],
+      description: "",
+    },
+    {
+      title: "Water Sports",
+      images: ["facilities/waterball.png"],
+      description: "",
+    },
+    {
+      title: "Other Sports",
+      images: ["facilities/running.jpg"],
+      description: "",
+    },
+    {
+      title: "Illumination",
+      images: ["facilities/illu.png"],
+      description: "",
+    },
   ],
 };

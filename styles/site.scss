@@ -23,9 +23,8 @@
 
   height: 100%;
   position: relative;
-  margin: 0 auto;
+  margin: 0;
 
-  max-width: 1280px;
   width: 100%;
 }
 
@@ -37,7 +36,7 @@ html body {
   min-height: 100vh;
   margin: 0;
   // background: linear-gradient(135deg, #f44336, #673ab7);
-  background: #f7f8f9;
+  background: #f44336;
   // background: url(../public/wave1.svg);
   // background-size: contain;
   // background-repeat: no-repeat;

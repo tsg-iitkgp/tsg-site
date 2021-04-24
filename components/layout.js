@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import Wave from "react-wavify";
 
 export const siteTitle = "TSG";
 
@@ -25,6 +26,17 @@ export default function Layout({ children }) {
         <meta property="twitter:description" content="Indian Institute of Technology" />
         <meta property="twitter:image" content="%PUBLIC_URL%/preview.png" />
       </Head>
+      <Wave
+        className="wave"
+        fill="#67ECFD"
+        paused={false}
+        options={{
+          height: 40,
+          amplitude: 40,
+          speed: 0.2,
+          points: 3,
+        }}
+      />
       <Navbar />
       <main>{children}</main>
       <div className="footer-container">
