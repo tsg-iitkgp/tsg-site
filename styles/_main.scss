@@ -24,6 +24,7 @@ body {
 
     @include sm {
       flex-direction: column;
+      height: 100%;
     }
 
     h1 {
@@ -76,6 +77,11 @@ body {
     background-color: #fff;
     border-radius: 20px;
     padding: 1rem;
+
+    @include sm {
+      padding: 0.3rem;
+      margin-top: 1.5rem;
+    }
   }
 
   .facilities {
