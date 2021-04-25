@@ -7,12 +7,16 @@ body {
     align-items: center;
     align-content: center;
 
-    max-width: 1280px;
+    max-width: 1440px;
     // background-color: #fff;
     width: 80vw;
     margin: 0 auto;
     padding: 0.5rem;
     border-radius: 20px;
+
+    @include sm {
+      width: 95vw;
+    }
   }
 
   .home {
@@ -79,13 +83,12 @@ body {
     padding: 1rem;
 
     @include sm {
-      padding: 0.3rem;
-      margin-top: 1.5rem;
+      margin: 1rem;
     }
   }
 
   .facilities {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     .image-modals {
       display: grid;
@@ -109,7 +112,7 @@ body {
   }
 
   .societies {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     margin-bottom: 2rem;
 
@@ -139,7 +142,7 @@ body {
   }
 
   .fests {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     margin-bottom: 2rem;
 
@@ -151,7 +154,7 @@ body {
 
     .society-cards {
       .card {
-        width: 25rem;
+        width: 40%;
 
         @include sm {
           width: 20rem;

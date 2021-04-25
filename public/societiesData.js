@@ -223,7 +223,7 @@ export default {
       facebook_link: "https://www.facebook.com/ChessClubIITKGP/",
       wiki_link: "https://wiki.metakgp.org/w/Chess_IITKGP",
       shortform: "chess",
-      category: "Tech",
+      category: "Sports",
       governors: [],
     },
 
