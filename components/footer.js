@@ -10,9 +10,9 @@ export default function Footer() {
             West Bengal - 721302
           </p>
           <a href="https://www.facebook.com/TSG.IITKharagpur" target="_blank" rel="noreferrer noopener">
-          <Icon.Facebook /></a>
+          <Icon.Facebook size={24}/></a>
           <a href="https://twitter.com/tsg_iitkgp" target="_blank" rel="noreferrer noopener">
-          <Icon.Twitter /></a>
+          <Icon.Twitter size={24} /></a>
         </li>
       </ul>
       <ul>
@@ -29,11 +29,6 @@ export default function Footer() {
         <li>
           <a href="https://iitkgpmail.iitkgp.ac.in/" target="_blank" rel="noopener noreferrer">
             Zimbra webmail
-          </a>
-        </li>
-        <li>
-          <a href="http://www.iitkgp.ac.in/iitkgp-announcements/" target="_blank" rel="noopener noreferrer">
-            Annoucements
           </a>
         </li>
         <li>

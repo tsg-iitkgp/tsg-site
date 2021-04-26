@@ -1,3 +1,5 @@
+import * as Icon from "react-feather";
+
 import Head from "next/head";
 import Layout from "../components/layout";
 import Card from "../components/contactCard";
@@ -15,6 +17,12 @@ export default function Contacts() {
           Technology Students' Gymkhana <br /> IIT Kharagpur, Kharagpur <br />
           West Bengal - 721302
         </p>
+        <div>
+          <a href="https://www.facebook.com/TSG.IITKharagpur" target="_blank" rel="noreferrer noopener">
+            <Icon.Facebook size={36} color={"black"} /></a> &thinsp; &thinsp;
+          <a href="https://twitter.com/tsg_iitkgp" target="_blank" rel="noreferrer noopener">
+            <Icon.Twitter size={36} color={"black"} /></a>
+        </div>
         <div className="cards">
           {contactsData.data.map((contact) => {
             return (

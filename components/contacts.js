@@ -1,3 +1,5 @@
+import * as Icon from "react-feather";
+
 import Head from "next/head";
 import Layout from "../components/layout";
 import Card from "../components/contactCard";
