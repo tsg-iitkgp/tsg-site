@@ -6,6 +6,7 @@ export default {
         "Spring Fest, popularly known as SF, is the annual social & cultural festival of Indian Institute of Technology held during the month of January in the spring semester. Spring Fest is usually held for 3 days and 4 nights in the weekend closest to 26 January, India's Republic Day. The first edition was held in 1960 and since then it has grown to be one of the largest student run college fests in India. ",
       facebook_link: "https://www.facebook.com/springfest.iitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Spring_Fest",
+      website: "https://springfest.in/",
       shortform: "sf",
     },
     {
@@ -15,6 +16,7 @@ export default {
       facebook_link: "https://www.facebook.com/ktj.iitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Kshitij",
       shortform: "ktj",
+      website: "http://www.ktj.in/"
     },
   ],
 };

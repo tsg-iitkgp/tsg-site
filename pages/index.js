@@ -97,6 +97,7 @@ export default function Home() {
                       wiki_link={fest.wiki_link}
                       shortform={fest.shortform}
                       description={fest.description}
+                      website={fest.website}
                     />
                   );
                 })}

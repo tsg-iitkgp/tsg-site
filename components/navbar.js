@@ -70,7 +70,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li data-text="Hall of Fame" className="dropdown-title">
-              <Link href="/fame">Hall of Fame</Link>
+              <Link href="/hallOfFame">Hall of Fame</Link>
             </li>
             <li data-text="Societies">
               <Link href="/societies">Societies</Link>
@@ -119,7 +119,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li data-text="Hall of Fame">
-              <Link href="/fame">Hall of Fame</Link>
+              <Link href="/hallOfFame">Hall of Fame</Link>
             </li>
             <li data-text="Societies">
               <Link href="/societies">Societies</Link>
