@@ -1,4 +1,21 @@
 .office {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 1rem;
+
+  .member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h3 {
+      margin-left: 2rem;
+    }
+  }
+
   select {
     outline: 0;
     background-color: #219287;
