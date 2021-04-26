@@ -1,0 +1,17 @@
+.office {
+  select {
+    outline: 0;
+    background-color: #219287;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    color: #fff;
+    &:active,
+    &:focus {
+      background-color: #219287;
+      border: none;
+    }
+  }
+}
