@@ -19,7 +19,6 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Technology_Literary_Society",
       shortform: "tls",
       category: "Socult",
-      website: "https://google.com",
       Heads: [{'name': 'Archi Banerjee', 'email': 'archibanerjee2018@gmail.com'}, {'name': 'Kshitij Anand', 'email': 'kshitijanand.iitkgp@gmail.com'}, {'name': 'Sarvesh Deshpande', 'email': 'sarvesh1604@gmail.com'}, {'name': 'Utkarsh Agrawal', 'email': 'utkarshagrawal24@gmail.com'}]
     },
 
@@ -45,7 +44,8 @@ export default {
       facebook_link: "https://www.facebook.com/tfps.iitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Filmmaking_%26_Photography_Society",
       shortform: "tfps",
-      category: "Tech",
+      category: "Socult",
+      website: "https://www.youtube.com/channel/UCZzBPd0ceMq4EzKNibqAyaA",
       governors: [
         "Rohit Ahirrao(rohitahirrao.iitkgp@gmail.com)",
         "Kartik Verma(kv3675@gmail.com)",
