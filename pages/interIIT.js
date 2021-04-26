@@ -1,9 +1,16 @@
-import { isSameMinute } from "date-fns";
+import { useState } from "react";
 import Head from "next/head";
 import Layout from "../components/layout";
 import pointsData from "../public/pointsData";
 
+const years = ["2019"];
+
 export default function InterIIT() {
+  const [currentTab, setCurrentTab] = useState("sports");
+  const [currentYear, setCurrentYear] = useState("2019");
+  const handleTabChange = (s) => {
+    setCurrentTab(s);
+  };
   return (
     <Layout>
       <Head>
@@ -11,6 +18,24 @@ export default function InterIIT() {
       </Head>
       <section className="awards content">
         <h2>InterIIT 2019 Standings - Men</h2>
+        <select className="select" value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
+          {years.map((year) => (
+            <option key={year} value={year}>
+              {year}
+            </option>
+          ))}
+        </select>
+        <div className="tabs">
+          <div className={`tab ${currentTab == "sports" ? "active" : ""}`} onClick={() => handleTabChange("sports")}>
+            Sports &amp; Games
+          </div>
+          <div className={`tab ${currentTab == "tech" ? "active" : ""}`} onClick={() => handleTabChange("tech")}>
+            Technology
+          </div>
+          <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
+            Socult
+          </div>
+        </div>
         <div className="table-container">
           <table>
             <thead>

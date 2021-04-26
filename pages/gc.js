@@ -5,8 +5,11 @@ import { ResponsiveBar } from "@nivo/bar";
 import pointsData from "../public/pointsData";
 import Chart from "../components/chart";
 
+const years = ["2018"];
+
 export default function Sports() {
   const [currentTab, setCurrentTab] = useState("sports");
+  const [currentYear, setCurrentYear] = useState("2018");
 
   const handleTabChange = (s) => {
     setCurrentTab(s);
@@ -19,6 +22,14 @@ export default function Sports() {
       </Head>
       <section className="points content">
         <h2> Points Tally General Championship 18-19</h2>
+
+        <select className="select" value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
+          {years.map((year) => (
+            <option key={year} value={year}>
+              {year}
+            </option>
+          ))}
+        </select>
 
         <div className="tabs">
           <div className={`tab ${currentTab == "sports" ? "active" : ""}`} onClick={() => handleTabChange("sports")}>
