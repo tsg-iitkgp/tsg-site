@@ -36,7 +36,7 @@ export default function Navbar() {
           <div className="logo">
             {router.pathname !== "/" ? (
               <a href="/">
-                <img src="IIT_Kharagpur_Logo.svg" /> &thinsp; Technology Students' Gymkhana
+                <img src="IIT_Kharagpur_Logo.svg" /> &thinsp; TSG
               </a>
             ) : (
               ""
@@ -61,9 +61,6 @@ export default function Navbar() {
                 <li>
                   <a href="/openIIT">Open IIT</a>
                 </li>
-                <li>
-                  <a href="/staff">TSG Staff</a>
-                </li>
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
@@ -81,6 +78,9 @@ export default function Navbar() {
             <li data-text="Links" className="dropdown-title">
               Links <Icon.ChevronDown />
               <ul className="dropdown-content">
+                <li data-text="Blog">
+                  <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">TSG Blog &thinsp; <Icon.ExternalLink /></a>
+                </li>
                 <li>
                   <a
                     href="https://drive.google.com/file/d/1V1oppLrE3tC-wdB_vw3w3SgEYKLzb2_y/view?usp=sharing"
@@ -102,18 +102,16 @@ export default function Navbar() {
                 <li>
                   <a href="/pastOfficeBearers">Past Office Bearers</a>
                 </li>
+                <li>
+                  <a href="/staff">TSG Staff</a>
+                </li>
               </ul>
             </li>
             <li data-text="Hall of Fame" className="dropdown-title">
               <Link href="/hallOfFame">Hall of Fame</Link>
             </li>
-            {/* <li data-text="Societies">
-              <Link href="/societies">Societies</Link>
-            </li> */}
-            <li data-text="Blog">
-              <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">
-                Blog &thinsp; <Icon.ExternalLink />
-              </a>
+            <li data-text="TSG-Elections">
+              <a href="/elections">TSG Elections</a>
             </li>
             <li data-text="Contacts">
               <Link href="/contacts">Contacts</Link>
@@ -141,7 +139,7 @@ export default function Navbar() {
         </div>
         <div className={`wrapper ${isActive ? "active" : ""}`}>
           <ul>
-            <li data-text="GC" className={`dropdown-title ${isDown_1 ? "down" : ""}`} onClick={() => dropdownNikal(1)}>
+          <li data-text="About" className={`dropdown-title ${isDown_1 ? "down" : ""}`} onClick={() => dropdownNikal(1)}>
               About {isDown_1 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li>
@@ -154,31 +152,31 @@ export default function Navbar() {
                   <a href="/interIIT">Inter IIT</a>
                 </li>
                 <li>
-                  <a href="/gc">General Championship</a>
+                  <a href="/gc">GC</a>
                 </li>
                 <li>
                   <a href="/openIIT">Open IIT</a>
                 </li>
-                <li>
-                  <a href="/staff">TSG Staff</a>
-                </li>
               </ul>
             </li>
-            <li data-text="GC" className={`dropdown-title ${isDown_2 ? "down" : ""}`} onClick={() => dropdownNikal(2)}>
+          <li data-text="GC" className={`dropdown-title ${isDown_2 ? "down" : ""}`} onClick={() => dropdownNikal(2)}>
               Updates {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
-              <ul className="dropdown-content">
-                <li>
-                  <a href="/gc">GC Results</a>
-                </li>
-                <li>
-                  <a href="/interIIT">InterIIT Results</a>
-                </li>
-                <li>OpenIIT Results</li>
-              </ul>
-            </li>
-            <li data-text="GC" className={`dropdown-title ${isDown_3 ? "down" : ""}`} onClick={() => dropdownNikal(3)}>
+            <ul className="dropdown-content">
+              <li>
+                <a href="/gc">GC Results</a>
+              </li>
+              <li>
+                <a href="/interIIT">InterIIT Results</a>
+              </li>
+              <li>OpenIIT Results</li>
+            </ul>
+          </li>
+          <li data-text="GC" className={`dropdown-title ${isDown_3 ? "down" : ""}`} onClick={() => dropdownNikal(3)}>
               Links {isDown_3 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
+                <li data-text="Blog">
+                  <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">TSG Blog &thinsp; <Icon.ExternalLink /></a>
+                </li>
                 <li>
                   <a
                     href="https://drive.google.com/file/d/1V1oppLrE3tC-wdB_vw3w3SgEYKLzb2_y/view?usp=sharing"
@@ -200,15 +198,13 @@ export default function Navbar() {
                 <li>
                   <a href="/pastOfficeBearers">Past Office Bearers</a>
                 </li>
+                <li>
+                  <a href="/staff">TSG Staff</a>
+                </li>
               </ul>
             </li>
-            <li data-text="Hall of Fame">
-              <Link href="/hallOfFame">Hall of Fame</Link>
-            </li>
-            <li data-text="Blog">
-              <a href="https://tsg-blog.medium.com/" target="_blank" rel="noopener noreferrer">
-                Blog &thinsp; <Icon.ExternalLink />
-              </a>
+            <li data-text="TSG-Elections">
+              <a href="/elections">TSG Elections</a>
             </li>
             <li data-text="Contacts">
               <Link href="/contacts">Contacts</Link>

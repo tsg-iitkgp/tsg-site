@@ -5,11 +5,11 @@ import { ResponsiveBar } from "@nivo/bar";
 import pointsData from "../public/pointsData";
 import Chart from "../components/chart";
 
-const years = ["2018", "2017"];
+const years = ["2019", "2018", "2017", "2016", "2015"];
 
 export default function Sports() {
   const [currentTab, setCurrentTab] = useState("sports");
-  const [currentYear, setCurrentYear] = useState("2018");
+  const [currentYear, setCurrentYear] = useState("2019");
 
   return (
     <Layout>
