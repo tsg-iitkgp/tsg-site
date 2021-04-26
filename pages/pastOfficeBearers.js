@@ -9,17 +9,17 @@ const years = ["2018", "2017"];
 
 export default function Sports() {
   const [currentTab, setCurrentTab] = useState("sports");
-  const [currentYear, setCurrentYear] = useState("2017");
+  const [currentYear, setCurrentYear] = useState("2018");
 
   return (
     <Layout>
       <Head>
         <title>Past Office Bearers</title>
       </Head>
-      <section className="points content">
+      <section className="office content">
         <h2> Past Office Bearers</h2>
 
-        <select name="department" value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
+        <select className="select" value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
           {years.map((year) => (
             <option key={year} value={year}>
               {year}
