@@ -267,6 +267,12 @@ export default {
   interIIT: [
     [
       {
+        Sport: "Overall",
+        Gold: "IIT Kharagpur",
+        Silver: "IIT Bombay",
+        Bronze: "IIT Roorkee"
+      },
+      {
         Sport: "Swimming",
         Gold: "Madras",
         Silver: "Roorkee",
@@ -346,6 +352,12 @@ export default {
       },
     ],
     [
+      {
+        Sport: "Overall",
+        Gold: "IIT Kharagpur",
+        Silver: "IIT Bombay",
+        Bronze: "IIT Roorkee"
+      },
       {
         Sport: "Swimming",
         Gold: "Madras",

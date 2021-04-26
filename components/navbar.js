@@ -67,10 +67,10 @@ export default function Navbar() {
               Updates <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li>
-                  <a href="/gc">GC Results</a>
+                  <a href="/gcResults">GC Results</a>
                 </li>
                 <li>
-                  <a href="/interIIT">InterIIT Results</a>
+                  <a href="/interIITResults">InterIIT Results</a>
                 </li>
                 <li>OpenIIT Results</li>
               </ul>
@@ -163,10 +163,10 @@ export default function Navbar() {
               Updates {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
             <ul className="dropdown-content">
               <li>
-                <a href="/gc">GC Results</a>
+                <a href="/gcResults">GC Results</a>
               </li>
               <li>
-                <a href="/interIIT">InterIIT Results</a>
+                <a href="/interIITResults">InterIIT Results</a>
               </li>
               <li>OpenIIT Results</li>
             </ul>
