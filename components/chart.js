@@ -1,65 +1,18 @@
 import { ResponsiveBar } from "@nivo/bar";
 import pointsData from "../public/pointsData";
 
-export default function Chart() {
+export default function Chart(props) {
   return (
     <ResponsiveBar
-      data={pointsData.data}
-      keys={[
-        "badminton",
-        "lawnTennis",
-        "football",
-        "basketball",
-        "hockey",
-        "bridge",
-        "tableTennis",
-        "volleyball",
-        "weightlifting",
-        "sqaush",
-        "chess",
-        "cricket",
-        "athletics",
-      ]}
+      data={props.data}
+      layout={props.layout}
+      keys={props.keys}
       indexBy="hall"
       margin={{ top: 50, right: 130, bottom: 150, left: 60 }}
       padding={0.3}
       valueScale={{ type: "linear" }}
       indexScale={{ type: "band", round: true }}
       colors={{ scheme: "nivo" }}
-      defs={[
-        {
-          id: "dots",
-          type: "patternDots",
-          background: "inherit",
-          color: "#38bcb2",
-          size: 4,
-          padding: 1,
-          stagger: true,
-        },
-        {
-          id: "lines",
-          type: "patternLines",
-          background: "inherit",
-          color: "#eed312",
-          rotation: -45,
-          lineWidth: 6,
-          spacing: 10,
-        },
-      ]}
-      fill={[
-        {
-          match: {
-            id: "badminton",
-          },
-          id: "dots",
-        },
-        {
-          match: {
-            id: "football",
-          },
-          id: "lines",
-        },
-      ]}
       borderColor={{ from: "color", modifiers: [["darker", 1.6]] }}
       axisTop={null}
       axisRight={null}

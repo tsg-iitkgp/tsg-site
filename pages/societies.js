@@ -13,7 +13,7 @@ export default function Societies() {
       <section className="contact content">
         <h1>Societies &amp; Clubs</h1>
 
-        <h2>Student Welfare</h2>
+        <h2>Students' Welfare</h2>
         <div className="society-cards">
           {societiesData.data
             .filter((a) => a.category === "Welfare")

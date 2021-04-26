@@ -7,12 +7,16 @@ body {
     align-items: center;
     align-content: center;
 
-    max-width: 1280px;
+    max-width: 1440px;
     // background-color: #fff;
     width: 80vw;
     margin: 0 auto;
     padding: 0.5rem;
     border-radius: 20px;
+
+    @include sm {
+      width: 95vw;
+    }
   }
 
   .home {
@@ -79,17 +83,16 @@ body {
     padding: 1rem;
 
     @include sm {
-      padding: 0.3rem;
-      margin-top: 1.5rem;
+      margin: 1rem;
     }
   }
 
   .facilities {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     .image-modals {
-      display: grid;
-      grid-template-columns: auto auto;
+      display: flex;
+      justify-content: center;
 
       .image-container {
         padding: 0.5rem;
@@ -109,7 +112,7 @@ body {
   }
 
   .societies {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     margin-bottom: 2rem;
 
@@ -139,7 +142,7 @@ body {
   }
 
   .fests {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     margin-bottom: 2rem;
 
@@ -151,7 +154,7 @@ body {
 
     .society-cards {
       .card {
-        width: 25rem;
+        width: 40%;
 
         @include sm {
           width: 20rem;
@@ -189,6 +192,37 @@ body {
     background-color: #fff;
     border-radius: 20px;
     padding: 1rem;
+
+    .tabs {
+      display: flex;
+      flex-direction: row;
+      .tab {
+        margin: 1rem;
+        color: #fff;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        background-color: #219287;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s ease-out;
+
+        &:hover {
+          background-color: #2bbbad;
+        }
+      }
+
+      .active {
+        background-color: #2bbbad;
+      }
+
+      @include sm {
+        flex-direction: column;
+
+        .tab {
+          margin: 0.5rem;
+        }
+      }
+    }
   }
 
   .content {

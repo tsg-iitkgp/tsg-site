@@ -5,7 +5,7 @@ import * as Icon from "react-feather";
 
 export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
-  // const [isDown_1, setIsDown_1] = useState(false);
+  const [isDown_1, setIsDown_1] = useState(false);
   // const [isDown_2, setIsDown_2] = useState(false);
   // const [isDown_3, setIsDown_3] = useState(false);
 
@@ -15,19 +15,19 @@ export default function Navbar() {
     isActive ? setIsActive(false) : setIsActive(true);
   };
 
-  // const dropdownNikal = (n) => {
-  //   switch (n) {
-  //     case 1:
-  //       setIsDown_1(!isDown_1);
-  //       break;
-  //     case 2:
-  //       setIsDown_2(!isDown_2);
-  //       break;
-  //     case 3:
-  //       setIsDown_3(!isDown_3);
-  //       break;
-  //   }
-  // };
+  const dropdownNikal = (n) => {
+    switch (n) {
+      case 1:
+        setIsDown_1(!isDown_1);
+        break;
+      case 2:
+        setIsDown_2(!isDown_2);
+        break;
+      case 3:
+        setIsDown_3(!isDown_3);
+        break;
+    }
+  };
 
   return (
     <>
@@ -44,7 +44,16 @@ export default function Navbar() {
           </div>
           <ul>
             <li data-text="GC" className="dropdown-title">
-              <Link href="/gc">GC results</Link>
+              Events <Icon.ChevronDown />
+              <ul className="dropdown-content">
+                <li>
+                  <a href="/gc">GC Results</a>
+                </li>
+                <li>
+                  <a href="/interIIT">InterIIT Results</a>
+                </li>
+                <li>OpenIIT Results</li>
+              </ul>
             </li>
             <li data-text="Hall of Fame" className="dropdown-title">
               <Link href="/fame">Hall of Fame</Link>
@@ -83,8 +92,17 @@ export default function Navbar() {
         </div>
         <div className={`wrapper ${isActive ? "active" : ""}`}>
           <ul>
-            <li data-text="GC" className="dropdown-title">
-              <Link href="/gc">GC results</Link>
+            <li data-text="GC" className={`dropdown-title ${isDown_1 ? "down" : ""}`} onClick={() => dropdownNikal(1)}>
+              Events {isDown_1 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
+              <ul className="dropdown-content">
+                <li>
+                  <a href="/gc">GC Results</a>
+                </li>
+                <li>
+                  <a href="/interIIT">InterIIT Results</a>
+                </li>
+                <li>OpenIIT Results</li>
+              </ul>
             </li>
             <li data-text="Hall of Fame">
               <Link href="/fame">Hall of Fame</Link>

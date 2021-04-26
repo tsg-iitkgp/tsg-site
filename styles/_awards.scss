@@ -1,8 +1,11 @@
 .awards {
   .table-container {
     max-height: 100vh;
-    overflow: hidden;
     font-size: 1.2rem;
+
+    @include sm {
+      font-size: 1rem;
+    }
     table {
       margin-bottom: 1rem;
       width: 100%;
@@ -14,14 +17,24 @@
     td {
       padding: 1rem;
       padding-right: 0.25rem;
-      background-color: rgba(255, 255, 255, 0.2);
-      color: #fff;
-      a {
-        color: #a2b5f7;
-        font-weight: bold;
-        &:hover {
-          text-decoration: underline dotted #c66df3;
-        }
+      background-color: rgb(255, 255, 255);
+      color: #000;
+
+      .medal::before {
+        content: " \25CF";
+        font-size: 30px;
+      }
+
+      .gold {
+        color: gold;
+      }
+
+      .silver {
+        color: silver;
+      }
+
+      .bronze {
+        color: #cd7f32;
       }
 
       @include sm {
@@ -46,24 +59,9 @@
       margin-top: 2rem;
       tr {
         background-color: rgba(10, 9, 9, 0.932);
-        &:hover {
-          background-color: rgba(rgb(202, 164, 164), 1);
-        }
       }
       td {
         position: relative;
-        &:hover {
-          &:before {
-            content: "";
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: -9999px;
-            bottom: -9999px;
-            background-color: rgba(rgb(202, 164, 164), 1);
-            z-index: -1;
-          }
-        }
         ul {
           list-style-type: none;
         }
