@@ -82,10 +82,22 @@ export default function Navbar() {
               Links <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li>
-                  <a href="https://drive.google.com/file/d/1V1oppLrE3tC-wdB_vw3w3SgEYKLzb2_y/view?usp=sharing" target="_blank" rel="noopener noreferrer">TSG Constitution &thinsp; <Icon.ExternalLink /></a>
+                  <a
+                    href="https://drive.google.com/file/d/1V1oppLrE3tC-wdB_vw3w3SgEYKLzb2_y/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    TSG Constitution &thinsp; <Icon.ExternalLink />
+                  </a>
                 </li>
                 <li>
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSft9FXZYvLiNt3oy0K3Iu4d6HoE830RhNWFHMXx1R4IjlhHKA/viewform" target="_blank" rel="noopener noreferrer">Complaint Form &thinsp; <Icon.ExternalLink /></a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSft9FXZYvLiNt3oy0K3Iu4d6HoE830RhNWFHMXx1R4IjlhHKA/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Complaint Form &thinsp; <Icon.ExternalLink />
+                  </a>
                 </li>
                 <li>
                   <a href="/pastOfficeBearers">Past Office Bearers</a>

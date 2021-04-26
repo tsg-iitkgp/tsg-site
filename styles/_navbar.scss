@@ -86,14 +86,17 @@
         color: #000;
         display: flex;
         align-items: center;
+        position: relative;
 
         .dropdown-content {
           display: none;
           background-color: #ff4436;
           border-radius: 20px;
+          color: #fff;
+          white-space: nowrap;
 
           a {
-            color: #111;
+            color: #fff;
 
             &::before {
               background-color: #67ecfd;
@@ -104,10 +107,11 @@
         &:hover {
           .dropdown-content {
             display: block;
-            position: fixed;
-            z-index: 99;
-            margin-top: 9.5rem;
+            position: absolute;
+            top: 0;
+            left: 0;
 
+            margin-top: 2rem;
             li {
               margin: 0.75rem 0;
             }
