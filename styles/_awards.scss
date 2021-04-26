@@ -2,6 +2,10 @@
   .table-container {
     max-height: 100vh;
     font-size: 1.2rem;
+
+    @include sm {
+      font-size: 1rem;
+    }
     table {
       margin-bottom: 1rem;
       width: 100%;
