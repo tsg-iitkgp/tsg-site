@@ -5,79 +5,29 @@ import { ResponsiveBar } from "@nivo/bar";
 import pointsData from "../public/pointsData";
 import Chart from "../components/chart";
 
+const years = ["2018", "2017"];
+
 export default function Sports() {
   const [currentTab, setCurrentTab] = useState("sports");
-
-  const handleTabChange = (s) => {
-    setCurrentTab(s);
-  };
+  const [currentYear, setCurrentYear] = useState("2017");
 
   return (
     <Layout>
       <Head>
-        <title>GC results</title>
+        <title>Past Office Bearers</title>
       </Head>
       <section className="points content">
-        <h2> Points Tally General Championship 18-19</h2>
+        <h2> Past Office Bearers</h2>
 
-        <div className="tabs">
-          <div className={`tab ${currentTab == "sports" ? "active" : ""}`} onClick={() => handleTabChange("sports")}>
-            Sports &amp; Games
-          </div>
-          <div className={`tab ${currentTab == "tech" ? "active" : ""}`} onClick={() => handleTabChange("tech")}>
-            Technology
-          </div>
-          <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
-            Socult
-          </div>
-        </div>
-        <div className="chart">
-          {currentTab == "sports" ? (
-            <Chart
-              data={pointsData.sportsData}
-              keys={[
-                "badminton",
-                "lawnTennis",
-                "football",
-                "basketball",
-                "hockey",
-                "bridge",
-                "tableTennis",
-                "volleyball",
-                "weightlifting",
-                "sqaush",
-                "chess",
-                "cricket",
-                "athletics",
-              ]}
-              layout={"vertical"}
-            />
-          ) : (
-            <Chart
-              data={pointsData.socultData}
-              keys={[
-                "easternVocals",
-                "westernVocals",
-                "easternInstrumentals",
-                "groups",
-                "westernInstrumentals",
-                "sketching",
-                "cartooning",
-                "painting",
-                "clayModelling",
-                "bengaliElocution",
-                "debate",
-                "englishElocution",
-                "wtgw",
-                "quiz",
-                "stagePlay",
-                "choreography",
-                "streetPlay",
-              ]}
-              layout={"vertical"}
-            />
-          )}
-        </div>
+        <select name="department" value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
+          {years.map((year) => (
+            <option key={year} value={year}>
+              {year}
+            </option>
+          ))}
+        </select>
+
+        {/* Now render based on the value of the currentYear */}
       </section>
     </Layout>
   );
