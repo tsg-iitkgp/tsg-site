@@ -19,12 +19,8 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Technology_Literary_Society",
       shortform: "tls",
       category: "Socult",
-      governors: [
-        "Archi Banerjee(archibanerjee2018@gmail.com)",
-        "Kshitij Anand(kshitijanand.iitkgp@gmail.com)",
-        "Sarvesh Deshpande(sarvesh1604@gmail.com)",
-        "Utkarsh Agrawal(utkarshagrawal24@gmail.com)",
-      ],
+      website: "https://google.com",
+      Heads: [{'name': 'Archi Banerjee', 'email': 'archibanerjee2018@gmail.com'}, {'name': 'Kshitij Anand', 'email': 'kshitijanand.iitkgp@gmail.com'}, {'name': 'Sarvesh Deshpande', 'email': 'sarvesh1604@gmail.com'}, {'name': 'Utkarsh Agrawal', 'email': 'utkarshagrawal24@gmail.com'}]
     },
 
     {

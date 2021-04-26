@@ -24,6 +24,7 @@ export default function Card(props) {
         <a href={props.facebook_link} target="_blank" rel="noreferrer noopener">
           <Icon.Facebook />
         </a>
+        {props.website ? (<p>Loda Lassan</p>): ""}
       </div>
     </div>
   );
