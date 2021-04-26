@@ -8,10 +8,12 @@ export default function Card(props) {
           src={require(`../public/contacts/${props.RollNo}.png`)}
           alt={`Picture of ${props.Post}`}
         />
-        <span>{props.Name}</span>
       </div>
 
       <div className="card-content">
+        <h3>
+          <span>{props.Name}</span>
+        </h3>
         <h3>
           {props.Post} {props.Contact != "" ? `| ${props.Contact}` : ""}
         </h3>
