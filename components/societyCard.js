@@ -24,6 +24,7 @@ export default function Card(props) {
         <a href={props.facebook_link} target="_blank" rel="noreferrer noopener">
           <Icon.Facebook />
         </a>
+        {props.website ? (<a href={props.website} target="_blank" rel="noreferrer noopener"><Icon.Youtube /></a>): ""}
       </div>
     </div>
   );

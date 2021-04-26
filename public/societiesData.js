@@ -42,6 +42,7 @@ export default {
       shortform: "tfps",
       category: "Socult",
       Heads: [{ 'name': 'Rohit Ahirrao', 'email': 'rohitahirrao.iitkgp@gmail.com' }, { 'name': 'Kartik Verma', 'email': 'kv3675@gmail.com' }, { 'name': 'Shubhra Mishra', 'email': 'shubhramishrakota2310@gmail.com' }, { "name": "Aviral Jain (Head of Photography)", "email": "jainaviral898@gmail.com" }],
+      website: "https://www.youtube.com/channel/UCZzBPd0ceMq4EzKNibqAyaA",
     },
 
     {

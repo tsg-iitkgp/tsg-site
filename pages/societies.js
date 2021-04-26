@@ -26,6 +26,7 @@ export default function Societies() {
                   shortform={society.shortform}
                   description={society.description}
                   Heads={society.Heads}
+                  website={society.website}
                 />
               );
             })}
@@ -44,6 +45,7 @@ export default function Societies() {
                   shortform={society.shortform}
                   description={society.description}
                   Heads={society.Heads}
+                  website={society.website}
                 />
               );
             })}
@@ -62,6 +64,7 @@ export default function Societies() {
                   shortform={society.shortform}
                   description={society.description}
                   Heads={society.Heads}
+                  website={society.website}
                 />
               );
             })}
@@ -80,6 +83,7 @@ export default function Societies() {
                   shortform={society.shortform}
                   description={society.description}
                   Heads={society.Heads}
+                  website={society.website}
                 />
               );
             })}
