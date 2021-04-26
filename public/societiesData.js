@@ -8,7 +8,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Student_Welfare_Group",
       shortform: "swg",
       category: "Welfare",
-      governors: ["Nikil Kumar(nikhilkumar041299@gmail.com)"],
+      Heads: [{'name': 'Nikhil Kumar ', 'email': 'nikhilkumar041299@gmail.com'}, {'name': 'Aditi Singhania ', 'email': 'singhania2603@gmail.com'}, {'name': 'Amrutha Sravya Mamidi ', 'email': 'sravyamamidi3@gmail.com'}, {'name': 'Akash Nitin Dusane ', 'email': 'akashnd2000@gmail.com'}, {'name': 'Animesh Awasthi ', 'email': 'animeshawasthi2000@gmail.com'}, {'name': 'Akash Mudhol ', 'email': 'asmudhol8275@gmail.com'}, {'name': 'Arkoprova Madhu ', 'email': 'arko.prova16@gmail.com'}, {'name': 'Soumyajit Chakraborty ', 'email': 'soumyajit1729@gmail.com'}, {'name': 'Prachi Arun Khaparde ', 'email': 'pakhaparde@gmail.com'}]
     },
 
     {
@@ -19,12 +19,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Technology_Literary_Society",
       shortform: "tls",
       category: "Socult",
-      governors: [
-        "Archi Banerjee(archibanerjee2018@gmail.com)",
-        "Kshitij Anand(kshitijanand.iitkgp@gmail.com)",
-        "Sarvesh Deshpande(sarvesh1604@gmail.com)",
-        "Utkarsh Agrawal(utkarshagrawal24@gmail.com)",
-      ],
+      Heads: [{'name': 'Archi Banerjee', 'email': 'archibanerjee2018@gmail.com'}, {'name': 'Kshitij Anand', 'email': 'kshitijanand.iitkgp@gmail.com'}, {'name': 'Sarvesh Deshpande', 'email': 'sarvesh1604@gmail.com'}, {'name': 'Utkarsh Agrawal', 'email': 'utkarshagrawal24@gmail.com'}]
     },
 
     {
@@ -35,11 +30,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Debating_Society",
       shortform: "debsoc",
       category: "Socult",
-      governors: [
-        "Devika Narayanan(devika247@gmail.com)",
-        "Saugandh Philkhana(saugandh30@gmail.com)",
-        "Simran Rajagopalan(simranrajagopalan2000@gmail.com)",
-      ],
+      Heads: [{'name': 'Devika Narayanan', 'email': 'devika247@gmail.com'}, {'name': 'Saugandh Philkhana', 'email': 'saugandh30@gmail.com'}, {'name': 'Simran Rajagopalan', 'email': 'simranrajagopalan2000@gmail.com'}, {"name": "Tanay Raghavendra", "email": "tanay1688@gmail.com"}]
     },
 
     {
@@ -49,12 +40,8 @@ export default {
       facebook_link: "https://www.facebook.com/tfps.iitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Filmmaking_%26_Photography_Society",
       shortform: "tfps",
-      category: "Tech",
-      governors: [
-        "Rohit Ahirrao(rohitahirrao.iitkgp@gmail.com)",
-        "Kartik Verma(kv3675@gmail.com)",
-        "Shubhra Mishra(shubhramishrakota2310@gmail.com)",
-      ],
+      category: "Socult",
+      Heads: [{'name': 'Rohit Ahirrao', 'email': 'rohitahirrao.iitkgp@gmail.com'}, {'name': 'Kartik Verma', 'email': 'kv3675@gmail.com'}, {'name': 'Shubhra Mishra', 'email': 'shubhramishrakota2310@gmail.com'}, {"name": "Aviral Jain (Head of Photography)", "email": "jainaviral898@gmail.com"}],
     },
 
     {
@@ -65,11 +52,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Technology_Dance_Society",
       shortform: "tds",
       category: "Socult",
-      governors: [
-        "Pranali Rahangdale(pranalirahangdale27@gmail.com)",
-        "Shivam Sengar(sengarshivam84@gmail.com)",
-        "Monika Choudhary(monikachoudhary.2112@gmail.com)",
-      ],
+      Heads: [{'name': 'Pranali Rahangdale', 'email': 'pranalirahangdale27@gmail.com'}, {'name': 'Shivam Sengar', 'email': 'sengarshivam84@gmail.com'}, {'name': 'Monika Choudhary', 'email': 'monikachoudhary.2112@gmail.com'}]
     },
 
     {
@@ -80,11 +63,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Pravah",
       shortform: "pravah",
       category: "Socult",
-      governors: [
-        "Abhyudaya Nilosey(abhyudaya27nilosey@gmail.com)",
-        "Debjyoti Chakraborty(djc2210@gmail.com)",
-        "Sudhanshu Baldawa(sudhanshubaldawa1999@gmail.com)",
-      ],
+      Heads: [{'name': 'Abhyudaya Nilosey', 'email': 'abhyudaya27nilosey@gmail.com'}, {'name': 'Debjyoti Chakraborty', 'email': 'djc2210@gmail.com'}, {'name': 'Sudhanshu Baldawa', 'email': 'sudhanshubaldawa1999@gmail.com'}]
     },
 
     {
@@ -95,7 +74,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Encore",
       shortform: "encore",
       category: "Socult",
-      governors: [
+      Heads: [
         "Saumyata Khandewal(saumyata0427@gmail.com)",
         "Karmanya GB(karmanyagb@gmail.com)",
         "Karan Singh(singh.karan118@gmail.com)",
@@ -110,7 +89,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Prasthanam",
       shortform: "prasthanam",
       category: "Socult",
-      governors: [
+      Heads: [
         "Avanthika Didroy(avanthikadidroy2000@gmail.com)",
         "Sai Jyotish Vudikavalasa(vsj.civil@gmail.com)",
         "Nukala Divakar Sai(divakarsainukala@gmail.com)",
@@ -125,7 +104,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Druheen",
       shortform: "druheen",
       category: "Socult",
-      governors: [
+      Heads: [
         "Swastik Ballav(swastikballav2017@gmail.com)",
         "Koomar Mangalam Dey(koomarmangalam@gmail.com)",
         "Iman Burman(imanburman1999@gmail.com)",
@@ -140,7 +119,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Technology_Robotix_Society",
       shortform: "trs",
       category: "Tech",
-      governors: [],
+      Heads: [],
     },
 
     {
@@ -151,7 +130,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Communique",
       shortform: "communique",
       category: "Socult",
-      governors: [
+      Heads: [
         "Abhishek Chandak(abbhchhan@gmail.com)",
         "Anushka Agrawal(anushkaagrawal718@gmail.com)",
         "Abhishek Jangid(abhishekjangidiitkgp@gmail.com)",
@@ -166,7 +145,7 @@ export default {
       wiki_link: "",
       shortform: "iwg",
       category: "Welfare",
-      governors: [],
+      Heads: [{"name": "Aditi Singhania", "email": "singhania2603@gmail.com"}, {"name": "Nikhil Kumar", "email": "nikhilkumar041299@gmail.com"}, {"name": "Siba Smarak Panigrahi", "email": "sibasmarak.p@gmail.com"}, {"name": "Anubhav Saboth", "email": " anubhavsaboth@gmail.com"}, {"name": "Rohan Gundu", "email": " rohangundu22@gmail.com"}, {"name": "Rajkumar Bunkar", "email": "bunkarraju30@gmail.com"}],
     },
 
     {
@@ -177,7 +156,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Business_Club",
       shortform: "bclub",
       category: "Tech",
-      governors: [],
+      Heads: [],
     },
 
     {
@@ -188,7 +167,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Technology_Adventure_Society",
       shortform: "tads",
       category: "Sports",
-      governors: [],
+      Heads: [],
     },
 
     {
@@ -199,7 +178,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Eastern_Technology_Music_Society",
       shortform: "etms",
       category: "Socult",
-      governors: [],
+      Heads: [],
     },
 
     {
@@ -210,7 +189,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Western_Technology_Music_Society",
       shortform: "wtms",
       category: "Socult",
-      governors: [
+      Heads: [
         "Siddhartha Kapuria(siddharthakapuria@gmail.com)",
         "Unnikrishnan Nambiar(unnikrishnan.nambiar.iitkgp@gmail.com)",
       ],
@@ -224,7 +203,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Chess_IITKGP",
       shortform: "chess",
       category: "Sports",
-      governors: [],
+      Heads: [],
     },
 
     {
@@ -235,7 +214,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Quiz_Club",
       shortform: "quiz",
       category: "Tech",
-      governors: [],
+      Heads: [],
     },
 
     {
@@ -246,7 +225,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Spectra",
       shortform: "spectra",
       category: "Socult",
-      governors: [
+      Heads: [
         "Abhijeet Mahato(mahato.abhijeet7@gmail.com)",
         "Rachana Verma(rachana8476@gmail.com)",
         "Ashutosh Singh(singhashutosh.iitkgp@gmail.com)",
@@ -261,7 +240,7 @@ export default {
       wiki_link: "https://wiki.metakgp.org/w/Technology_Culinary_Arts_Society",
       shortform: "tcas",
       category: "Socult",
-      governors: [
+      Heads: [
         "Hardik Tibrewal(hardikti@gmail.com)",
         "Tanaya Pakhale(tanayapakhale2012@gmail.com)",
         "Pooja Reddy(poojaoct.reddy@gmail.com)",

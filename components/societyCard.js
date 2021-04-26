@@ -13,7 +13,7 @@ export default function Card(props) {
           images={`societies/${props.shortform}.png`}
           description={props.description}
           title={props.name}
-          governors={props.governors}
+          Heads={props.Heads}
         />
         {/* <img src={require(`../public/societies/${props.shortform}.png`)} alt={`Picture of ${props.name}`} /> */}
       </div>

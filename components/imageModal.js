@@ -24,11 +24,11 @@ export default function ImageModal(props) {
         {/* ))} */}
 
         <p>{props.description}</p>
-        {props.governors?.length > 0 ? (
+        {props.Heads?.length > 0 ? (
           <p>
-            Governors:
-            {props.governors.map((governor) => (
-              <p> {governor} </p>
+            <h4>Heads:</h4>
+            {props.Heads.map((head) => (
+              <li> {head.name} (<a href={"mailto:" + head.email}>{head.email}</a>) </li>
             ))}
           </p>
         ) : (
