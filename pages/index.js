@@ -25,12 +25,11 @@ export default function Home() {
               <h2>Indian Institute of Technology Kharagpur</h2>
             </div>
           </section>
-          {/* <img className="intro-image" src="TSG.svg" /> */}
         </section>
 
         <section className="m-content">
           <section className="about" id="about">
-            <h2>About</h2>
+            <h2>About Us</h2>
             <p>
               Technology Students’ Gymkhana is the hub of the numerous extra-curricular and co-curricular activities in
               IIT Kharagpur ranging from sports to socio-cultural. The Gymkhana is managed by the students, for the

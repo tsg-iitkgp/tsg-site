@@ -1,13 +1,18 @@
+import * as Icon from "react-feather";
+
 export default function Footer() {
   return (
     <section className="footer">
       <ul>
         <li>
-          Contact Us
           <p>
             Technology Students' Gymkhana <br /> IIT Kharagpur, Kharagpur <br />
             West Bengal - 721302
           </p>
+          <a href="https://www.facebook.com/TSG.IITKharagpur" target="_blank" rel="noreferrer noopener">
+          <Icon.Facebook /></a>
+          <a href="https://twitter.com/tsg_iitkgp" target="_blank" rel="noreferrer noopener">
+          <Icon.Twitter /></a>
         </li>
       </ul>
       <ul>
@@ -38,16 +43,6 @@ export default function Footer() {
             rel="noopener noreferrer"
           >
             Complaint Form
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/TSG.IITKharagpur/" target="_blank" rel="noopener noreferrer">
-            TSG Facebook
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/tsg_iitkgp?lang=en" target="_blank" rel="noopener noreferrer">
-            TSG Twitter
           </a>
         </li>
       </ul>
