@@ -19,9 +19,12 @@ export default function Contacts() {
         </p>
         <div>
           <a href="https://www.facebook.com/TSG.IITKharagpur" target="_blank" rel="noreferrer noopener">
-            <Icon.Facebook size={36} color={"black"} /></a> &thinsp; &thinsp;
+            <Icon.Facebook size={36} color={"black"} />
+          </a>{" "}
+          &thinsp; &thinsp;
           <a href="https://twitter.com/tsg_iitkgp" target="_blank" rel="noreferrer noopener">
-            <Icon.Twitter size={36} color={"black"} /></a>
+            <Icon.Twitter size={36} color={"black"} />
+          </a>
         </div>
         <div className="cards">
           {contactsData.data.map((contact) => {
@@ -32,6 +35,7 @@ export default function Contacts() {
                 Contact={contact.Contact}
                 RollNo={contact.RollNo}
                 Post={contact.Post}
+                Path="contacts"
                 Email={contact.Email}
               />
             );
