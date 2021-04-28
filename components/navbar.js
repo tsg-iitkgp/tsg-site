@@ -79,14 +79,12 @@ export default function Navbar() {
               Links <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li data-text="Blog">
-                  <a href="http://www.gymkhana.iitkgp.ac.in/blog" target="_blank" rel="noopener noreferrer">TSG Blog &thinsp; <Icon.ExternalLink /></a>
+                  <a href="http://www.gymkhana.iitkgp.ac.in/blog" target="_blank" rel="noopener noreferrer">
+                    TSG Blog &thinsp; <Icon.ExternalLink />
+                  </a>
                 </li>
                 <li>
-                  <a
-                    href="https://drive.google.com/file/d/1V1oppLrE3tC-wdB_vw3w3SgEYKLzb2_y/view?usp=sharing"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="/Gymkhana_Constitution_Updated.pdf" target="_blank" rel="noopener noreferrer">
                     TSG Constitution &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
@@ -139,7 +137,11 @@ export default function Navbar() {
         </div>
         <div className={`wrapper ${isActive ? "active" : ""}`}>
           <ul>
-          <li data-text="About" className={`dropdown-title ${isDown_1 ? "down" : ""}`} onClick={() => dropdownNikal(1)}>
+            <li
+              data-text="About"
+              className={`dropdown-title ${isDown_1 ? "down" : ""}`}
+              onClick={() => dropdownNikal(1)}
+            >
               About {isDown_1 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li>
@@ -159,30 +161,28 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
-          <li data-text="GC" className={`dropdown-title ${isDown_2 ? "down" : ""}`} onClick={() => dropdownNikal(2)}>
+            <li data-text="GC" className={`dropdown-title ${isDown_2 ? "down" : ""}`} onClick={() => dropdownNikal(2)}>
               Updates {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
-            <ul className="dropdown-content">
-              <li>
-                <a href="/gcResults">GC Results</a>
-              </li>
-              <li>
-                <a href="/interIITResults">InterIIT Results</a>
-              </li>
-              <li>OpenIIT Results</li>
-            </ul>
-          </li>
-          <li data-text="GC" className={`dropdown-title ${isDown_3 ? "down" : ""}`} onClick={() => dropdownNikal(3)}>
+              <ul className="dropdown-content">
+                <li>
+                  <a href="/gcResults">GC Results</a>
+                </li>
+                <li>
+                  <a href="/interIITResults">InterIIT Results</a>
+                </li>
+                <li>OpenIIT Results</li>
+              </ul>
+            </li>
+            <li data-text="GC" className={`dropdown-title ${isDown_3 ? "down" : ""}`} onClick={() => dropdownNikal(3)}>
               Links {isDown_3 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li data-text="Blog">
-                  <a href="http://www.gymkhana.iitkgp.ac.in/blog" target="_blank" rel="noopener noreferrer">TSG Blog &thinsp; <Icon.ExternalLink /></a>
+                  <a href="http://www.gymkhana.iitkgp.ac.in/blog" target="_blank" rel="noopener noreferrer">
+                    TSG Blog &thinsp; <Icon.ExternalLink />
+                  </a>
                 </li>
                 <li>
-                  <a
-                    href="https://drive.google.com/file/d/1V1oppLrE3tC-wdB_vw3w3SgEYKLzb2_y/view?usp=sharing"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="/Gymkhana_Constitution_Updated.pdf" target="_blank" rel="noopener noreferrer">
                     TSG Constitution &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
