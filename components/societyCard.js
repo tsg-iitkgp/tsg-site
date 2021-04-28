@@ -24,7 +24,13 @@ export default function Card(props) {
         <a href={props.facebook_link} target="_blank" rel="noreferrer noopener">
           <Icon.Facebook />
         </a>
-        {props.website ? (<a href={props.website} target="_blank" rel="noreferrer noopener">&thinsp;<Icon.Airplay /></a>): ""}
+        {props.website ? (
+          <a href={props.website} target="_blank" rel="noreferrer noopener">
+            <Icon.Airplay />
+          </a>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

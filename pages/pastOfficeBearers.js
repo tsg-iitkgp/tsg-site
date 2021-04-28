@@ -16,7 +16,7 @@ export default function Sports() {
       <section className="office">
         <h2> Past Office Bearers</h2>
 
-        <select className="select" value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
+        <select value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
           {years.map((year) => (
             <option key={year} value={year}>
               {year}

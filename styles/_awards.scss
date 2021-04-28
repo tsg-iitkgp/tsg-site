@@ -49,17 +49,8 @@
     thead {
       position: sticky;
       top: 1;
-      z-index: 1;
       th {
         background-color: #009879;
-
-        // &:last-of-type {
-        //   border-radius: 0 1rem 0 0;
-        // }
-
-        // &:first-of-type {
-        //   border-radius: 1rem 0 0 0;
-        // }
       }
     }
 
