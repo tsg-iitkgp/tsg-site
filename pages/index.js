@@ -6,6 +6,9 @@ import ImageModal from "../components/imageModal";
 import Card from "../components/societyCard";
 import societiesData from "../public/societiesData";
 import festData from "../public/festData";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import "react-awesome-slider/dist/custom-animations/open-animation.css";
 
 export default function Home() {
   return (
@@ -28,6 +31,15 @@ export default function Home() {
         </section>
 
         <section className="m-content">
+          <section className="events-slider">
+            <h2> Upcoming Events</h2>
+            <AwesomeSlider>
+              <div data-src="upcomingEvents/swg.png" />
+              <div data-src="upcomingEvents/tls.jpg" />
+              <div data-src="upcomingEvents/case_study.jpg" />
+            </AwesomeSlider>
+          </section>
+
           <section className="about" id="about">
             <h2>About Us</h2>
             <p>

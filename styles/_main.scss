@@ -87,6 +87,19 @@ body {
     }
   }
 
+  .events-slider {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+
+    @include sm {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
   .facilities {
     width: 85%;
     margin: 0 auto;
