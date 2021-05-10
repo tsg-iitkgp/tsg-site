@@ -203,6 +203,9 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
+            <li data-text="Hall of Fame" className="dropdown-title">
+              <Link href="/hallOfFame">Hall of Fame</Link>
+            </li>
             <li data-text="TSG-Elections">
               <a href="/elections">TSG Elections</a>
             </li>
