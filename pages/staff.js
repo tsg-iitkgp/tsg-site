@@ -21,7 +21,6 @@ export default function Contacts() {
               <Card
                 key={contact.RollNo}
                 Name={contact.Name}
-                Contact={contact.Contact}
                 RollNo={contact.RollNo}
                 Post={contact.Post}
                 Path="staff"

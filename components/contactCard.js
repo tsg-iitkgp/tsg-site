@@ -10,7 +10,7 @@ export default function Card(props) {
 
       <div className="card-content">
         <h3>
-          {props.Post} {props.Contact != "" ? `| ${props.Contact}` : ""}
+          {props.Post}
         </h3>
         <hr />
         {props.Post === "President" ? (
