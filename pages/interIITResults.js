@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { isSameMinute } from "date-fns";
 import Head from "next/head";
 import Layout from "../components/layout";
 import pointsData from "../public/pointsData";
@@ -77,11 +76,7 @@ export default function InterIIT() {
                 </tbody>
               </table>
             </div>
-          </>
-        )}
 
-        {currentTab == "Sports" && (
-          <>
             <h2> Women's Standings</h2>
             <div className="table-container">
               <table>
