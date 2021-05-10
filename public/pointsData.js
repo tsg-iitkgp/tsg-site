@@ -270,7 +270,7 @@ export default {
         Sport: "Overall",
         Gold: "IIT Kharagpur",
         Silver: "IIT Bombay",
-        Bronze: "IIT Roorkee"
+        Bronze: "IIT Roorkee",
       },
       {
         Sport: "Swimming",
@@ -356,7 +356,7 @@ export default {
         Sport: "Overall",
         Gold: "IIT Kharagpur",
         Silver: "IIT Bombay",
-        Bronze: "IIT Roorkee"
+        Bronze: "IIT Roorkee",
       },
       {
         Sport: "Swimming",
@@ -399,6 +399,74 @@ export default {
         Gold: "Roorkee",
         Silver: "Delhi",
         Bronze: "Madras",
+      },
+    ],
+    [
+      {
+        Event: "Overall",
+        Gold: "Kharagpur",
+        Silver: "Bombay",
+        Bronze: "Roorkee",
+      },
+      {
+        Event: "Dance",
+        Gold: "Kanpur",
+        Silver: "Bombay",
+        Bronze: "Roorkee",
+      },
+      {
+        Event: "Dramatics",
+        Gold: "BHU",
+        Silver: "Kanpur",
+        Bronze: "Madras",
+      },
+      {
+        Event: "Film",
+        Gold: "Kharagpur",
+        Silver: "Roorkee",
+        Bronze: "Indore",
+      },
+      {
+        Event: "Music",
+        Gold: "Kharagpur",
+        Silver: "Bombay",
+        Bronze: "Delhi",
+      },
+      {
+        Event: "Literary Arts",
+        Gold: "Kharagpur",
+        Silver: "Kanpur",
+        Bronze: "Bombay",
+      },
+      {
+        Event: "Speaking Arts",
+        Gold: "Bombay",
+        Silver: "Roorkee",
+        Bronze: "Kharagpur",
+      },
+      {
+        Event: "Fine Arts",
+        Gold: "Kharagpur",
+        Silver: "Bombay",
+        Bronze: "Jodhpur",
+      },
+      {
+        Event: "Design & Digital Arts",
+        Gold: "BHU",
+        Silver: "Kharagpur",
+        Bronze: "Indore",
+      },
+      {
+        Event: "Fashion",
+        Gold: "Bombay",
+        Silver: "Gandhinagar",
+        Bronze: "Roorkee",
+      },
+      {
+        Event: "Miscellaneous",
+        Gold: "Roorkee",
+        Silver: "Bombay",
+        Bronze: "Kanpur",
       },
     ],
   ],
