@@ -19,6 +19,12 @@ export default {
       Email: "soumen@adm.iitkgp.ac.in",
     },
     {
+      RollNo: "ashok",
+      Name: "Ashok Das",
+      Post: "Superintendent",
+      Email: "ashokdas@iitkgp.com",
+    },
+    {
       RollNo: "amaresh",
       Name: "Amaresh Mondal",
       Post: "PTI (Aquatics)",
@@ -117,12 +123,6 @@ export default {
       Name: "Amit Saha",
       Post: "Junior Executive",
       Email: "amitsaha@adm.iitkgp.ac.in",
-    },
-    {
-      RollNo: "ashok",
-      Name: "Ashok Das",
-      Post: "Superintendent",
-      Email: "",
-    },
+    }
   ],
 };
