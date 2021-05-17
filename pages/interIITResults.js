@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { isSameMinute } from "date-fns";
 import Head from "next/head";
 import Layout from "../components/layout";
 import pointsData from "../public/pointsData";
@@ -7,7 +6,7 @@ import pointsData from "../public/pointsData";
 const years = ["2020", "2019", "2018", "2017", "2016"];
 
 export default function InterIIT() {
-  const [currentTab, setCurrentTab] = useState("sports");
+  const [currentTab, setCurrentTab] = useState("Sports");
   const [currentYear, setCurrentYear] = useState("2019");
 
   const handleTabChange = (s) => {
@@ -21,16 +20,19 @@ export default function InterIIT() {
       </Head>
       <section className="awards content">
         <h2>
-          InterIIT {currentYear} {currentTab} Standings - Men
+          InterIIT {currentYear} {currentTab} Standings
         </h2>
         <div className="tabs">
-          <div className={`tab ${currentTab == "sports" ? "active" : ""}`} onClick={() => handleTabChange("sports")}>
+          <div className={`tab ${currentTab == "Sports" ? "active" : ""}`} onClick={() => handleTabChange("Sports")}>
             Sports &amp; Games
           </div>
-          <div className={`tab ${currentTab == "tech" ? "active" : ""}`} onClick={() => handleTabChange("tech")}>
+          <div
+            className={`tab ${currentTab == "Technology" ? "active" : ""}`}
+            onClick={() => handleTabChange("Technology")}
+          >
             Technology
           </div>
-          <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
+          <div className={`tab ${currentTab == "Socult" ? "active" : ""}`} onClick={() => handleTabChange("Socult")}>
             Socult
           </div>
         </div>
@@ -43,66 +45,101 @@ export default function InterIIT() {
           ))}
         </select>
 
-        <div className="table-container">
-          <table>
-            <thead>
-              <tr>
-                <th>Sport</th>
-                <th>
-                  <span className="medal gold"></span> Gold
-                </th>
-                <th>
-                  <span className="medal silver"></span> Silver
-                </th>
-                <th>
-                  <span className="medal bronze"></span> Bronze
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {pointsData.interIIT[0].map((item) => (
-                <tr>
-                  <td>{item.Sport}</td>
-                  <td>{item.Gold} </td>
-                  <td>{item.Silver} </td>
-                  <td>{item.Bronze} </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        {currentTab == "Sports" && (
+          <>
+            <h2> Men's Standings</h2>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Sport</th>
+                    <th>
+                      <span className="medal gold"></span> Gold
+                    </th>
+                    <th>
+                      <span className="medal silver"></span> Silver
+                    </th>
+                    <th>
+                      <span className="medal bronze"></span> Bronze
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {pointsData.interIIT[0].map((item) => (
+                    <tr>
+                      <td>{item.Sport}</td>
+                      <td>{item.Gold} </td>
+                      <td>{item.Silver} </td>
+                      <td>{item.Bronze} </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
 
-        <h2>
-          InterIIT {currentYear} {currentTab} Standings - Women
-        </h2>
-        <div className="table-container">
-          <table>
-            <thead>
-              <tr>
-                <th>Sport</th>
-                <th>
-                  <span className="medal gold"></span> Gold
-                </th>
-                <th>
-                  <span className="medal silver"></span> Silver
-                </th>
-                <th>
-                  <span className="medal bronze"></span> Bronze
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {pointsData.interIIT[0].map((item) => (
-                <tr>
-                  <td>{item.Sport}</td>
-                  <td>{item.Gold} </td>
-                  <td>{item.Silver} </td>
-                  <td>{item.Bronze} </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+            <h2> Women's Standings</h2>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Sport</th>
+                    <th>
+                      <span className="medal gold"></span> Gold
+                    </th>
+                    <th>
+                      <span className="medal silver"></span> Silver
+                    </th>
+                    <th>
+                      <span className="medal bronze"></span> Bronze
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {pointsData.interIIT[1].map((item) => (
+                    <tr>
+                      <td>{item.Sport}</td>
+                      <td>{item.Gold} </td>
+                      <td>{item.Silver} </td>
+                      <td>{item.Bronze} </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </>
+        )}
+        {currentTab == "Socult" && (
+          <>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Event Genre</th>
+                    <th>
+                      <span className="medal gold"></span> Gold
+                    </th>
+                    <th>
+                      <span className="medal silver"></span> Silver
+                    </th>
+                    <th>
+                      <span className="medal bronze"></span> Bronze
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {pointsData.interIIT[2].map((item) => (
+                    <tr>
+                      <td>{item.Event}</td>
+                      <td>{item.Gold} </td>
+                      <td>{item.Silver} </td>
+                      <td>{item.Bronze} </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </>
+        )}
       </section>
     </Layout>
   );
