@@ -34,7 +34,6 @@ export default {
       RollNo: "ashwani",
       Name: "Ashwani Prakash",
       Post: "PTI (Lawn Tennis)",
-      Contact: "",
       Email: "ashwani@adm.iitkgp.ac.in",
     },
     {
@@ -95,7 +94,6 @@ export default {
       RollNo: "chand",
       Name: "Chand Kanta Ari",
       Post: "Senior Attendant",
-      Contact: "",
       Email: "",
     },
     {
@@ -108,14 +106,12 @@ export default {
       RollNo: "hati",
       Name: "Hait Enkatsway",
       Post: "Attendant",
-      Contact: "",
       Email: "",
     },
     {
       RollNo: "shyamal",
       Name: "Shyamal Kumar Adhikary",
       Post: "Attendant",
-      Contact: "",
       Email: "",
     },
     {
