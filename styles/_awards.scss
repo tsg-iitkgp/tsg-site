@@ -64,7 +64,13 @@
         }
 
         &:last-of-type {
-          border-bottom: 2px solid #009879;
+          border-bottom: 2px solid #04d6ac;
+        }
+      }
+
+      #overall {
+        &:first-of-type {
+          background-color: lightblue;
         }
       }
       td {

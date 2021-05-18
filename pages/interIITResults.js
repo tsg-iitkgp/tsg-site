@@ -66,7 +66,7 @@ export default function InterIIT() {
                 </thead>
                 <tbody>
                   {pointsData.interIIT[0].map((item) => (
-                    <tr>
+                    <tr id="overall">
                       <td>{item.Sport}</td>
                       <td>{item.Gold} </td>
                       <td>{item.Silver} </td>
@@ -96,7 +96,7 @@ export default function InterIIT() {
                 </thead>
                 <tbody>
                   {pointsData.interIIT[1].map((item) => (
-                    <tr>
+                    <tr id="overall">
                       <td>{item.Sport}</td>
                       <td>{item.Gold} </td>
                       <td>{item.Silver} </td>
@@ -128,7 +128,7 @@ export default function InterIIT() {
                 </thead>
                 <tbody>
                   {pointsData.interIIT[2].map((item) => (
-                    <tr>
+                    <tr id="overall">
                       <td>{item.Event}</td>
                       <td>{item.Gold} </td>
                       <td>{item.Silver} </td>
