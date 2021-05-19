@@ -8,6 +8,7 @@ const years = ["2017", "2016", "2015"];
 export default function Fame() {
   const [currentTab, setCurrentTab] = useState("sports");
   const [currentYear, setCurrentYear] = useState("2015");
+  console.log(awardsData[currentYear][currentTab]);
 
   const handleTabChange = (s) => {
     setCurrentTab(s);
@@ -41,33 +42,26 @@ export default function Fame() {
           ))}
         </select>
 
-        {awardsData[currentYear][currentTab].map((award) => {
-          for (var key in award) {
-            <h2>{key}</h2>;
-            {
-              award[key].map((winner) => (
-                <div className="table-container">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Roll No.</th>
-                        <th>Game</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>{winner.Name}</td>
-                        <td>{winner.Roll} </td>
-                        <td>{winner.Game} </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              ));
-            }
-          }
-        })}
+        <div className="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Roll No.</th>
+                <th>Award</th>
+              </tr>
+            </thead>
+            <tbody>
+              {awardsData[currentYear][currentTab].map((winner) => (
+                <tr>
+                  <td>{winner.Name}</td>
+                  <td>{winner.Roll} </td>
+                  <td>{winner.Award}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
     </Layout>
   );

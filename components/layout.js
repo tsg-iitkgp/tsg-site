@@ -2,10 +2,12 @@ import Head from "next/head";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import Wave from "react-wavify";
+import { useRouter } from "next/router";
 
 export const siteTitle = "TSG";
 
 export default function Layout({ children }) {
+  const router = useRouter();
   return (
     <div className="container">
       <Head>
@@ -39,9 +41,13 @@ export default function Layout({ children }) {
       />
       <Navbar />
       <main>{children}</main>
-      <div className="footer-container">
-        <Footer />
-      </div>
+
+      {/* Removed footer from the awards page due to some issue due to which footer was ovelapping on to the table, will fix later */}
+      {router.pathname != "/hallOfFame" && (
+        <div className="footer-container">
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }
