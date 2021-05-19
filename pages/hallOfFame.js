@@ -1,10 +1,14 @@
 import { useState } from "react";
 import Head from "next/head";
 import Layout from "../components/layout";
-import awardsData from "../public/awardsData";
+import awardsData from "../public/awardsData.json";
+
+const years = ["2017", "2016", "2015"];
 
 export default function Fame() {
   const [currentTab, setCurrentTab] = useState("sports");
+  const [currentYear, setCurrentYear] = useState("2015");
+  console.log(awardsData[currentYear][currentTab]);
 
   const handleTabChange = (s) => {
     setCurrentTab(s);
@@ -28,313 +32,36 @@ export default function Fame() {
           <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
             Social & Cultural
           </div>
-          {/* <div
-            className={`tab ${currentTab == "specialRecog" ? "active" : ""}`}
-            onClick={() => handleTabChange("specialRecog")}
-          >
-            Special Recognition
-          </div> */}
         </div>
 
-        {currentTab == "sports" && (
-          <>
-            <h2> Insititue Blue </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.sportsAwards[0].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+        <select value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
+          {years.map((year) => (
+            <option key={year} value={year}>
+              {year}
+            </option>
+          ))}
+        </select>
 
-            <h2> Honorable Mention </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.sportsAwards[1].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <h2> Special Mention </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.sportsAwards[2].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <h2> Alumni Cup </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.sportsAwards[3].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </>
-        )}
-
-        {currentTab == "socult" && (
-          <>
-            <h2> Order of Merit </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.socultAwards[0].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <h2> Honorable Mention </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.socultAwards[1].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <h2> Special Mention </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.socultAwards[2].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <h2> Shrimati Chandiramani Cup </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.socultAwards[3].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <h2> Alumni Cup </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.socultAwards[4].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </>
-        )}
-
-        {currentTab == "tech" && (
-          <>
-            <h2> Order of Merit </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.techAwards[0].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <h2> Honorable Mention </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.techAwards[1].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <h2> G.S. Sanyal Cup </h2>
-            <div className="table-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Roll No.</th>
-                    <th>Game</th>
-                    <th>Institute Award</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awardsData.techAwards[2].map((item) => (
-                    <tr>
-                      <td>{item.Name}</td>
-                      <td>{item.Roll} </td>
-                      <td>{item.Game} </td>
-                      <td>{item.Award} </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </>
-        )}
+        <div className="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Roll No.</th>
+                <th>Award</th>
+              </tr>
+            </thead>
+            <tbody>
+              {awardsData[currentYear][currentTab].map((winner) => (
+                <tr>
+                  <td>{winner.Name}</td>
+                  <td>{winner.Roll} </td>
+                  <td>{winner.Award}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
     </Layout>
   );

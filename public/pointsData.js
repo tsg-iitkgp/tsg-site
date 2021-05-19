@@ -268,9 +268,9 @@ export default {
     [
       {
         Sport: "Overall",
-        Gold: "IIT Kharagpur",
-        Silver: "IIT Bombay",
-        Bronze: "IIT Roorkee",
+        Gold: "Kharagpur",
+        Silver: "Bombay",
+        Bronze: "Roorkee",
       },
       {
         Sport: "Swimming",
@@ -354,9 +354,9 @@ export default {
     [
       {
         Sport: "Overall",
-        Gold: "IIT Kharagpur",
-        Silver: "IIT Bombay",
-        Bronze: "IIT Roorkee",
+        Gold: "Kharagpur",
+        Silver: "Bombay",
+        Bronze: "Roorkee",
       },
       {
         Sport: "Swimming",
