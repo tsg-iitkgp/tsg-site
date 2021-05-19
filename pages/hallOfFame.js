@@ -32,6 +32,12 @@ export default function Fame() {
           <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
             Social & Cultural
           </div>
+          <div
+            className={`tab ${currentTab == "specialRecog" ? "active" : ""}`}
+            onClick={() => handleTabChange("specialRecog")}
+          >
+            Special Recognition
+          </div>
         </div>
 
         <select value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
@@ -48,7 +54,8 @@ export default function Fame() {
               <tr>
                 <th>Name</th>
                 <th>Roll No.</th>
-                <th>Award</th>
+                <th>Institute Award</th>
+                {currentTab == "sports" && <th>Game</th>}
               </tr>
             </thead>
             <tbody>
@@ -57,6 +64,7 @@ export default function Fame() {
                   <td>{winner.Name}</td>
                   <td>{winner.Roll} </td>
                   <td>{winner.Award}</td>
+                  {currentTab == "sports" && <td>{winner.Game}</td>}
                 </tr>
               ))}
             </tbody>
