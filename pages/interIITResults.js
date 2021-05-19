@@ -3,7 +3,7 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import pointsData from "../public/pointsData";
 
-const years = ["2020", "2019", "2018", "2017", "2016"];
+const years = ["2019"];
 
 export default function InterIIT() {
   const [currentTab, setCurrentTab] = useState("Sports");
