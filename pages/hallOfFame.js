@@ -8,7 +8,6 @@ const years = ["2017", "2016", "2015"];
 export default function Fame() {
   const [currentTab, setCurrentTab] = useState("sports");
   const [currentYear, setCurrentYear] = useState("2015");
-  console.log(awardsData[currentYear][currentTab]);
 
   const handleTabChange = (s) => {
     setCurrentTab(s);

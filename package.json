@@ -8,8 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@nivo/bar": "^0.67.0",
-    "@nivo/core": "^0.67.0",
+    "@nivo/bar": "^0.69.0",
+    "@nivo/core": "^0.69.0",
     "date-fns": "^2.16.1",
     "fs-extra": "^9.0.1",
     "gray-matter": "^4.0.2",
