@@ -2,6 +2,7 @@ import { useState } from "react";
 import Head from "next/head";
 import Layout from "../components/layout";
 import awardsData from "../public/awardsData.json";
+import Card from "../components/contactCard";
 
 const years = ["2017", "2016", "2015"];
 
@@ -31,12 +32,14 @@ export default function Fame() {
           <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
             Social & Cultural
           </div>
-          <div
-            className={`tab ${currentTab == "specialRecog" ? "active" : ""}`}
-            onClick={() => handleTabChange("specialRecog")}
-          >
-            Special Recognition
-          </div>
+          {Object.keys(awardsData[currentYear]).length === 4 && (
+            <div
+              className={`tab ${currentTab == "specialRecog" ? "active" : ""}`}
+              onClick={() => handleTabChange("specialRecog")}
+            >
+              Special Recognition
+            </div>
+          )}
         </div>
 
         <select value={currentYear} onChange={(e) => setCurrentYear(e.target.value)}>
@@ -47,28 +50,48 @@ export default function Fame() {
           ))}
         </select>
 
-        <div className="table-container">
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Roll No.</th>
-                <th>Institute Award</th>
-                {currentTab == "sports" && <th>Game</th>}
-              </tr>
-            </thead>
-            <tbody>
-              {awardsData[currentYear][currentTab].map((winner) => (
-                <tr>
-                  <td>{winner.Name}</td>
-                  <td>{winner.Roll} </td>
-                  <td>{winner.Award}</td>
-                  {currentTab == "sports" && <td>{winner.Game}</td>}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        {(awardsData[currentYear][currentTab]["awards"] != undefined || currentTab == "specialRecog") && (
+          <>
+            <h2> Awards </h2>
+            <div className="cards">
+              {currentTab != "specialRecog"
+                ? awardsData[currentYear][currentTab]["awards"]?.map((winner) => (
+                    <Card Name={winner.Name} RollNo="person-placeholder" Path="awards" Post={winner.Award} />
+                  ))
+                : awardsData[currentYear][currentTab].map((winner) => (
+                    <Card Name={winner.Name} RollNo="person-placeholder" Path="awards" Post={winner.Award} />
+                  ))}
+            </div>
+          </>
+        )}
+
+        {currentTab != "specialRecog" && (
+          <>
+            <h2> Honours </h2>
+            <div className="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Roll No.</th>
+                    <th>Institute Award</th>
+                    {currentTab == "sports" && <th>Game</th>}
+                  </tr>
+                </thead>
+                <tbody>
+                  {awardsData[currentYear][currentTab]["honours"].map((winner) => (
+                    <tr>
+                      <td>{winner.Name}</td>
+                      <td>{winner.Roll} </td>
+                      <td>{winner.Award}</td>
+                      {currentTab == "sports" && <td>{winner.Game}</td>}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </>
+        )}
       </section>
     </Layout>
   );

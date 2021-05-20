@@ -47,22 +47,24 @@ export default function Elections() {
         </div>
         <h2>Candidates</h2>
         <div className="main-content">
-          <div className="cards">
-            {electionData.VPData.map((contact) => {
-              return (
-                <Card
-                  key={contact.RollNo}
-                  Name={contact.Name}
-                  Hall={contact.Hall}
-                  Description={contact.Description}
-                  RollNo={contact.RollNo}
-                  Email={contact.Email}
-                  Proposal={contact.Proposal}
-                  ProposalLink={contact.ProposalLink}
-                  FacebookLink={contact.FacebookLink}
-                />
-              );
-            })}
+          <div className="society-cards">
+            <div className="cards">
+              {electionData.VPData.map((contact) => {
+                return (
+                  <Card
+                    key={contact.RollNo}
+                    Name={contact.Name}
+                    Hall={contact.Hall}
+                    Description={contact.Description}
+                    RollNo={contact.RollNo}
+                    Email={contact.Email}
+                    Proposal={contact.Proposal}
+                    ProposalLink={contact.ProposalLink}
+                    FacebookLink={contact.FacebookLink}
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
