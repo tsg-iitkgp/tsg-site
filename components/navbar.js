@@ -47,10 +47,10 @@ export default function Navbar() {
               About <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li>
-                  <a href="/societies">Societies</a>
+                  <a href="/about">About Us</a>
                 </li>
                 <li>
-                  <a href="/facilities">Facilities</a>
+                  <a href="/societies">Societies</a>
                 </li>
                 <li>
                   <a href="/interIIT">Inter IIT</a>
@@ -145,10 +145,10 @@ export default function Navbar() {
               About {isDown_1 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li>
-                  <a href="/societies">Societies</a>
+                  <a href="/about">About Us</a>
                 </li>
                 <li>
-                  <a href="/facilities">Facilities</a>
+                  <a href="/societies">Societies</a>
                 </li>
                 <li>
                   <a href="/interIIT">Inter IIT</a>
