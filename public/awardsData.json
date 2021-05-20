@@ -2,6 +2,24 @@
   "2015": {
     "sports": [
       {
+        "Name": "SAKET THAVANANI",
+        "Roll": "13MT10030",
+        "Game": "BADMINTON",
+        "Award": "ALUMNI CUP"
+      },
+      {
+        "Name": "SIRAJ MODIWALA",
+        "Roll": "13ME10054",
+        "Game": "SWIMMING",
+        "Award": "ALUMNI CUP"
+      },
+      {
+        "Name": "UDIT NARAYAN",
+        "Roll": "12GG20039",
+        "Game": "WEIGHTLIFTING",
+        "Award": "ALUMNI CUP"
+      },
+      {
         "Name": "JACK DAS M.",
         "Roll": "14ID60R12",
         "Game": "ATHELETICS",
@@ -66,12 +84,6 @@
         "Roll": "12ME10015",
         "Game": "CRICKET",
         "Award": "Institute Blue"
-      },
-      {
-        "Name": "UTKARSH LOHIYA",
-        "Roll": "11MI31019",
-        "Game": "CRICKET",
-        "Award": "Bluel"
       },
       {
         "Name": "PREETIJ  AMIN ",
@@ -314,25 +326,23 @@
         "Award": "Special Mention"
       },
       {
-        "Name": "SAKET THAVANANI",
-        "Roll": "13MT10030",
-        "Game": "BADMINTON",
-        "Award": "ALUMNI CUP"
-      },
-      {
-        "Name": "SIRAJ MODIWALA",
-        "Roll": "13ME10054",
-        "Game": "SWIMMING",
-        "Award": "ALUMNI CUP"
-      },
-      {
-        "Name": "UDIT NARAYAN",
-        "Roll": "12GG20039",
-        "Game": "WEIGHTLIFTING",
-        "Award": "ALUMNI CUP"
+        "Name": "UTKARSH LOHIYA",
+        "Roll": "11MI31019",
+        "Game": "CRICKET",
+        "Award": "Bluel"
       }
     ],
     "socult": [
+      {
+        "Name": "ABHISHEK SULTANIA",
+        "Roll": "11IM30023",
+        "Award": "SRIMATI CHANDIRAMANI CUP"
+      },
+      {
+        "Name": "RACHIT MADHUKAR",
+        "Roll": "13AG3FP05",
+        "Award": "ALUMNICUP"
+      },
       {
         "Name": "VIKHYAT KHARE",
         "Roll": "11MT30018",
@@ -452,19 +462,14 @@
         "Name": "SAHIR AZIZ",
         "Roll": "11AR10035",
         "Award": "Special mention"
-      },
-      {
-        "Name": "ABHISHEK SULTANIA",
-        "Roll": "11IM30023",
-        "Award": "SRIMATI CHANDIRAMANI CUP"
-      },
-      {
-        "Name": "RACHIT MADHUKAR",
-        "Roll": "13AG3FP05",
-        "Award": "ALUMNICUP"
       }
     ],
     "tech": [
+      {
+        "Name": "ASHISH DAGA",
+        "Roll": "11ME32006",
+        "Award": "G.S. SANYAL CUP"
+      },
       {
         "Name": "ASHISH DAGA",
         "Roll": "11ME32006",
@@ -544,16 +549,29 @@
         "Name": "RUPESH BANSAL",
         "Roll": "11EE35023",
         "Award": "Honorable Mention"
-      },
-      {
-        "Name": "ASHISH DAGA",
-        "Roll": "11ME32006",
-        "Award": "G.S. SANYAL CUP"
       }
+    ],
+    "specialRecog": [
+
     ]
   },
   "2016": {
     "sports": [
+      {
+        "Name": "SIRAJ MODIWALA",
+        "Roll": "13ME10054",
+        "Award": "BHANDARKAR CUP"
+      },
+      {
+        "Name": "KUNAL AVINASH DEOSKAR",
+        "Roll": "12PH20014",
+        "Award": "ANKIK DHAR TROPHY"
+      },
+      {
+        "Name": "LOKESWARA RAO REDDI",
+        "Roll": "14AG10022",
+        "Award": "ALUMNI CUP"
+      },
       {
         "Name": "SUMIT SINGH",
         "Roll": "12IM30020",
@@ -871,19 +889,20 @@
         "Roll": "12EC35035",
         "Game": "SQUASH",
         "Award": "Special Mention"
-      },
-      {
-        "Name": "LOKESWARA RAO REDDI",
-        "Roll": "14AG10022",
-        "Award": "ALUMNI CUP"
-      },
-      {
-        "Name": "SIRAJ MODIWALA",
-        "Roll": "13ME10054",
-        "Award": "BHANDARKAR CUP"
       }
+
     ],
     "tech": [
+      {
+        "Name": "GOYAL ANUBHAV VIJAY",
+        "Roll": "12IM30007",
+        "Award": "G.S. SANYAL CUP"
+      },
+      {
+        "Name": "RAJA AMBRISH",
+        "Roll": "12HS20034",
+        "Award": "G.S. SANYAL CUP"
+      },
       {
         "Name": "GOYAL ANUBHAV VIJAY",
         "Roll": "12IM30007",
@@ -973,24 +992,24 @@
         "Name": "VISHNU DUTT SHARMA",
         "Roll": "12EC35018",
         "Award": "Honorable Mention"
-      },
-      {
-        "Name": "GOYAL ANUBHAV VIJAY",
-        "Roll": "12IM30007",
-        "Award": "G.S. SANYAL CUP"
-      },
-      {
-        "Name": "RAJA AMBRISH",
-        "Roll": "12HS20034",
-        "Award": "G.S. SANYAL CUP"
-      },
-      {
-        "Name": "KUNAL AVINASH DEOSKAR",
-        "Roll": "12PH20014",
-        "Award": "ANKIK DHAR TROPHY"
       }
     ],
     "socult": [
+      {
+        "Name": "Mr. BRAHMARSHI KAR",
+        "Roll": "13IE10008",
+        "Award": "SRIMATI CHANDIRAMANI CUP"
+      },
+      {
+        "Name": "AYUDH DATTA",
+        "Roll": "13CH30003",
+        "Award": "ALUMNICUP"
+      },
+      {
+        "Name": "RACHIT MADHUKAR",
+        "Roll": "13AG3FP05",
+        "Award": "ALUMNICUP"
+      },
       {
         "Name": "HARDIK RAJPAL",
         "Roll": "12PH20034",
@@ -1135,26 +1154,46 @@
         "Name": "SHAKKIR THORAKKAL",
         "Roll": "12NA30019",
         "Award": "Special Mention"
-      },
-      {
-        "Name": "Mr. BRAHMARSHI KAR",
-        "Roll": "13IE10008",
-        "Award": "SRIMATI CHANDIRAMANI CUP"
-      },
-      {
-        "Name": "AYUDH DATTA",
-        "Roll": "13CH30003",
-        "Award": "ALUMNICUP"
-      },
-      {
-        "Name": "RACHIT MADHUKAR",
-        "Roll": "13AG3FP05",
-        "Award": "ALUMNICUP"
       }
+    ],
+    "specialRecog": [
+      
     ]
   },
   "2017": {
     "sports": [
+      {
+        "Name": "Rahul Sehrawa",
+        "Game": "Basketball",
+        "Roll": "13AE30012",
+        "Award": "Bhandarkar Cup"
+      },
+      {
+        "Name": "Abin Devassia",
+        "Game": "Athletics",
+        "Roll": "14NA30029",
+        "Award": "Alumni Cup"
+      },
+      {
+        "Name": "Yugal Kishore Patanwar",
+        "Game": "Football",
+        "Roll": "13MI92P02",
+        "Award": "Alumni Cup"
+      },
+      {
+        "Name": "Lokesh Singh",
+        "Game": "Weightlifting",
+        "Roll": "14AG10017",
+        "Award": "Alumni Cup"
+      },
+      {
+        "Name": "Abin Devassia",
+        "Award": "Atheletics Excellence Alumni"
+      },
+      {
+        "Name": "Korabu Dimple Kapadia",
+        "Award": "Atheletics Excellence Alumni"
+      },
       {
         "Name": "Korabu Dimple Kapadia",
         "Game": "Athletics",
@@ -1436,33 +1475,19 @@
         "Game": "Volleyball",
         "Roll": "",
         "Award": "Special Mention"
-      },
-      {
-        "Name": "Abin Devassia",
-        "Game": "Athletics",
-        "Roll": "14NA30029",
-        "Award": "Alumni Cup"
-      },
-      {
-        "Name": "Yugal Kishore Patanwar",
-        "Game": "Football",
-        "Roll": "13MI92P02",
-        "Award": "Alumni Cup"
-      },
-      {
-        "Name": "Lokesh Singh",
-        "Game": "Weightlifting",
-        "Roll": "14AG10017",
-        "Award": "Alumni Cup"
-      },
-      {
-        "Name": "Rahul Sehrawa",
-        "Game": "Basketball",
-        "Roll": "13AE30012",
-        "Award": "Bhandarkar Cup"
       }
     ],
     "socult": [
+      {
+        "Name": "Rachit Madhukar",
+        "Roll": "13AG3FPO5",
+        "Award": "Srimati Chandaramani Cup"
+      },
+      {
+        "Name": "Arkapravo Saha",
+        "Roll": "14ME33029",
+        "Award": "Alumni Cup"
+      },
       {
         "Name": "Ayudh Datta",
         "Roll": "13CH30003",
@@ -1637,24 +1662,19 @@
         "Name": "Srihari Radhakrishna",
         "Roll": "13EE35019",
         "Award": "Special Mention"
-      },
-      {
-        "Name": "Arkapravo Saha",
-        "Roll": "14ME33029",
-        "Award": "Alumni Cup"
-      },
-      {
-        "Name": "Rachit Madhukar",
-        "Roll": "13AG3FPO5",
-        "Award": "Srimati Chandaramani Cup"
-      },
-      {
-        "Name": "Ksheera SagarKN",
-        "Roll": "13MA20050",
-        "Award": "Ashok Mukherjee Cup"
       }
     ],
     "tech": [
+      {
+        "Name": "K. Pareen Jain",
+        "Roll": "14ME10029",
+        "Award": "G.S. Sanyal Cup"
+      },
+      {
+        "Name": "Rishabh Kumar Shrivastava",
+        "Roll": "13EE35012",
+        "Award": "G.S. Sanyal Cup"
+      },
       {
         "Name": "AshutoshDwivedi",
         "Roll": "13HS20008",
@@ -1756,34 +1776,23 @@
         "Award": "Honorable Mention"
       },
       {
-        "Name": "K. Pareen Jain",
-        "Roll": "14ME10029",
-        "Award": "G.S. Sanval Cup"
-      },
-      {
-        "Name": "Rishabh Kumar Shrivastava",
-        "Roll": "13EE35012",
-        "Award": "G.S. Sanval Cup"
-      },
-      {
         "Name": "Korabu Dimple Kapadia",
         "Award": "Most Dedicated Sportsperson Award"
       },
       {
         "Name": "Saket Thavanani",
         "Award": "Most Dedicated Sportsperson Award"
+      }
+    ],
+    "specialRecog": [
+      {
+        "Name": "Ksheera SagarKN",
+        "Roll": "13MA20050",
+        "Award": "Ashok Mukherjee Cup"
       },
       {
         "Name": "Mayank Srivastav",
         "Award": "Amrit Barman Memorial Award"
-      },
-      {
-        "Name": "Abin Devassia",
-        "Award": "Atheletics Excellence Alumni"
-      },
-      {
-        "Name": "Korabu Dimple Kapadia",
-        "Award": "Atheletics Excellence Alumni"
       }
     ]
   }
