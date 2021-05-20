@@ -81,10 +81,6 @@ body {
     background-color: #fff;
     border-radius: 20px;
     padding: 1rem;
-
-    @include sm {
-      margin: 1rem;
-    }
   }
 
   .events-slider {
