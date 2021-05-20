@@ -125,6 +125,7 @@ body {
   }
 
   .societies {
+    align-items: center;
     width: 85%;
     margin: 0 auto;
     margin-bottom: 2rem;
@@ -167,8 +168,6 @@ body {
 
     .society-cards {
       .card {
-        width: 40%;
-
         .intro {
           .image-container {
             .main-image {
@@ -176,6 +175,16 @@ body {
             }
           }
         }
+
+        @include sm {
+          width: 20rem;
+        }
+      }
+    }
+
+    .fest {
+      .card {
+        width: 40%;
 
         @include sm {
           width: 20rem;

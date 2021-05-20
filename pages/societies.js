@@ -10,7 +10,7 @@ export default function Societies() {
       <Head>
         <title>Societies</title>
       </Head>
-      <section className="contact content">
+      <section className="societies content">
         <h1>Societies &amp; Clubs</h1>
 
         <h2>Students' Welfare</h2>

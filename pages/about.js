@@ -75,7 +75,7 @@ export default function About() {
           <section className="fests">
             <h2>Fests</h2>
             <div className="main-content">
-              <div className="society-cards">
+              <div className="society-cards fest">
                 {festData.data.map((fest) => {
                   return (
                     <Card
