@@ -52,7 +52,7 @@ export default function Navbar() {
                 <li>
                   <a href="/societies">Societies</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/interIIT">Inter IIT</a>
                 </li>
                 <li>
@@ -60,7 +60,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a href="/openIIT">Open IIT</a>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
@@ -150,7 +150,7 @@ export default function Navbar() {
                 <li>
                   <a href="/societies">Societies</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/interIIT">Inter IIT</a>
                 </li>
                 <li>
@@ -158,7 +158,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a href="/openIIT">Open IIT</a>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li data-text="GC" className={`dropdown-title ${isDown_2 ? "down" : ""}`} onClick={() => dropdownNikal(2)}>
