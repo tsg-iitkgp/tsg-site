@@ -79,7 +79,7 @@ export default function Navbar() {
               Links <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li data-text="Blog">
-                  <a href="http://www.gymkhana.iitkgp.ac.in/blog" target="_blank" rel="noopener noreferrer">
+                  <a href="https://tsgblog.iitkgp.ac.in" target="_blank" rel="noopener noreferrer">
                     TSG Blog &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
@@ -177,7 +177,7 @@ export default function Navbar() {
               Links {isDown_3 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li data-text="Blog">
-                  <a href="http://www.gymkhana.iitkgp.ac.in/blog" target="_blank" rel="noopener noreferrer">
+                  <a href="https://tsgblog.iitkgp.ac.in" target="_blank" rel="noopener noreferrer">
                     TSG Blog &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
