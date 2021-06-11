@@ -27,9 +27,9 @@ export default function Sports() {
           <div className={`tab ${currentTab == "sports" ? "active" : ""}`} onClick={() => handleTabChange("sports")}>
             Sports &amp; Games
           </div>
-          <div className={`tab ${currentTab == "tech" ? "active" : ""}`} onClick={() => handleTabChange("tech")}>
+          {/* <div className={`tab ${currentTab == "tech" ? "active" : ""}`} onClick={() => handleTabChange("tech")}>
             Technology
-          </div>
+          </div> */}
           <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
             Socult
           </div>
@@ -46,7 +46,7 @@ export default function Sports() {
         <div className="chart">
           {currentTab == "sports" ? (
             <Chart
-              data={pointsData.sportsData}
+              data={pointsData.sports}
               keys={[
                 "badminton",
                 "lawnTennis",
@@ -66,7 +66,7 @@ export default function Sports() {
             />
           ) : (
             <Chart
-              data={pointsData.socultData}
+              data={pointsData.socult}
               keys={[
                 "easternVocals",
                 "westernVocals",
