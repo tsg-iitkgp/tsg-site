@@ -34,7 +34,6 @@ export default function Home() {
           <section className="events-slider">
             <h2> Upcoming Events</h2>
             <AwesomeSlider>
-              <div data-src="upcomingEvents/swg.png" />
               <div data-src="upcomingEvents/tls.jpg" />
               <div data-src="upcomingEvents/case_study.jpg" />
             </AwesomeSlider>
@@ -44,12 +43,12 @@ export default function Home() {
             <h2>Facilities and Events</h2>
             <div className="image-modals">
               <div className="column">
-                {facilitiesData.data.slice(0, 3).map((facility) => (
+                {facilitiesData.data.slice(0, 4).map((facility) => (
                   <ImageModal images={facility.images} description={facility.description} title={facility.title} />
                 ))}
               </div>
               <div className="column">
-                {facilitiesData.data.slice(4, 7).map((facility) => (
+                {facilitiesData.data.slice(5, 9).map((facility) => (
                   <ImageModal images={facility.images} description={facility.description} title={facility.title} />
                 ))}
               </div>

@@ -60,6 +60,10 @@
     .card-content {
       margin: 1rem 1rem;
 
+      a {
+        text-decoration: none;
+      }
+
       svg {
         color: black;
       }
