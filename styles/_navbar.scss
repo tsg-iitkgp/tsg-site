@@ -92,10 +92,12 @@
 
         .dropdown-content {
           display: none;
-          background-color: #f44336;
-          border-radius: 20px;
           color: #fff;
           white-space: nowrap;
+          border-radius: 10px;
+          white-space: nowrap;
+          background: linear-gradient(96.58deg, #ef2a5d 0%, #ee5434 100%);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 
           a {
             color: #fff;
