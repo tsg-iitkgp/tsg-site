@@ -1,18 +1,6 @@
 export default {
   data: [
     {
-      title: "Technology Swimming Pool",
-      images: ["facilities/pool.jpeg"],
-      description:
-        " Technology Swimming Pool or just swimming pool is located in the Gymkhana park near the TSG Lake.It is most centrally located in beside the Technology Student Gymkhana. The Swimming pools with their placid, clean, transparent and lovely-to-behold water are the star attraction of the technopolis. The open air swimming pool is best place to swim. The Pools, which remain open from morning to late evenings, provide sport, exercise and relaxation par excellence. The Swimming Form can be acquired online through the website of Technology Aquatic Society.",
-    },
-    {
-      title: "Tennis Court",
-      images: ["facilities/court.jpeg"],
-      description:
-        " There are 3 courts (2 Synthetic, 1 Hard Court), a Practice wall, enough for 6 people. The students are expected to fill the registration and pay a sum of 300 Rupees per year to avail the facilities. This also includes upto 3 Tennis Balls. In 2018, Vinod Gupta funded the lawn tennis court for 2 new courts as well as 2 coaches for a 3-week tennis training camp (open for all) in the same year (Jan - Feb). The 2 new courts are expected to be ready before the Inter IIT Sports 2019 (Dec), to be organised by Kharagpur.",
-    },
-    {
       title: "Jnan Ghosh Stadium",
       images: ["facilities/stadium.jpeg"],
       description:
@@ -30,18 +18,39 @@ export default {
       description: "",
     },
     {
-      title: "Water Sports",
+      title: "Technology Swimming Pool",
       images: ["facilities/waterball.png"],
-      description: "",
+      description:
+        " Technology Swimming Pool or just swimming pool is located in the Gymkhana park near the TSG Lake.It is most centrally located in beside the Technology Student Gymkhana. The Swimming pools with their placid, clean, transparent and lovely-to-behold water are the star attraction of the technopolis. The open air swimming pool is best place to swim. The Pools, which remain open from morning to late evenings, provide sport, exercise and relaxation par excellence. The Swimming Form can be acquired online through the website of Technology Aquatic Society.",
     },
     {
-      title: "Other Sports",
-      images: ["facilities/running.jpg"],
+      title: "Running",
+      images: ["facilities/AAD_0049.jpg"],
       description: "",
     },
     {
       title: "Illumination",
       images: ["facilities/illu.png"],
+      description: "",
+    },
+    {
+      title: "High Jump",
+      images: ["facilities/Manav_HJ.jpg"],
+      description: "",
+    },
+    {
+      title: "InterIIT Socult Continent",
+      images: ["facilities/Socult_Contingent_2018.jpg"],
+      description: "",
+    },
+    {
+      title: "InterIIT Sports",
+      images: ["facilities/InterIIT_GC.jpg"],
+      description: "",
+    },
+    {
+      title: "InterIIT Sports Contingent",
+      images: ["facilities/IMG_6002.JPG"],
       description: "",
     },
   ],

@@ -4,11 +4,11 @@ import Layout from "../components/layout";
 import awardsData from "../public/awardsData.json";
 import Card from "../components/contactCard";
 
-const years = ["2017", "2016", "2015"];
+const years = ["2017-18", "2016-17", "2015-16"];
 
 export default function Fame() {
   const [currentTab, setCurrentTab] = useState("sports");
-  const [currentYear, setCurrentYear] = useState("2015");
+  const [currentYear, setCurrentYear] = useState("2015-16");
 
   const handleTabChange = (s) => {
     setCurrentTab(s);

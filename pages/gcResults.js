@@ -5,11 +5,11 @@ import { ResponsiveBar } from "@nivo/bar";
 import pointsData from "../public/pointsData";
 import Chart from "../components/chart";
 
-const years = ["2018"];
+const years = ["2018-19"];
 
 export default function Sports() {
   const [currentTab, setCurrentTab] = useState("sports");
-  const [currentYear, setCurrentYear] = useState("2018");
+  const [currentYear, setCurrentYear] = useState("2018-19");
 
   const handleTabChange = (s) => {
     setCurrentTab(s);
@@ -27,9 +27,9 @@ export default function Sports() {
           <div className={`tab ${currentTab == "sports" ? "active" : ""}`} onClick={() => handleTabChange("sports")}>
             Sports &amp; Games
           </div>
-          <div className={`tab ${currentTab == "tech" ? "active" : ""}`} onClick={() => handleTabChange("tech")}>
+          {/* <div className={`tab ${currentTab == "tech" ? "active" : ""}`} onClick={() => handleTabChange("tech")}>
             Technology
-          </div>
+          </div> */}
           <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
             Socult
           </div>
@@ -46,7 +46,7 @@ export default function Sports() {
         <div className="chart">
           {currentTab == "sports" ? (
             <Chart
-              data={pointsData.sportsData}
+              data={pointsData.sports}
               keys={[
                 "badminton",
                 "lawnTennis",
@@ -66,7 +66,7 @@ export default function Sports() {
             />
           ) : (
             <Chart
-              data={pointsData.socultData}
+              data={pointsData.socult}
               keys={[
                 "easternVocals",
                 "westernVocals",

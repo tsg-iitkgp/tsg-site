@@ -1,5 +1,5 @@
 export default {
-  sportsData: [
+  sports: [
     {
       hall: "AZ",
       badminton: 10,
@@ -114,7 +114,7 @@ export default {
       tableTennisColor: "hsl(119, 70%, 50%)",
     },
   ],
-  socultData: [
+  socult: [
     {
       hall: "AZ",
       easternVocals: 25,
@@ -176,27 +176,6 @@ export default {
       hall: "MS",
       englishElocution: 12.5,
       englishElocutionColor: "hsl(75, 100%, 100%)",
-    },
-    {
-      hall: "MMM",
-    },
-    {
-      hall: "ZKH",
-    },
-    {
-      hall: "VS",
-    },
-    {
-      hall: "BCR",
-    },
-    {
-      hall: "SAM",
-    },
-    {
-      hall: "Gokhale",
-    },
-    {
-      hall: "RLB",
     },
     {
       hall: "LBS",

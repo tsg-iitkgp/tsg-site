@@ -1,0 +1,88 @@
+ {
+		"VP": [
+      {
+        "year": "2020-21",
+        "name": "Shivam Singh"
+      },
+      {
+        "year": "2018-19",
+        "name": "Vishal Kumar Singh"
+      },
+      {
+        "year": "2017-18",
+        "name": "Mayank Srivastava"
+      }
+		],
+		"GSecSports": [
+      {
+        "year": "2020-21",
+        "name": ["Manas Patidar, ", "Madhuri Endluri"]
+      },
+      {
+        "year": "2018-19",
+        "name": ["Piyush Agrawal, ", "Akash Bharadwaj"]
+      },
+      {
+        "year": "2017-18",
+        "name": ["Harsh Saraf, ", "Manish Datta"]
+      },
+      {
+        "year": "2016-17",
+        "name": ["Ayush Gurjar, ", "Spandana Silla"]
+      }
+		],
+		"GSecSocult": [
+      {
+        "year": "2020-21",
+        "name": ["Abhishek Raj, ", "Inakshi Kar"]
+      },
+      {
+        "year": "2018-19",
+        "name": ["Harshavardhan Mittal, ", "Vaibhav Khatwani"]
+      },
+      {
+        "year": "2017-18",
+        "name": ["Vaibhav Dusad, ", "Aman Choudhary"]
+      },
+      {
+        "year": "2016-17",
+        "name": ["Soham Saha, ", "Aiswarya Palavajjhala"]
+      }
+		],
+		"GSecTech": [
+      {
+        "year": "2020-21",
+        "name": ["Rushi Patel, ", "Mayank Priyadarshi"]
+      },
+      {
+        "year": "2018-19",
+        "name": ["Argha Paul, ", "Mogilla Palle Sai Rakesh"]
+      },
+      {
+        "year": "2017-18",
+        "name": ["Anusha Sharan, ", "Anmol Shakya"]
+      },
+      {
+        "year": "2016-17",
+        "name": ["Harsh Bharadwaj, ", "Yash"]
+      }
+		],
+		"GSecWelfare": [
+      {
+        "year": "2020-21",
+        "name":["Nikhil Kumar, ", "Aditi Singhania"] 
+      },
+      {
+        "year": "2019-20",
+        "name": ["Devang Upadhyay, ", "Tapasya Pratap Singh"]
+      },
+      {
+        "year": "2018-19",
+        "name": ["Abhrajit Saha, ", "Ruchin Raj"]
+      },
+      {
+        "year": "2017-18",
+        "name": ["Krushi Bandi, ", "Yashasvi Kanchugantla"]
+      }
+		]
+}
