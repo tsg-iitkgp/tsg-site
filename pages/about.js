@@ -35,12 +35,12 @@ export default function About() {
             <h2>Facilities and Events</h2>
             <div className="image-modals">
               <div className="column">
-                {facilitiesData.data.slice(0, 3).map((facility) => (
+                {facilitiesData.data.slice(0, 5).map((facility) => (
                   <ImageModal images={facility.images} description={facility.description} title={facility.title} />
                 ))}
               </div>
               <div className="column">
-                {facilitiesData.data.slice(4, 7).map((facility) => (
+                {facilitiesData.data.slice(5, 10).map((facility) => (
                   <ImageModal images={facility.images} description={facility.description} title={facility.title} />
                 ))}
               </div>
