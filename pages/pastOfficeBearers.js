@@ -41,14 +41,27 @@ export default function Sports() {
             <thead>
               <tr>
                 <th>Tenure</th>
-                <th>Name</th>
+                {currentPost.includes("G.Sec") ? (
+                  <>
+                    <th>Name</th>
+                    <th>Name</th>
+                  </>
+                ) : (
+                  <th>Name</th>
+                )}
               </tr>
             </thead>
             <tbody>
               {senateData[currentPost].map((item) => (
                 <tr>
                   <td>{item.year}</td>
-                  <td>{item.name} </td>
+                  {currentPost.includes("G.Sec") ? (
+                    <>
+                      <td>{item.name[0]}</td> <td>{item.name[1]}</td>
+                    </>
+                  ) : (
+                    <td>{item.name}</td>
+                  )}
                 </tr>
               ))}
             </tbody>
