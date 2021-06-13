@@ -108,14 +108,17 @@ body {
     margin: 0 auto;
     .image-modals {
       display: flex;
+      flex-direction: row;
       justify-content: center;
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+      }
 
       .image-container {
         padding: 0.5rem;
-      }
-
-      @include sm {
-        grid-template-columns: auto;
       }
     }
 
