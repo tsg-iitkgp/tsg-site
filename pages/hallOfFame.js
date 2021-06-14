@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import awardsData from "../public/awardsData.json";
 import Card from "../components/contactCard";
 
-const years = ["2017-18", "2016-17", "2015-16"];
+const years = ["2018-19","2017-18", "2016-17", "2015-16"];
 
 export default function Fame() {
   const [currentTab, setCurrentTab] = useState("sports");
@@ -23,14 +23,14 @@ export default function Fame() {
         <h2>TSG Awards!</h2>
 
         <div className="tabs">
+          <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
+            Social & Cultural
+          </div>
           <div className={`tab ${currentTab == "sports" ? "active" : ""}`} onClick={() => handleTabChange("sports")}>
             Sports &amp; Games
           </div>
           <div className={`tab ${currentTab == "tech" ? "active" : ""}`} onClick={() => handleTabChange("tech")}>
             Technology
-          </div>
-          <div className={`tab ${currentTab == "socult" ? "active" : ""}`} onClick={() => handleTabChange("socult")}>
-            Social & Cultural
           </div>
           {Object.keys(awardsData[currentYear]).length === 4 && (
             <div
