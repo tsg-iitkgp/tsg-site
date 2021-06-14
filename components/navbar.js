@@ -8,6 +8,7 @@ export default function Navbar() {
   const [isDown_1, setIsDown_1] = useState(false);
   const [isDown_2, setIsDown_2] = useState(false);
   const [isDown_3, setIsDown_3] = useState(false);
+  const [isDown_4, setIsDown_4] = useState(false);
 
   const router = useRouter();
 
@@ -25,6 +26,9 @@ export default function Navbar() {
         break;
       case 3:
         setIsDown_3(!isDown_3);
+        break;
+      case 4:
+        setIsDown_4(!isDown_4);
         break;
     }
   };
@@ -100,19 +104,24 @@ export default function Navbar() {
                 <li>
                   <a href="/pastOfficeBearers">Past Office Bearers</a>
                 </li>
-                <li>
-                  <a href="/staff">TSG Staff</a>
-                </li>
               </ul>
             </li>
             <li data-text="Hall of Fame" className="dropdown-title">
               <Link href="/hallOfFame">Hall of Fame</Link>
             </li>
+            <li data-text="GC" className="dropdown-title">
+              Contacts <Icon.ChevronDown />
+              <ul className="dropdown-content">
+                <li>
+                  <a href="/contacts">Current Office Bearers</a>
+                </li>
+                <li>
+                  <a href="/staff">TSG Staff</a>
+                </li>
+              </ul>
+            </li>
             <li data-text="TSG-Elections">
               <a href="/elections">TSG Elections</a>
-            </li>
-            <li data-text="Contacts">
-              <Link href="/contacts">Contacts</Link>
             </li>
           </ul>
         </div>
@@ -198,19 +207,24 @@ export default function Navbar() {
                 <li>
                   <a href="/pastOfficeBearers">Past Office Bearers</a>
                 </li>
-                <li>
-                  <a href="/staff">TSG Staff</a>
-                </li>
               </ul>
             </li>
             <li data-text="Hall of Fame" className="dropdown-title">
               <Link href="/hallOfFame">Hall of Fame</Link>
             </li>
+            <li data-text="GC" className={`dropdown-title ${isDown_4 ? "down" : ""}`} onClick={() => dropdownNikal(4)}>
+              Contacts {isDown_4 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
+              <ul className="dropdown-content">
+                <li>
+                  <a href="/contacts">Current Office Bearers</a>
+                </li>
+                <li>
+                  <a href="/staff">TSG Staff</a>
+                </li>
+              </ul>
+            </li>
             <li data-text="TSG-Elections">
               <a href="/elections">TSG Elections</a>
-            </li>
-            <li data-text="Contacts">
-              <Link href="/contacts">Contacts</Link>
             </li>
           </ul>
         </div>
