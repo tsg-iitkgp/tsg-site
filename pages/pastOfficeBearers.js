@@ -5,15 +5,17 @@ import senateData from "../public/senateData.json";
 
 const posts = [
   "Vice President",
+  "Undergraduate Representative",
+  "G.Sec Social & Cultural",
   "G.Sec Sports",
-  "G.Sec Technology",
-  "G.Sec SoCult",
   "G.Sec Student Welfare",
-  "Public Relations Chairperson",
-  "Technology Coordinator",
-  "UG Representative",
-  "Research Scholars' Representative",
+  "G.Sec Technology",
   "Postgraduate Representative",
+  "Research Scholar Representative",
+  "Women Representative",
+  "Public Relations Chairperson",
+  "TSG Editors",
+  "Technology Coordinator",
 ];
 
 export default function Sports() {
@@ -41,7 +43,7 @@ export default function Sports() {
             <thead>
               <tr>
                 <th>Tenure</th>
-                {currentPost.includes("G.Sec") ? (
+                {currentPost.includes("G.Sec") || currentPost.includes("Editors") ? (
                   <>
                     <th>Name</th>
                     <th>Name</th>
@@ -55,7 +57,7 @@ export default function Sports() {
               {senateData[currentPost].map((item) => (
                 <tr>
                   <td>{item.year}</td>
-                  {currentPost.includes("G.Sec") ? (
+                  {currentPost.includes("G.Sec") || currentPost.includes("Editors") ? (
                     <>
                       <td>{item.name[0]}</td> <td>{item.name[1]}</td>
                     </>
