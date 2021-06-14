@@ -5,17 +5,17 @@ import senateData from "../public/senateData.json";
 
 const posts = [
   "Vice President",
-  "Undergraduate Representative",
-  "G.Sec Social & Cultural",
   "G.Sec Sports",
-  "G.Sec Student Welfare",
+  "G.Sec Social & Cultural",
   "G.Sec Technology",
-  "Postgraduate Representative",
-  "Research Scholar Representative",
-  "Women Representative",
+  "G.Sec Student Welfare",
   "Public Relations Chairperson",
   "TSG Editors",
   "Technology Coordinator",
+  "Undergraduate Representative",
+  "Postgraduate Representative",
+  "Research Scholar Representative",
+  "Women Representative",
 ];
 
 export default function Sports() {
