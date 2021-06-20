@@ -42,13 +42,6 @@ export default function Contacts() {
           })}
         </div>
       </section>
-      <div className="tabs">
-        <div className="tab">
-          <a href="/all_office_bearers.pdf" target="_blank" rel="noopener noreferrer">
-            TSG Team 2020-21 &thinsp; <Icon.ExternalLink />
-          </a>
-        </div>
-      </div>
     </Layout>
   );
 }
