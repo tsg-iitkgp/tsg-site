@@ -7,10 +7,12 @@ import Card from "../components/societyCard";
 import societiesData from "../public/societiesData";
 import festData from "../public/festData";
 import AwesomeSlider from "react-awesome-slider";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/open-animation.css";
 
 export default function Home() {
+  const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <>
       <Layout>
@@ -33,10 +35,10 @@ export default function Home() {
         <section className="m-content">
           <section className="events-slider">
             <h2> Upcoming Events</h2>
-            <AwesomeSlider>
+            <AutoplaySlider play={true} interval={6000}>
               <div data-src="upcomingEvents/tls.jpg" />
               <div data-src="upcomingEvents/case_study.jpg" />
-            </AwesomeSlider>
+            </AutoplaySlider>
           </section>
 
           <section className="facilities">

@@ -1,279 +1,511 @@
 {
+    "President, TSG": [
+        {
+            "year": "AUG 2020 - PRESENT",
+            "name": "Prof. A K Singh"
+        },
+        {
+            "year": "AUG 2017 - AUG 2020",
+            "name": "Prof. William K. Mohanty"
+        },
+        {
+            "year": "SEPT 2014 - AUG 2017",
+            "name": "Prof. Somesh Kumar"
+        },
+        {
+            "year": "OCT 2013 - AUG 2014",
+            "name": "Prof. Joy Sen"
+        },
+        {
+            "year": "SEPT 2007 - SEPT 2013",
+            "name": "Prof. M Bhattacharya"
+        },
+        {
+            "year": "SEPT 2005 - SEPT 2007",
+            "name": "Prof. N S Raghuwanshi"
+        },
+        {
+            "year": "JULY 2002 - AUG 2005",
+            "name": "Prof. Golok Nando"
+        },
+        {
+            "year": "JULY 2000 - AUG 2002",
+            "name": "Prof. S K Dey"
+        },
+        {
+            "year": "MAY 1998 - JUNE 2000",
+            "name": "Prof. V R Kalvey"
+        },
+        {
+            "year": "JULY 1995 - MAY 1998 ",
+            "name": "Prof. B N Sreedhar"
+        },
+        {
+            "year": "JULY 1994 - JUNE 1995",
+            "name": "Prof. M  Mukhopadayaya"
+        },
+        {
+            "year": "JULY 1992 - JUNE 1994",
+            "name": "Prof. S Roy"
+        },
+        {
+            "year": "APRIL 1990 - JUNE 1992",
+            "name": "Prof. R K  Mukherjee"
+        },
+        {
+            "year": "APRIL 1988 - MARCH 1990",
+            "name": "Prof. M    Singh"
+        },
+        {
+            "year": "NOV 1985 - MARCH 1988",
+            "name": "Prof. N K Purohit"
+        },
+        {
+            "year": "JULY 1984 - NOV 1985",
+            "name": "Prof. Y P Singh"
+        },
+        {
+            "year": "JULY 1982 - JULY 1984",
+            "name": "Prof. A  Mukherjee"
+        },
+        {
+            "year": "MARCH 1981 - JUNE 1982",
+            "name": "Prof. P K Rajgopalan"
+        },
+        {
+            "year": "JULY 1980 - MARCH 1981",
+            "name": "Prof. J K Mukherjee"
+        },
+        {
+            "year": "JULY 1978 - JULY 1980",
+            "name": "Prof. P N Chakraborty"
+        },
+        {
+            "year": "NOV 1977 - JUN 1978",
+            "name": "Prof. M N Faruqui"
+        },
+        {
+            "year": "MAY 1977 - OCT 1977",
+            "name": "Prof. P K Rajgopalan"
+        },
+        {
+            "year": "JULY 1976 - MAY 1977",
+            "name": "Prof. P K Sen"
+        },
+        {
+            "year": "SEPT 1974 - JUNE 1976",
+            "name": "Prof. K C Sahu"
+        },
+        {
+            "year": "JULY 1972 - OCT 1974",
+            "name": "Prof. J Das"
+        },
+        {
+            "year": "MARCH 1970 - JUNE 1972",
+            "name": "Prof. G S Sanyal"
+        },
+        {
+            "year": "JULY 1968 - MARCH 1970",
+            "name": "Prof. K G Chandiranani"
+        },
+        {
+            "year": "JULY 1965 - JUNE 1968",
+            "name": "Prof. P R Dhar"
+        },
+        {
+            "year": "APRIL 1963 - JUNE 1965",
+            "name": "Prof. M N Rao"
+        },
+        {
+            "year": "JULY 1961 - APRIL 1963",
+            "name": "Prof. R Misra"
+        },
+        {
+            "year": "JULY 1956 - JUNE 1961",
+            "name": "Prof. S C Mitra"
+        },
+        {
+            "year": "JULY 1951 - JUNE 1956",
+            "name": "Prof. B R Seth"
+        }
+    ],
+    "Treasurer, TSG": [
+        {
+            "year": "SEPT 2014 - PRESENT",
+            "name": "Prof. Kingshook Bhattacharya"
+        },
+        {
+            "year": "AUG 2011 - AUG 2014",
+            "name": "Prof. Somesh Kumar"
+        },
+        {
+            "year": "SEPT 2008 - AUG 2011",
+            "name": "Prof. M K Panigrahi"
+        },
+        {
+            "year": "SEPT 2005 - SEPT 2008 ",
+            "name": "Prof. Somesh Kumar"
+        },
+        {
+            "year": "SEPT 2002 - AUG 2005",
+            "name": "Prof. S K Srivastava"
+        },
+        {
+            "year": "JUNE 2000 - AUG 2002",
+            "name": "Prof. J   Bhattacharya"
+        },
+        {
+            "year": "JULY 1997 - JUNE 2000",
+            "name": "Dr. A K Bhattacharya"
+        },
+        {
+            "year": "JUNE 1995 - JUNE 1997",
+            "name": "Dr. S K Satsangi"
+        },
+        {
+            "year": "JULY 1992 - JUNE 1995",
+            "name": "Prof. A K Banthia"
+        },
+        {
+            "year": "JULY 1990 - JUNE 1992",
+            "name": "Prof. A K Bhattacharya"
+        },
+        {
+            "year": "APRIL 1988 - JULY 1990",
+            "name": "Prof. A K Roy"
+        },
+        {
+            "year": "APRIL 1986 - MARCH 1988",
+            "name": "Prof. V G Rau"
+        },
+        {
+            "year": "DEC 1985 - APRIL 1986",
+            "name": "Prof. R S Nirjar"
+        },
+        {
+            "year": "JULY 1984 - JUNE 1985",
+            "name": "Prof. N K Purohit"
+        },
+        {
+            "year": "JULY 1982 - JUNE 1984",
+            "name": "Prof. S V Singh"
+        },
+        {
+            "year": "JULY 1978 - JUNE 1982",
+            "name": "Prof. B K Mohanti"
+        },
+        {
+            "year": "JULY 1977 - JUNE 1978",
+            "name": "Prof. B N Avasthi"
+        },
+        {
+            "year": "JULY 1976 - JUNE 1977",
+            "name": "Prof. P N Chakraborty"
+        },
+        {
+            "year": "JULY 1974 - JUNE 1976",
+            "name": "Prof. B N Neogy"
+        },
+        {
+            "year": "JULY 1972 - JUNE 1974",
+            "name": "Prof. J P Kundu"
+        },
+        {
+            "year": "JULY 1965 - JUNE 1972",
+            "name": "Prof. S C Das"
+        },
+        {
+            "year": "JULY 1963 - JUNE 1965",
+            "name": "Prof. H N Dutta"
+        },
+        {
+            "year": "JULY 1960 - JUNE 1963",
+            "name": "Prof. G B Mitra"
+        },
+        {
+            "year": "JULY 1957 - JUNE 1960",
+            "name": "Prof. S C Das"
+        },
+        {
+            "year": "JULY 1951 - JUNE 1957",
+            "name": "Prof. S K Sen"
+        }
+    ],
     "Vice President": [
         {
-            "year": "2020-21",
+            "year": "2020-2021",
             "name": "Shivam Singh"
         },
         {
-            "year": "2019-20",
+            "year": "2019-2020",
             "name": "Ninaad Lohakare"
         },
         {
-            "year": "2018-19",
+            "year": "2018-2019",
             "name": "Vishal Kumar Singh"
         },
         {
-            "year": "2017-18",
+            "year": "2017-2018",
             "name": "Mayank Srivastava"
         },
         {
-            "year": "2016-17",
+            "year": "2016-2017",
             "name": "Sovan Panigrahi"
         },
         {
-            "year": "2015-16",
+            "year": "2015-2016",
             "name": "Atal Ashutosh Agarwal"
         },
         {
-            "year": "2014-15",
+            "year": "2014-2015",
             "name": "Punj Rajan"
         },
         {
-            "year": "2013-14",
+            "year": "2013-2014",
             "name": "Apoorv Jain"
         },
         {
-            "year": "2012-13",
+            "year": "2012-2013",
             "name": "Rinshul Chandra"
         },
         {
-            "year": "2011-12",
+            "year": "2011-2012",
             "name": "Prateek Agrawal"
         },
         {
-            "year": "2010-11",
+            "year": "2010-2011",
             "name": "Celestine Joseph"
         },
         {
-            "year": "2009-10",
+            "year": "2009-2010",
             "name": "Shubham Matah"
         },
         {
-            "year": "2008-09",
+            "year": "2008-2009",
             "name": "Kumar Arnav"
         },
         {
-            "year": "2007-08",
+            "year": "2007-2008",
             "name": "Kunal Kashyap"
         },
         {
-            "year": "2006-07",
+            "year": "2006-2007",
             "name": "Deepak Rathee"
         },
         {
-            "year": "2005-06",
+            "year": "2005-2006",
             "name": "Arindam Mukherjee"
         },
         {
-            "year": "2004-05",
+            "year": "2004-2005",
             "name": "Souvik Adhya"
         },
         {
-            "year": "2003-04",
+            "year": "2003-2004",
             "name": "Saket Kumar"
         },
         {
-            "year": "2002-03",
+            "year": "2002-2003",
             "name": "Abhinav Sinha"
         },
         {
-            "year": "2001-02",
+            "year": "2001-2002",
             "name": "Shashank Mohan"
         },
         {
-            "year": "2000-01",
+            "year": "2000-2001",
             "name": "Mihir Naware"
         },
         {
-            "year": "1999-00",
+            "year": "1999-2000",
             "name": "Debdeep Chatterjee"
         },
         {
-            "year": "1998-99",
+            "year": "1998-1999",
             "name": "Narayanaswamy Muthukumar"
         },
         {
-            "year": "1997-98",
+            "year": "1997-1998",
             "name": "Amitava Sarkar"
         },
         {
-            "year": "1996-97",
+            "year": "1996-1997",
             "name": "A Giridhar Rao"
         },
         {
-            "year": "1995-96",
+            "year": "1995-1996",
             "name": "S Rajgopalam"
         },
         {
-            "year": "1994-95",
+            "year": "1994-1995",
             "name": "C Prabhu"
         },
         {
-            "year": "1993-94",
+            "year": "1993-1994",
             "name": "V N Krishna"
         },
         {
-            "year": "1992-93",
+            "year": "1992-1993",
             "name": "Raja Shankar"
         },
         {
-            "year": "1991-92",
+            "year": "1991-1992",
             "name": "Paresh Nath Paul"
         },
         {
-            "year": "1990-91",
+            "year": "1990-1991",
             "name": "Puneet Singh Kochar"
         },
         {
-            "year": "1989-90",
+            "year": "1989-1990",
             "name": "Lal Chakraborty"
         },
         {
-            "year": "1988-89",
+            "year": "1988-1989",
             "name": "Ananda Bhoumik"
         },
         {
-            "year": "1987-88",
+            "year": "1987-1988",
             "name": "Rajiv Shukla"
         },
         {
-            "year": "1986-87",
+            "year": "1986-1987",
             "name": "Rahul Bhargava"
         },
         {
-            "year": "1985-86",
+            "year": "1985-1986",
             "name": "Arjun Sen"
         },
         {
-            "year": "1984-85",
+            "year": "1984-1985",
             "name": "Supratik Bhowmik"
         },
         {
-            "year": "1983-84",
+            "year": "1983-1984",
             "name": "Amitabh Choudhary"
         },
         {
-            "year": "1982-83",
+            "year": "1982-1983",
             "name": "Debashis Ghosh"
         },
         {
-            "year": "1981-82",
+            "year": "1981-1982",
             "name": "Viswaranjan Ghosh"
         },
         {
-            "year": "1980-81",
+            "year": "1980-1981",
             "name": "Zafar Abbas Khan"
         },
         {
-            "year": "1979-80",
+            "year": "1979-1980",
             "name": "T Kalyanaraman"
         },
         {
-            "year": "1978-79",
+            "year": "1978-1979",
             "name": "Veerendra Jaitly"
         },
         {
-            "year": "1977-78",
+            "year": "1977-1978",
             "name": "Arindam Banerjee"
         },
         {
-            "year": "1976-77",
+            "year": "1976-1977",
             "name": "Samir Chattopadhyay"
         },
         {
-            "year": "1975-76",
+            "year": "1975-1976",
             "name": "Finney Thomas"
         },
         {
-            "year": "1974-75",
+            "year": "1974-1975",
             "name": "Yatindra Pal Singh Suri"
         },
         {
-            "year": "1973-74",
+            "year": "1973-1974",
             "name": "R Srinivasan"
         },
         {
-            "year": "1972-73",
+            "year": "1972-1973",
             "name": "Y P Dubey"
         },
         {
-            "year": "1971-72",
+            "year": "1971-1972",
             "name": "Amit Roy"
         },
         {
-            "year": "1970-71",
+            "year": "1970-1971",
             "name": "J S Shani"
         },
         {
-            "year": "1969-70",
+            "year": "1969-1970",
             "name": "Arun Jain"
         },
         {
-            "year": "1968-69",
+            "year": "1968-1969",
             "name": "Barun Roy"
         },
         {
-            "year": "1967-68",
+            "year": "1967-1968",
             "name": "R K Khanna"
         },
         {
-            "year": "1966-67",
+            "year": "1966-1967",
             "name": "R Gopalakrishnan"
         },
         {
-            "year": "1965-66",
+            "year": "1965-1966",
             "name": "Devendra Mishra"
         },
         {
-            "year": "1964-65",
+            "year": "1964-1965",
             "name": "Prabir Gupta"
         },
         {
-            "year": "1963-64",
+            "year": "1963-1964",
             "name": "Shyamal Sur"
         },
         {
-            "year": "1962-63",
+            "year": "1962-1963",
             "name": "P K Sarathy"
         },
         {
-            "year": "1961-62",
+            "year": "1961-1962",
             "name": "H Thukral"
         },
         {
-            "year": "1960-61",
+            "year": "1960-1961",
             "name": "Deshbir Singh"
         },
         {
-            "year": "1959-60",
+            "year": "1959-1960",
             "name": "M Sunderrajan"
         },
         {
-            "year": "1958-59",
+            "year": "1958-1959",
             "name": "R K Khanna"
         },
         {
-            "year": "1957-58",
+            "year": "1957-1958",
             "name": "N S Mohan Rao"
         },
         {
-            "year": "1956-57",
+            "year": "1956-1957",
             "name": "S D Sharma"
         },
         {
-            "year": "1955-56",
+            "year": "1955-1956",
             "name": "S V Dikshit"
         },
         {
-            "year": "1954-55",
+            "year": "1954-1955",
             "name": "R N Mago"
         },
         {
-            "year": "1953-54",
+            "year": "1953-1954",
             "name": "S Mukherjee"
         },
         {
-            "year": "1952-53",
+            "year": "1952-1953",
             "name": "P K Sandell"
         }
     ],
@@ -284,7 +516,7 @@
         },
         {
             "year": "2019-2020",
-            "name": "Santosh TYSS"
+            "name": "Santosh Tyss"
         },
         {
             "year": "2018-2019",
@@ -351,6 +583,10 @@
             "name": "Debashish Pal"
         },
         {
+            "year": "2002-2003",
+            "name": " "
+        },
+        {
             "year": "2001-2002",
             "name": "Manish Kumar Pankaj"
         },
@@ -389,6 +625,14 @@
         {
             "year": "1992-1993",
             "name": "P  Yathish"
+        },
+        {
+            "year": "1991-1992",
+            "name": " "
+        },
+        {
+            "year": "1990-1991",
+            "name": " "
         },
         {
             "year": "1989-1990",
@@ -669,7 +913,8 @@
         {
             "year": "1982-1983",
             "name": [
-                "Bijay Das"
+                "Bijay Das",
+                "------- -------"
             ]
         },
         {
@@ -696,7 +941,8 @@
         {
             "year": "1978-1979",
             "name": [
-                "Melville  D'Souza"
+                "Melville  D'Souza",
+                "------- -------"
             ]
         },
         {
@@ -921,7 +1167,8 @@
         {
             "year": "1994-1995",
             "name": [
-                "Anand Devgan"
+                "Anand Devgan",
+                "-------- --------"
             ]
         },
         {
@@ -1290,6 +1537,14 @@
             "name": "K Sadanandam"
         },
         {
+            "year": "2002-2003",
+            "name": " "
+        },
+        {
+            "year": "2001-2002",
+            "name": " "
+        },
+        {
             "year": "2000-2001",
             "name": "Biswarup Roy"
         },
@@ -1306,6 +1561,10 @@
             "name": "A Nagaraju"
         },
         {
+            "year": "1996-1997",
+            "name": " "
+        },
+        {
             "year": "1995-1996",
             "name": "Dibyendu Das"
         },
@@ -1320,6 +1579,14 @@
         {
             "year": "1992-1993",
             "name": "Prakash Krishna Murthy"
+        },
+        {
+            "year": "1991-1992",
+            "name": " "
+        },
+        {
+            "year": "1990-1991",
+            "name": " "
         },
         {
             "year": "1989-1990",
@@ -1404,6 +1671,10 @@
             "name": "Rajan Ailavadi"
         },
         {
+            "year": "2002-2003",
+            "name": " "
+        },
+        {
             "year": "2001-2002",
             "name": "Subba Reddy"
         },
@@ -1416,12 +1687,24 @@
             "name": "Prabir Kumar Datta"
         },
         {
+            "year": "1998-1999",
+            "name": " "
+        },
+        {
             "year": "1997-1998",
             "name": "Radha Krishna Das"
         },
         {
+            "year": "1996-1997",
+            "name": " "
+        },
+        {
             "year": "1995-1996",
             "name": "Samarjit Ghosh"
+        },
+        {
+            "year": "1994-1995",
+            "name": " "
         },
         {
             "year": "1993-1994",
@@ -1432,110 +1715,20 @@
             "name": "Akhilesh Kumar Joshi"
         },
         {
+            "year": "1991-1992",
+            "name": " "
+        },
+        {
+            "year": "1990-1991",
+            "name": " "
+        },
+        {
+            "year": "1989-1990",
+            "name": " "
+        },
+        {
             "year": "1988-1989",
             "name": "Anupam Kumar"
-        }
-    ],
-    "Women Representative": [
-        {
-            "year": "2020-2021",
-            "name": "Saumyata  Khandelwal"
-        },
-        {
-            "year": "2018-2019",
-            "name": "Sanyka  Banerjee"
-        },
-        {
-            "year": "2017-2018",
-            "name": "Jayasi  Nath"
-        },
-        {
-            "year": "2016-2017",
-            "name": "Manognya Deepthi  Gorthy"
-        }
-    ],
-    "Public Relations Chairperson": [
-        {
-            "year": "2020-2021",
-            "name": "Avi Sankritya"
-        },
-        {
-            "year": "2019-2020",
-            "name": "Akshat Jain"
-        },
-        {
-            "year": "2018-2019",
-            "name": "Raghav Agarwal"
-        },
-        {
-            "year": "2017-2018",
-            "name": "Pratyush Vivek"
-        },
-        {
-            "year": "2016-2017",
-            "name": "Shubhangi Bhushan"
-        },
-        {
-            "year": "2015-2016",
-            "name": "Vyom Shrivastava"
-        },
-        {
-            "year": "2014-2015",
-            "name": "Hardik Rajpal"
-        },
-        {
-            "year": "2013-2014",
-            "name": "Aishwarya Roy"
-        },
-        {
-            "year": "2012-2013",
-            "name": "Sayak Bhattacharya"
-        },
-        {
-            "year": "2011-2012",
-            "name": "Sagnik Chakraborty"
-        },
-        {
-            "year": "2010-2011",
-            "name": "Sudipto Sannigrahi"
-        },
-        {
-            "year": "2009-2010",
-            "name": "Anupam Singh"
-        },
-        {
-            "year": "2008-2009",
-            "name": "Pulkit Anand"
-        }
-    ],
-    "TSG Editors": [
-        {
-            "year": "2020-2021",
-            "name": [
-                "Nandini Bajaj",
-                "Rohit A"
-            ]
-        },
-        {
-            "year": "2019-2020",
-            "name": [
-                "Rana Madhvendra",
-                "Shruti Priya"
-            ]
-        },
-        {
-            "year": "2018-2019",
-            "name": [
-                "Ratnottam Das",
-                "Shreya Santra"
-            ]
-        },
-        {
-            "year": "2017-2018",
-            "name": [
-                "Rahul Raj",
-                "Antra Saxena"
-            ]
         }
     ],
     "Technology Coordinator": [
@@ -1550,6 +1743,28 @@
         {
             "year": "2018-2019",
             "name": "Dibya Das"
+        }
+    ],
+    "Women Representative": [
+        {
+            "year": "2020-2021",
+            "name": "Saumyata  Khandelwal"
+        },
+        {
+            "year": "2019-2020",
+            "name": "-------- --------"
+        },
+        {
+            "year": "2018-2019",
+            "name": "Sanyka  Banerjee"
+        },
+        {
+            "year": "2017-2018",
+            "name": "Jayasi  Nath"
+        },
+        {
+            "year": "2016-2017",
+            "name": "Manognya Deepthi  Gorthy"
         }
     ]
 }
