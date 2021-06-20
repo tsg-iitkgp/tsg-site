@@ -21,7 +21,7 @@ const posts = [
 ];
 
 export default function Sports() {
-  const [currentPost, setCurrentPost] = useState("President, TSG");
+  const [currentPost, setCurrentPost] = useState("President");
 
   return (
     <Layout>
