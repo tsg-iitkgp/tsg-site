@@ -4,10 +4,10 @@ import Layout from "../components/layout";
 import senateData from "../public/senateData.json";
 
 const posts = [
-  "President, TSG",
-  "Treasurer, TSG",
+  "President",
+  "Hony. Treasurer",
   "Vice President",
-  "G.Sec Sports",
+  "G.Sec Sports & Games",
   "G.Sec Social & Cultural",
   "G.Sec Technology",
   "G.Sec Student Welfare",
@@ -21,7 +21,7 @@ const posts = [
 ];
 
 export default function Sports() {
-  const [currentPost, setCurrentPost] = useState("President, TSG");
+  const [currentPost, setCurrentPost] = useState("President");
 
   return (
     <Layout>
