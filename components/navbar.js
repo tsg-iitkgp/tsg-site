@@ -58,6 +58,9 @@ export default function Navbar() {
                 <li>
                   <Link href="/societies">Societies</Link>
                 </li>
+                <li>
+                  <Link href="/committees">Committees</Link>
+                </li>
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
