@@ -27,7 +27,7 @@ export default function Elections() {
             className={`tab ${currentTab == "gsecSports" ? "active" : ""}`}
             onClick={() => handleTabChange("gsecSports")}
           >
-            G.Sec Sports
+            G.Sec Sports &amp; Games
           </div>
           <div
             className={`tab ${currentTab == "gsecSoCult" ? "active" : ""}`}

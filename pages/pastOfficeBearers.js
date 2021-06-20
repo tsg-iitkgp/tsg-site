@@ -7,7 +7,7 @@ const posts = [
   "President",
   "Hony. Treasurer",
   "Vice President",
-  "G.Sec Sports",
+  "G.Sec Sports & Games",
   "G.Sec Social & Cultural",
   "G.Sec Technology",
   "G.Sec Student Welfare",

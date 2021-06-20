@@ -70,10 +70,10 @@ export default function Societies() {
             })}
         </div>
 
-        <h2>Sports Societies</h2>
+        <h2>Sports &amp; Games Societies</h2>
         <div className="society-cards">
           {societiesData.data
-            .filter((a) => a.category === "Sports")
+            .filter((a) => a.category === "Sports & Games")
             .map((society) => {
               return (
                 <Card
