@@ -98,7 +98,7 @@ export default function Navbar() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Complaint Form &thinsp; <Icon.ExternalLink />
+                    Grievance Form &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
                 <li>
@@ -201,7 +201,7 @@ export default function Navbar() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Complaint Form &thinsp; <Icon.ExternalLink />
+                    Grievance Form &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
                 <li>

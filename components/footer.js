@@ -10,9 +10,11 @@ export default function Footer() {
             West Bengal - 721302
           </p>
           <a href="https://www.facebook.com/TSG.IITKharagpur" target="_blank" rel="noreferrer noopener">
-          <Icon.Facebook size={24}/></a>
+            <Icon.Facebook size={24} />
+          </a>
           <a href="https://twitter.com/tsg_iitkgp" target="_blank" rel="noreferrer noopener">
-          <Icon.Twitter size={24} /></a>
+            <Icon.Twitter size={24} />
+          </a>
         </li>
       </ul>
       <ul>
@@ -37,7 +39,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Complaint Form
+            Grievance Form
           </a>
         </li>
       </ul>
