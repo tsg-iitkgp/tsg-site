@@ -61,7 +61,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
-              Updates <Icon.ChevronDown />
+              Results <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li>
                   <Link href="/gcResults">GC Results</Link>
@@ -156,7 +156,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li data-text="GC" className={`dropdown-title ${isDown_2 ? "down" : ""}`} onClick={() => dropdownNikal(2)}>
-              Updates {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
+              Results {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li>
                   <Link href="/gcResults">GC Results</Link>
