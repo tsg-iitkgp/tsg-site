@@ -39,9 +39,11 @@ export default function Navbar() {
         <div className="wrapper">
           <div className="logo">
             {router.pathname !== "/" ? (
-              <a href="/">
-                <img src="IIT_Kharagpur_Logo.svg" /> &thinsp; TSG
-              </a>
+              <Link href="/">
+                <a>
+                  <img src="IIT_Kharagpur_Logo.svg" /> &thinsp; TSG
+                </a>
+              </Link>
             ) : (
               ""
             )}
@@ -51,32 +53,22 @@ export default function Navbar() {
               About <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li>
-                  <a href="/about">About Us</a>
+                  <Link href="/about">About Us</Link>
                 </li>
                 <li>
-                  <a href="/societies">Societies</a>
+                  <Link href="/societies">Societies</Link>
                 </li>
-                {/* <li>
-                  <a href="/interIIT">Inter IIT</a>
-                </li>
-                <li>
-                  <a href="/gc">General Championship</a>
-                </li>
-                <li>
-                  <a href="/openIIT">Open IIT</a>
-                </li> */}
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
               Updates <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li>
-                  <a href="/gcResults">GC Results</a>
+                  <Link href="/gcResults">GC Results</Link>
                 </li>
                 <li>
-                  <a href="/interIITResults">InterIIT Results</a>
+                  <Link href="/interIITResults">InterIIT Results</Link>
                 </li>
-                {/* <li>OpenIIT Results</li> */}
               </ul>
             </li>
             <li data-text="Links" className="dropdown-title">
@@ -102,7 +94,7 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <a href="/pastOfficeBearers">Past Office Bearers</a>
+                  <Link href="/pastOfficeBearers">Past Office Bearers</Link>
                 </li>
               </ul>
             </li>
@@ -113,15 +105,15 @@ export default function Navbar() {
               Contacts <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li>
-                  <a href="/contacts">Current Office Bearers</a>
+                  <Link href="/contacts">Current Office Bearers</Link>
                 </li>
                 <li>
-                  <a href="/staff">TSG Staff</a>
+                  <Link href="/staff">TSG Staff</Link>
                 </li>
               </ul>
             </li>
             <li data-text="TSG-Elections">
-              <a href="/elections">TSG Elections</a>
+              <Link href="/elections">TSG Elections</Link>
             </li>
           </ul>
         </div>
@@ -131,9 +123,11 @@ export default function Navbar() {
         <div className="bar">
           <div className="logo">
             {router.pathname !== "/" ? (
-              <a href="/">
-                <img src="IIT_Kharagpur_Logo.svg" />
-              </a>
+              <Link href="/">
+                <a>
+                  <img src="IIT_Kharagpur_Logo.svg" />
+                </a>
+              </Link>
             ) : (
               ""
             )}
@@ -154,32 +148,22 @@ export default function Navbar() {
               About {isDown_1 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li>
-                  <a href="/about">About Us</a>
+                  <Link href="/about">About Us</Link>
                 </li>
                 <li>
-                  <a href="/societies">Societies</a>
+                  <Link href="/societies">Societies</Link>
                 </li>
-                {/* <li>
-                  <a href="/interIIT">Inter IIT</a>
-                </li>
-                <li>
-                  <a href="/gc">GC</a>
-                </li>
-                <li>
-                  <a href="/openIIT">Open IIT</a>
-                </li> */}
               </ul>
             </li>
             <li data-text="GC" className={`dropdown-title ${isDown_2 ? "down" : ""}`} onClick={() => dropdownNikal(2)}>
               Updates {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li>
-                  <a href="/gcResults">GC Results</a>
+                  <Link href="/gcResults">GC Results</Link>
                 </li>
                 <li>
-                  <a href="/interIITResults">InterIIT Results</a>
+                  <Link href="/interIITResults">InterIIT Results</Link>
                 </li>
-                {/* <li>OpenIIT Results</li> */}
               </ul>
             </li>
             <li data-text="GC" className={`dropdown-title ${isDown_3 ? "down" : ""}`} onClick={() => dropdownNikal(3)}>
@@ -205,7 +189,7 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <a href="/pastOfficeBearers">Past Office Bearers</a>
+                  <Link href="/pastOfficeBearers">Past Office Bearers</Link>
                 </li>
               </ul>
             </li>
@@ -216,15 +200,15 @@ export default function Navbar() {
               Contacts {isDown_4 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li>
-                  <a href="/contacts">Current Office Bearers</a>
+                  <Link href="/contacts">Current Office Bearers</Link>
                 </li>
                 <li>
-                  <a href="/staff">TSG Staff</a>
+                  <Link href="/staff">TSG Staff</Link>
                 </li>
               </ul>
             </li>
             <li data-text="TSG-Elections">
-              <a href="/elections">TSG Elections</a>
+              <Link href="/elections">TSG Elections</Link>
             </li>
           </ul>
         </div>
