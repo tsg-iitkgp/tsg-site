@@ -1,6 +1,16 @@
 export default {
   data: [
     {
+      title: "Technology Students' Gymkhana",
+      images: ["facilities/tsg.svg"],
+      description: "",
+    },
+    {
+      title: "Lakeside, TSG",
+      images: ["facilities/lakeside.jpeg"],
+      description: "",
+    },
+    {
       title: "Jnan Ghosh Stadium",
       images: ["facilities/stadium.jpeg"],
       description:
