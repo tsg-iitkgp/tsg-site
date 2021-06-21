@@ -26,5 +26,8 @@
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "sass": "^1.30.0"
+  },
+  "devDependencies": {
+    "yarn-audit-fix": "^6.3.2"
   }
 }
