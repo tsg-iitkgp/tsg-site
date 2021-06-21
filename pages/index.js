@@ -36,8 +36,7 @@ export default function Home() {
           <section className="events-slider">
             <h2> Upcoming Events</h2>
             <AutoplaySlider play={true} interval={6000}>
-              <div data-src="upcomingEvents/tls.jpg" />
-              <div data-src="upcomingEvents/case_study.jpg" />
+              <div data-src="upcomingEvents/yoga.jpeg" />
             </AutoplaySlider>
           </section>
         </section>
