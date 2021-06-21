@@ -40,22 +40,6 @@ export default function Home() {
               <div data-src="upcomingEvents/case_study.jpg" />
             </AutoplaySlider>
           </section>
-
-          <section className="facilities">
-            <h2>Facilities and Events</h2>
-            <div className="image-modals">
-              <div className="column">
-                {facilitiesData.data.slice(0, 5).map((facility) => (
-                  <ImageModal images={facility.images} description={facility.description} title={facility.title} />
-                ))}
-              </div>
-              <div className="column">
-                {facilitiesData.data.slice(5, 10).map((facility) => (
-                  <ImageModal images={facility.images} description={facility.description} title={facility.title} />
-                ))}
-              </div>
-            </div>
-          </section>
         </section>
       </Layout>
     </>

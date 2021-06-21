@@ -7,7 +7,7 @@ import Card from "../components/contactCard";
 const years = ["2019-20", "2018-19", "2017-18", "2016-17", "2015-16"];
 
 export default function Fame() {
-  const [currentTab, setCurrentTab] = useState("sports");
+  const [currentTab, setCurrentTab] = useState("socult");
   const [currentYear, setCurrentYear] = useState("2019-20");
 
   const handleTabChange = (s) => {

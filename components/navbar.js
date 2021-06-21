@@ -9,6 +9,7 @@ export default function Navbar() {
   const [isDown_2, setIsDown_2] = useState(false);
   const [isDown_3, setIsDown_3] = useState(false);
   const [isDown_4, setIsDown_4] = useState(false);
+  const [isDown_5, setIsDown_5] = useState(false);
 
   const router = useRouter();
 
@@ -29,6 +30,9 @@ export default function Navbar() {
         break;
       case 4:
         setIsDown_4(!isDown_4);
+        break;
+      case 5:
+        setIsDown_5(!isDown_5);
         break;
     }
   };
@@ -58,10 +62,13 @@ export default function Navbar() {
                 <li>
                   <Link href="/societies">Societies</Link>
                 </li>
+                <li>
+                  <Link href="/committees">Committees</Link>
+                </li>
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
-              Updates <Icon.ChevronDown />
+              Results <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li>
                   <Link href="/gcResults">GC Results</Link>
@@ -98,8 +105,16 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
-            <li data-text="Hall of Fame" className="dropdown-title">
-              <Link href="/hallOfFame">Hall of Fame</Link>
+            <li data-text="GC" className="dropdown-title">
+              Hall of Fame <Icon.ChevronDown />
+              <ul className="dropdown-content">
+                <li>
+                  <Link href="/tsgAwards">TSG Awards</Link>
+                </li>
+                <li>
+                  <Link href="/achievements">Our Achievements</Link>
+                </li>
+              </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
               Contacts <Icon.ChevronDown />
@@ -156,7 +171,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li data-text="GC" className={`dropdown-title ${isDown_2 ? "down" : ""}`} onClick={() => dropdownNikal(2)}>
-              Updates {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
+              Results {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li>
                   <Link href="/gcResults">GC Results</Link>
@@ -193,8 +208,16 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
-            <li data-text="Hall of Fame" className="dropdown-title">
-              <Link href="/hallOfFame">Hall of Fame</Link>
+            <li data-text="GC" className={`dropdown-title ${isDown_5 ? "down" : ""}`} onClick={() => dropdownNikal(5)}>
+              Hall of Fame {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
+              <ul className="dropdown-content">
+                <li>
+                  <Link href="/tsgAwards">TSG Awards</Link>
+                </li>
+                <li>
+                  <Link href="/achievements">Our Achievements</Link>
+                </li>
+              </ul>
             </li>
             <li data-text="GC" className={`dropdown-title ${isDown_4 ? "down" : ""}`} onClick={() => dropdownNikal(4)}>
               Contacts {isDown_4 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
