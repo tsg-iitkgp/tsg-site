@@ -3,7 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1c5fc833-1398-4d2e-98d2-3bb5bf99b8bb/deploy-status)](https://app.netlify.com/sites/tsg-site/deploys)
 [![Build, export and publish to build branch on push](https://github.com/tsg-iitkgp/tsg-site/actions/workflows/build-export.yaml/badge.svg)](https://github.com/tsg-iitkgp/tsg-site/actions/workflows/build-export.yaml)
 
-Deployed at: [:earth_asia: tsg-site](https://tsg-site.netlify.app/)
+Deployed at: [:earth_asia: tsg-site](http://www.gymkhana.iitkgp.ac.in/) and [:earth_asia: tsg-site](https://tsg-site.netlify.app/)
 
 ## Getting Started
 
