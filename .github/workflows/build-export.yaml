@@ -1,13 +1,17 @@
-on: push
 name: Build, export and publish to build branch on push
+on:
+  push:
+    branches: [master]
+
 jobs:
   build-export-and-deploy:
     name: Build, export and publish sample site to the `build` branch
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - name: checkout
+        uses: actions/checkout@v2
       - name: Build with the latest action rev
-        uses: tsg-iitkgp/next-build-export-action@v1.0
+        uses: tsg-iitkgp/next-build-export-action@v1.1
         env:
           BUILD_DIR: .
           PAGES_BRANCH: build
