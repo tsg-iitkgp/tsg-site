@@ -1,7 +1,7 @@
 name: Build, export and publish to build branch on push
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build-export-and-deploy:
