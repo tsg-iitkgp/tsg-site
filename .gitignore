@@ -33,3 +33,18 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+.Xauthority
+.bash_history
+.cache/
+.config/
+.dbus/
+.eslintrc.js
+.htaccess
+.idea/
+.local/
+.mozilla/
+.mysql_history
+.pip/
+.python_history
+.ssh/
