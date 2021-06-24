@@ -62,9 +62,9 @@ export default function Navbar() {
                 <li>
                   <Link href="/societies">Societies</Link>
                 </li>
-                {/* <li>
+                <li>
                   <Link href="/committees">Committees</Link>
-                </li> */}
+                </li>
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
@@ -112,7 +112,7 @@ export default function Navbar() {
                   <Link href="/tsgAwards">TSG Awards</Link>
                 </li>
                 <li>
-                  <Link href="/achievements">Our Achievers</Link>
+                  <Link href="#">Our Achievers</Link>
                 </li>
               </ul>
             </li>
@@ -168,6 +168,9 @@ export default function Navbar() {
                 <li>
                   <Link href="/societies">Societies</Link>
                 </li>
+                <li>
+                  <Link href="/committees">Committees</Link>
+                </li>
               </ul>
             </li>
             <li data-text="GC" className={`dropdown-title ${isDown_2 ? "down" : ""}`} onClick={() => dropdownNikal(2)}>
@@ -215,7 +218,7 @@ export default function Navbar() {
                   <Link href="/tsgAwards">TSG Awards</Link>
                 </li>
                 <li>
-                  <Link href="/achievements">Our Achievements</Link>
+                  <Link href="#">Our Achievements</Link>
                 </li>
               </ul>
             </li>
