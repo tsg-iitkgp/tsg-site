@@ -2445,19 +2445,10 @@
     ]
   },
   "2019-20": {
-    "specialRecog": {
-      "awards": [
-        {
-          "Name": "Ninaad Lohakare",
-          "Roll": "16ME31003",
-          "Award": "Amrit Barman Memorial Award"
-        }
-      ]
-    },
     "tech": {
       "awards": [
         {
-          "Name": "TYSS Santosh",
+          "Name": "Tyss Santosh",
           "Roll": "15CS30037",
           "Award": "Prof. G.S Sanyal Cup"
         },
@@ -2502,6 +2493,46 @@
           "Name": "Rohan Sewani",
           "Roll": "15MF3IM13",
           "Award": "Institute Order Of Merit"
+        },
+        {
+          "Name": "Ankush Roy",
+          "Roll": "15ME3306",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Aditi Kambli",
+          "Roll": "15NA3FP04",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Arpit Garg",
+          "Roll": "16CH10011",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Ayush Mohanty",
+          "Roll": "15MF3IM16",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Nirmalya Panigrahi",
+          "Roll": "16ME10015",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Bindu Sancheti",
+          "Roll": "15CH30031",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Rajshekar Singhania",
+          "Roll": "15IM3FP06",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Syaamantak Das",
+          "Roll": "15ET91R01",
+          "Award": "Honourable Mention"
         }
       ]
     },
@@ -2563,6 +2594,26 @@
           "Name": "Karnika Vashisth",
           "Roll": "15HS20018",
           "Award": "Institute Order Of Merit"
+        },
+        {
+          "Name": "Indresh",
+          "Roll": "15BT30008",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Sushil Subash Bagate",
+          "Roll": "15MT10008",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Nikhilesh Jaiswal",
+          "Roll": "15NA30011",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Zaki Ahmed Qureshi",
+          "Roll": "15ME33029",
+          "Award": "Honourable Mention"
         },
         {
           "Name": "Sourav Kundu",
@@ -2627,7 +2678,9 @@
           "Game": "Athletics",
           "Roll": "17IM30030",
           "Award": "Alumni Cup"
-        },
+        }
+      ],
+      "honours": [
         {
           "Name": "Eslavath Jagadeesh",
           "Game": "",
@@ -2687,9 +2740,7 @@
           "Game": "",
           "Roll": "18EE30020",
           "Award": "Athletics Excelence Alumni Award"
-        }
-      ],
-      "honours": [
+        },
         {
           "Name": "Eslavath Jagadeesh",
           "Game": "Athletics",
@@ -2817,6 +2868,54 @@
           "Award": "Institute Blue"
         },
         {
+          "Name": "Chawan Prathamesh",
+          "Game": "Tennis",
+          "Roll": "15CS30010",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Karumanchi Mahima",
+          "Game": "Badminton",
+          "Roll": "16EC10030",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Ayush Malik",
+          "Game": "Volleyball",
+          "Roll": "18CS60R26",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Arhat Ambedkar",
+          "Game": "Weight Lifting",
+          "Roll": "16ME31022",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Neeraj Kumar",
+          "Game": "Athletics",
+          "Roll": "15MI31023",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Dhairya Solanki",
+          "Game": "Football",
+          "Roll": "16CE10055",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Maya Bunkar",
+          "Game": "Basketball",
+          "Roll": "15HS20021",
+          "Award": "Honourable Mention"
+        },
+        {
+          "Name": "Snigdha Pathak",
+          "Game": "Tennis",
+          "Roll": "15CY20028",
+          "Award": "Honourable Mention"
+        },
+        {
           "Name": "Sagun Tudu",
           "Game": "Hockey",
           "Roll": "18CS60R46",
@@ -2841,6 +2940,13 @@
           "Award": "Special Mention"
         }
       ]
-    }
+    },
+    "specialRecog": [
+      {
+        "Name": "Ninaad Lohakare",
+        "Roll": "16ME31003",
+        "Award": "Amrit Barman Memorial Award"
+      }
+    ]
   }
 }

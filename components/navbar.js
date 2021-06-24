@@ -62,19 +62,19 @@ export default function Navbar() {
                 <li>
                   <Link href="/societies">Societies</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/committees">Committees</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
               Results <Icon.ChevronDown />
               <ul className="dropdown-content">
                 <li>
-                  <Link href="/gcResults">GC Results</Link>
+                  <Link href="/gcResults">General Championship</Link>
                 </li>
                 <li>
-                  <Link href="/interIITResults">InterIIT Results</Link>
+                  <Link href="/interIITResults">Inter IIT Meet</Link>
                 </li>
               </ul>
             </li>
@@ -112,7 +112,7 @@ export default function Navbar() {
                   <Link href="/tsgAwards">TSG Awards</Link>
                 </li>
                 <li>
-                  <Link href="/achievements">Our Achievements</Link>
+                  <Link href="/achievements">Our Achievers</Link>
                 </li>
               </ul>
             </li>
@@ -174,10 +174,10 @@ export default function Navbar() {
               Results {isDown_2 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
                 <li>
-                  <Link href="/gcResults">GC Results</Link>
+                  <Link href="/gcResults">General Championship</Link>
                 </li>
                 <li>
-                  <Link href="/interIITResults">InterIIT Results</Link>
+                  <Link href="/interIITResults">Inter IIT Meet</Link>
                 </li>
               </ul>
             </li>
