@@ -10,7 +10,7 @@ export default function Committees() {
       <Head>
         <title>Committees</title>
       </Head>
-
+      <h1>Committees</h1>
       <h2>Sports &amp; Games Societies</h2>
       <div className="society-cards">
         {committeesData.data
@@ -28,7 +28,6 @@ export default function Committees() {
       </div>
 
       <section className="societies content">
-        <h1>Committees</h1>
         <h2>Social &amp; Cultural Societies</h2>
         <div className="society-cards">
           {committeesData.data
@@ -45,7 +44,7 @@ export default function Committees() {
             })}
         </div>
 
-        <h2>Tech Societies</h2>
+        <h2>Technology Societies</h2>
         <div className="society-cards">
           {committeesData.data
             .filter((a) => a.category === "Tech")

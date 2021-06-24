@@ -63,7 +63,7 @@ export default function Navbar() {
                   <Link href="/societies">Societies</Link>
                 </li>
                 <li>
-                  <Link href="/committees">Committees</Link>
+                  <Link href="#">Committees</Link>
                 </li>
               </ul>
             </li>
@@ -169,7 +169,7 @@ export default function Navbar() {
                   <Link href="/societies">Societies</Link>
                 </li>
                 <li>
-                  <Link href="/committees">Committees</Link>
+                  <Link href="#">Committees</Link>
                 </li>
               </ul>
             </li>
