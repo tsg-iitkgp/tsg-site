@@ -21,7 +21,7 @@ export default function ImageModal(props) {
 
         {props.SOPLink ? (
           <iframe
-            src="https://www.youtube.com/watch?v=iZf1QdDA270"
+            src="https://youtube.com/watch?v=iZf1QdDA270"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

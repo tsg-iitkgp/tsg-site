@@ -67,7 +67,7 @@ export default {
         { name: "Shubhra Mishra", email: "shubhramishrakota2310@gmail.com" },
         { name: "Aviral Jain (Head of Photography)", email: "jainaviral898@gmail.com" },
       ],
-      website: "https://www.youtube.com/channel/UCZzBPd0ceMq4EzKNibqAyaA",
+      website: "https://youtube.com/channel/UCZzBPd0ceMq4EzKNibqAyaA",
     },
 
     {
