@@ -13,6 +13,11 @@ import "react-awesome-slider/dist/custom-animations/open-animation.css";
 
 export default function Home() {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
+
+  const handlePosterClick = (videoLink) => {
+    window.open(videoLink);
+  };
+
   return (
     <>
       <Layout>
@@ -36,7 +41,10 @@ export default function Home() {
           <section className="events-slider">
             <h2> Upcoming Events</h2>
             <AutoplaySlider play={true} interval={6000}>
-              <div data-src="upcomingEvents/yoga.jpeg" />
+              <div
+                data-src="upcomingEvents/yoga.jpeg"
+                onClick={() => handlePosterClick("https://youtu.be/TTjrMd5d36E")}
+              />
             </AutoplaySlider>
           </section>
         </section>

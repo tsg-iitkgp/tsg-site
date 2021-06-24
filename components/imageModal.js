@@ -19,20 +19,33 @@ export default function ImageModal(props) {
       <Modal isOpen={modalIsOpen} onRequestClose={handleModalClose} contentLabel="Image description">
         <h1> {props.title} </h1>
 
-        {/* {props.images.map((image) => ( */}
-        <img className="modal-image" src={props.images} />
-        {/* ))} */}
-
-        <p>{props.description}</p>
-        {props.Heads?.length > 0 ? (
-          <p>
-            <h4>Heads:</h4>
-            {props.Heads.map((head) => (
-              <li> {head.name} (<a href={"mailto:" + head.email}>{head.email}</a>) </li>
-            ))}
-          </p>
+        {props.SOPLink ? (
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         ) : (
-          ""
+          <>
+            <img className="modal-image" src={props.images} />
+
+            <p>{props.description}</p>
+            {props.Heads?.length > 0 ? (
+              <p>
+                <h4>Heads:</h4>
+                {props.Heads.map((head) => (
+                  <li>
+                    {" "}
+                    {head.name} (<a href={"mailto:" + head.email}>{head.email}</a>){" "}
+                  </li>
+                ))}
+              </p>
+            ) : (
+              ""
+            )}
+          </>
         )}
       </Modal>
     </div>

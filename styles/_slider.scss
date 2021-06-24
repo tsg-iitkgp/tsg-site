@@ -1,4 +1,6 @@
 .awssld {
+  cursor: pointer;
+
   --slider-transition-duration: 360ms !important;
 
   --organic-arrow-thickness: 11px !important;
@@ -6,4 +8,10 @@
 
   --control-bullet-active-color: #67ecfd !important;
   --control-bullet-color: #f44336 !important;
+
+  .awssld__content {
+    img {
+      object-fit: fill;
+    }
+  }
 }
