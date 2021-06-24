@@ -137,7 +137,7 @@ export default {
       name: "Strategy Events Subcommittee",
       description: "",
       shortform: "strategy",
-      category: "Socult",
+      category: "Tech",
       Heads: [],
     },
   ],
