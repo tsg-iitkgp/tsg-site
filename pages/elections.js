@@ -4,8 +4,11 @@ import Layout from "../components/layout";
 import Card from "../components/electionCard";
 import electionData from "../public/electionsData";
 
+const posts = ["badminton", "squash"];
+
 export default function Elections() {
   const [currentTab, setCurrentTab] = useState("vp");
+  const [currentPost, setCurrentPost] = useState("2018-19");
 
   const handleTabChange = (s) => {
     setCurrentTab(s);
@@ -49,6 +52,15 @@ export default function Elections() {
           </div>
         </div>
         <h2>Candidates</h2>
+        {currentTab === "secy" && (
+          <select value={currentPost} onChange={(e) => setCurrentPost(e.target.value)}>
+            {posts.map((post) => (
+              <option key={post} value={post}>
+                {post}
+              </option>
+            ))}
+          </select>
+        )}
         <div className="main-content">
           <div className="society-cards">
             <div className="cards">
