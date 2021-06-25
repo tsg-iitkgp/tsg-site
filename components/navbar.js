@@ -10,6 +10,7 @@ export default function Navbar() {
   const [isDown_3, setIsDown_3] = useState(false);
   const [isDown_4, setIsDown_4] = useState(false);
   const [isDown_5, setIsDown_5] = useState(false);
+  const [isDown_6, setIsDown_6] = useState(false);
 
   const router = useRouter();
 
@@ -33,6 +34,9 @@ export default function Navbar() {
         break;
       case 5:
         setIsDown_5(!isDown_5);
+        break;
+      case 6:
+        setIsDown_6(!isDown_6);
         break;
     }
   };
@@ -127,8 +131,19 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
-            <li data-text="TSG-Elections">
-              <Link href="/elections">TSG Elections</Link>
+            <li data-text="GC" className="dropdown-title">
+              TSG Elections <Icon.ChevronDown />
+              <ul className="dropdown-content">
+                <li>
+                  <Link href="/elections">Candidates</Link>
+                </li>
+                <li>
+                  <Link href="#">Schedule</Link>
+                </li>
+                <li>
+                  <Link href="#">Rulebook</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -233,8 +248,19 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
-            <li data-text="TSG-Elections">
-              <Link href="/elections">TSG Elections</Link>
+            <li data-text="GC" className={`dropdown-title ${isDown_6 ? "down" : ""}`} onClick={() => dropdownNikal(6)}>
+              TSG Elections {isDown_6 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
+              <ul className="dropdown-content">
+                <li>
+                  <Link href="/elections">Candidates</Link>
+                </li>
+                <li>
+                  <Link href="#">Schedule</Link>
+                </li>
+                <li>
+                  <Link href="#">Rulebook</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
