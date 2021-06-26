@@ -10,7 +10,7 @@ const posts = [
   "G.Sec Sports & Games",
   "G.Sec Social & Cultural",
   "G.Sec Technology",
-  "G.Sec Student Welfare",
+  "G.Sec Students' Welfare",
   "Public Relations Chairperson",
   "TSG Editors",
   "Technology Coordinator",

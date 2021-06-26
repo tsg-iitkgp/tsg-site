@@ -1319,7 +1319,7 @@
             ]
         }
     ],
-    "G.Sec Student Welfare": [
+    "G.Sec Students' Welfare": [
         {
             "year": "2020-2021",
             "name": [
@@ -1819,6 +1819,36 @@
         {
             "year": "2008-2009",
             "name": "Pulkit Anand"
+        }
+    ],
+    "TSG Editors": [
+        {
+            "year": "2020-2021",
+            "name": [
+                "Nandini Bajaj",
+                "Rohit A"
+            ]
+        },
+        {
+            "year": "2019-2020",
+            "name": [
+                "Rana Madhvendra",
+                "Shruti Priya"
+            ]
+        },
+        {
+            "year": "2018-2019",
+            "name": [
+                "Ratnottam Das",
+                "Shreya Santra"
+            ]
+        },
+        {
+            "year": "2017-2018",
+            "name": [
+                "Rahul Raj",
+                "Antra Saxena"
+            ]
         }
     ]
 }

@@ -68,7 +68,7 @@ export default function Elections() {
             G.Sec Tech
           </div>
           <div className={`tab ${currentTab == "gsecSW" ? "active" : ""}`} onClick={() => handleTabChange("gsecSW")}>
-            G.Sec Student Welfare
+            G.Sec Students' Welfare
           </div>
           <div className={`tab ${currentTab == "secy" ? "active" : ""}`} onClick={() => handleTabChange("secy")}>
             Secretaries
