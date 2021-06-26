@@ -4,6 +4,7 @@
 
   h1 {
     font-size: 3rem;
+    margin: 1rem;
   }
 
   blockquote {
@@ -14,6 +15,10 @@
 
   @include sm {
     width: 100%;
+
+    h1 {
+      margin: 0.5rem;
+    }
 
     h2 {
       text-align: center;
