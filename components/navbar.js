@@ -96,11 +96,6 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <a href="/files/nomination_helpfile.pdf" target="_blank" rel="noopener noreferrer">
-                    Nomitation Helpfile &thinsp; <Icon.ExternalLink />
-                  </a>
-                </li>
-                <li>
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSft9FXZYvLiNt3oy0K3Iu4d6HoE830RhNWFHMXx1R4IjlhHKA/viewform"
                     target="_blank"
@@ -147,6 +142,11 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link href="/files/election_rulebook.pdf">Rulebook</Link>
+                </li>
+                <li>
+                  <a href="/files/nomination_helpfile.pdf" target="_blank" rel="noopener noreferrer">
+                    Nomitation Help &thinsp; <Icon.ExternalLink />
+                  </a>
                 </li>
               </ul>
             </li>
@@ -218,11 +218,6 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <a href="/files/nomination_helpfile.pdf" target="_blank" rel="noopener noreferrer">
-                    Nomitation Helpfile &thinsp; <Icon.ExternalLink />
-                  </a>
-                </li>
-                <li>
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSft9FXZYvLiNt3oy0K3Iu4d6HoE830RhNWFHMXx1R4IjlhHKA/viewform"
                     target="_blank"
@@ -269,6 +264,11 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link href="/files/election_rulebook.pdf">Rulebook</Link>
+                </li>
+                <li>
+                  <a href="/files/nomination_helpfile.pdf" target="_blank" rel="noopener noreferrer">
+                    Nomitation Help &thinsp; <Icon.ExternalLink />
+                  </a>
                 </li>
               </ul>
             </li>
