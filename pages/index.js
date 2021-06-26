@@ -45,6 +45,14 @@ export default function Home() {
                 data-src="upcomingEvents/yoga.jpeg"
                 onClick={() => handlePosterClick("https://youtu.be/TTjrMd5d36E")}
               />
+              <div
+                data-src="upcomingEvents/powerhours.jpeg"
+                onClick={() =>
+                  handlePosterClick(
+                    "https://www.facebook.com/sports.iitkgp/photos/a.1375720849317078/2787958148093334/"
+                  )
+                }
+              />
             </AutoplaySlider>
           </section>
           <section className="facilities">
