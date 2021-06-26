@@ -248,8 +248,8 @@ export default {
       {
         Sport: "Overall",
         Gold: "Kharagpur",
-        Silver: "Bombay",
-        Bronze: "Roorkee",
+        Silver: "Delhi",
+        Bronze: "BHU",
       },
       {
         Sport: "Swimming",
@@ -333,9 +333,9 @@ export default {
     [
       {
         Sport: "Overall",
-        Gold: "Kharagpur",
-        Silver: "Bombay",
-        Bronze: "Roorkee",
+        Gold: "Madras",
+        Silver: "Kharagpur",
+        Bronze: "Kanpur",
       },
       {
         Sport: "Swimming",
