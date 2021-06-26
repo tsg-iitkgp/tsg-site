@@ -40,7 +40,11 @@ export default function Home() {
         <section className="m-content">
           <section className="events-slider">
             <h2> Upcoming Events</h2>
-            <AutoplaySlider play={true} interval={6000}>
+            <AutoplaySlider play={true} interval={5000}>
+              <div
+                data-src="/upcomingEvents/elections.jpeg"
+                onClick={() => handlePosterClick("/files/election_notif.pdf")}
+              />
               <div
                 data-src="/upcomingEvents/yoga.jpeg"
                 onClick={() => handlePosterClick("https://youtu.be/TTjrMd5d36E")}
