@@ -138,12 +138,12 @@ export default function Navbar() {
                   <Link href="/elections">Candidates</Link>
                 </li>
                 <li>
-                  <Link href="/files/election_schedule.pdf" target="_blank" rel="noopener noreferrer">
+                  <Link href="#" target="_blank" rel="noopener noreferrer">
                     Schedule
                   </Link>
                 </li>
                 <li>
-                  <Link href="/files/election_rulebook.pdf" target="_blank" rel="noopener noreferrer">
+                  <Link href="#" target="_blank" rel="noopener noreferrer">
                     Rulebook
                   </Link>
                 </li>
@@ -259,12 +259,12 @@ export default function Navbar() {
                   <Link href="/elections">Candidates</Link>
                 </li>
                 <li>
-                  <Link href="/files/election_schedule.pdf" target="_blank" rel="noopener noreferrer">
+                  <Link href="#" target="_blank" rel="noopener noreferrer">
                     Schedule
                   </Link>
                 </li>
                 <li>
-                  <Link href="/files/election_rulebook.pdf" target="_blank" rel="noopener noreferrer">
+                  <Link href="#" target="_blank" rel="noopener noreferrer">
                     Rulebook
                   </Link>
                 </li>
