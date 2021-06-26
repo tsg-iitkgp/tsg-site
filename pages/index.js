@@ -28,7 +28,7 @@ export default function Home() {
         <section className="intro">
           <section className="home">
             <div className="logo">
-              <img src="IIT_Kharagpur_Logo.svg" />
+              <img src="/IIT_Kharagpur_Logo.svg" />
             </div>
             <div className="headings">
               <h1>Technology Students' Gymkhana</h1>
@@ -42,11 +42,11 @@ export default function Home() {
             <h2> Upcoming Events</h2>
             <AutoplaySlider play={true} interval={6000}>
               <div
-                data-src="upcomingEvents/yoga.jpeg"
+                data-src="/upcomingEvents/yoga.jpeg"
                 onClick={() => handlePosterClick("https://youtu.be/TTjrMd5d36E")}
               />
               <div
-                data-src="upcomingEvents/powerhours.jpeg"
+                data-src="/upcomingEvents/powerhours.jpeg"
                 onClick={() =>
                   handlePosterClick(
                     "https://www.facebook.com/sports.iitkgp/photos/a.1375720849317078/2787958148093334/"

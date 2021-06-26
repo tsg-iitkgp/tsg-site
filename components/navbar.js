@@ -49,7 +49,7 @@ export default function Navbar() {
             {router.pathname !== "/" ? (
               <Link href="/">
                 <a>
-                  <img src="IIT_Kharagpur_Logo.svg" /> &thinsp; TSG
+                  <img src="/IIT_Kharagpur_Logo.svg" /> &thinsp; TSG
                 </a>
               </Link>
             ) : (
@@ -155,7 +155,7 @@ export default function Navbar() {
             {router.pathname !== "/" ? (
               <Link href="/">
                 <a>
-                  <img src="IIT_Kharagpur_Logo.svg" />
+                  <img src="/IIT_Kharagpur_Logo.svg" />
                 </a>
               </Link>
             ) : (

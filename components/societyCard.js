@@ -10,7 +10,7 @@ export default function Card(props) {
     >
       <div className="intro">
         <ImageModal
-          images={`societies/${props.shortform}.png`}
+          images={`/societies/${props.shortform}.png`}
           description={props.description}
           title={props.name}
           Heads={props.Heads}
