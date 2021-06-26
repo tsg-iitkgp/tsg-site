@@ -96,6 +96,11 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
+                  <a href="/files/nomination_helpfile.pdf" target="_blank" rel="noopener noreferrer">
+                    Nomitation Helpfile &thinsp; <Icon.ExternalLink />
+                  </a>
+                </li>
+                <li>
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSft9FXZYvLiNt3oy0K3Iu4d6HoE830RhNWFHMXx1R4IjlhHKA/viewform"
                     target="_blank"
@@ -210,6 +215,11 @@ export default function Navbar() {
                 <li>
                   <a href="/files/Gymkhana_Constitution.pdf" target="_blank" rel="noopener noreferrer">
                     TSG Constitution &thinsp; <Icon.ExternalLink />
+                  </a>
+                </li>
+                <li>
+                  <a href="/files/nomination_helpfile.pdf" target="_blank" rel="noopener noreferrer">
+                    Nomitation Helpfile &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
                 <li>
