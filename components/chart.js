@@ -7,7 +7,7 @@ export default function Chart(props) {
       data={props.data}
       layout={props.layout}
       keys={props.keys}
-      indexBy="hall"
+      indexBy="HALL"
       margin={{ top: 50, right: 130, bottom: 150, left: 60 }}
       padding={0.3}
       valueScale={{ type: "linear" }}
