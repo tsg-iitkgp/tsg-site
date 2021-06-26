@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Layout, { siteTitle } from "../components/layout";
 
 import facilitiesData from "../public/facilities";
@@ -66,9 +67,9 @@ export default function About() {
                   );
                 })}
               </div>
-              <a className="fake-button" href="/societies">
-                More
-              </a>
+              <div className="fake-button">
+                <Link href="/societies">More</Link>
+              </div>
             </div>
           </section>
 
