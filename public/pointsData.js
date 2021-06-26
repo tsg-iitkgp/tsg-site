@@ -57,7 +57,7 @@ export default {
       hockeyColor: "hsl(115, 70%, 50%)",
       chess: 6,
       chessColor: "hsl(200, 40%, 50%)",
-      cricket: 20,
+      cricket: 10,
     },
     {
       hall: "MMM",
