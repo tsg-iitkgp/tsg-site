@@ -91,7 +91,7 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <a href="/Gymkhana_Constitution.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/files/Gymkhana_Constitution.pdf" target="_blank" rel="noopener noreferrer">
                     TSG Constitution &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
@@ -208,7 +208,7 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <a href="/Gymkhana_Constitution.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/files/Gymkhana_Constitution.pdf" target="_blank" rel="noopener noreferrer">
                     TSG Constitution &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
