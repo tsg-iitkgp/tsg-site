@@ -4,7 +4,30 @@ import Layout from "../components/layout";
 import Card from "../components/electionCard";
 import electionData from "../public/electionsData";
 
-const posts = ["badminton", "squash"];
+const posts = [
+  "Football",
+  "Cricket",
+  "Hockey",
+  "Tennis",
+  "Indoor Games",
+  "Volleyball",
+  "Basketball",
+  "Badminton",
+  "Gymnasium & Weightlifting",
+  "Athletics",
+  "Aquatics",
+  "Squash",
+  "Entertainment",
+  "Dramatics",
+  "Journal",
+  "Literary",
+  "Film & Photography",
+  "Fine Arts & Modelling",
+  "Knowledge Cup",
+  "Application Cup",
+  "Innovation Cup",
+  "Strategy Cup",
+];
 
 export default function Elections() {
   const [currentTab, setCurrentTab] = useState("vp");
@@ -36,7 +59,7 @@ export default function Elections() {
             className={`tab ${currentTab == "gsecSoCult" ? "active" : ""}`}
             onClick={() => handleTabChange("gsecSoCult")}
           >
-            G.Sec SoCult
+            G.Sec Social &amp; Cultural
           </div>{" "}
           <div
             className={`tab ${currentTab == "gsecTech" ? "active" : ""}`}
@@ -51,7 +74,6 @@ export default function Elections() {
             Secretaries
           </div>
         </div>
-        <h2>Candidates</h2>
         {currentTab === "secy" && (
           <select value={currentPost} onChange={(e) => setCurrentPost(e.target.value)}>
             {posts.map((post) => (
@@ -61,6 +83,7 @@ export default function Elections() {
             ))}
           </select>
         )}
+        <h2>Candidates</h2>
         <div className="main-content">
           <div className="society-cards">
             <div className="cards">
