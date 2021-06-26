@@ -15,6 +15,9 @@ export default function Footer() {
           <a href="https://twitter.com/tsg_iitkgp" target="_blank" rel="noreferrer noopener">
             <Icon.Twitter size={24} />
           </a>
+          <a href="https://www.youtube.com/channel/UCuTNELMlkNfJxAQ2vGJIe5Q" target="_blank" rel="noreferrer noopener">
+            <Icon.Youtube size={24} />
+          </a>
           <a href="https://github.com/tsg-iitkgp/tsg-site" target="_blank" rel="noreferrer noopener">
             <Icon.GitHub size={24} />
           </a>
