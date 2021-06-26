@@ -278,10 +278,10 @@ export default {
     },
 
     {
-      name: "Technology Culinary Arts Society",
+      name: "Aroma: Technology Culinary Arts Society",
       description:
         "Technology Culinary Arts Society (abbreviated TCAS) was created in Spring 2019. It was created in response to the introduction of culinary events in the 3rd Inter IIT Cultural Meet held at IIT Roorkee in December 2018. The objective of the society was to encourage the interest of students in culinary activities.",
-      facebook_link: "https://www.facebook.com/tcaskgp/",
+      facebook_link: "https://www.facebook.com/aroma.iitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Culinary_Arts_Society",
       shortform: "tcas",
       category: "Socult",
