@@ -57,6 +57,14 @@ export default function Home() {
                   )
                 }
               />
+              <div
+                data-src="/upcomingEvents/powerhours_schedule.jpg"
+                onClick={() =>
+                  handlePosterClick(
+                    "https://www.facebook.com/sports.iitkgp/photos/a.1375720849317078/2787958148093334/"
+                  )
+                }
+              />
             </AutoplaySlider>
           </section>
           <section className="facilities">
