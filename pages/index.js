@@ -61,7 +61,7 @@ export default function Home() {
                 data-src="/upcomingEvents/powerhours_schedule.jpg"
                 onClick={() =>
                   handlePosterClick(
-                    "https://www.facebook.com/sports.iitkgp/photos/a.1375720849317078/2787958148093334/"
+                    "https://docs.google.com/forms/d/e/1FAIpQLSd0jBBoJ9bTd75vN4J0ROA5uPsfFtBS-DvHgCYZENOwB_q76g/viewform"
                   )
                 }
               />
