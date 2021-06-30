@@ -1,16 +1,10 @@
 export default {
   data: [
     {
-      RollNo: "19MT30020",
-      Name: "Siddharth Vinod",
+      RollNo: "19AG3FP13",
+      Name: "Barchha Dhawal Samir",
       Post: "Secretary, Sports & Games",
-      Email: "vinodsiddharth@gmail.com",
-    },
-    {
-      RollNo: "19PH20012",
-      Name: "Gowri Mohana Gondi",
-      Post: "Secretary, Sports & Games",
-      Email: "GOWRIMOHANAGONDI@IITKGP.AC.IN",
+      Email: "dhawalbarchha27@gmail.com",
     },
     {
       RollNo: "19PH20037",
@@ -31,10 +25,16 @@ export default {
       Email: "prashantjangid2000@gmail.com",
     },
     {
-      RollNo: "19AG3FP13",
-      Name: "Barchha Dhawal Samir",
+      RollNo: "19MT30020",
+      Name: "Siddharth Vinod",
       Post: "Secretary, Sports & Games",
-      Email: "dhawalbarchha27@gmail.com",
+      Email: "vinodsiddharth@gmail.com",
+    },
+    {
+      RollNo: "19PH20012",
+      Name: "Gowri Mohana Gondi",
+      Post: "Secretary, Sports & Games",
+      Email: "GOWRIMOHANAGONDI@IITKGP.AC.IN",
     },
     {
       RollNo: "19EE3FP28",
