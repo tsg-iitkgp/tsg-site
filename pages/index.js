@@ -46,6 +46,10 @@ export default function Home() {
                 onClick={() => handlePosterClick("/files/election_notif.pdf")}
               />
               <div
+                data-src="/upcomingEvents/food.jpeg"
+                onClick={() => handlePosterClick("https://forms.gle/TsaLGQtdJVM5aZXh6")}
+              />
+              <div
                 data-src="/upcomingEvents/yoga.jpeg"
                 onClick={() => handlePosterClick("https://youtu.be/TTjrMd5d36E")}
               />
