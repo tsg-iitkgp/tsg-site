@@ -129,6 +129,9 @@ export default function Navbar() {
                 <li>
                   <Link href="/staff">TSG Staff</Link>
                 </li>
+                <li>
+                  <Link href="/secretaries">Secretaries</Link>
+                </li>
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
@@ -250,6 +253,9 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link href="/staff">TSG Staff</Link>
+                </li>
+                <li>
+                  <Link href="/secretaries">Secretaries</Link>
                 </li>
               </ul>
             </li>
