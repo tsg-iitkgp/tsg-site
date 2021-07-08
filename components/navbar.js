@@ -151,6 +151,9 @@ export default function Navbar() {
                     Nomination Help &thinsp; <Icon.ExternalLink />
                   </a>
                 </li>
+                <li>
+                  <Link href="/files/tentative_list.pdf">Tentative List</Link>
+                </li>
               </ul>
             </li>
           </ul>
@@ -275,6 +278,9 @@ export default function Navbar() {
                   <a href="/files/nomination_helpfile.pdf" target="_blank" rel="noopener noreferrer">
                     Nomination Help &thinsp; <Icon.ExternalLink />
                   </a>
+                </li>
+                <li>
+                  <Link href="/files/tentative_list.pdf">Tentative List</Link>
                 </li>
               </ul>
             </li>
