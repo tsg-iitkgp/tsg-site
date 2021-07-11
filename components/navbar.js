@@ -152,7 +152,7 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <Link href="/files/tentative_list.pdf">Tentative List</Link>
+                  <Link href="/files/final_list.pdf">Final List</Link>
                 </li>
               </ul>
             </li>
@@ -280,7 +280,7 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <Link href="/files/tentative_list.pdf">Tentative List</Link>
+                  <Link href="/files/final_list.pdf">Final List</Link>
                 </li>
               </ul>
             </li>
