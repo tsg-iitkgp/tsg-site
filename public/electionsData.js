@@ -621,7 +621,7 @@ export default {
       Name: "LOHAKARE SAHEB RAJENDRA",
       Contact: "XXX XXX XXX",
       Hall: "Hall",
-      Email: "random@email.com",
+      Email: "sahebr@kgpian.iitkgp.ac.in",
       Proposal: "Not Submitted Yet",
       ProposalLink: "https://google.com",
       FacebookLink: "https://facebook.com",
