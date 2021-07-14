@@ -27,6 +27,8 @@ const posts = [
   { value: "Application Cup", key: "ApplicationCup" },
   { value: "Innovation Cup", key: "InnovationCup" },
   { value: "Strategy Cup", key: "StrategyCup" },
+  { value: "Academic Help", key: "Ahelp" },
+  { value: "Community & Crisis", key: "CnC" },
 ];
 
 export default function Elections() {
@@ -79,7 +81,7 @@ export default function Elections() {
         </div>
         {currentTab === "Secy" && (
           <select
-            value={currentPost}
+            value={JSON.stringify(currentPost)}
             onChange={(e) => {
               setCurrentPost(JSON.parse(e.target.value));
             }}
