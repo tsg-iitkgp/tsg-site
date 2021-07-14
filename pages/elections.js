@@ -5,33 +5,33 @@ import Card from "../components/electionCard";
 import electionData from "../public/electionsData";
 
 const posts = [
-  "Football",
-  "Cricket",
-  "Hockey",
-  "Tennis",
-  "Indoor Games",
-  "Volleyball",
-  "Basketball",
-  "Badminton",
-  "Gymnasium & Weightlifting",
-  "Athletics",
-  "Aquatics",
-  "Squash",
-  "Entertainment",
-  "Dramatics",
-  "Journal",
-  "Literary",
-  "Film & Photography",
-  "Fine Arts & Modelling",
-  "Knowledge Cup",
-  "Application Cup",
-  "Innovation Cup",
-  "Strategy Cup",
+  { value: "Football", key: "Football" },
+  { value: "Cricket", key: "Cricket" },
+  { value: "Hockey", key: "Hockey" },
+  { value: "Tennis", key: "Tennis" },
+  { value: "Indoor Games", key: "IndoorGames" },
+  { value: "Volleyball", key: "Volleyball" },
+  { value: "Basketball", key: "Basketball" },
+  { value: "Badminton", key: "Badminton" },
+  { value: "Gymnasium & Weightlifting", key: "Gymnasium" },
+  { value: "Athletics", key: "Athletics" },
+  { value: "Aquatics", key: "Aquatics" },
+  { value: "Squash", key: "Squash" },
+  { value: "Entertainment", key: "Entertainment" },
+  { value: "Dramatics", key: "Dramatics" },
+  { value: "Journal", key: "Journal" },
+  { value: "Literary", key: "Literary" },
+  { value: "Film & Photography", key: "Film" },
+  { value: "Fine Arts & Modelling", key: "FineArts" },
+  { value: "Knowledge Cup", key: "KnowledgeCup" },
+  { value: "Application Cup", key: "ApplicationCup" },
+  { value: "Innovation Cup", key: "InnovationCup" },
+  { value: "Strategy Cup", key: "StrategyCup" },
 ];
 
 export default function Elections() {
-  const [currentTab, setCurrentTab] = useState("vp");
-  const [currentPost, setCurrentPost] = useState("2018-19");
+  const [currentTab, setCurrentTab] = useState("VP");
+  const [currentPost, setCurrentPost] = useState({ value: "Football", key: "Football" });
 
   const handleTabChange = (s) => {
     setCurrentTab(s);
@@ -46,39 +46,47 @@ export default function Elections() {
         <h2>Technology Students' Gymkhana Elections 2021-2022</h2>
 
         <div className="tabs">
-          <div className={`tab ${currentTab == "vp" ? "active" : ""}`} onClick={() => handleTabChange("vp")}>
+          <div className={`tab ${currentTab == "VP" ? "active" : ""}`} onClick={() => handleTabChange("VP")}>
             Vice President
           </div>
           <div
-            className={`tab ${currentTab == "gsecSports" ? "active" : ""}`}
-            onClick={() => handleTabChange("gsecSports")}
+            className={`tab ${currentTab == "Gsec_Sports" ? "active" : ""}`}
+            onClick={() => handleTabChange("Gsec_Sports")}
           >
             G.Sec Sports &amp; Games
           </div>
           <div
-            className={`tab ${currentTab == "gsecSoCult" ? "active" : ""}`}
-            onClick={() => handleTabChange("gsecSoCult")}
+            className={`tab ${currentTab == "Gsec_Socult" ? "active" : ""}`}
+            onClick={() => handleTabChange("Gsec_Socult")}
           >
             G.Sec Social &amp; Cultural
           </div>{" "}
           <div
-            className={`tab ${currentTab == "gsecTech" ? "active" : ""}`}
-            onClick={() => handleTabChange("gsecTech")}
+            className={`tab ${currentTab == "Gsec_Tech" ? "active" : ""}`}
+            onClick={() => handleTabChange("Gsec_Tech")}
           >
             G.Sec Tech
           </div>
-          <div className={`tab ${currentTab == "gsecSW" ? "active" : ""}`} onClick={() => handleTabChange("gsecSW")}>
-            G.Sec Students' Welfare
+          <div className={`tab ${currentTab == "Gsec_WM" ? "active" : ""}`} onClick={() => handleTabChange("Gsec_WM")}>
+            G.Sec Students' Welfare (Male)
           </div>
-          <div className={`tab ${currentTab == "secy" ? "active" : ""}`} onClick={() => handleTabChange("secy")}>
+          <div className={`tab ${currentTab == "Gsec_WF" ? "active" : ""}`} onClick={() => handleTabChange("Gsec_WF")}>
+            G.Sec Students' Welfare (Female)
+          </div>
+          <div className={`tab ${currentTab == "Secy" ? "active" : ""}`} onClick={() => handleTabChange("Secy")}>
             Secretaries
           </div>
         </div>
-        {currentTab === "secy" && (
-          <select value={currentPost} onChange={(e) => setCurrentPost(e.target.value)}>
+        {currentTab === "Secy" && (
+          <select
+            value={currentPost}
+            onChange={(e) => {
+              setCurrentPost(JSON.parse(e.target.value));
+            }}
+          >
             {posts.map((post) => (
-              <option key={post} value={post}>
-                {post}
+              <option key={post.key} value={JSON.stringify(post)}>
+                {post.value}
               </option>
             ))}
           </select>
@@ -87,7 +95,7 @@ export default function Elections() {
         <div className="main-content">
           <div className="society-cards">
             <div className="cards">
-              {electionData.VPData.map((contact) => {
+              {electionData[currentTab === "Secy" ? currentTab + "_" + currentPost.key : currentTab].map((contact) => {
                 return (
                   <Card
                     key={contact.RollNo}

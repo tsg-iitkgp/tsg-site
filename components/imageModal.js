@@ -29,7 +29,14 @@ export default function ImageModal(props) {
           ></iframe>
         ) : (
           <>
-            <img className="modal-image" src={props.images} />
+            <img
+              className="modal-image"
+              src={props.images}
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = "/awards/person-placeholder.png";
+              }}
+            />
 
             <p>{props.description}</p>
             {props.Heads?.length > 0 ? (
