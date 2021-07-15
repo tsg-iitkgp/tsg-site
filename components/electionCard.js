@@ -27,10 +27,12 @@ export default function Card(props) {
         <a href={props.FacebookLink} target="_blank" rel="noreferrer noopener">
           <Icon.Facebook />
         </a>
-        <a href={props.ProposalLink} target="_blank" rel="noreferrer noopener">
-          &thinsp;&thinsp;
-          <Icon.Airplay />
-        </a>
+        {props.ProposalLink !== "" && (
+          <a href={`/election/${props.ProposalLink}`} target="_blank" rel="noreferrer noopener">
+            &thinsp;&thinsp;
+            <Icon.Airplay />
+          </a>
+        )}
         <a href={`mailto:${props.Email}`} target="_blank" rel="noreferrer noopener">
           &thinsp;&thinsp;
           <Icon.Mail />
