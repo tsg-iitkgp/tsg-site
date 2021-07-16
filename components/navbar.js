@@ -116,7 +116,7 @@ export default function Navbar() {
                   <Link href="/tsgAwards">TSG Awards</Link>
                 </li>
                 <li>
-                  <Link href="#">Our Achievers</Link>
+                  <Link href="/achievers">Our Achievers</Link>
                 </li>
               </ul>
             </li>
@@ -244,7 +244,7 @@ export default function Navbar() {
                   <Link href="/tsgAwards">TSG Awards</Link>
                 </li>
                 <li>
-                  <Link href="#">Our Achievements</Link>
+                  <Link href="/achievers">Our Achievers</Link>
                 </li>
               </ul>
             </li>
