@@ -109,7 +109,6 @@ export default function Elections() {
                     Proposal={contact.Proposal}
                     ProposalLink={contact.ProposalLink}
                     FacebookLink={contact.FacebookLink}
-                    SOPLink="https://youtu.be/dQw4w9WgXcQ"
                   />
                 );
               })}

@@ -36,6 +36,14 @@
     .card-content {
       margin: 1rem 1rem;
 
+      h3 {
+        margin: 0.25rem 0;
+
+        p {
+          margin: 0.25rem 0;
+        }
+      }
+
       svg {
         color: black;
       }

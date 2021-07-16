@@ -38,13 +38,18 @@ export default function ImageModal(props) {
               }}
             />
 
+            {props.ProposalLink !== "" && (
+              <a href={`/election/${props.ProposalLink}`} target="_blank" rel="noreferrer noopener">
+                Candidate's Proposal
+              </a>
+            )}
+
             <p>{props.description}</p>
             {props.Heads?.length > 0 ? (
               <p>
                 <h4>Heads:</h4>
                 {props.Heads.map((head) => (
                   <li>
-                    {" "}
                     {head.name} (<a href={"mailto:" + head.email}>{head.email}</a>){" "}
                   </li>
                 ))}
