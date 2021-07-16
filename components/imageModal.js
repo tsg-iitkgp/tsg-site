@@ -14,7 +14,15 @@ export default function ImageModal(props) {
 
   return (
     <div className="image-container">
-      <img className="main-image" src={props.images} onClick={handleModalOpen} />
+      <img
+        className="main-image"
+        src={props.images}
+        onClick={handleModalOpen}
+        onError={(e) => {
+          e.target.onerror = null;
+          e.target.src = "/awards/person-placeholder.png";
+        }}
+      />
 
       <Modal isOpen={modalIsOpen} onRequestClose={handleModalClose} contentLabel="Image description">
         <h1> {props.title} </h1>
@@ -38,7 +46,7 @@ export default function ImageModal(props) {
               }}
             />
 
-            {props.ProposalLink !== "" && (
+            {props.ProposalLink && (
               <a href={`/election/${props.ProposalLink}`} target="_blank" rel="noreferrer noopener">
                 Candidate's Proposal
               </a>
