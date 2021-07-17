@@ -59,6 +59,21 @@ export default function Committees() {
               );
             })}
         </div>
+        <h2>Students' Welfare Committee</h2>
+        <div className="society-cards">
+          {committeesData.data
+            .filter((a) => a.category === "studentwelfare")
+            .map((society) => {
+              return (
+                <Card
+                  name={society.name}
+                  shortform={society.shortform}
+                  description={society.description}
+                  Heads={society.Heads}
+                />
+              );
+            })}
+        </div>
       </section>
     </Layout>
   );
