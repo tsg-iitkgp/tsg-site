@@ -150,10 +150,10 @@ export default {
       Name: "PRIYANSH SHRIVASTAVA",
       Contact: "XXX XXX XXX",
       Hall: "LBS",
-      Email: "random@email.com",
+      Email: "",
       Proposal: "",
       ProposalLink: "",
-      FacebookLink: "https://facebook.com",
+      FacebookLink: "",
     },
     {
       RollNo: "20MI10013",
@@ -220,7 +220,7 @@ export default {
       Hall: "LBS",
       Email: "marwan@kgpian.iitkgp.ac.in",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20MT30015.pdf",
       FacebookLink: "https://www.facebook.com/marwanrockz123",
     },
   ],
@@ -233,7 +233,7 @@ export default {
       Hall: "LBS",
       Email: "vanshagrawal@kgpian.iitkgp.ac.in",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20AG30037.pdf",
       FacebookLink: "https://www.facebook.com/profile.php?id=100012999428580",
     },
     {
@@ -244,7 +244,7 @@ export default {
       Hall: "MMM",
       Email: "tejavath.ajith@kgpian.iitkgp.ac.in",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20BT60R06.pdf",
       FacebookLink: "",
     },
     {
@@ -708,7 +708,7 @@ export default {
       Hall: "SNIG",
       Email: "Rashi.goyal@kgpian.iitkgp.ac.in",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20EX20024.pdf",
       FacebookLink: "https://www.facebook.com/rashi.goyal.39750",
     },
     {
