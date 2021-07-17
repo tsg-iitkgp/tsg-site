@@ -61,7 +61,7 @@ export default {
   Gsec_Socult: [
     {
       RollNo: "19AR10024",
-      Description: "AR '23",
+      Description: "AR '24",
       Name: "PATINI VISHNU VARDHAN",
       Contact: "XXX XXX XXX",
       Hall: "RK",
@@ -72,7 +72,7 @@ export default {
     },
     {
       RollNo: "19AR10043",
-      Description: "AR '23",
+      Description: "AR '24",
       Name: "YASHRAJ BAGARIA",
       Contact: "XXX XXX XXX",
       Hall: "VS",
@@ -855,7 +855,7 @@ export default {
   Secy_InnovationCup: [
     {
       RollNo: "20AR10023",
-      Description: "AR '24",
+      Description: "AR '25",
       Name: "NIDAM KUMAR JHA",
       Contact: "XXX XXX XXX",
       Hall: "LBS",
