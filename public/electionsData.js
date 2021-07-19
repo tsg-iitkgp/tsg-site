@@ -332,10 +332,10 @@ export default {
       Name: "JAY MILIND CHAUDHARI",
       Contact: "XXX XXX XXX",
       Hall: "LBS",
-      Email: "",
+      Email: "jaychaudhari24@kgpian.iitkgp.ac.in",
       Proposal: "",
       ProposalLink: "",
-      FacebookLink: "",
+      FacebookLink: "https://www.facebook.com/profile.php?id=100057269628877",
     },
     {
       RollNo: "20MA20044",
