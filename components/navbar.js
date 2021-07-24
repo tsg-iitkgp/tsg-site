@@ -115,9 +115,9 @@ export default function Navbar() {
                 <li>
                   <Link href="/tsgAwards">TSG Awards</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/achievers">Our Achievers</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
@@ -246,9 +246,9 @@ export default function Navbar() {
                 <li>
                   <Link href="/tsgAwards">TSG Awards</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/achievers">Our Achievers</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li data-text="GC" className={`dropdown-title ${isDown_4 ? "down" : ""}`} onClick={() => dropdownNikal(4)}>

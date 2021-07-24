@@ -148,6 +148,13 @@ export default {
       Heads: [],
     },
     {
+      name: "Strategy Events Subcommittee",
+      description: "",
+      shortform: "strategy",
+      category: "Tech",
+      Heads: [],
+    },
+    {
       name: "Academic Help Subcommittee",
       description: "",
       shortform: "academic-help",
