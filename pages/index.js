@@ -42,9 +42,14 @@ export default function Home() {
             <h2> Upcoming Events</h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
+                data-src="/upcomingEvents/olympics.png"
+                onClick={() => handlePosterClick("https://www.facebook.com/1375511306004699/posts/2819234084965740/")}
+              />
+              <div
                 data-src="/upcomingEvents/elections.jpeg"
                 onClick={() => handlePosterClick("/files/election_notif.pdf")}
               />
+              <div data-src="/upcomingEvents/yoga_notice.jpeg" onClick={() => handlePosterClick("/files/Yoga.pdf")} />
               <div
                 data-src="/upcomingEvents/essay.png"
                 onClick={() => handlePosterClick("https://www.facebook.com/TSG.IITKharagpur")}
@@ -52,10 +57,6 @@ export default function Home() {
               <div
                 data-src="/upcomingEvents/food.jpeg"
                 onClick={() => handlePosterClick("https://forms.gle/TsaLGQtdJVM5aZXh6")}
-              />
-              <div
-                data-src="/upcomingEvents/yoga.jpeg"
-                onClick={() => handlePosterClick("https://youtu.be/TTjrMd5d36E")}
               />
               <div
                 data-src="/upcomingEvents/powerhours.jpeg"
