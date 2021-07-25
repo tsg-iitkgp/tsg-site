@@ -411,10 +411,10 @@ export default {
       Name: "ANJANI KUMAR",
       Contact: "XXX XXX XXX",
       Hall: "LBS",
-      Email: "",
+      Email: "anjaniit23@kgpian.iitkgp.ac.in",
       Proposal: "",
       ProposalLink: "",
-      FacebookLink: "",
+      FacebookLink: "https://www.facebook.com/profile.php?id=100057994375185",
     },
   ],
   Secy_Football: [
