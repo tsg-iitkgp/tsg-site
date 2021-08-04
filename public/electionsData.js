@@ -700,7 +700,7 @@ export default {
       Description: "IM '25",
       Name: "SUVIGYA SAXENA",
       Contact: "XXX XXX XXX",
-      Hall: "SNIG",
+      Hall: "LBS",
       Email: "",
       Proposal: "",
       ProposalLink: "",
