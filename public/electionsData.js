@@ -90,7 +90,7 @@ export default {
       Email: "saggurthi2024@iitkgp.ac.in",
       Proposal: "",
       ProposalLink: "19BT30021.pdf",
-      FacebookLink: "",
+      FacebookLink: "https://www.facebook.com/deenraju.nani",
     },
   ],
   Gsec_Tech: [
@@ -105,7 +105,7 @@ export default {
       ProposalLink: "19CE10028.pdf",
       FacebookLink: "",
     },
-    
+
     {
       RollNo: "19MI31023",
       Description: "IM '24",
