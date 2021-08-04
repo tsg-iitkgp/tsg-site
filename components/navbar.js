@@ -157,6 +157,9 @@ export default function Navbar() {
                 <li>
                   <Link href="/files/final_list.pdf">Final List</Link>
                 </li>
+                <li>
+                  <Link href="/files/voting_procedure.pdf">Voting Procedure</Link>
+                </li>
               </ul>
             </li>
           </ul>
@@ -287,6 +290,9 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link href="/files/final_list.pdf">Final List</Link>
+                </li>
+                <li>
+                  <Link href="/files/voting_procedure.pdf">Voting Procedure</Link>
                 </li>
               </ul>
             </li>
