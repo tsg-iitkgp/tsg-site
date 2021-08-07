@@ -140,9 +140,9 @@ export default function Navbar() {
                 <li>
                   <Link href="/elections">Candidates</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/files/election_schedule.pdf">Schedule</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/files/new_election_schedule.pdf">New Schedule</Link>
                 </li>
@@ -159,6 +159,9 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link href="/files/voting_procedure.pdf">Voting Procedure</Link>
+                </li>
+                <li>
+                  <Link href="/files/Elected_Candidates_Annexure.pdf">Election Results</Link>
                 </li>
               </ul>
             </li>
@@ -274,9 +277,9 @@ export default function Navbar() {
                 <li>
                   <Link href="/elections">Candidates</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/files/election_schedule.pdf">Schedule</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/files/new_election_schedule.pdf">New Schedule</Link>
                 </li>
@@ -293,6 +296,9 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link href="/files/voting_procedure.pdf">Voting Procedure</Link>
+                </li>
+                <li>
+                  <Link href="/files/Elected_Candidates_Annexure.pdf">Election Results</Link>
                 </li>
               </ul>
             </li>
