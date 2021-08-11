@@ -34,7 +34,7 @@ export default {
       RollNo: "19AE10029",
       Name: "Sri Harsha Reddy",
       Post: "GSec - Sports & Games",
-      img: "19AE10029.png",
+      img: "19AE10029.jpeg",
       Contact: 9908907907,
       Email: "sriharsha061@gmail.com",
       "Institue ids": "sriharsha061@gmail.com",
