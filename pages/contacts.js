@@ -37,6 +37,7 @@ export default function Contacts() {
                 Post={contact.Post}
                 Path="contacts"
                 Email={contact.Email}
+                Image={contact.img}
               />
             );
           })}
