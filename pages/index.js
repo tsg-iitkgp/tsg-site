@@ -40,7 +40,11 @@ export default function Home() {
         <section className="m-content">
           <section className="events-slider">
             <h2> Upcoming Events</h2>
-            <AutoplaySlider play={true} interval={5000}>
+            <AutoplaySlider play={true} interval={20000}>
+              <div
+                data-src="/upcomingEvents/final_paralympics.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2840781639477651&id=1375511306004699&scmts=scwspsdd")}
+              />
               <div
                 data-src="/upcomingEvents/freedom_run.jpeg"
                 onClick={() => handlePosterClick("https://forms.gle/ZQ6GWAy6GZx8ikeh9")}
@@ -53,35 +57,31 @@ export default function Home() {
                 data-src="/upcomingEvents/olympics.png"
                 onClick={() => handlePosterClick("https://www.facebook.com/1375511306004699/posts/2819234084965740/")}
               />
-              <div
-                data-src="/upcomingEvents/elections.jpeg"
-                onClick={() => handlePosterClick("/files/election_notif.pdf")}
-              />
               <div data-src="/upcomingEvents/yoga_notice.jpeg" onClick={() => handlePosterClick("/files/Yoga.pdf")} />
-              <div
+              {/* <div
                 data-src="/upcomingEvents/essay.png"
                 onClick={() => handlePosterClick("https://www.facebook.com/TSG.IITKharagpur")}
-              />
-              <div
+              /> */}
+              {/* <div
                 data-src="/upcomingEvents/food.jpeg"
                 onClick={() => handlePosterClick("https://forms.gle/TsaLGQtdJVM5aZXh6")}
-              />
-              <div
+              /> */}
+              {/* <div
                 data-src="/upcomingEvents/powerhours.jpeg"
                 onClick={() =>
                   handlePosterClick(
                     "https://www.facebook.com/sports.iitkgp/photos/a.1375720849317078/2787958148093334/"
                   )
                 }
-              />
-              <div
+              /> */}
+              {/* <div
                 data-src="/upcomingEvents/powerhours_schedule.jpg"
                 onClick={() =>
                   handlePosterClick(
                     "https://docs.google.com/forms/d/e/1FAIpQLSd0jBBoJ9bTd75vN4J0ROA5uPsfFtBS-DvHgCYZENOwB_q76g/viewform"
                   )
                 }
-              />
+              /> */}
             </AutoplaySlider>
           </section>
           <section className="facilities">
