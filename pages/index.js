@@ -46,6 +46,10 @@ export default function Home() {
                 onClick={() => handlePosterClick("https://tinyurl.com/a68p5k78")}
               />
               <div
+                data-src="/upcomingEvents/cyclothon.jpeg"
+                onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2841592132729935&id=1375511306004699&scmts=scwspsdd")}
+              />
+              <div
                 data-src="/upcomingEvents/leaderboard1.png"
                 onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2841063776116104&id=1375511306004699&scmts=scwspsdd")}
               />
@@ -64,10 +68,6 @@ export default function Home() {
               <div
                 data-src="/upcomingEvents/yoga_another_event.png"
                 onClick={() => handlePosterClick("https://forms.gle/5WgQX683x6hWX9f8A")}
-              />
-              <div
-                data-src="/upcomingEvents/olympics.png"
-                onClick={() => handlePosterClick("https://www.facebook.com/1375511306004699/posts/2819234084965740/")}
               />
               <div data-src="/upcomingEvents/yoga_notice.jpeg" onClick={() => handlePosterClick("/files/Yoga.pdf")} />
               {/* <div
