@@ -2,7 +2,9 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 
 import facilitiesData from "../public/facilities";
+import facilityData from "../public/facilityData";
 import ImageModal from "../components/imageModal";
+import FacilityModal from "../components/facilityModal";
 import Card from "../components/societyCard";
 import societiesData from "../public/societiesData";
 import festData from "../public/festData";
@@ -95,6 +97,19 @@ export default function Home() {
                 }
               /> */}
             </AutoplaySlider>
+          </section>
+          <section className="facilities">
+            <div className="image-modals">
+              <div className="column">
+                  <FacilityModal
+                  images={'/facilities/illu.png'}
+                  description={'description'}
+                  title={'title'}
+                  facilityData={facilityData.facilities}
+                  slotsData={facilityData.slots}
+                  />
+              </div>
+            </div>
           </section>
           <section className="facilities">
             <h2>Facilities and Events</h2>
