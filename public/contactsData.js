@@ -16,7 +16,7 @@ export default {
       Post: "Vice-President",
       img: "18GG20036.jpg",
       Contact: 8897342025,
-      Email: "nandanakalam@gmail.com",
+      Email: "vptsg@hijli.iitkgp.ac.in",
       "Institue ids": "nandanakalam@iitkgp.ac.in",
       "Institute mail ids": "vptsg@hijli.iitkgp.ac.in",
     },
