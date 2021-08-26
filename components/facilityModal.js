@@ -49,7 +49,7 @@ export default function FacilityModal(props) {
                 }}
             >
                 <h1>
-                    Ongoing Facilities
+                    Booking of TSG Facilities
                 </h1>
                 <p>
                     Click Here >
@@ -69,8 +69,15 @@ export default function FacilityModal(props) {
                             In accordance with the Administrative Approval from the competent authority dated Aug 24,
                             2021, Technology Students’ Gymkhana would like to open select facilities for practice and optimum use of leisure
                             time for Students, Faculty and Staff members who are staying inside the campus by following the Standard
-                            Operating Procedure (SOPs) issued by the Institute for resumption of sports activities. Following facilities to be
-                            used after registration and submission of maintenance fees as per below fees structure:
+                            Operating Procedure (SOPs) issued by the Institute for resumption of sports activities. <br /><br />
+
+                            Registration form:
+                            <a href="https://forms.gle/HWNwT7DZZUwyBdut5">
+                                https://forms.gle/HWNwT7DZZUwyBdut5
+                            </a>
+                            <br /><br />
+                            
+                            Following facilities to be used after registration and submission of maintenance fees as per below fees structure:
                         </p>
                     </div>
 
@@ -157,12 +164,6 @@ export default function FacilityModal(props) {
                     </div>
                     <p>
                         * Indicates that 10 minutes will be required for sanitization.
-                    </p>
-                    <p>
-                        Register using this form:
-                        <a href="https://forms.gle/HWNwT7DZZUwyBdut5">
-                            https://forms.gle/HWNwT7DZZUwyBdut5
-                        </a>
                     </p>
 
                     <div>
