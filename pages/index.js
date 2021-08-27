@@ -12,6 +12,7 @@ import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/open-animation.css";
+import CyclothonModal from "../components/cyclothonModal";
 
 export default function Home() {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -102,6 +103,15 @@ export default function Home() {
             <div className="image-modals">
               <div className="column">
                   <FacilityModal
+                  images={'/facilities/illu.png'}
+                  description={'description'}
+                  title={'title'}
+                  facilityData={facilityData.facilities}
+                  slotsData={facilityData.slots}
+                  />
+              </div>
+              <div className="column">
+                  <CyclothonModal
                   images={'/facilities/illu.png'}
                   description={'description'}
                   title={'title'}
