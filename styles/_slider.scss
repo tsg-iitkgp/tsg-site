@@ -10,8 +10,9 @@
   --control-bullet-color: #f44336 !important;
 
   .awssld__content {
+    background-color: #fff;
     img {
-      object-fit: fill;
+      object-fit: contain;
     }
   }
 }
