@@ -46,7 +46,35 @@ export default function Home() {
             <AutoplaySlider play={true} interval={5000}>
               <div
                 data-src="/upcomingEvents/gsports.jpeg"
-                onClick={() => handlePosterClick("https://tinyurl.com/a68p5k78")}
+                onClick={() => handlePosterClick("#")}
+              />
+              <div
+                data-src="/upcomingEvents/l1.jpeg"
+                onClick={() => handlePosterClick("#")}
+              />
+              <div
+                data-src="/upcomingEvents/l2.jpeg"
+                onClick={() => handlePosterClick("#")}
+              />
+              <div
+                data-src="/upcomingEvents/l3.jpeg"
+                onClick={() => handlePosterClick("#")}
+              />
+              <div
+                data-src="/upcomingEvents/l4.jpeg"
+                onClick={() => handlePosterClick("#")}
+              />
+              <div
+                data-src="/upcomingEvents/l5.jpeg"
+                onClick={() => handlePosterClick("#")}
+              />
+              <div
+                data-src="/upcomingEvents/l6.jpeg"
+                onClick={() => handlePosterClick("#")}
+              />
+              <div
+                data-src="/upcomingEvents/l7.jpeg"
+                onClick={() => handlePosterClick("#")}
               />
               <div
                 data-src="/upcomingEvents/cyclothon.jpeg"
@@ -102,22 +130,22 @@ export default function Home() {
           <section className="facilities">
             <div className="image-modals">
               <div className="column">
-                  <FacilityModal
+                <FacilityModal
                   images={'/facilities/illu.png'}
                   description={'description'}
                   title={'title'}
                   facilityData={facilityData.facilities}
                   slotsData={facilityData.slots}
-                  />
+                />
               </div>
               <div className="column">
-                  <CyclothonModal
+                <CyclothonModal
                   images={'/facilities/illu.png'}
                   description={'description'}
                   title={'title'}
                   facilityData={facilityData.facilities}
                   slotsData={facilityData.slots}
-                  />
+                />
               </div>
             </div>
           </section>
