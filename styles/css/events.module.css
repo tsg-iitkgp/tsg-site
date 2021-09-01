@@ -1,0 +1,46 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 2rem 0;
+    width: 95%;
+    max-width: 1300px;
+    align-items: center;
+    min-height: 60vh;
+    /* overflow-y: auto;
+    scrollbar-width: 0; */
+}
+
+.eventsContainer {
+}
+
+.eventsContainer .card {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 1rem 0;
+    padding: 2vw 3vw;
+}
+
+.eventsContainer .card .header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.eventsContainer .card .header h1 {
+    margin: 10px 0;
+}
+
+.eventsContainer .card .header .date {
+}
+
+.eventsContainer .card .body {
+}
+
+.eventsContainer .card .body p {
+    margin: 10px 0;
+}
+
+.eventsContainer .card .footer {
+}
