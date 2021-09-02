@@ -46,47 +46,43 @@ export default function Home() {
             <AutoplaySlider play={true} interval={5000}>
               <div
                 data-src="/upcomingEvents/gsports.jpeg"
-                onClick={() => handlePosterClick("#")}
               />
               <div
                 data-src="/upcomingEvents/l1.jpeg"
-                onClick={() => handlePosterClick("#")}
               />
               <div
                 data-src="/upcomingEvents/l2.jpeg"
-                onClick={() => handlePosterClick("#")}
               />
               <div
                 data-src="/upcomingEvents/l3.jpeg"
-                onClick={() => handlePosterClick("#")}
               />
               <div
                 data-src="/upcomingEvents/l4.jpeg"
-                onClick={() => handlePosterClick("#")}
               />
               <div
                 data-src="/upcomingEvents/l5.jpeg"
-                onClick={() => handlePosterClick("#")}
               />
               <div
                 data-src="/upcomingEvents/l6.jpeg"
-                onClick={() => handlePosterClick("#")}
               />
               <div
                 data-src="/upcomingEvents/l7.jpeg"
-                onClick={() => handlePosterClick("#")}
+              />
+              <div
+                data-src="/upcomingEvents/lf1_1.jpeg"
+              />
+              <div
+                data-src="/upcomingEvents/lf1_2.jpeg"
+              />
+              <div
+                data-src="/upcomingEvents/lm1_1.jpeg"
+              />
+              <div
+                data-src="/upcomingEvents/lm1_2.jpeg"
               />
               <div
                 data-src="/upcomingEvents/cyclothon.jpeg"
                 onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2841592132729935&id=1375511306004699&scmts=scwspsdd")}
-              />
-              <div
-                data-src="/upcomingEvents/leaderboard1.png"
-                onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2841063776116104&id=1375511306004699&scmts=scwspsdd")}
-              />
-              <div
-                data-src="/upcomingEvents/leaderboard2.png"
-                onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2841063776116104&id=1375511306004699&scmts=scwspsdd")}
               />
               <div
                 data-src="/upcomingEvents/final_paralympics.jpg"
