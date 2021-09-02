@@ -85,6 +85,9 @@ export default function Navbar() {
             <li data-text="Links" className="dropdown-title">
               Links <Icon.ChevronDown />
               <ul className="dropdown-content">
+                <li>
+                  <Link href="/events">Events</Link>
+                </li>
                 <li data-text="Blog">
                   <a href="https://tsgblog.iitkgp.ac.in" target="_blank" rel="noopener noreferrer">
                     TSG Blog &thinsp; <Icon.ExternalLink />
@@ -222,6 +225,9 @@ export default function Navbar() {
             <li data-text="GC" className={`dropdown-title ${isDown_3 ? "down" : ""}`} onClick={() => dropdownNikal(3)}>
               Links {isDown_3 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
               <ul className="dropdown-content">
+                <li>
+                  <Link href="/events">Events</Link>
+                </li>
                 <li data-text="Blog">
                   <a href="https://tsgblog.iitkgp.ac.in" target="_blank" rel="noopener noreferrer">
                     TSG Blog &thinsp; <Icon.ExternalLink />

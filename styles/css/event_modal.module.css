@@ -1,0 +1,22 @@
+.modalContent{
+    padding: 1vw 3vw;
+    overflow-y: auto;
+}
+
+.modalContent h1 {
+    text-align: center;
+    margin: 2vw 10px;
+}
+
+.modalContent .imageWrapper {
+    text-align: center;
+}
+
+.modalContent .eventContent {
+    width: 100%!important;
+}
+
+.modalContent img {
+    width: 800px;
+    max-width: 90%;
+}

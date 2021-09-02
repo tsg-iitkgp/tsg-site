@@ -14,6 +14,13 @@ export default function EventModal({ data: event }) {
         setModalIsOpen(false);
     };
 
+    let ModalContent;
+
+    if (event.modalContent) {
+        ModalContent = require(event.modalContent);
+    }
+
+
     return (
         <>
             <div className={TileStyles.card}
@@ -40,7 +47,28 @@ export default function EventModal({ data: event }) {
             </div>
 
             <Modal isOpen={modalIsOpen} onRequestClose={handleModalClose} contentLabel="Event description">
-                Temp
+                {ModalContent ? <ModalContent /> : (
+                    <div className={ModalStyles.modalContent}>
+                        <h1>
+                            {event.title}
+                        </h1>
+                        <div className={ModalStyles.imageWrapper}>
+                            <img src={event.poster} />
+                        </div>
+                        {event.links.map((link) => {
+                            return (
+                                <div>
+                                    <br />
+                                    {link.description}
+                                    <a href={link.href}>{link.content || link.href}</a>
+                                </div>
+                            )
+                        })}
+                        <p className={ModalStyles.eventContent}>
+                            {event.content}
+                        </p>
+                    </div>
+                )}
             </Modal>
         </>
     );
