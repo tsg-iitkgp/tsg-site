@@ -59,7 +59,7 @@ export default function EventModal({ data: event }) {
                             return (
                                 <div>
                                     <br />
-                                    {link.description}
+                                    {link.description} <br/>
                                     <a href={link.href}>{link.content || link.href}</a>
                                 </div>
                             )
