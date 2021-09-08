@@ -138,14 +138,14 @@ export default function Navbar() {
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
-              TSG Elections <Icon.ChevronDown />
-              <ul className="dropdown-content">
+              <Link href="/events">Events</Link>
+              {/* <ul className="dropdown-content">
                 <li>
                   <Link href="/elections">Candidates</Link>
                 </li>
-                {/* <li>
+                <li>
                   <Link href="/files/election_schedule.pdf">Schedule</Link>
-                </li> */}
+                </li>
                 <li>
                   <Link href="/files/new_election_schedule.pdf">New Schedule</Link>
                 </li>
@@ -166,7 +166,7 @@ export default function Navbar() {
                 <li>
                   <Link href="/files/Elected_Candidates_Annexure.pdf">Election Results</Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
           </ul>
         </div>
@@ -277,15 +277,15 @@ export default function Navbar() {
                 </li>
               </ul>
             </li>
-            <li data-text="GC" className={`dropdown-title ${isDown_6 ? "down" : ""}`} onClick={() => dropdownNikal(6)}>
-              TSG Elections {isDown_6 ? <Icon.ChevronLeft /> : <Icon.ChevronRight />}
-              <ul className="dropdown-content">
+            <li data-text="GC" className="">
+              <Link href="/events">Events</Link>
+              {/* <ul className="dropdown-content">
                 <li>
                   <Link href="/elections">Candidates</Link>
                 </li>
-                {/* <li>
+                <li>
                   <Link href="/files/election_schedule.pdf">Schedule</Link>
-                </li> */}
+                </li>
                 <li>
                   <Link href="/files/new_election_schedule.pdf">New Schedule</Link>
                 </li>
@@ -306,7 +306,7 @@ export default function Navbar() {
                 <li>
                   <Link href="/files/Elected_Candidates_Annexure.pdf">Election Results</Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
           </ul>
         </div>
