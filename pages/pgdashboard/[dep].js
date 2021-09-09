@@ -19,11 +19,11 @@ const DepartmentPage = () => {
         let index = resData.data.header.findIndex((col) => col === 'department');
         return {
           header: resData.data.header,
-          data: resData.data.data.filter((item) => item[index] === 'Aerospace Engineering')
+          data: resData.data.data.filter((item) => item[index] === dep)
         }
       }))
       .catch((err) => console.log(err));
-  }, [])
+  }, [dep])
 
   //console.log(dep, data);
 
@@ -40,13 +40,17 @@ const DepartmentPage = () => {
               <thead>
                 <tr>
                   {data.header.map((key) => (
-                    <th>{key}</th>
+                    <th>
+                      {key.toLowerCase().split(' ').map(function (word) {
+                        return (word.charAt(0).toUpperCase() + word.slice(1));
+                      }).join(' ')}
+                    </th>
                   ))}
                 </tr>
               </thead>
               <tbody>
                 {data.data.map((row) => (
-                  <tr id="overall">
+                  <tr>
                     {row.map((item) => (
                       <td>{item}</td>
                     ))}
@@ -55,7 +59,14 @@ const DepartmentPage = () => {
               </tbody>
             </table>
           ) : (
-            <div></div>
+            <div style={{
+              backgroundColor: '#fff',
+              borderRadius: 12,
+              textAlign: 'center',
+              padding: '30px 20px'
+            }}>
+              Loading...
+            </div>
           )}
 
         </div>
