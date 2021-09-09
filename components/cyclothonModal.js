@@ -35,6 +35,11 @@ export default function CyclothonModal(props) {
             padding: '20px 0',
             textAlign: 'center',
             margin: '0'
+        },
+        leaderboardImg: {
+            width: '40%',
+            objectFit: 'contain',
+            margin: '10px'
         }
     }
 
@@ -141,6 +146,19 @@ export default function CyclothonModal(props) {
                             </div>
 
                         </div>
+                    </div>
+
+
+                    <h3 style={{ textAlign: 'center' }}>
+                        <a href="https://m.facebook.com/story.php?story_fbid=2851308285091653&id=1375511306004699&sfnsn=wiwspwa">
+                            Leaderboards
+                        </a>
+                    </h3>
+                    <div style={{ textAlign: 'center' }}>
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cf1.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cf2.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cm1.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cm2.png" />
                     </div>
 
                     <h3>
