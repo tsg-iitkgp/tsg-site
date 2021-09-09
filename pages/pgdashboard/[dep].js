@@ -2,14 +2,18 @@ import { useState, useEffect, memo } from 'react';
 import { useRouter } from 'next/router'
 import Head from "next/head";
 import Layout from "../../components/layout";
+import Styles from '../../styles/css/dashboard.module.css';
 
 const DepartmentPage = () => {
   const router = useRouter();
   const dep = router.query['dep'];
 
+  const [isAuth, setIsAuth] = useState(false);
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [data, setData] = useState();
-
-  console.log(dep)
+  const [error, setError] = useState('');
+  const [loginStatus, setLoginStatus] = useState('');
 
   useEffect(() => {
     const fetchUrl = 'https://script.google.com/macros/s/AKfycbxbZj_rtEqCS7ARCwlx3-7Uk8IfQGtw97VWhGjXB1R9QnIJqBaE-uODJ24dIRje9yE/exec?sheetName=Form Responses 1';
@@ -27,50 +31,100 @@ const DepartmentPage = () => {
 
   //console.log(dep, data);
 
+  const loginHandler = (e) => {
+    e.preventDefault();
+    setError('');
+    setLoginStatus('Signing you in...');
+    const fetchUrl = 'https://script.google.com/macros/s/AKfycbxbZj_rtEqCS7ARCwlx3-7Uk8IfQGtw97VWhGjXB1R9QnIJqBaE-uODJ24dIRje9yE/exec?sheetName=Login Creds';
+    fetch(fetchUrl)
+      .then((response) => response.json())
+      .then((resData) => {
+        let index = resData.data.data.findIndex((item) => item[0] === username);
+        return (index < 0) ? (false) : (resData.data.data[index]);
+      })
+      .then((userData) => {
+        if (userData) {
+          if (password === userData[2]) {
+            if (dep === userData[1]) {
+              console.log(dep);
+              setIsAuth(true);
+            } else {
+              router.push(`/pgdashboard/${userData[1]}`);
+              setIsAuth(true);
+            }
+          } else {
+            setError('Invalid Credentials')
+          }
+        } else {
+          setError('Invalid Credentials')
+        }
+        setLoginStatus('');
+      });
+  }
+
 
   return (
     <Layout>
       <Head>
         <title>Login | Dashboard</title>
       </Head>
-      <section className="awards content">
-        <div className="table-container" style={{ overflow: 'auto' }}>
-          {(data != undefined && data.length != 0) ? (
-            <table>
-              <thead>
-                <tr>
-                  {data.header.map((key) => (
-                    <th>
-                      {key.toLowerCase().split(' ').map(function (word) {
-                        return (word.charAt(0).toUpperCase() + word.slice(1));
-                      }).join(' ')}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {data.data.map((row) => (
+      {isAuth ? (
+        <section className="awards content">
+          <div className="table-container" style={{ overflow: 'auto' }}>
+            {(data != undefined && data.length != 0) ? (
+              <table>
+                <thead>
                   <tr>
-                    {row.map((item) => (
-                      <td>{item}</td>
+                    {data.header.map((key) => (
+                      <th className={Styles.cell}>
+                        {key.toLowerCase().split(' ').map(function (word) {
+                          return (word.charAt(0).toUpperCase() + word.slice(1));
+                        }).join(' ')}
+                      </th>
                     ))}
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          ) : (
-            <div style={{
-              backgroundColor: '#fff',
-              borderRadius: 12,
-              textAlign: 'center',
-              padding: '30px 20px'
-            }}>
-              Loading...
-            </div>
-          )}
+                </thead>
+                <tbody>
+                  {data.data.map((row) => (
+                    <tr>
+                      {row.map((item) => (
+                        <td className={Styles.cell}>
+                          {item || '-'}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            ) : (
+              <div className={Styles.loading}>
+                Loading...
+              </div>
+            )}
 
-        </div>
-      </section>
+          </div>
+        </section>
+      ) : (
+        <section className={Styles.formContainer}>
+          <div>
+            {error && <div className={Styles.error}>
+              {error}
+            </div>}
+            <form onSubmit={loginHandler}>
+              <label htmlFor="username">Username</label> <br />
+              <input type="text" id="username" name="username" onChange={(e) => setUsername(e.target.value)} /><br /> <br />
+              <label htmlFor="password">Password</label> <br />
+              <input type="password" id="password" name="password" onChange={(e) => setPassword(e.target.value)} /> <br />
+              <div>
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+            {loginStatus && <div>
+              {loginStatus}
+            </div>}
+          </div>
+        </section>
+      )}
     </Layout>
   )
 }
