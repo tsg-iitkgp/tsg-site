@@ -45,9 +45,6 @@ export default function Home() {
             <h2> Upcoming Events</h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-                data-src="/upcomingEvents/gsports.jpeg"
-              />
-              <div
                 data-src="/upcomingEvents/l1.jpeg"
               />
               <div
