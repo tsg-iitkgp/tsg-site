@@ -74,8 +74,8 @@ export default {
     },
     {
       RollNo: "pranab",
-      Name: "Pranab Kr Sarkar",
-      Post: "PTI (Athletics)",
+      Name: "Dr. Pranab Kr Sarkar",
+      Post: "PTI Grade I (Athletics and Gymnasium)",
       Email: "sarkarpronob2011@gmail.com",
     },
     {

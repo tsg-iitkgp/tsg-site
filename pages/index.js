@@ -13,6 +13,7 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/open-animation.css";
 import CyclothonModal from "../components/cyclothonModal";
+import FrModal from "../components/Modals/frModal";
 
 export default function Home() {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -44,39 +45,6 @@ export default function Home() {
           <section className="events-slider">
             <h2> Upcoming Events</h2>
             <AutoplaySlider play={true} interval={5000}>
-              <div
-                data-src="/upcomingEvents/l1.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/l2.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/l3.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/l4.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/l5.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/l6.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/l7.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/lf1_1.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/lf1_2.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/lm1_1.jpeg"
-              />
-              <div
-                data-src="/upcomingEvents/lm1_2.jpeg"
-              />
               <div
                 data-src="/upcomingEvents/cyclothon.jpeg"
                 onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2841592132729935&id=1375511306004699&scmts=scwspsdd")}
@@ -130,15 +98,10 @@ export default function Home() {
                   facilityData={facilityData.facilities}
                   slotsData={facilityData.slots}
                 />
+                <FrModal />
               </div>
               <div className="column">
-                <CyclothonModal
-                  images={'/facilities/illu.png'}
-                  description={'description'}
-                  title={'title'}
-                  facilityData={facilityData.facilities}
-                  slotsData={facilityData.slots}
-                />
+                <CyclothonModal />
               </div>
             </div>
           </section>
