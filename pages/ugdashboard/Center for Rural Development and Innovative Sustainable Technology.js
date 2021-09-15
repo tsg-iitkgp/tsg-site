@@ -49,7 +49,7 @@ const DepartmentPage = () => {
               console.log(dep);
               setIsAuth(true);
             } else {
-              router.push(`/pgdashboard/${userData[1]}`);
+              router.push(`/ugdashboard/${userData[1]}`);
               setIsAuth(true);
             }
           } else {
