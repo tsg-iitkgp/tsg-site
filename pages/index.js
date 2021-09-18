@@ -54,10 +54,6 @@ export default function Home() {
                 onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2841592132729935&id=1375511306004699&scmts=scwspsdd")}
               />
               <div
-                data-src="/upcomingEvents/final_paralympics.jpg"
-                onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2840781639477651&id=1375511306004699&scmts=scwspsdd")}
-              />
-              <div
                 data-src="/upcomingEvents/freedom_run.jpeg"
                 onClick={() => handlePosterClick("https://forms.gle/ZQ6GWAy6GZx8ikeh9")}
               />
