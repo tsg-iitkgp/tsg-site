@@ -68,17 +68,17 @@ export default function FrModal(props) {
                     <div style={{
                         textAlign: 'center'
                     }}>
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/l1.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/l2.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/l3.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/l4.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/l5.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/l6.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/l7.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/lf1_1.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/lf1_2.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/lm1_1.jpeg" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/lm1_2.jpeg" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/cf1.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/cf2.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/cm1.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/cm2.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/f1.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/f2.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/m1.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/m2.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/m3.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/s1.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/fr/s2.png" />
                     </div>
                 </section>
 
