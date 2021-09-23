@@ -47,7 +47,7 @@ export default function Home() {
             <AutoplaySlider play={true} interval={5000}>
             <div
                 data-src="/upcomingEvents/gssrs.jpeg"
-                onClick={() => handlePosterClick("#")}
+                onClick={() => handlePosterClick("https://youtu.be/-tO9zOQnWuQ")}
               />
               <div
                 data-src="/upcomingEvents/fp.jpeg"
