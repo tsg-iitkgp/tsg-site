@@ -280,15 +280,16 @@ export default {
     {
       name: "Aroma: Technology Culinary Arts Society",
       description:
-        "Technology Culinary Arts Society (abbreviated TCAS) was created in Spring 2019. It was created in response to the introduction of culinary events in the 3rd Inter IIT Cultural Meet held at IIT Roorkee in December 2018. The objective of the society was to encourage the interest of students in culinary activities.",
+        "Aroma: Technology Culinary Arts Society, IIT Kharagpur was founded in Spring 2019 with the aim of promoting a rich and diverse culture of culinary arts among the students of IIT Kharagpur. It consists of a group of enthusiastic, creative and talented chefs as its members and promises to be a valued treasure for the connoisseurs of culinary arts.",
       facebook_link: "https://www.facebook.com/aroma.iitkgp/",
       wiki_link: "https://wiki.metakgp.org/w/Technology_Culinary_Arts_Society",
       shortform: "tcas",
       category: "Socult",
       Heads: [
-        { name: "Hardik Tibrewal", email: "hardikti@gmail.com" },
-        { name: "Tanaya Pakhale", email: "tanayapakhale2012@gmail.com" },
-        { name: "Pooja Reddy", email: "poojaoct.reddy@gmail.com" },
+        { name: "Aniket Talreja", email: "anikettalreja@gmail.com" },
+        { name: "Gaurav Jain", email: "jaingauravgj16@gmail.com" },
+        { name: "Yash Vora", email: "yashavora1@gmail.com" },
+        { name: "Piyush Dangare", email: "dangare.piyush98@gmail.com" },
       ],
     },
   ],

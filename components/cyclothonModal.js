@@ -65,7 +65,7 @@ export default function CyclothonModal(props) {
 
                 <section style={{ overflowY: 'auto' }}>
                     <h1 style={styles.h1}>Cyclothon</h1>
-                    <div style={{
+                    {/* <div style={{
                         display: 'flex',
                         justifyContent: 'center',
                         padding: '15px 0px'
@@ -147,21 +147,23 @@ export default function CyclothonModal(props) {
 
                         </div>
                     </div>
-
+ */}
 
                     <h3 style={{ textAlign: 'center' }}>
                         <a href="https://m.facebook.com/story.php?story_fbid=2851308285091653&id=1375511306004699&sfnsn=wiwspwa">
-                            Leaderboards
+                            Results
                         </a>
                     </h3>
                     <div style={{ textAlign: 'center' }}>
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cf1.png" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cf2.png" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cm1.png" />
-                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cm2.png" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cf1.jpeg" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cf2.jpeg" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cf3.jpeg" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cm1.jpeg" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cm2.jpeg" />
+                        <img style={styles.leaderboardImg} src="/upcomingEvents/cyclothon/cm3.jpeg" />
                     </div>
 
-                    <h3>
+                    {/* <h3>
                         Important Links
                     </h3>
                     <u>
@@ -174,7 +176,7 @@ export default function CyclothonModal(props) {
                         <li>
                             <a href="/upcomingEvents/cyclothon/cyclothon_rules_and_regulations.pdf" target="_blank">Rules and Regulations</a>
                         </li>
-                    </u>
+                    </u> */}
                 </section>
 
             </Modal>
