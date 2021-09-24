@@ -97,7 +97,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSft9FXZYvLiNt3oy0K3Iu4d6HoE830RhNWFHMXx1R4IjlhHKA/viewform"
+                    href="https://forms.gle/AaPmckUVsQyPY43v5"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -234,7 +234,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSft9FXZYvLiNt3oy0K3Iu4d6HoE830RhNWFHMXx1R4IjlhHKA/viewform"
+                    href="https://forms.gle/AaPmckUVsQyPY43v5"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
