@@ -50,6 +50,10 @@ export default function Home() {
                 onClick={() => handlePosterClick("https://docs.google.com/forms/d/e/1FAIpQLSdpA3ObUAhBJqcyaczg0bzuRgMLYnQs_t3LwNgt2D0P-tymyA/viewform")}
               />
               <div
+                data-src="/upcomingEvents/ps.jpeg"
+                onClick={() => handlePosterClick("https://forms.gle/pCvGZqWgBjz6hU5j9")}
+              />
+              <div
                 data-src="/upcomingEvents/gssrs.jpeg"
                 onClick={() => handlePosterClick("https://youtu.be/-tO9zOQnWuQ")}
               />
