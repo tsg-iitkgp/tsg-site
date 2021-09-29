@@ -59,14 +59,20 @@ export default function EventModal({ data: event }) {
                             return (
                                 <div>
                                     <br />
-                                    {link.description} <br/>
+                                    {link.description} <br />
                                     <a href={link.href}>{link.content || link.href}</a>
                                 </div>
                             )
                         })}
-                        <p className={ModalStyles.eventContent}>
-                            {event.content}
-                        </p>
+                        {
+                            event.content.map((item) => {
+                                return (
+                                    <p className={ModalStyles.eventContent}>
+                                        {event.content}
+                                    </p>
+                                )
+                            })
+                        }
                     </div>
                 )}
             </Modal>

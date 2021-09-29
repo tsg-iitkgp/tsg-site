@@ -46,6 +46,10 @@ export default function Home() {
             <h2> Upcoming Events</h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
+                data-src="/upcomingEvents/pw.png"
+                onClick={() => handlePosterClick("https://docs.google.com/forms/d/e/1FAIpQLSdpA3ObUAhBJqcyaczg0bzuRgMLYnQs_t3LwNgt2D0P-tymyA/viewform")}
+              />
+              <div
                 data-src="/upcomingEvents/gssrs.jpeg"
                 onClick={() => handlePosterClick("https://youtu.be/-tO9zOQnWuQ")}
               />
