@@ -5,10 +5,12 @@ export default function ImageModal(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const handleModalOpen = () => {
+    document.body.style.overflow = "hidden";
     setModalIsOpen(true);
   };
 
   const handleModalClose = () => {
+    document.body.style.overflow = "auto";
     setModalIsOpen(false);
   };
 
@@ -25,6 +27,9 @@ export default function ImageModal(props) {
       />
 
       <Modal isOpen={modalIsOpen} onRequestClose={handleModalClose} contentLabel="Image description">
+        <div className="modal-close-container">
+          <img id="modal-close" src="/images/close.png" onClick={handleModalClose} />
+        </div>
         <h1> {props.title} </h1>
 
         {props.SOPLink ? (
