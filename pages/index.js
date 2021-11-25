@@ -93,11 +93,11 @@ export default function Home() {
                   facilityData={facilityData.facilities}
                   slotsData={facilityData.slots}
                 />
-                <FrModal />
+                {/* <FrModal /> */}
               </div>
-              <div className="column">
+              {/* <div className="column">
                 <CyclothonModal />
-              </div>
+              </div> */}
             </div>
           </section>
           <section className="facilities">

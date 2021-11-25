@@ -58,7 +58,7 @@ export default function FacilityModal(props) {
 
             <Modal isOpen={modalIsOpen} onRequestClose={handleModalClose} contentLabel="Image description">
 
-                <section className="awards" style={{ overflowY: 'scroll' }}>
+                <section className="awards" style={{ overflowY: 'scroll', maxWidth: '1400px' }}>
                     <h1 style={styles.h1}>Notification</h1>
                     <div style={{
                         display: 'flex',
