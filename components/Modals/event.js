@@ -57,9 +57,9 @@ export default function EventModal({ data: event }) {
                         </div>
                         {event.links.map((link) => {
                             return (
-                                <div>
+                                <div style={{textAlign: 'center'}}>
                                     <br />
-                                    {link.description} <br />
+                                    {link.description}{" "}
                                     <a href={link.href}>{link.content || link.href}</a>
                                 </div>
                             )

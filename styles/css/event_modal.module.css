@@ -1,5 +1,6 @@
 .modalContent{
     padding: 1vw 3vw;
+    max-width: 1300px;
     overflow-y: auto;
 }
 

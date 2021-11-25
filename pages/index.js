@@ -46,26 +46,17 @@ export default function Home() {
             <h2>Upcoming Events</h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-                data-src="/upcomingEvents/selectioninteriit.jpg"
-                onClick={() => handlePosterClick("https://forms.gle/nMobsD4AvhJcU84QA")}
+                data-src="/events/web-hack.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/TSG.IITKharagpur/posts/5141129255902068")}
               />
               <div
-                data-src="/upcomingEvents/fp.jpeg"
-                onClick={() => handlePosterClick("https://forms.gle/cFtth3ZoSJHwKP4w7")}
+                data-src="/upcomingEvents/qs.jpg"
+                onClick={() => handlePosterClick("#")}
               />
               <div
-                data-src="/upcomingEvents/cyclothon.jpeg"
-                onClick={() => handlePosterClick("https://www.facebook.com/story.php?story_fbid=2841592132729935&id=1375511306004699&scmts=scwspsdd")}
+                data-src="/upcomingEvents/wc-trials.jpg"
+                onClick={() => handlePosterClick("https://forms.gle/sFA3GswsLgxu4kxq9")}
               />
-              <div
-                data-src="/upcomingEvents/freedom_run.jpeg"
-                onClick={() => handlePosterClick("https://forms.gle/ZQ6GWAy6GZx8ikeh9")}
-              />
-              <div
-                data-src="/upcomingEvents/yoga_another_event.png"
-                onClick={() => handlePosterClick("https://forms.gle/5WgQX683x6hWX9f8A")}
-              />
-              <div data-src="/upcomingEvents/yoga_notice.jpeg" onClick={() => handlePosterClick("/files/Yoga.pdf")} />
               {/* <div
                 data-src="/upcomingEvents/essay.png"
                 onClick={() => handlePosterClick("https://www.facebook.com/TSG.IITKharagpur")}

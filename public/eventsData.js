@@ -1,6 +1,47 @@
 export default {
     data: [
         {
+            title: 'Website Hackathon',
+            date: '30th November',
+            poster: '/events/web-hack.jpg',
+            description: `September is here and some students are coming back to campus. This brings with it the possibility of an outbreak and hence adhering to Covid protocols is of paramount importance. To protect our community, it is required that each one of us is well aware of the rules and regulations set in place. Incoming students will have to quarantine for a minimum duration of one week. Students are advised not to leave their rooms unnecessarily, wear masks and maintain social distancing.`,
+            modalContent: '',
+            content: [
+                `Technology Students' Gymkhana is delighted to organise the WEBSITE HACKATHON. Encompass all your technical and creative skills to develop the website.
+                So, team up with your mates and put your development skills to test to grab exciting prizes.
+
+                Fill in the details of your team and team members in the form below.
+                We request only one submission from each team.`,
+            ],
+            links: [
+                {
+                    description: 'The problem statement for all of you:',
+                    href: 'https://drive.google.com/file/d/1Hmfomj7pa0o8AZonzxC0O0GNTPU0PjgW/view?fbclid=IwAR03YzXW27UnzADXOXa9tQCZxjhjgO0S5_o1oNDVT9ItYpQTR8u0VMLwH8k',
+                    content: 'Click Here',
+                },
+                {
+                    description: 'Participants may refer to the given sample data:',
+                    href: 'https://drive.google.com/drive/folders/1YZM_UcEd1qKghf6cIPAVS4WUntADpjH7?fbclid=IwAR0Z7xBzP4UAM3vXCKeB9f2iA0ItgyUfefM83Zh_9q14HuW7rWej3HnvXms',
+                    content: 'Click Here',
+                },
+                {
+                    description: 'Team Registration form:',
+                    href: 'https://forms.gle/BxUaz1Hcb5aTdZ5i6',
+                    content: 'Click Here',
+                },
+                {
+                    description: 'The rules and guidelines:',
+                    href: 'https://drive.google.com/file/d/1HzuFHcHMvmCT9K85GZYir-1YriCjTQDZ/view?fbclid=IwAR1eI8OkBv6k3mlxlHjdc-OeczHIxP6Jadk0ZRGZ80fvoJv8VzvahRpc7yI',
+                    content: 'Click Here',
+                },
+                {
+                    description: 'Query Form:',
+                    href: 'https://forms.gle/KSMPy1aSEovytzNX8',
+                    content: 'Click Here',
+                }
+            ]
+        },
+        {
             title: 'Pets\' Week',
             date: '28th September',
             poster: '/events/pw.png',
