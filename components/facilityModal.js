@@ -13,8 +13,7 @@ export default function FacilityModal(props) {
     };
     const styles = {
         imgContainer: {
-            width: '80%',
-            maxWidth: '300px',
+            width: '90%',
             border: '2px solid red',
             borderRadius: '8px',
             margin: '40px auto',

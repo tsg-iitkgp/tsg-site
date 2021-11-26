@@ -109,6 +109,15 @@ export default function Home() {
               </div> */}
             </div>
           </section>
+          <section className={`${Styles.illuVideoSection}`}>
+            <iframe
+              src="https://www.youtube.com/embed/kstN-Adi7r8?rel=0"
+              allow='autoplay; encrypted-media'
+              allowFullScreen
+              title='Illumination 2021'
+              className={Styles.illuVideo}
+            />
+          </section>
           <section className="facilities">
             <h2>
               UG Induction Program - 2021

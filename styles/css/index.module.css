@@ -22,7 +22,6 @@
     font-family: var(--font1);
 }
 
-
 .details > div {
     padding: 8px;
     border-bottom: 2px solid darkblue;
@@ -64,4 +63,20 @@
 
 .details .liIcon {
     margin: auto 10px;
+}
+
+.illuVideoSection {
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+}
+
+.illuVideoSection .illuVideo {
+    min-height: 250px;
+}
+
+@media (min-width: 700px) {
+    .illuVideoSection .illuVideo {
+        min-height: 500px;
+    }
 }
