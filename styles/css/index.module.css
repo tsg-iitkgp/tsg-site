@@ -1,0 +1,67 @@
+.faq {
+    padding: 1.5rem 0;
+    color: #333;
+    align-self: stretch;
+}
+
+.details {
+    width: 100%;
+    max-width: 1300px;
+}
+
+.details > .summary {
+    padding: 8px;
+    padding-left: 2.2rem;
+    border: none;
+    cursor: pointer;
+    list-style-position: inside;
+    border-bottom: 2px solid darkblue;
+    position: relative;
+    display: block;
+    transition: all 0.3s;
+    font-family: var(--font1);
+}
+
+
+.details > div {
+    padding: 8px;
+    border-bottom: 2px solid darkblue;
+    line-height: 2rem;
+    font-family: var(--font2);
+    transition: 0.3s all ease;
+}
+
+.summary:before {
+    content: "";
+    border-width: 0.4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent darkblue;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: 0.2rem 50%;
+    transition: 0.3s transform ease;
+}
+
+.details .summary::-webkit-details-marker {
+    display: none;
+}
+
+.details[open] > .summary:before {
+    transform: rotate(90deg);
+}
+
+.details[open] > .summary {
+}
+
+.details li {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details .liIcon {
+    margin: auto 10px;
+}

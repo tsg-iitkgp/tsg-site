@@ -15,6 +15,9 @@ import "react-awesome-slider/dist/custom-animations/open-animation.css";
 import CyclothonModal from "../components/cyclothonModal";
 import FrModal from "../components/Modals/frModal";
 
+import Styles from '../styles/css/index.module.css';
+import * as Icon from "react-feather";
+
 export default function Home() {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -43,11 +46,17 @@ export default function Home() {
 
         <section className="m-content">
           <section className="events-slider">
-            <h2>Upcoming Events</h2>
+            <h2>
+              Highlights
+            </h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
                 data-src="/events/web-hack.jpg"
                 onClick={() => handlePosterClick("https://www.facebook.com/TSG.IITKharagpur/posts/5141129255902068")}
+              />
+              <div
+                data-src="/upcomingEvents/sia.jpeg"
+                onClick={() => handlePosterClick("#")}
               />
               <div
                 data-src="/upcomingEvents/qs.jpg"
@@ -98,6 +107,138 @@ export default function Home() {
               {/* <div className="column">
                 <CyclothonModal />
               </div> */}
+            </div>
+          </section>
+          <section className="facilities">
+            <h2>
+              UG Induction Program - 2021
+            </h2>
+            <div className={Styles.faq}>
+              <details className={Styles.details}>
+                <summary className={Styles.summary}>
+                  Day1 - 26th November 2021
+                </summary>
+                <div>
+                  <div>
+                    <h4>
+                      Forenoon Session (12:00 to 14:00)
+                    </h4>
+                    <div>
+                      <p>
+                        This session starts at 12:00 hours.
+                        Join with the link: <a href="https://youtu.be/l-7gLRQlxyQ">https://youtu.be/l-7gLRQlxyQ</a>
+                      </p>
+                      <h5>
+                        Schedule:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>12:00 - 12:10</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> A brief introduction to the Induction Programme by Dean (SA)
+                        </li>
+                        <li>
+                          <b>12:10 - 13:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Address by the Heads of Department (UG programs only)
+                        </li>
+                        <li>
+                          <b>13:00 - 13:15</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Address by the Academics Deans (FoE&A, FoS, and BTBS)
+                        </li>
+                        <li>
+                          <b>13:15 - 13:30</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Virtual Campus Tour
+                        </li>
+                        <li>
+                          <b>13:30 - 13:40</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Address by Deputy Director
+                        </li>
+                        <li>
+                          <b>13:40 - 14:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Address by Director
+                        </li>
+                        <li>
+                          <b>14:00 - 14:05</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Vote of Thanks by Registrar
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4>
+                      Afternoon Session (15:00)
+                    </h4>
+                    <div>
+                      <p>
+                        The program will start at 15:00 hours.
+                        Join with the link: <a href="https://youtu.be/hp6K-bz9WRI">https://youtu.be/hp6K-bz9WRI</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </div>
+            <div className={Styles.faq}>
+              <details className={Styles.details}>
+                <summary className={Styles.summary}>
+                  Day2 - 27th November 2021
+                </summary>
+                <div>
+                  <div>
+                    <h4>
+                      Forenoon Session (11:00 to 13:00)
+                    </h4>
+                    <div>
+                      <p>
+                        This session starts at 11:00 hours.
+                        Join with the link:
+                        <a href="https://youtu.be/0h8_JwlgTtk">
+                          https://youtu.be/0h8_JwlgTtk
+                        </a>
+                      </p>
+                      <h5>
+                        Schedule:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>11:00 - 12:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Description to ERP features and Virtual Classroom Platforms
+                        </li>
+                        <li>
+                          <b>12:10 - 13:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Introduction to Library and CIC facilities
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4>
+                      Afternoon Session (14:30 to 15:30)
+                    </h4>
+                    <div>
+                      <p>
+                        The program will start at 14:30 hours.
+                        Join with the link:
+                        <a href="https://youtu.be/c328-X9G1l0">
+                          https://youtu.be/c328-X9G1l0
+                        </a>
+                      </p>
+                      <h5>
+                        Schedule:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>14:30 - 15:30</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Movie show on IIT Kharagpur
+                        </li>
+                      </ul>
+                      <p>
+                        If  department plans any interactive session with their respective department students after 15:00 hrs students would receive a seperate email from the department.
+                        We request student to stay active on their emails incase of any querry you can reach out respective Department representatives.
+                      </p>
+                      <ul>
+                        <li>
+                          <b>19:00 - 20:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Sensitization Program by Ambar
+                          <a href="https://teams.microsoft.com/l/meetup-join/19%3at1SugNIfziFr27_yMx-ZhneiZlByO0iqYpzFAnKGpAE1%40thread.tacv2/1637937566077?context=%7b%22Tid%22%3a%2271dbb522-5704-4537-9f25-6ad2dcd4278d%22%2c%22Oid%22%3a%22a0e119d3-18ed-4dce-b3f1-58ade4317c0d%22%7d">
+                            (Teams Link)
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </details>
             </div>
           </section>
           <section className="facilities">

@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export -s",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "yarn build",
+    "deploy": "ssh tsg-sever \"sudo rm -R ~/tsg-site/out\" && scp -r out tsg-server:/home/ubuntu/tsg-site/out"
   },
   "dependencies": {
     "@nivo/bar": "^0.69.0",
