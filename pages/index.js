@@ -122,7 +122,31 @@ export default function Home() {
             <h2>
               UG Induction Program - 2021
             </h2>
-            <div className={Styles.faq}>
+            <div className={Styles.inductionIntro}>
+              <div className={Styles.handbookContainer}>
+                <h3>
+                  Induction Handbook
+                </h3>
+                <iframe src="/files/handbook.pdf" type="application/pdf" >
+
+                </iframe>
+              </div>
+              <div className={Styles.info}>
+                <p>
+                  Be active on this link and view all the updates on the schedule of the Induction Link:{' '}
+                  <a href="https://frequent-dinner-262.notion.site/Induction-Program-2021-6d1633b7be5b4e6aa800482a3077ce59">
+                    (Link)
+                  </a>
+                </p>
+                <p>
+                  Fill this EAA form by 2nd December 2021 (Thursday):{' '}
+                  <a href="https://forms.gle/VR9zEpFvoGoffnBN8">
+                    https://forms.gle/VR9zEpFvoGoffnBN8
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className={Styles.scheduleTile}>
               <details className={Styles.details}>
                 <summary className={Styles.summary}>
                   Day1 - 26th November 2021
@@ -180,7 +204,7 @@ export default function Home() {
                 </div>
               </details>
             </div>
-            <div className={Styles.faq}>
+            <div className={Styles.scheduleTile}>
               <details className={Styles.details}>
                 <summary className={Styles.summary}>
                   Day2 - 27th November 2021
@@ -242,6 +266,208 @@ export default function Home() {
                           <a href="https://teams.microsoft.com/l/meetup-join/19%3at1SugNIfziFr27_yMx-ZhneiZlByO0iqYpzFAnKGpAE1%40thread.tacv2/1637937566077?context=%7b%22Tid%22%3a%2271dbb522-5704-4537-9f25-6ad2dcd4278d%22%2c%22Oid%22%3a%22a0e119d3-18ed-4dce-b3f1-58ade4317c0d%22%7d">
                             (Teams Link)
                           </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </div>
+            <div className={Styles.scheduleTile}>
+              <details className={Styles.details}>
+                <summary className={Styles.summary}>
+                  Day3 - 28th November 2021
+                </summary>
+                <div>
+                  <div>
+                    <h4>
+                      Forenoon Session (11:00 to 13:00)
+                    </h4>
+                    <div>
+                      <p>
+                        This session starts at 11:00 hours.
+                        Join with the link: <a href="https://youtu.be/H1sw7gEcLv4">https://youtu.be/H1sw7gEcLv4</a>
+                      </p>
+                      <h5>
+                        Schedule:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>11:00 - 11:30</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Session by President, Technology Students' Gymkhana
+                        </li>
+                        <li>
+                          <b>11:30 - 12:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Session by Vice-president  Technology students' Gymkhana
+                        </li>
+                        <li>
+                          <b>12:00 - 13:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Session by General secretaries,Technology Students' Gymkhana
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4>
+                      Afternoon Session (14:30)
+                    </h4>
+                    <div>
+                      <p>
+                        The program will start at 14:30 hours.
+                        Join with the link: <a href="https://youtu.be/Fj9Zy-luDDM">https://youtu.be/Fj9Zy-luDDM</a>
+                      </p>
+                      <h5>
+                        Schedule:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>14:30 - 15:30</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Introduction to EAA
+                        </li>
+                        <li>
+                          <b>15:30 - 16:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Talk by Medall Group
+                        </li>
+                      </ul>
+                      <h5>
+                        Other:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>16:00 - 16:30</b><Icon.ArrowRight size={14} className={Styles.liIcon} />
+                          Gender Sensitization Program
+                          (<a href="https://teams.microsoft.com/l/meetup-join/19%3acc4235126f68451f9bb557b0c1c6ff81%40thread.tacv2/1638015460916?context=%7b%22Tid%22%3a%2271dbb522-5704-4537-9f25-6ad2dcd4278d%22%2c%22Oid%22%3a%2211711dba-89b4-48a8-a1d9-aef79332385a%22%7d">
+                            Link
+                          </a>)
+                        </li>
+                        <li>
+                          <b>19:00 - 20:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} />
+                          For the physical acitivities session please join the link which will be personally mailed according to the alloted physical activity.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </div>
+            <div className={Styles.scheduleTile}>
+              <details className={Styles.details}>
+                <summary className={Styles.summary}>
+                  Day4 - 29th November 2021
+                </summary>
+                <div>
+                  <div>
+                    <h4>
+                      Forenoon Session (11:00 to 13:00)
+                    </h4>
+                    <div>
+                      <p>
+                        This session starts at 11:00 hours.
+                        Join with the link: <a href="https://youtu.be/GrAJ1hofC94">https://youtu.be/GrAJ1hofC94</a>
+                      </p>
+                      <h5>
+                        Schedule:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>11:00 - 12:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Interaction of counsellors with students
+                        </li>
+                        <li>
+                          <b>12:00 - 13:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Interaction of counsellors with Parents
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4>
+                      Afternoon Session (14:30)
+                    </h4>
+                    <div>
+                      <p>
+                        The program will start at 14:30 hours.
+                        Join with the link:
+                        <a href="https://youtu.be/9GCP6_RGMsw">
+                          https://youtu.be/9GCP6_RGMsw
+                        </a>
+                      </p>
+                      <h5>
+                        Schedule:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>14:30 - 15:30</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Buddy interaction. Personel mails will be sent with the details of joining by the buddy coordinators.
+                        </li>
+                        <li>
+                          <b>15:30 - 16:30</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Mentor mentee interaction.
+                        </li>
+                        <li>
+                          <b>18:00 - 19:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Introduction to social and cultural related societies.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </div>
+            <div className={Styles.scheduleTile}>
+              <details className={Styles.details}>
+                <summary className={Styles.summary}>
+                  Day5 - 30th November 2021
+                </summary>
+                <div>
+                  <div>
+                    <h4>
+                      Forenoon Session (11:00 to 13:00)
+                    </h4>
+                    <div>
+                      <p>
+                        This session starts at 11:00 hours.
+                        Join with the link: <a href="https://youtu.be/GrAJ1hofC94">https://youtu.be/GrAJ1hofC94</a>
+                      </p>
+                      <h5>
+                        Schedule:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>11:00 - 12:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Interaction with Hall Management Centre and Hall-related information
+                        </li>
+                        <li>
+                          <b>12:00 - 13:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} /> Yourdost session
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h4>
+                      Afternoon Session (14:30)
+                    </h4>
+                    <div>
+                      <p>
+                        The program will start at 14:30 hours.
+                        Join with the link:
+                        <a href="https://youtu.be/aUIjpWC1qEY">
+                          https://youtu.be/aUIjpWC1qEY
+                        </a>
+                      </p>
+                      <h5>
+                        Schedule:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>14:30 - 15:30</b><Icon.ArrowRight size={14} className={Styles.liIcon} />
+                          Guest lecture by HARISH HANDE
+                          Indian social entrepreneur, co-founder SELCO India.
+                        </li>
+                        <li>
+                          <b>15:30 - 16:30</b><Icon.ArrowRight size={14} className={Styles.liIcon} />
+                          Introcution to Technology societies
+                        </li>
+                      </ul>
+                      <h5>
+                        Other:
+                      </h5>
+                      <ul>
+                        <li>
+                          <b>18:00 - 20:00</b><Icon.ArrowRight size={14} className={Styles.liIcon} />
+                          Performances by social and cultural societies (<a href="https://youtu.be/iHLQWuv5pz8">Link</a>)
                         </li>
                       </ul>
                     </div>

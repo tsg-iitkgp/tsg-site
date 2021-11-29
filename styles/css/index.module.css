@@ -1,4 +1,4 @@
-.faq {
+.scheduleTile {
     padding: 1.5rem 0;
     color: #333;
     align-self: stretch;
@@ -79,4 +79,28 @@
     .illuVideoSection .illuVideo {
         min-height: 500px;
     }
+}
+
+.inductionIntro {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inductionIntro .info {
+    padding: 50px;
+    border: 1px solid red;
+    border-radius: 8px;
+    max-width: 350px;
+    width: 80%;
+    margin: auto 20px;
+}
+
+.inductionIntro .handbookContainer iframe {
+    height: 450px;
+}
+
+.inductionIntro .handbookContainer {
+    text-align: center;
 }
