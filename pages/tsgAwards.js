@@ -4,11 +4,11 @@ import Layout from "../components/layout";
 import awardsData from "../public/awardsData.json";
 import Card from "../components/contactCard";
 
-const years = ["2019-20", "2018-19", "2017-18", "2016-17", "2015-16"];
+const years = ["2020-21", "2019-20", "2018-19", "2017-18", "2016-17", "2015-16"];
 
 export default function Fame() {
   const [currentTab, setCurrentTab] = useState("socult");
-  const [currentYear, setCurrentYear] = useState("2019-20");
+  const [currentYear, setCurrentYear] = useState("2020-21");
 
   const handleTabChange = (s) => {
     setCurrentTab(s);
