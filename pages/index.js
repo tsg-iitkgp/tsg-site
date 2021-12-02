@@ -51,6 +51,10 @@ export default function Home() {
             </h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
+                data-src="/upcomingEvents/interiit10tech.png"
+                onClick={() => handlePosterClick("https://www.facebook.com/iitkgp.tech/posts/4637820002931545")}
+              />
+              <div
                 data-src="/events/web-hack.jpg"
                 onClick={() => handlePosterClick("https://www.facebook.com/TSG.IITKharagpur/posts/5141129255902068")}
               />
