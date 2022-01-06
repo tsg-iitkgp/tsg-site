@@ -75,9 +75,89 @@
     min-height: 250px;
 }
 
+section.covidSection {
+    margin: 5rem auto;
+}
+
+.covidMeasures .covidSymptomsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.covidMeasures .covidSymptomsContainer .covidSymptomsImg {
+    width: 90%;
+    max-width: 400px;
+    margin: 2rem;
+}
+
+.covidMeasures .covidSymptomsContainer p {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2rem;
+}
+
+.covidMeasures .btnContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+}
+
+.covidMeasures .btnContainer .button {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin: 1rem auto;
+}
+
+.covidMeasures .btnContainer .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+}
+
+.covidMeasures .btnContainer .button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: all 0.25s ease-in-out;
+}
+
+.covidMeasures .btnContainer .button:hover span {
+    padding-right: 25px;
+}
+
+.covidMeasures .btnContainer .button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.covidMeasures .btnContainer .bgGreen {
+    background-color: rgb(37, 189, 37);
+}
+
+.covidMeasures .btnContainer .bgRed {
+    background-color: #f4511e;
+}
+
+.covidMeasures .btnContainer .bgYellow {
+    background-color: #f1c40f;
+}
+
 @media (min-width: 700px) {
     .illuVideoSection .illuVideo {
         min-height: 500px;
+    }
+
+    .covidMeasures .covidSymptomsContainer {
+        display: flex;
+        flex-direction: row;
     }
 }
 

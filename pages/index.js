@@ -51,12 +51,20 @@ export default function Home() {
             </h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-                data-src="/upcomingEvents/interiit10tech.png"
-                onClick={() => handlePosterClick("https://www.facebook.com/iitkgp.tech/posts/4637820002931545")}
+                data-src="/upcomingEvents/yd.png"
+                onClick={() => handlePosterClick("https://docs.google.com/forms/d/e/1FAIpQLScrvNTvihn2P8c-xqnYGqmnYv8e6oppiYW4dgFYkXkD4vO8vQ/viewform")}
               />
               <div
-                data-src="/events/web-hack.jpg"
-                onClick={() => handlePosterClick("https://www.facebook.com/TSG.IITKharagpur/posts/5141129255902068")}
+                data-src="/upcomingEvents/ebsb2.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/CulturalKGP/posts/4707101446040423/")}
+              />
+              <div
+                data-src="/upcomingEvents/cfp.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/100874528672631/posts/292245796202169/")}
+              />
+              <div
+                data-src="/upcomingEvents/mworkshop.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/694483407302267/posts/4703626119721289/")}
               />
               <div
                 data-src="/upcomingEvents/sia.jpeg"
@@ -66,37 +74,9 @@ export default function Home() {
                 data-src="/upcomingEvents/qs.jpg"
                 onClick={() => handlePosterClick("#")}
               />
-              <div
-                data-src="/upcomingEvents/wc-trials.jpg"
-                onClick={() => handlePosterClick("https://forms.gle/sFA3GswsLgxu4kxq9")}
-              />
-              {/* <div
-                data-src="/upcomingEvents/essay.png"
-                onClick={() => handlePosterClick("https://www.facebook.com/TSG.IITKharagpur")}
-              /> */}
-              {/* <div
-                data-src="/upcomingEvents/food.jpeg"
-                onClick={() => handlePosterClick("https://forms.gle/TsaLGQtdJVM5aZXh6")}
-              /> */}
-              {/* <div
-                data-src="/upcomingEvents/powerhours.jpeg"
-                onClick={() =>
-                  handlePosterClick(
-                    "https://www.facebook.com/sports.iitkgp/photos/a.1375720849317078/2787958148093334/"
-                  )
-                }
-              /> */}
-              {/* <div
-                data-src="/upcomingEvents/powerhours_schedule.jpg"
-                onClick={() =>
-                  handlePosterClick(
-                    "https://docs.google.com/forms/d/e/1FAIpQLSd0jBBoJ9bTd75vN4J0ROA5uPsfFtBS-DvHgCYZENOwB_q76g/viewform"
-                  )
-                }
-              /> */}
             </AutoplaySlider>
           </section>
-          <section className="facilities">
+          {/* <section className="facilities">
             <div className="image-modals">
               <div className="column">
                 <FacilityModal
@@ -106,21 +86,45 @@ export default function Home() {
                   facilityData={facilityData.facilities}
                   slotsData={facilityData.slots}
                 />
-                {/* <FrModal /> */}
+                <FrModal />
               </div>
-              {/* <div className="column">
+              <div className="column">
                 <CyclothonModal />
-              </div> */}
+              </div>
             </div>
-          </section>
-          <section className={`${Styles.illuVideoSection}`}>
-            <iframe
-              src="https://www.youtube.com/embed/kstN-Adi7r8?rel=0"
-              allow='autoplay; encrypted-media'
-              allowFullScreen
-              title='Illumination 2021'
-              className={Styles.illuVideo}
-            />
+          </section> */}
+          <section className={`facilities ${Styles.covidSection}`}>
+            <h2>
+              Let's Together Fight Against Covid
+            </h2>
+            <div className={Styles.covidMeasures}>
+              <div className={Styles.covidSymptomsContainer}>
+                <img className={Styles.covidSymptomsImg} src="/images/COVID_Symptoms.jpg" />
+                <p>
+                  COVID tests have been initiated and are currently being conducted on a primary contact basis.
+                  If any boarder has symptoms mentioned below, they are advised to contact their HP/SSM/Hall Council Member immediately to get tested.
+                  If someone is showing any of these signs, seek emergency medical care immediately (BC Roy Technology Hospital):
+                  Trouble breathing, persistent pain or pressure in the chest, inability to wake or stay awake, pale, gray, or blue-coloured skin, lips, or nail beds, depending on skin tone.
+                </p>
+              </div>
+              <div className={Styles.btnContainer}>
+                <a className={`${Styles.button} ${Styles.bgGreen}`} href="/files/COVID_Guidelines.pdf" target="_blank">
+                  <span>
+                    Guidelines
+                  </span>
+                </a>
+                <a className={`${Styles.button} ${Styles.bgRed}`} href="/files/COVID_Precautions.pdf" target="_blank">
+                  <span>
+                    Precautions
+                  </span>
+                </a>
+                <a className={`${Styles.button} ${Styles.bgYellow}`} href="/files/Emergency_Contacts.pdf" target="_blank">
+                  <span>
+                    Emergency Contacts
+                  </span>
+                </a>
+              </div>
+            </div>
           </section>
           <section className="facilities">
             <h2>
@@ -479,6 +483,15 @@ export default function Home() {
                 </div>
               </details>
             </div>
+          </section>
+          <section className={`${Styles.illuVideoSection}`}>
+            <iframe
+              src="https://www.youtube.com/embed/kstN-Adi7r8?rel=0"
+              allow='autoplay; encrypted-media'
+              allowFullScreen
+              title='Illumination 2021'
+              className={Styles.illuVideo}
+            />
           </section>
           <section className="facilities">
             <h2>Facilities and Events</h2>

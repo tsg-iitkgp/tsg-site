@@ -1,6 +1,74 @@
 export default {
     data: [
         {
+            title: 'Managing Emotions in Post-Placement Times',
+            date: '6th January',
+            poster: '/upcomingEvents/yd.png',
+            description: `Do you find your mind bubbling with questions like, "What after I complete my course?", "How long before I can finally settle in my career?", "What does corporate life hold?", "Is this the right career path?"`,
+            modalContent: '',
+            content: [
+                `
+                Well, it's natural to experience such uncertainly post-placement anxiety but guess what, you don't have to deal with it alone. 
+
+                Join us as we discover challenges associated with the 'next step' and outline strategies to deal with difficult emotions, and at the same time, have all your questions related to post-placement anxiety answered. 
+                `
+            ],
+            links: [
+                {
+                    description: 'Join at 5pm on Friday, 7th January 2022:',
+                    href: 'https://us02web.zoom.us/j/84358622618',
+                    content: 'Zoom Cloud Meetings',
+                },
+                {
+                    description: 'Register using the link:',
+                    href: 'https://docs.google.com/forms/d/e/1FAIpQLScrvNTvihn2P8c-xqnYGqmnYv8e6oppiYW4dgFYkXkD4vO8vQ/viewform',
+                    content: 'Form Link',
+                }
+            ]
+        },
+        {
+            title: 'NCA Workshop',
+            date: '4th January',
+            poster: '/upcomingEvents/mworkshop.jpg',
+            description: `Technology Students' Gymkhana is organizing an online video-making competition to provide a platform for the students of IIT Kharagpur to channel their inner movie-makers to deliver an important message creatively.`,
+            modalContent: '',
+            content: [
+                `Music accents us to a divine world of pleasure. In these times of new beginnings, step into the enticing world of music with our upcoming Music Workshop. 
+                Technology Students' Gymkhana Social and Cultural Committee in coordination with the Academy of Classical and Folk Arts, IIT Kharagpur, brings to you an exciting workshop on Vocal Music and Flute on 8th and 9th January 2022. The Academy of Classical and Folk Arts acknowledges the partial support of distinguished alumnus Mukund Padmanabhan through the GKF foundation for this workshop. Let this be your opportunity to discover/enhance your passion for music.`
+            ],
+            links: [
+                {
+                    description: 'Register here:',
+                    href: 'https://forms.gle/G9UEqHwP9dWgmwh5A',
+                    content: 'https://forms.gle/G9UEqHwP9dWgmwh5A',
+                },
+                {
+                    description: 'Visit the website of the Academy of Classical and Folk Arts, IIT Kharagpur:',
+                    href: 'http://www.acfa.iitkgp.ac.in/',
+                    content: 'http://www.acfa.iitkgp.ac.in/',
+                }
+            ]
+        },
+        {
+            title: 'Call For Projects',
+            date: '3rd January',
+            poster: '/upcomingEvents/cfp.jpg',
+            description: `There is no greater joy nor greater reward than to make a fundamental difference in someone’s life. – Mary Rose McGeady`,
+            modalContent: '',
+            content: [
+                `Upholding the motto and values of selfless service, Student’s Welfare Committee presents a noble initiative wherein NSS and other interested students will volunteer to work with NGOs on their varied projects for social welfare.
+                Through this we intent to emphasize the spirit of “ Not me But you" while providing a platform for the students and NGOs to collaborate for social growth, through a tremendously fulfilling and rewarding experience. 
+                We invite all the NGOs with their social projects to partner with us in this incredible opportunity to bring about a social change.`
+            ],
+            links: [
+                {
+                    description: 'Link to submit Project Details:',
+                    href: 'https://forms.gle/71axBULAaZ9DtiKMA',
+                    content: 'https://forms.gle/71axBULAaZ9DtiKMA',
+                },
+            ]
+        },
+        {
             title: 'Website Hackathon',
             date: '30th November',
             poster: '/events/web-hack.jpg',
