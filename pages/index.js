@@ -51,8 +51,12 @@ export default function Home() {
             </h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-                data-src="/upcomingEvents/yd.png"
-                onClick={() => handlePosterClick("https://docs.google.com/forms/d/e/1FAIpQLScrvNTvihn2P8c-xqnYGqmnYv8e6oppiYW4dgFYkXkD4vO8vQ/viewform")}
+                data-src="/upcomingEvents/samyog.png"
+                onClick={() => handlePosterClick("https://tinyurl.com/samyogconnectiitkharagpur")}
+              />
+              <div
+                data-src="/upcomingEvents/lmc.jpeg"
+                onClick={() => handlePosterClick("https://forms.gle/bd6AMwUY3HSp9hEZ8")}
               />
               <div
                 data-src="/upcomingEvents/ebsb2.jpg"
@@ -61,10 +65,6 @@ export default function Home() {
               <div
                 data-src="/upcomingEvents/cfp.jpg"
                 onClick={() => handlePosterClick("https://www.facebook.com/100874528672631/posts/292245796202169/")}
-              />
-              <div
-                data-src="/upcomingEvents/mworkshop.jpg"
-                onClick={() => handlePosterClick("https://www.facebook.com/694483407302267/posts/4703626119721289/")}
               />
               <div
                 data-src="/upcomingEvents/sia.jpeg"

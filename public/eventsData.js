@@ -1,6 +1,93 @@
 export default {
     data: [
         {
+            title: 'SAMYOG - Connect IIT Kharagpur',
+            date: '17th January',
+            poster: '/upcomingEvents/samyog.png',
+            description: `Technology Students’ Gymkhana is proud to organize a Logo-making competition to decide the official logo for the Social and Cultural Committee, Technology Students’ Gymkhana.`,
+            modalContent: '',
+            content: [
+                `
+                Needless to say, we have been facing numerous struggles owing to the Covid situation. The Student Representatives and Administration are doing their best to ensure a safe and comfortable environment for all members of the IIT Kharagpur community. We appreciate and thank everyone for being mindful of the Covid safety protocols, and for cooperating with each other to preserve peace and harmony in these trying times. 
+                `,
+                `
+                Owing to the hall lockdowns, there have been limited interactions among people in the campus. To restore the culture of connectivity and belongingness which is the very essence of IIT Kharagpur, our honourable Director, Professor Virendra Kumar Tewari, will be addressing everyone today. Through the session, the Director will address the present situation, various concerns, and throw some light on the possible future trajectories of the campus proceedings. We cordially invite everyone to be present at this collaborative event, SAMYOG - Connect IIT Kharagpur on 17th January 2022 (Monday) at 6 PM sharp.
+                `
+            ],
+            links: [
+                {
+                    description: 'Meeting Link:',
+                    href: 'https://tinyurl.com/samyogconnectiitkharagpur',
+                    content: 'https://tinyurl.com/samyogconnectiitkharagpur',
+                },
+            ]
+        },
+        {
+            title: 'Logo Making Competition',
+            date: '28th January',
+            poster: '/upcomingEvents/lmc.jpeg',
+            description: `Technology Students’ Gymkhana is proud to organize a Logo-making competition to decide the official logo for the Social and Cultural Committee, Technology Students’ Gymkhana.`,
+            modalContent: '',
+            content: [
+                `
+                “Logos are visual representations of what one stands for”
+                `,
+                `
+                Technology Students’ Gymkhana is proud to organize a Logo-making competition to decide the official logo for the Social and Cultural Committee, Technology Students’ Gymkhana.
+                Channel your inner artist to create a logo that represents the Social and Cultural Committee in the best possible form. We highly encourage you to scroll through our Facebook page Cultural, IIT Kharagpur to get a better understanding of what we do and how we contribute to the culture of the Indian Institute of Technology, Kharagpur.
+                `,
+                `
+                Last date of submission: 28-01-2022, 11:59 PM
+                `,
+                `
+                The best logo will become the official logo for the Social and Cultural Committee, Technology Students’ Gymkhana. The top 3 logos will be displayed on our Facebook page.
+                `,
+                `
+                Prizes worth Rs 4,500/-
+                `
+            ],
+            links: [
+                {
+                    description: 'Submission Form:',
+                    href: 'https://forms.gle/bd6AMwUY3HSp9hEZ8',
+                    content: 'https://forms.gle/bd6AMwUY3HSp9hEZ8',
+                },
+                {
+                    description: 'Rules:',
+                    href: 'https://docs.google.com/document/d/12AIW1l83Dv8IgaEfCCfbveXrFDDHShTwQC6S5MTX7mw/edit?usp=sharing',
+                    content: 'https://docs.google.com/document/d/12AIW1l83Dv8IgaEfCCfbveXrFDDHShTwQC6S5MTX7mw/edit?usp=sharing',
+                },
+            ]
+        },
+        {
+            title: 'Applications for the post of SECRETARY: ACADEMIC HELP',
+            date: '20th January',
+            poster: '',
+            description: `Technology Students' Gymkhana invites applications for the post of SECRETARY: ACADEMIC HELP, Technology Students' Gymkhana for the academic session 2021-22.`,
+            modalContent: '',
+            content: [
+                `
+                Technology Students' Gymkhana invites applications for the post of SECRETARY: ACADEMIC HELP, Technology Students' Gymkhana for the academic session 2021-22.
+                `,
+                `
+                Eligibility Criteria: Minimum Experience of 1 Academic Year in Indian Institute of Technology Kharagpur, and applicants should not be currently holding any other POR in Gymkhana.
+                `,
+                `
+                Deadline: 20 January 2022 11:59 PM
+                `,
+                `
+                There will be no extension of the deadline and no application will be entertained after the deadline. Applicants selected for Personal Interviews will get notified via email.
+                `
+            ],
+            links: [
+                {
+                    description: 'Link for Applying:',
+                    href: 'https://forms.gle/HKUSsNTQH8z34cq78',
+                    content: 'https://forms.gle/HKUSsNTQH8z34cq78',
+                },
+            ]
+        },
+        {
             title: 'Managing Emotions in Post-Placement Times',
             date: '6th January',
             poster: '/upcomingEvents/yd.png',

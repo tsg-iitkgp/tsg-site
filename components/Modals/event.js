@@ -57,7 +57,7 @@ export default function EventModal({ data: event }) {
                         </div>
                         {event.links.map((link) => {
                             return (
-                                <div style={{textAlign: 'center'}}>
+                                <div style={{ textAlign: 'center' }}>
                                     <br />
                                     {link.description}{" "}
                                     <a href={link.href}>{link.content || link.href}</a>
@@ -65,13 +65,12 @@ export default function EventModal({ data: event }) {
                             )
                         })}
                         {
-                            event.content.map((item) => {
-                                return (
-                                    <p className={ModalStyles.eventContent}>
-                                        {event.content}
-                                    </p>
-                                )
-                            })
+                            event.content.map((item) => (
+                                <p className={ModalStyles.eventContent}>
+                                    {item}
+                                </p>
+                            )
+                            )
                         }
                     </div>
                 )}
