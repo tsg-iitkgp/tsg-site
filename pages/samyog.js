@@ -5,7 +5,6 @@ import Link from "next/link";
 import Styles from '../styles/css/samyog.module.css';
 
 export default function Samyog() {
-
     return (
         <>
             <Layout>
