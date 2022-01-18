@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
+import Link from "next/link";
 
 import facilitiesData from "../public/facilities";
 import facilityData from "../public/facilityData";
@@ -51,16 +52,12 @@ export default function Home() {
             </h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-                data-src="/upcomingEvents/samyog.png"
-                onClick={() => handlePosterClick("https://tinyurl.com/samyogconnectiitkharagpur")}
+                data-src="/upcomingEvents/samyog-2.png"
+                onClick={() => handlePosterClick("https://gymkhana.iitkgp.ac.in/samyog-connect-iitkgp")}
               />
               <div
                 data-src="/upcomingEvents/lmc.jpeg"
                 onClick={() => handlePosterClick("https://forms.gle/bd6AMwUY3HSp9hEZ8")}
-              />
-              <div
-                data-src="/upcomingEvents/ebsb2.jpg"
-                onClick={() => handlePosterClick("https://www.facebook.com/CulturalKGP/posts/4707101446040423/")}
               />
               <div
                 data-src="/upcomingEvents/cfp.jpg"
@@ -93,6 +90,11 @@ export default function Home() {
               </div>
             </div>
           </section> */}
+          <section className={`facilities ${Styles.samyogSection}`}>
+            <Link className={Styles.samyogButton} href={'/samyog'}>
+              Samyog - Connect IIT Kharagpur
+            </Link>
+          </section>
           <section className={`facilities ${Styles.covidSection}`}>
             <h2>
               Let's Together Fight Against Covid

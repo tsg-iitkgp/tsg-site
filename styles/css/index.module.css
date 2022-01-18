@@ -75,6 +75,27 @@
     min-height: 250px;
 }
 
+.samyogSection {
+    display: flex;
+    justify-content: center;
+}
+
+.samyogSection a {
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 20px;
+    color: rgb(218, 55, 55);
+    margin-top: 4rem;
+    transition: all 0.3s ease;
+}
+
+.samyogSection a:hover {
+    background-color: red;
+    color: white;
+    transition: all 0.3s ease;
+}
+
 section.covidSection {
     margin: 5rem auto;
 }

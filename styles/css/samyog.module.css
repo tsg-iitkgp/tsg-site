@@ -1,0 +1,90 @@
+.todaysEvent {
+    margin: 20px;
+}
+
+.todaysEvent .meetBtnContainer a {
+    text-decoration: none;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    color: rgb(47, 196, 255);
+    padding: 15px 30px;
+    transition: all 0.3s ease;
+}
+
+.todaysEvent .meetBtnContainer a:hover {
+    background-color: skyblue;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.todaysEvent p {
+    padding: 20px;
+    text-align: center;
+}
+
+.todaysEvent .posterContainer {
+    text-align: center;
+}
+
+.todaysEvent .posterContainer .poster {
+    max-width: 80%;
+    margin: 5px auto;
+}
+
+.samyogSchedule {
+    min-width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.samyogSchedule > tr > .monthName {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #162b0a;
+    color: #fff;
+}
+
+.samyogSchedule tr,
+.samyogSchedule td {
+    border: 1px solid #595959;
+}
+
+.samyogSchedule .day {
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 10px;
+    color: #162b0a;
+    background-color: #c2d69b;
+    font-weight: bold;
+}
+
+.samyogSchedule .dateGrid {
+    height: 80px;
+    padding: 5px;
+    vertical-align: top;
+    min-width: 100px;
+    max-width: 130px;
+}
+
+.samyogSchedule .nonEvent {
+    background-color: #f1f4ea;
+    color: #162b0a;
+}
+
+.samyogSchedule .event {
+    background-color: #fff;
+    color: #162b0a;
+}
+
+.samyogSchedule .event .date {
+    color: #162b0a;
+    font-weight: 800;
+}
+
+.samyogSchedule .event .eventName {
+    font-size: 14px;
+    margin: 10px auto;
+    color: #162b0a;
+}

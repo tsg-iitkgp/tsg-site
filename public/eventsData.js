@@ -2,23 +2,25 @@ export default {
     data: [
         {
             title: 'SAMYOG - Connect IIT Kharagpur',
-            date: '17th January',
-            poster: '/upcomingEvents/samyog.png',
-            description: `Technology Students’ Gymkhana is proud to organize a Logo-making competition to decide the official logo for the Social and Cultural Committee, Technology Students’ Gymkhana.`,
+            date: '18th January',
+            poster: '/upcomingEvents/samyog-2.png',
+            description: `
+                We will be conducting an online session with the collective collaboration of Counsellors and doctors from BC Roy Medical Hospital to address several mental and physical health concerns of everyone on campus. 
+                `,
             modalContent: '',
             content: [
                 `
-                Needless to say, we have been facing numerous struggles owing to the Covid situation. The Student Representatives and Administration are doing their best to ensure a safe and comfortable environment for all members of the IIT Kharagpur community. We appreciate and thank everyone for being mindful of the Covid safety protocols, and for cooperating with each other to preserve peace and harmony in these trying times. 
+                We will be conducting an online session with the collective collaboration of Counsellors and doctors from BC Roy Medical Hospital to address several mental and physical health concerns of everyone on campus. You are cordially invited to join us for this informative session, a part of the initiative ‘SAMYOG - Connect IIT Kharagpur’, which will guide us towards a more mindful and resilient approach to our surroundings in these uncertain and unprecedented times. 
                 `,
                 `
-                Owing to the hall lockdowns, there have been limited interactions among people in the campus. To restore the culture of connectivity and belongingness which is the very essence of IIT Kharagpur, our honourable Director, Professor Virendra Kumar Tewari, will be addressing everyone today. Through the session, the Director will address the present situation, various concerns, and throw some light on the possible future trajectories of the campus proceedings. We cordially invite everyone to be present at this collaborative event, SAMYOG - Connect IIT Kharagpur on 17th January 2022 (Monday) at 6 PM sharp.
+                Kindly join the session at 6 PM on 18th January (Tuesday).
                 `
             ],
             links: [
                 {
                     description: 'Meeting Link:',
-                    href: 'https://tinyurl.com/samyogconnectiitkharagpur',
-                    content: 'https://tinyurl.com/samyogconnectiitkharagpur',
+                    href: 'https://gymkhana.iitkgp.ac.in/samyog-connect-iitkgp',
+                    content: 'https://gymkhana.iitkgp.ac.in/samyog-connect-iitkgp',
                 },
             ]
         },
