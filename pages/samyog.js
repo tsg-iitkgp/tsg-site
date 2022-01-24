@@ -18,7 +18,7 @@ export default function Samyog() {
                             Samyog - Connect IIT Kharagpur
                         </h1>
                         <div className={Styles.posterContainer}>
-                            <img src="/upcomingEvents/samyog-2.png" className={Styles.poster} />
+                            <img src="/upcomingEvents/Samyog.jpg" className={Styles.poster} />
                         </div>
                         <p className={Styles.meetBtnContainer}>
                             <Link href={'/samyog-connect-iitkgp'}>
@@ -26,7 +26,10 @@ export default function Samyog() {
                             </Link>
                         </p>
                         <p>
-                            We will be conducting an online session with the collective collaboration of Counsellors and doctors from BC Roy Medical Hospital to address several mental and physical health concerns of everyone on campus. You are cordially invited to join us for this informative session, a part of the initiative ‘SAMYOG - Connect IIT Kharagpur’, which will guide us towards a more mindful and resilient approach to our surroundings in these uncertain and unprecedented times.
+                            We are delighted to announce an interactive online session with the Advisor of Technology Students' Gymkhana and a distinguished alumnus of our Institute, Commander VK Jaitly. Well-known for his phenomenal lifetime achievements as well as exceptional leadership and communication skills, he is a motivational speaker, a consultant, a coach, a writer and a mentor for the corporate world.
+                        </p>
+                        <p>
+                            As an eminent member of our IIT KGP family, he'll be joining us for sharing his views on ‘Me, My Family and My Country’ as well as elaborating on how to tackle the imminent challenges in today’s complex world.
                         </p>
                     </div>
                     <div>
@@ -192,23 +195,39 @@ export default function Samyog() {
                                         Seminar <br /> by Social and Cultural Committee
                                     </div>
                                 </td>
-                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
-                                    24
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        24
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        CC + BCRTH <br />
+                                        Mindfulness Workshop
+                                    </div>
                                 </td>
-                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
-                                    25
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        25
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        CC
+                                    </div>
                                 </td>
                                 <td className={`${Styles.dateGrid} ${Styles.event}`}>
                                     <div className={Styles.date}>
                                         26
                                     </div>
                                     <div className={Styles.eventName}>
-                                        Guest Lecture <br />
-                                        Prof. Manas K Mandal
+                                        Guest Speaker <br />
+                                        Prof. Manas Mondal
                                     </div>
                                 </td>
-                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
-                                    27
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        27
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        CC + BCRTH
+                                    </div>
                                 </td>
                                 <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
                                     28
@@ -221,17 +240,39 @@ export default function Samyog() {
                                 <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
                                     30
                                 </td>
-                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
-                                    31
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        31
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        Guest Lecture <br />
+                                        Commander Jaitley
+                                    </div>
                                 </td>
-                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
-                                    1
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        1
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        CC + BCRTH
+                                    </div>
                                 </td>
-                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
-                                    2
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        2
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        Guest Speaker <br />
+                                        Prof. Samdhu Chehtri
+                                    </div>
                                 </td>
-                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
-                                    3
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        3
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        CC + BCRTH
+                                    </div>
                                 </td>
                                 <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
                                     4

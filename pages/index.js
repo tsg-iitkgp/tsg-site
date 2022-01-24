@@ -52,7 +52,7 @@ export default function Home() {
             </h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-                data-src="/upcomingEvents/samyog-2.png"
+                data-src="/upcomingEvents/Samyog.jpg"
                 onClick={() => handlePosterClick("https://gymkhana.iitkgp.ac.in/samyog-connect-iitkgp")}
               />
               <div
