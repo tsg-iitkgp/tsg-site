@@ -52,7 +52,7 @@ export default function Home() {
             </h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-                data-src="/upcomingEvents/Samyog.jpg"
+                data-src="/upcomingEvents/samyog.jpeg"
                 onClick={() => handlePosterClick("https://gymkhana.iitkgp.ac.in/samyog-connect-iitkgp")}
               />
               <div
@@ -126,6 +126,26 @@ export default function Home() {
                   </span>
                 </a>
               </div>
+            </div>
+          </section>
+          <section className={`facilities ${Styles.regVideoSection}`}>
+            <h1>
+              Pariksha Pe Charcha - {' '}
+              <span>
+                #PPC 2022
+              </span>
+            </h1>
+            <p>
+              An interactive program of Hon'ble Prime Minister with students, teachers and parents-regarding
+            </p>
+            <div>
+              <iframe
+                src="/videos/1.mp4"
+                allow='autoplay; encrypted-media'
+                allowFullScreen
+                title='Illumination 2021'
+                className={Styles.video}
+              />
             </div>
           </section>
           <section className="facilities">

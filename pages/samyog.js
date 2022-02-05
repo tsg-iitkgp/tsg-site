@@ -18,7 +18,7 @@ export default function Samyog() {
                             Samyog - Connect IIT Kharagpur
                         </h1>
                         <div className={Styles.posterContainer}>
-                            <img src="/upcomingEvents/Samyog.jpg" className={Styles.poster} />
+                            <img src="/upcomingEvents/samyog.jpeg" className={Styles.poster} />
                         </div>
                         <p className={Styles.meetBtnContainer}>
                             <Link href={'/samyog-connect-iitkgp'}>
@@ -226,7 +226,8 @@ export default function Samyog() {
                                         27
                                     </div>
                                     <div className={Styles.eventName}>
-                                        CC + BCRTH
+                                        "HAPPY THE SELF" <br />
+                                        - Shamsheer KK
                                     </div>
                                 </td>
                                 <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
@@ -246,8 +247,60 @@ export default function Samyog() {
                                     </div>
                                     <div className={Styles.eventName}>
                                         Guest Lecture <br />
-                                        Commander Jaitley
+                                        Commander Jaitley <br /> <br/>
+                                        "What We Can Do for Our Country?"
                                     </div>
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colSpan={7} className={Styles.monthName}>
+                                    FEBRUARY
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className={Styles.day}>
+                                    Sunday
+                                </td>
+                                <td className={Styles.day}>
+                                    Monday
+                                </td>
+                                <td className={Styles.day}>
+                                    Tuesday
+                                </td>
+                                <td className={Styles.day}>
+                                    Wednesday
+                                </td>
+                                <td className={Styles.day}>
+                                    Thursday
+                                </td>
+                                <td className={Styles.day}>
+                                    Friday
+                                </td>
+                                <td className={Styles.day}>
+                                    Saturday
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
                                 </td>
                                 <td className={`${Styles.dateGrid} ${Styles.event}`}>
                                     <div className={Styles.date}>
@@ -274,8 +327,13 @@ export default function Samyog() {
                                         CC + BCRTH
                                     </div>
                                 </td>
-                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
-                                    4
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        4
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        Acharya Prashant
+                                    </div>
                                 </td>
                                 <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
                                     5
