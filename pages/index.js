@@ -126,6 +126,21 @@ export default function Home() {
               </div>
             </div>
           </section>
+          <section className={`facilities ${Styles.regVideoSection}`}>
+            <h1>
+              Pariksha Pe Charcha - <span>#PPC 2022</span>
+            </h1>
+            <p>An interactive program of Hon'ble Prime Minister with students, teachers and parents-regarding</p>
+            <div>
+              <iframe
+                src="/videos/1.mp4"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                title="Illumination 2021"
+                className={Styles.video}
+              />
+            </div>
+          </section>
           <section className="facilities">
             <h2>UG Induction Program - 2021</h2>
             <div className={Styles.inductionIntro}>

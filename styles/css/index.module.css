@@ -1,3 +1,15 @@
+
+.regVideoSection div {
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+}
+
+.regVideoSection .video {
+    min-height: 250px;
+}
+
+
 .scheduleTile {
     padding: 1.5rem 0;
     color: #333;
@@ -173,6 +185,10 @@ section.covidSection {
 
 @media (min-width: 700px) {
     .illuVideoSection .illuVideo {
+        min-height: 500px;
+    }
+
+    .regVideoSection .video {
         min-height: 500px;
     }
 
