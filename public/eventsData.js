@@ -1,6 +1,96 @@
 export default {
   data: [
     {
+      title: "Smart India Hackathon 2022",
+      date: "19th February 2022 11:59 PM",
+      poster: "/upcomingEvents/smartIndia.jpeg",
+      description: `
+      Smart India Hackathon 2022 is a nationwide initiative by the Ministry of Education, Govt of India to provide students with a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem-solving.
+                `,
+      modalContent: "",
+      content: [
+        `
+        Hello everyone,
+        `,
+        `
+        Smart India Hackathon 2022 is a nationwide initiative by the Ministry of Education, Govt of India to provide students with a platform to solve some of the pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem-solving. The hackathon comprises various problem statements in both hardware and software domains. `,
+        `
+        For selecting the teams representing IIT Kharagpur, an internal hackathon will be organised by Technology Students' Gymkhana. The top 7 teams will get the opportunity to compete in the national level Smart India Hackathon.  `,
+        ,
+        `
+        Registeration Deadline: 19th Feb 2022,11:59 pm
+                        `,
+        `
+        Find out more at: www.sih.gov.in
+                        `,
+        `
+        For any queries, contact:`,
+        `
+        Vadthya Sanjay Kumar: +91 9121372359`,
+        `
+        Kodipaka Nikitha: +91 9550449545                        `,
+      ],
+      links: [
+        {
+          description: "Kindly follow this link for complete information on Team Criteria and Problem Statements:",
+          href: "https://docs.google.com/document/d/1vc_KafX7pjc1y_cENdWpr2bRkAz9PzwvY6W4_Utk5UI/edit?usp=sharing",
+          content: "https://docs.google.com/document/d/1vc_KafX7pjc1y_cENdWpr2bRkAz9PzwvY6W4_Utk5UI/edit?usp=sharing",
+        },
+        {
+          description: "Registration Form:",
+          href: "https://forms.gle/TSDQ6M6bXat3J8nV9",
+          content: "https://forms.gle/TSDQ6M6bXat3J8nV9",
+        },
+      ],
+      isHighlight: true,
+    },
+    {
+      title: "Inter IIT Tech Meet 10.0 Selections",
+      date: "13th February 2022",
+      poster: "/upcomingEvents/interIIT.jpeg",
+      description: `
+      Inter IIT Tech Meet 10.0, proudly hosted by IIT Kharagpur, is around the corner. As we all know, the pandemic opened new scopes of innovation and imagination. Acknowledging this, the theme for this edition is- "To Newer Horizons: In the Wake of Pandemic."
+                `,
+      modalContent: "",
+      content: [
+        `
+        Hello Kgpians,
+
+        `,
+        `
+        Inter IIT Tech Meet 10.0, proudly hosted by IIT Kharagpur, is around the corner. As we all know, the pandemic opened new scopes of innovation and imagination. Acknowledging this, the theme for this edition is- "To Newer Horizons: In the Wake of Pandemic." `,
+        `
+        We gladly invite applications for a centralised "Development Team" and "Design and Presentation Team" of our Tech Contingent in the Inter IIT Tech Meet 10.0. We are looking for people with a holistic set of skills in design, presentations, video editing, web, and app development with a good sense of aesthetics and a knack for technology. Here's the perfect opportunity to contribute to the innovative ideas of our contingent and ensure that all the deliverables of the championship are designed and developed creatively and efficiently!`,
+        `
+        Do register for the selections
+                        `,
+        `
+        Last date of Registration: 11:59 PM on 13th February 2022.
+        `,
+        `
+        Students across all years and courses (UG, PG and RS) are invited to apply.
+`,
+        `
+        For any queries, contact:
+`,
+        `
+        Vadthya Sanjay Kumar- 9121372359                       `,
+      ],
+      links: [
+        {
+          description: "Kindly follow this link for complete information on Team Criteria and Problem Statements:",
+          href: "https://docs.google.com/document/d/1vc_KafX7pjc1y_cENdWpr2bRkAz9PzwvY6W4_Utk5UI/edit?usp=sharing",
+          content: "https://docs.google.com/document/d/1vc_KafX7pjc1y_cENdWpr2bRkAz9PzwvY6W4_Utk5UI/edit?usp=sharing",
+        },
+        {
+          description: "Registration Form:",
+          href: "https://forms.gle/TSDQ6M6bXat3J8nV9",
+          content: "https://forms.gle/TSDQ6M6bXat3J8nV9",
+        },
+      ],
+      isHighlight: true,
+    },
+    {
       title: "Cyber Security and Ethical Hacking Workshop",
       date: "12th February-13th February 2022",
       poster: "/upcomingEvents/cyberSecurityWorkshop.jpeg",
