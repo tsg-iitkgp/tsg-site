@@ -10,26 +10,26 @@
     "deploy": "ssh tsg-server \"sudo rm -R ~/tsg-site/out\" && scp -r out tsg-server:/home/ubuntu/tsg-site/out"
   },
   "dependencies": {
-    "@nivo/bar": "^0.69.0",
-    "@nivo/core": "^0.69.0",
-    "date-fns": "^2.16.1",
-    "fs-extra": "^9.0.1",
-    "gray-matter": "^4.0.2",
+    "@nivo/bar": "^0.79.1",
+    "@nivo/core": "^0.79.0",
+    "date-fns": "^2.28.0",
+    "fs-extra": "^10.0.0",
+    "gray-matter": "^4.0.3",
     "imagemin-pngquant": "^9.0.2",
-    "next": "^10.0.0",
+    "next": "^12.0.10",
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-awesome-slider": "^4.1.0",
-    "react-dom": "^17.0.1",
+    "react-dom": "^17.0.2",
     "react-feather": "^2.0.9",
-    "react-modal": "^3.13.1",
-    "react-wavify": "^1.5.2",
-    "remark": "^13.0.0",
-    "remark-html": "^13.0.1",
-    "sass": "^1.30.0"
+    "react-modal": "^3.14.4",
+    "react-wavify": "^1.5.4",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "sass": "^1.49.4"
   },
   "devDependencies": {
-    "yarn-audit-fix": "^6.3.2"
+    "yarn-audit-fix": "^9.0.10"
   }
 }
