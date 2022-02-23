@@ -52,12 +52,16 @@ export default function Home() {
             </h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-                data-src="/upcomingEvents/samyog.jpeg"
+                data-src="/upcomingEvents/samyog.png"
                 onClick={() => handlePosterClick("https://gymkhana.iitkgp.ac.in/samyog-connect-iitkgp")}
               />
               <div
-                data-src="/upcomingEvents/lmc.jpeg"
-                onClick={() => handlePosterClick("https://forms.gle/bd6AMwUY3HSp9hEZ8")}
+                data-src="/upcomingEvents/matribhasha.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/694483407302267/posts/4839487386135161/?sfnsn=wiwspmo")}
+              />
+              <div
+                data-src="/upcomingEvents/SIH-2022.png"
+                onClick={() => handlePosterClick("https://www.sih.gov.in/sih2022PS")}
               />
               <div
                 data-src="/upcomingEvents/cfp.jpg"
@@ -129,15 +133,18 @@ export default function Home() {
             </div>
           </section>
           <section className={`facilities ${Styles.regVideoSection}`}>
-            <h1>
+            <h2>
               Pariksha Pe Charcha - {' '}
               <span>
                 #PPC 2022
               </span>
-            </h1>
+            </h2>
             <p>
               An interactive program of Hon'ble Prime Minister with students, teachers and parents-regarding
             </p>
+            <div className={Styles.ppcBannerContainer}>
+              <img src="/images/ppc2022.jpg" />
+            </div>
             <div>
               <iframe
                 src="/videos/1.mp4"

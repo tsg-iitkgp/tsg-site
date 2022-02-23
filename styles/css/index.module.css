@@ -9,6 +9,10 @@
     min-height: 250px;
 }
 
+.ppcBannerContainer img {
+    width: 100%;
+    object-fit: contain;
+}
 
 .scheduleTile {
     padding: 1.5rem 0;

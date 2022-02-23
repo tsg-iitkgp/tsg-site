@@ -1,6 +1,46 @@
 export default {
     data: [
         {
+            title: 'Matribhasha Diwas',
+            date: '11th February',
+            poster: '/upcomingEvents/matribhasha.jpg',
+            description: `
+            Language is the dress of thought. Language is culture, the tradition of living societies. The kaleidoscope of languages is unseen threads that link the massive- colorful fabric of the past to the beautiful couture of the present.    
+            `,
+            modalContent: '',
+            content: [
+                `
+                Language is the dress of thought. Language is culture, the tradition of living societies. The kaleidoscope of languages is unseen threads that link the massive- colorful fabric of the past to the beautiful couture of the present.
+                `,
+                `
+                Matri Bhasha Diwas, observed on 21st February, promotes the dissemination of the mother tongue to inspire solidarity based on understanding, tolerance, and dialogue. On the occasion of this momentous celebration of our lineage and pride, Social and Cultural, Technology Students’ Gymkhana invites you all to reflect on our cultural and linguistic identity to celebrate the essence and magic of unity in diversity.
+                `,
+                `
+                We are organizing a host of activities to depict diverse forms of literature and arts which include:
+
+                Elocution, 
+                Debating, 
+                Essay Writing, 
+                Painting, 
+                Music, 
+                Dramatics
+                `,
+                `
+                Registration deadlines: 15/02/2022
+                `,
+                `
+                Submission deadlines: 19/02/2022
+                `
+            ],
+            links: [
+                {
+                    description: 'Registration Form:',
+                    href: 'https://forms.gle/x7Fg5hR5DK7Jsmiu9',
+                    content: 'https://forms.gle/x7Fg5hR5DK7Jsmiu9',
+                },
+            ]
+        },
+        {
             title: 'SAMYOG - Connect IIT Kharagpur',
             date: '18th January',
             poster: '/upcomingEvents/samyog-2.png',

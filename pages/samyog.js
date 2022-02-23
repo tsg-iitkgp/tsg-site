@@ -18,7 +18,7 @@ export default function Samyog() {
                             Samyog - Connect IIT Kharagpur
                         </h1>
                         <div className={Styles.posterContainer}>
-                            <img src="/upcomingEvents/samyog.jpeg" className={Styles.poster} />
+                            <img src="/upcomingEvents/samyog.png" className={Styles.poster} />
                         </div>
                         <p className={Styles.meetBtnContainer}>
                             <Link href={'/samyog-connect-iitkgp'}>
@@ -247,7 +247,7 @@ export default function Samyog() {
                                     </div>
                                     <div className={Styles.eventName}>
                                         Guest Lecture <br />
-                                        Commander Jaitley <br /> <br/>
+                                        Commander Jaitley <br /> <br />
                                         "What We Can Do for Our Country?"
                                     </div>
                                 </td>
@@ -337,6 +337,125 @@ export default function Samyog() {
                                 </td>
                                 <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
                                     5
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    6
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        7
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        JAMMING SESSION <br />
+                                        by Students’ Welfare Committee
+                                    </div>
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        8
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        CGL
+                                    </div>
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        9
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        PONDERING PONDS Workshop <br />
+                                        by Technology Environment Society
+                                    </div>
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        10
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        Rubik’s cube solving workshop by Students’ Welfare Committee
+                                    </div>
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.event}`}>
+                                    <div className={Styles.date}>
+                                        11
+                                    </div>
+                                    <div className={Styles.eventName}>
+                                        SWG
+                                    </div>
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    12
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    13
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    14
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    15
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    16
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    17
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    18
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    19
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    20
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    21
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    22
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    23
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    24
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    25
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    26
+                                </td>
+                            </tr>
+                            <tr>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    27
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+                                    28
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
+                                </td>
+                                <td className={`${Styles.dateGrid} ${Styles.nonEvent}`}>
+
                                 </td>
                             </tr>
                         </table>
