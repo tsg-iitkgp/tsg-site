@@ -135,6 +135,9 @@ export default function Navbar() {
               </ul>
             </li>
             <li data-text="GC" className="dropdown-title">
+              <Link href="/internships">Internships</Link>
+            </li>
+            <li data-text="GC" className="dropdown-title">
               <Link href="/events">Events</Link>
               {/* <ul className="dropdown-content">
                 <li>
@@ -270,6 +273,9 @@ export default function Navbar() {
                   <Link href="/secretaries">Secretaries</Link>
                 </li>
               </ul>
+            </li>
+            <li data-text="GC" className="">
+              <Link href="/internships">Internships</Link>
             </li>
             <li data-text="GC" className="">
               <Link href="/events">Events</Link>

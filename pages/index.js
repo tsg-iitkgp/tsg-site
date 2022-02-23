@@ -50,27 +50,7 @@ export default function Home() {
             <h2>Highlights</h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-<<<<<<< HEAD
                 data-src="/upcomingEvents/samyog.png"
-=======
-                data-src="/upcomingEvents/interIIT.jpeg"
-                onClick={() => handlePosterClick("https://forms.gle/tNZCT58zBM4Cxteh7")}
-              />
-              <div
-                data-src="/upcomingEvents/smartIndia.jpeg"
-                onClick={() => handlePosterClick("https://forms.gle/TSDQ6M6bXat3J8nV9")}
-              />
-              <div
-                data-src="/upcomingEvents/cyberSecurityWorkshop.jpeg"
-                onClick={() => handlePosterClick("https://forms.gle/rLAnA2Ppwgm6FYM87 ")}
-              />
-              <div
-                data-src="/upcomingEvents/sociopreneurship.jpeg"
-                onClick={() => handlePosterClick("https://forms.gle/LbbfJBCtUo3DqAgc9")}
-              />
-              <div
-                data-src="/upcomingEvents/Samyog.jpg"
->>>>>>> 20066e35c2f207fbb0135751d43f6eb2d90eb101
                 onClick={() => handlePosterClick("https://gymkhana.iitkgp.ac.in/samyog-connect-iitkgp")}
               />
               <div
