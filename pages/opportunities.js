@@ -22,7 +22,7 @@ export default function Home() {
     const [modalData, setModalData] = useState();
 
     useEffect(() => {
-        fetch('https://script.google.com/macros/s/AKfycbyaYp-jMSpGXrYjD0u7CmHmEINCh6xLO8nGbouAebDuJ7qex3CzfiMMaufp4HgK3gw/exec?sheetName=Internships')
+        fetch('https://script.google.com/macros/s/AKfycbyaYp-jMSpGXrYjD0u7CmHmEINCh6xLO8nGbouAebDuJ7qex3CzfiMMaufp4HgK3gw/exec?sheetName=Opportunities')
             .then((response) => (response.json())).then((responseData) => {
                 setInternshipsData(responseData.data.data);
                 console.log(responseData.data.data);
@@ -40,7 +40,7 @@ export default function Home() {
         <>
             <Layout>
                 <Head>
-                    <title>Internships | {siteTitle}</title>
+                    <title>Opportunities | {siteTitle}</title>
                 </Head>
 
                 {/* <section className="intro">
@@ -59,7 +59,7 @@ export default function Home() {
                     <div className={`facilities ${Styles.mainContainer}`}>
                         <section className={Styles.welcomeSection}>
                             <h2>
-                                Internships
+                                Opportunities
                             </h2>
                             <p>
                                 Welcome! We hope this page helps you find internships.
@@ -76,7 +76,10 @@ export default function Home() {
                                     <table className={Styles.internshipTable}>
                                         <tr>
                                             <td className={Styles.headerGrid}>
-                                                Company
+                                                Organisation
+                                            </td>
+                                            <td className={Styles.headerGrid}>
+                                                Category
                                             </td>
                                             <td className={Styles.headerGrid}>
                                                 Profile
@@ -98,13 +101,16 @@ export default function Home() {
                                                         {internship[0]}
                                                     </td>
                                                     <td className={`${Styles.internGrid}`}>
-                                                        {internship[1]}
-                                                    </td>
-                                                    <td className={`${Styles.internGrid}`}>
                                                         {internship[2]}
                                                     </td>
                                                     <td className={`${Styles.internGrid}`}>
-                                                        {internship[4]}
+                                                        {internship[1]}
+                                                    </td>
+                                                    <td className={`${Styles.internGrid}`}>
+                                                        {internship[3]}
+                                                    </td>
+                                                    <td className={`${Styles.internGrid}`}>
+                                                        {internship[5]}
                                                     </td>
                                                     <td className={`${Styles.internGrid}`}>
                                                         <button onClick={() => (openModal(index))}>
