@@ -225,3 +225,9 @@ section.covidSection {
 .inductionIntro .handbookContainer {
     text-align: center;
 }
+
+
+div.interHall {
+    margin-top: 20px;
+    padding: 5vw 0;
+}

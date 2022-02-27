@@ -18,6 +18,7 @@ import FrModal from "../components/Modals/frModal";
 
 import Styles from "../styles/css/index.module.css";
 import * as Icon from "react-feather";
+import Highlight from "../components/InterHall/Cricket/Highlight";
 
 export default function Home() {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -50,22 +51,25 @@ export default function Home() {
             <h2>Highlights</h2>
             <AutoplaySlider play={true} interval={5000}>
               <div
-                data-src="/upcomingEvents/samyog.png"
-                onClick={() => handlePosterClick("https://gymkhana.iitkgp.ac.in/samyog-connect-iitkgp")}
+                data-src="/upcomingEvents/opensoft.png"
+                onClick={() => handlePosterClick("https://www.facebook.com/iitkgp.tech/posts/4941772725869603")}
               />
               <div
-                data-src="/upcomingEvents/matribhasha.jpg"
-                onClick={() => handlePosterClick("https://www.facebook.com/694483407302267/posts/4839487386135161/?sfnsn=wiwspmo")}
+                data-src="/upcomingEvents/openiitchess.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/sports.iitkgp/posts/2973351309554016")}
+              />
+              <div
+                data-src="/upcomingEvents/oev.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/CulturalKGP/posts/4859245817492651")}
+              />
+              <div
+                data-src="/upcomingEvents/owv.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/CulturalKGP/posts/4859245817492651")}
               />
               <div
                 data-src="/upcomingEvents/SIH-2022.png"
                 onClick={() => handlePosterClick("https://www.sih.gov.in/sih2022PS")}
               />
-              <div
-                data-src="/upcomingEvents/cfp.jpg"
-                onClick={() => handlePosterClick("https://www.facebook.com/100874528672631/posts/292245796202169/")}
-              />
-              <div data-src="/upcomingEvents/sia.jpeg" onClick={() => handlePosterClick("#")} />
               <div data-src="/upcomingEvents/qs.jpg" onClick={() => handlePosterClick("#")} />
             </AutoplaySlider>
           </section>
@@ -86,6 +90,14 @@ export default function Home() {
               </div>
             </div>
           </section> */}
+          <section className={`facilities ${Styles.interHall}`}>
+            <h2>
+              Inter Hall Cricket 2022
+            </h2>
+            <Highlight sheetName="Highlight1" />
+            <Highlight sheetName="Highlight2" />
+            <Highlight sheetName="Highlight3" />
+          </section>
           <section className={`facilities ${Styles.samyogSection}`}>
             <Link className={Styles.samyogButton} href={"/samyog"}>
               Samyog - Connect IIT Kharagpur
@@ -122,7 +134,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section className={`facilities ${Styles.regVideoSection}`}>
+          {/* <section className={`facilities ${Styles.regVideoSection}`}>
             <h2>
               Pariksha Pe Charcha - {' '}
               <span>
@@ -144,7 +156,7 @@ export default function Home() {
                 className={Styles.video}
               />
             </div>
-          </section>
+          </section> */}
           <section className="facilities">
             <h2>UG Induction Program - 2021</h2>
             <div className={Styles.inductionIntro}>

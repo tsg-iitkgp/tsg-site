@@ -1,0 +1,53 @@
+.highlightCard {
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+    padding: 20px 80px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.topContainer {
+}
+
+.topContainer .date {
+    text-align: center;
+    font-size: 16px;
+}
+
+.scoreContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.scoreContainer .teamContainer .teamName {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.scoreContainer .teamContainer .overs {
+    font-size: 16px;
+}
+
+.scoreContainer .vs {
+    padding: 30px;
+}
+
+.bottomContainer .description {
+    font-size: 16px;
+}
+
+.bottomContainer .scorecardBtn {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.bottomContainer .scorecardBtn:hover {
+    background-color: rgb(82, 204, 163);
+    transition: all 0.2s ease;
+}
