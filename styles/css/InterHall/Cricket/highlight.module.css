@@ -33,8 +33,31 @@
     padding: 30px;
 }
 
-.bottomContainer .description {
+.bottomContainer .description, .topContainer .description {
     font-size: 16px;
+}
+
+.bottomContainer .bestPlayer {
+    border: 1px solid gold;
+    padding: 20px;
+    margin: 10px;
+}
+
+.bottomContainer .bestPlayer .iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bottomContainer .bestPlayer .bestPlayerName {
+    font-size: 16px;
+}
+
+.bottomContainer .bestPlayer .awardIcon {
+    color: gold;
+    margin: 0 5px;
 }
 
 .bottomContainer .scorecardBtn {

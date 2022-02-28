@@ -3,6 +3,7 @@ import { BarLoader } from 'react-spinners';
 import { css } from "@emotion/react";
 import Styles from '../../../styles/css/InterHall/Cricket/highlight.module.css';
 import CricketScoreCardModal from '../../Modals/CricketScoreCardModal';
+import * as Icon from "react-feather";
 
 
 const override = css`
@@ -11,7 +12,7 @@ const override = css`
 `;
 
 
-function Highlight({sheetName='Highlight1'}) {
+function Highlight({ sheetName = 'Highlight1' }) {
     const [isLoading, setIsLoading] = useState(true);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [matchData, setMatchData] = useState();
@@ -21,7 +22,7 @@ function Highlight({sheetName='Highlight1'}) {
             .then((response) => (response.json())).then((responseData) => {
                 setMatchData(responseData.data);
                 setIsLoading(false);
-            }).catch((err) => console.log(err));
+            }).catch((err) => setIsLoading(false));
     }, [])
 
     const openModal = (index) => {
@@ -34,7 +35,7 @@ function Highlight({sheetName='Highlight1'}) {
             {
                 isLoading ? (
                     <div className={Styles.loader}>
-                        <BarLoader color={'#b2c58c'} loading={isLoading} css={override} size={150} />
+                        <BarLoader color={'rgb(247, 28, 28)'} loading={isLoading} css={override} size={150} />
                     </div>
                 ) : (
                     matchData && (
@@ -42,6 +43,9 @@ function Highlight({sheetName='Highlight1'}) {
                             <div className={Styles.topContainer}>
                                 <p className={Styles.date}>
                                     {matchData.timing}
+                                </p>
+                                <p className={Styles.description}>
+                                    - {matchData.result_line} -
                                 </p>
                             </div>
                             <div className={Styles.scoreContainer}>
@@ -66,9 +70,18 @@ function Highlight({sheetName='Highlight1'}) {
                                 </div>
                             </div>
                             <div className={Styles.bottomContainer}>
-                                <p className={Styles.description}>
-                                    {matchData.result_line}
-                                </p>
+                                {/* <p className={Styles.description}>
+                                    - {matchData.result_line} -
+                                </p> */}
+                                <div className={Styles.bestPlayer}>
+                                    <div className={Styles.iconContainer}>
+                                        <Icon.Award size={32} className={Styles.awardIcon} />
+                                        Best Player of the Match
+                                    </div>
+                                    <div className={Styles.bestPlayerName}>
+                                        {matchData.best_player}
+                                    </div>
+                                </div>
                                 <button className={Styles.scorecardBtn} onClick={openModal}>
                                     Score Card
                                 </button>

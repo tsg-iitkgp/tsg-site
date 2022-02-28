@@ -98,11 +98,11 @@ export default function Home() {
             <Highlight sheetName="Highlight2" />
             <Highlight sheetName="Highlight3" />
           </section>
-          <section className={`facilities ${Styles.samyogSection}`}>
+          {/* <section className={`facilities ${Styles.samyogSection}`}>
             <Link className={Styles.samyogButton} href={"/samyog"}>
               Samyog - Connect IIT Kharagpur
             </Link>
-          </section>
+          </section> */}
           <section className={`facilities ${Styles.covidSection}`}>
             <h2>Let's Together Fight Against Covid</h2>
             <div className={Styles.covidMeasures}>

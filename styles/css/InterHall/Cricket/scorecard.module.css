@@ -1,5 +1,6 @@
 .modal {
-    max-width: 500px;
+    width: 90%;
+    max-width: 700px;
     margin: 10vh auto;
     height: 80vh;
     max-height: 80vh;
@@ -94,11 +95,16 @@
 
 .scoreCard table td {
     padding: 10px;
-    text-align: start;
+    text-align: left;
     font-size: 16px;
+    min-width: 40px;
 }
 
 .scoreCard table .batsman {
     flex-grow: 1;
 }
 
+.scoreCard table .batsman span {
+    color: #a1a19c;
+    font-size: 14px;
+}

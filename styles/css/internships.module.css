@@ -3,6 +3,7 @@
 }
 
 .internSection {
+    width: 100%;
     overflow-x: auto;
 }
 
@@ -16,7 +17,6 @@
     border-collapse: collapse;
 }
 
-
 .internshipTable tr,
 .internshipTable td {
     border: 1px solid #595959;
@@ -27,7 +27,7 @@
     font-size: 20px;
     padding: 2px 10px;
     color: #162b0a;
-    background-color: #c2d69b;
+    background-color: rgb(228, 109, 109);
     font-weight: bold;
 }
 
@@ -36,13 +36,11 @@
     padding: 5px;
     vertical-align: middle;
     text-align: center;
-    min-width: 100px;
-    max-width: 130px;
 }
 
 .internshipTable .internGrid button {
     padding: 10px;
-    background-color: #b2c58c;
+    background-color: rgb(247, 28, 28);
     border: 0;
     border-radius: 5px;
     color: #fff;
@@ -50,13 +48,19 @@
 }
 
 .internshipTable .internGrid button:hover {
-    background-color: rgb(149, 170, 103);
+    background-color: rgb(199, 33, 33);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
+.internshipTable tr td.internDescription {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .internshipModal {
-    max-width: 500px;
+    width: 90%;
+    max-width: 800px;
     margin: 10vh auto;
     height: 80vh;
     max-height: 80vh;

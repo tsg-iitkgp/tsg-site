@@ -105,6 +105,9 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
+                  <Link href="/samyog">Samyog - Connect IITKGP</Link>
+                </li>
+                <li>
                   <Link href="/pastOfficeBearers">Past Office Bearers</Link>
                 </li>
               </ul>
@@ -243,6 +246,9 @@ export default function Navbar() {
                   >
                     Grievance Form &thinsp; <Icon.ExternalLink />
                   </a>
+                </li>
+                <li>
+                  <Link href="/samyog">Samyog - Connect IITKGP</Link>
                 </li>
                 <li>
                   <Link href="/pastOfficeBearers">Past Office Bearers</Link>

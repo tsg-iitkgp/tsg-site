@@ -15,7 +15,7 @@ const override = css`
   margin: auto;
 `;
 
-export default function Home() {
+export default function Opportunities() {
     const [isLoading, setIsLoading] = useState(true);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [internshipsData, setInternshipsData] = useState([]);
@@ -62,7 +62,7 @@ export default function Home() {
                                 Opportunities
                             </h2>
                             <p>
-                                Welcome! We hope this page helps you find internships.
+                                Welcome!
                             </p>
                         </section>
 
@@ -106,7 +106,7 @@ export default function Home() {
                                                     <td className={`${Styles.internGrid}`}>
                                                         {internship[1]}
                                                     </td>
-                                                    <td className={`${Styles.internGrid}`}>
+                                                    <td className={`${Styles.internGrid} ${Styles.internDescription}`}>
                                                         {internship[3]}
                                                     </td>
                                                     <td className={`${Styles.internGrid}`}>

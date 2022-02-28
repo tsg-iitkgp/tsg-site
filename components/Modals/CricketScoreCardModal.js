@@ -83,7 +83,10 @@ export default function CricketScoreCardModal({ matchData, onRequestClose, ...pr
                                                             .map((item) => (
                                                                 <tr>
                                                                     <td className={Styles.batsman}>
-                                                                        {item.player_name}
+                                                                        {item.player_name} <br />
+                                                                        <span>
+                                                                            {item.player_description}
+                                                                        </span>
                                                                     </td>
                                                                     <td>
                                                                         {item.runs_taken}
@@ -159,7 +162,7 @@ export default function CricketScoreCardModal({ matchData, onRequestClose, ...pr
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <br/>
+                                        <br />
                                         <div className={Styles.scoreCard}>
                                             <div className={Styles.heading}>
                                                 {matchData.team2} Innings
@@ -190,7 +193,10 @@ export default function CricketScoreCardModal({ matchData, onRequestClose, ...pr
                                                             .map((item) => (
                                                                 <tr>
                                                                     <td className={Styles.batsman}>
-                                                                        {item.player_name}
+                                                                        {item.player_name} <br />
+                                                                        <span>
+                                                                            {item.player_description}
+                                                                        </span>
                                                                     </td>
                                                                     <td>
                                                                         {item.runs_taken}
