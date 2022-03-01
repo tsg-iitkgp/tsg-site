@@ -19,7 +19,6 @@ export default function CricketScoreCardModal({ matchData, onRequestClose, ...pr
         fetch(`https://script.google.com/macros/s/AKfycbzBMcvAFVr5IVC3KWDusLdZP-ZiEQ16Ngnpqj9RWgmteasFtGGqL1XHVAOXOQKaEgs/exec?sheetName=${matchData.result_sheet}`)
             .then((response) => (response.json())).then((responseData) => {
                 setModalData(responseData.data);
-                console.log(responseData.data);
                 setIsLoading(false);
             }).catch((err) => console.log(err));
     }, []);

@@ -90,13 +90,10 @@ export default function Home() {
               </div>
             </div>
           </section> */}
-          <section className={`facilities ${Styles.interHall}`}>
-            <h2>
+          <section className={`facilities ${Styles.samyogSection}`}>
+            <Link className={Styles.samyogButton} href={"/sports/cricket"}>
               Inter Hall Cricket 2022
-            </h2>
-            <Highlight sheetName="Highlight1" />
-            <Highlight sheetName="Highlight2" />
-            <Highlight sheetName="Highlight3" />
+            </Link>
           </section>
           {/* <section className={`facilities ${Styles.samyogSection}`}>
             <Link className={Styles.samyogButton} href={"/samyog"}>

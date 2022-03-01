@@ -20,6 +20,12 @@
     flex-wrap: nowrap;
 }
 
+.scoreContainer .upcomingTeamContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .scoreContainer .teamContainer .teamName {
     font-size: 34px;
     font-weight: bold;
