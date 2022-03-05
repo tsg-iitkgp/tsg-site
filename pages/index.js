@@ -50,6 +50,14 @@ export default function Home() {
           <section className="events-slider">
             <h2>Highlights</h2>
             <AutoplaySlider play={true} interval={5000}>
+            <div
+                data-src="/upcomingEvents/pl.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/1375511306004699/posts/2977716442450836")}
+              />
+              <div
+                data-src="/upcomingEvents/icgc.jpg"
+                onClick={() => handlePosterClick("https://www.facebook.com/1375511306004699/posts/2975267989362348")}
+              />
               <div
                 data-src="/upcomingEvents/opensoft.png"
                 onClick={() => handlePosterClick("https://www.facebook.com/iitkgp.tech/posts/4941772725869603")}
@@ -92,7 +100,7 @@ export default function Home() {
           </section> */}
           <section className={`facilities ${Styles.samyogSection}`}>
             <Link className={Styles.samyogButton} href={"/sports/cricket"}>
-              Inter Hall Cricket 2022
+              Inter Hall Cricket Gymkhana Championship 2022
             </Link>
           </section>
           {/* <section className={`facilities ${Styles.samyogSection}`}>

@@ -1,0 +1,43 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 90%;
+    margin: 30px auto;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.cardContainer .header {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.cardContainer .body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardContainer .body .vs {
+    margin: 10px auto;
+}
+
+.cardContainer .body .eachTeamContainer {
+    text-align: center;
+}
+
+.cardContainer .body .eachTeamContainer .eachTeam {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cardContainer .body .eachTeamContainer .teamScore {
+}
+
+.cardContainer .footer {
+    text-align: center;
+    font-size: 18px;
+}

@@ -44,7 +44,7 @@ export default function Cricket() {
         <>
             <Layout>
                 <Head>
-                    <title>Inter Hall Cricket | {siteTitle}</title>
+                    <title>Inter Hall Cricket Gymkhana Championship 2022 | {siteTitle}</title>
                 </Head>
 
                 {/* <section className="intro">
@@ -63,8 +63,11 @@ export default function Cricket() {
                     <div className={`facilities`}>
                         <section>
                             <h2>
-                                Inter Hall Cricket 2022
+                                Inter Hall Cricket Gymkhana Championship 2022
                             </h2>
+                            <h1>
+                                Live Score
+                            </h1>
                             {/* <p>
                                 Welcome!
                             </p> */}
