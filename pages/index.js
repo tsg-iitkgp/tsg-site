@@ -99,8 +99,8 @@ export default function Home() {
             </div>
           </section> */}
           <section className={`facilities ${Styles.samyogSection}`}>
-            <Link className={Styles.samyogButton} href={"/sports/cricket"}>
-              Inter Hall Cricket Gymkhana Championship 2022
+            <Link className={Styles.samyogButton} href={"/sports"}>
+              Live Scores - Inter Hall Gymkhana Championship 2022
             </Link>
           </section>
           {/* <section className={`facilities ${Styles.samyogSection}`}>

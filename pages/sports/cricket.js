@@ -11,6 +11,7 @@ import { css } from "@emotion/react";
 import { BarLoader } from "react-spinners";
 import UpcomingMatch from "../../components/InterHall/Cricket/UpcomingMatch";
 import PastMatch from "../../components/InterHall/Cricket/PastMatch";
+import PointsTable from "../../components/InterHall/Cricket/PointsTable";
 
 
 const override = css`
@@ -29,7 +30,6 @@ export default function Cricket() {
         fetch(`https://script.google.com/macros/s/AKfycbzBMcvAFVr5IVC3KWDusLdZP-ZiEQ16Ngnpqj9RWgmteasFtGGqL1XHVAOXOQKaEgs/exec?sheetName=Matches`)
             .then((response) => (response.json())).then((responseData) => {
                 setMatchesData(responseData.data);
-                console.log(responseData.data);
                 setIsLoading(false);
             })
     }, [])
@@ -76,6 +76,14 @@ export default function Cricket() {
                             <Highlight sheetName="Highlight1" />
                             <Highlight sheetName="Highlight2" />
                             <Highlight sheetName="Highlight3" />
+                            <Highlight sheetName="Highlight4" />
+                            <Highlight sheetName="Highlight5" />
+                        </section>
+                        <section className={Styles.matchesSection}>
+                            <h1>
+                                Points Table
+                            </h1>
+                            <PointsTable />
                         </section>
                         <section className={Styles.matchesSection}>
                             <div>

@@ -6,7 +6,7 @@ import Styles from "../../styles/css/InterHall/sports.module.css";
 import * as Icon from "react-feather";
 
 export default function Sports() {
-    
+
 
     return (
         <>
@@ -19,18 +19,20 @@ export default function Sports() {
                     <div className={`facilities`}>
                         <section>
                             <h2>
-                                Inter Hall Cricket Gymkhana Championship 2022
+                                Inter Hall Gymkhana Championship 2022
                             </h2>
-                            <h1>
-                                Live Score
-                            </h1>
                             {/* <p>
                                 Welcome!
                             </p> */}
                         </section>
-                        <section>
+                        <section className={Styles.sportGridsContainer}>
+                            <Link className={Styles.sportGrid} href={'/sports/cricket'}>
+                                Cricket
+                            </Link>
+                            <Link className={Styles.sportGrid} href={'/sports/football'}>
+                                Football
+                            </Link>
                         </section>
-                        
                     </div>
                 </section>
             </Layout>

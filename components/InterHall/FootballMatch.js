@@ -1,9 +1,14 @@
 import React from 'react';
 import Styles from '../../styles/css/InterHall/football.module.css';
+import * as Icon from "react-feather";
+
 
 function FootballMatch({ data }) {
   return (
     <div className={Styles.cardContainer}>
+      <div className={Styles.timer}>
+        {data.timer}
+      </div>
       <div className={Styles.header}>
         {data.time}, {data.location}
       </div>
@@ -14,6 +19,10 @@ function FootballMatch({ data }) {
           </div>
           <div className={Styles.teamScore}>
             {data.team1_score}
+          </div>
+          <div className={Styles.scorers}>
+            <img src='/images/soccer-ball.png' />
+            {data.team1_goalscorers}
           </div>
         </div>
         <div className={Styles.vs}>
@@ -26,10 +35,30 @@ function FootballMatch({ data }) {
           <div className={Styles.teamScore}>
             {data.team2_score}
           </div>
+          <div className={Styles.scorers}>
+            <img src='/images/soccer-ball.png' />
+            {data.team1_goalscorers}
+          </div>
         </div>
       </div>
       <div className={Styles.footer}>
-        {data.highlight_line}
+        <div>
+          {data.highlight_line}
+        </div>
+        <div className={Styles.bestPlayer}>
+          <div className={Styles.iconContainer}>
+            <Icon.Award size={32} className={Styles.awardIcon} />
+            Best Player of the Match
+          </div>
+          <div className={Styles.bestPlayerName}>
+            {data.best_player}
+          </div>
+        </div>
+        <div className={Styles.formationBtnContainer}>
+          <a className={Styles.formationBtn} href={data.formation_link} target='_blank'>
+            Formation
+          </a>
+        </div>
       </div>
     </div>
   )

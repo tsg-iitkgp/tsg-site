@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import FootballMatch from "../../components/InterHall/FootballMatch";
 import { BarLoader } from "react-spinners";
 import { css } from "@emotion/react";
+import PointsTable from "../../components/InterHall/Football/PointsTable";
 
 
 const override = css`
@@ -44,14 +45,18 @@ export default function Football() {
                             <h2>
                                 Inter Hall Football Gymkhana Championship 2022
                             </h2>
-                            <h1>
-                                Live Score
-                            </h1>
                             {/* <p>
                                 Welcome!
                             </p> */}
+                            <h1>
+                                Points Table
+                            </h1>
+                            <PointsTable />
                         </section>
                         <section>
+                            <h1>
+                                Live Score
+                            </h1>
                             <>
                                 {
                                     isLoading ? (
