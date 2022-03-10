@@ -61,8 +61,12 @@ export default function Opportunities() {
                             <h2>
                                 Opportunities
                             </h2>
-                            <p>
-                                Welcome!
+                            <p className={Styles.description}>
+                                For any queries contact: {' '}
+                                <a href="mailto:iitkgp.pr@gmail.com">Sarthak Goyal</a> {' '}
+                                <a href="tel:+917584837111">
+                                    (7584837111)
+                                </a>
                             </p>
                         </section>
 
@@ -97,22 +101,22 @@ export default function Opportunities() {
                                         {
                                             internshipsData && internshipsData.map((internship, index) => (
                                                 <tr>
-                                                    <td className={`${Styles.internGrid}`}>
+                                                    <td className={`${Styles.internGrid} ${Styles.oddGrid}`}>
                                                         {internship[0]}
                                                     </td>
-                                                    <td className={`${Styles.internGrid}`}>
+                                                    <td className={`${Styles.internGrid} ${Styles.evenGrid}`}>
                                                         {internship[2]}
                                                     </td>
-                                                    <td className={`${Styles.internGrid}`}>
+                                                    <td className={`${Styles.internGrid} ${Styles.oddGrid}`}>
                                                         {internship[1]}
                                                     </td>
-                                                    <td className={`${Styles.internGrid} ${Styles.internDescription}`}>
+                                                    <td className={`${Styles.internGrid} ${Styles.internDescription} ${Styles.evenGrid}`}>
                                                         {internship[3]}
                                                     </td>
-                                                    <td className={`${Styles.internGrid}`}>
-                                                        {internship[5]}
+                                                    <td className={`${Styles.internGrid} ${Styles.oddGrid}`}>
+                                                        {internship[6]}
                                                     </td>
-                                                    <td className={`${Styles.internGrid}`}>
+                                                    <td className={`${Styles.internGrid} ${Styles.evenGrid}`}>
                                                         <button onClick={() => (openModal(index))}>
                                                             Read More
                                                         </button>

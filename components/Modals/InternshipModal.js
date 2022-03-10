@@ -24,7 +24,7 @@ export default function InternshipModal({ data: internshipData, onRequestClose, 
                                     {internshipData[0]}
                                 </h2>
                                 <p>
-                                    {internshipData[3]}
+                                    {internshipData[4]}
                                 </p>
                             </div>
                             <div>
@@ -32,7 +32,7 @@ export default function InternshipModal({ data: internshipData, onRequestClose, 
                                     Deadline
                                 </h4>
                                 <div>
-                                    {internshipData[5]}
+                                    {internshipData[6]}
                                 </div>
                             </div>
                             <div>
@@ -41,14 +41,14 @@ export default function InternshipModal({ data: internshipData, onRequestClose, 
                                 </h4>
                                 <div>
                                     {
-                                        internshipData[4].split('\n').map((item) => (<div>{item}</div>))
+                                        internshipData[5].split('\n').map((item) => (<div>{item}</div>))
                                     }
                                 </div>
                             </div>
 
                         </div>
                         <div className={Styles.footer}>
-                            <a href={internshipData[6]} className={Styles.button}>
+                            <a href={internshipData[7]} className={Styles.button}>
                                 Apply
                             </a>
                         </div>

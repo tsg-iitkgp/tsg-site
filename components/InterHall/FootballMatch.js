@@ -37,7 +37,7 @@ function FootballMatch({ data }) {
           </div>
           <div className={Styles.scorers}>
             <img src='/images/soccer-ball.png' />
-            {data.team1_goalscorers}
+            {data.team2_goalscorers}
           </div>
         </div>
       </div>
