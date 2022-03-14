@@ -111,7 +111,9 @@ export default function Opportunities() {
                                                         {internship[1]}
                                                     </td>
                                                     <td className={`${Styles.internGrid} ${Styles.internDescription} ${Styles.evenGrid}`}>
-                                                        {internship[3]}
+                                                        {
+                                                            internship[3].split('\n').map((item) => (<p>{item}</p>))
+                                                        }
                                                     </td>
                                                     <td className={`${Styles.internGrid} ${Styles.oddGrid}`}>
                                                         {internship[6]}

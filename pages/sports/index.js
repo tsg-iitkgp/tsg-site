@@ -35,6 +35,9 @@ export default function Sports() {
                             <Link className={Styles.sportGrid} href={'/sports/tt'}>
                                 Table Tennis
                             </Link>
+                            <Link className={Styles.sportGrid} href={'/sports/volleyball'}>
+                                Volleyball
+                            </Link>
                         </section>
                     </div>
                 </section>

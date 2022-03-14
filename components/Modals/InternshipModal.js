@@ -23,9 +23,11 @@ export default function InternshipModal({ data: internshipData, onRequestClose, 
                                 <h2>
                                     {internshipData[0]}
                                 </h2>
-                                <p>
-                                    {internshipData[4]}
-                                </p>
+                                <div>
+                                    {
+                                        internshipData[4].split('\n').map((item) => (<p>{item}</p>))
+                                    }
+                                </div>
                             </div>
                             <div>
                                 <h4>

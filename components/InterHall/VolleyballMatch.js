@@ -3,7 +3,7 @@ import Styles from '../../styles/css/InterHall/football.module.css';
 import * as Icon from "react-feather";
 
 
-function TTMatch({ data }) {
+function VolleyballMatch({ data }) {
     return (
         <div className={Styles.cardContainer}>
             <div className={Styles.header}>
@@ -17,9 +17,6 @@ function TTMatch({ data }) {
                     <div className={Styles.teamScore}>
                         {data.team1_score}
                     </div>
-                    <div className={Styles.scorers}>
-                        {data.team1_players}
-                    </div>
                 </div>
                 <div className={Styles.vs}>
                     vs
@@ -31,16 +28,13 @@ function TTMatch({ data }) {
                     <div className={Styles.teamScore}>
                         {data.team2_score}
                     </div>
-                    <div className={Styles.scorers}>
-                        {data.team2_players}
-                    </div>
                 </div>
             </div>
             <div className={Styles.footer}>
                 <div>
                     {data.highlight_line}
                 </div>
-                <div className={Styles.bestPlayer}>
+                {/* <div className={Styles.bestPlayer}>
                     <div className={Styles.iconContainer}>
                         <Icon.Award size={32} className={Styles.awardIcon} />
                         Best Player of the Match
@@ -48,7 +42,7 @@ function TTMatch({ data }) {
                     <div className={Styles.bestPlayerName}>
                         {data.best_player}
                     </div>
-                </div>
+                </div> */}
                 {/* <div className={Styles.formationBtnContainer}>
           <a className={Styles.formationBtn} href={data.formation_link} target='_blank'>
             Formation
@@ -60,4 +54,4 @@ function TTMatch({ data }) {
 }
 
 
-export default TTMatch;
+export default VolleyballMatch;
