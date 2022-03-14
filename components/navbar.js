@@ -96,6 +96,9 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
+                  <Link href="/elections">Elections</Link>
+                </li>
+                <li>
                   <a
                     href="https://forms.gle/AaPmckUVsQyPY43v5"
                     target="_blank"
@@ -237,6 +240,9 @@ export default function Navbar() {
                   <a href="/files/Gymkhana_Constitution.pdf" target="_blank" rel="noopener noreferrer">
                     TSG Constitution &thinsp; <Icon.ExternalLink />
                   </a>
+                </li>
+                <li>
+                  <Link href="/elections">Elections</Link>
                 </li>
                 <li>
                   <a

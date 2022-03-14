@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Head from "next/head";
-import Layout from "../components/layout";
-import Card from "../components/electionCard";
-import electionData from "../public/electionsData";
+import Layout from "../../components/layout";
+import Card from "../../components/electionCard";
+import electionData from "../../public/electionsData";
 
 const posts = [
   { value: "Football", key: "Football" },

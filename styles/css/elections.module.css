@@ -1,0 +1,24 @@
+
+
+.buttonsContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.buttonsContainer .docBtn {
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.buttonsContainer .docBtn:hover {
+    background-color: rgb(212, 37, 37);
+    transition: all 0.3s ease;
+}
