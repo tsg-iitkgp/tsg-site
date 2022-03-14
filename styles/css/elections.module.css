@@ -15,10 +15,10 @@
     border-radius: 5px;
     flex-grow: 1;
     text-align: center;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .buttonsContainer .docBtn:hover {
-    background-color: rgb(212, 37, 37);
-    transition: all 0.3s ease;
+    background-color: rgb(223, 8, 8);
+    transition: all 0.2s ease;
 }
