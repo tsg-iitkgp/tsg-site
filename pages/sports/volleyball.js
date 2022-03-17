@@ -42,7 +42,7 @@ export default function Football() {
                     <div className={`facilities`}>
                         <section>
                             <h2>
-                                Inter Hall Table Tennis Gymkhana Championship 2022
+                                Inter Hall Volleyball Gymkhana Championship 2022
                             </h2>
                             {/* <p>
                                 Welcome!
