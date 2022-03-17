@@ -15,7 +15,7 @@ const override = css`
   margin: auto;
 `;
 
-export default function Football() {
+export default function Volleyball() {
     const [isLoading, setIsLoading] = useState(true);
     const [matchesData, setMatchesData] = useState([]);
     const [matchesCategory, setMatchesCategory] = useState('upcoming');
@@ -42,7 +42,7 @@ export default function Football() {
                     <div className={`facilities`}>
                         <section>
                             <h2>
-                                Inter Hall Table Tennis Gymkhana Championship 2022
+                                Inter Hall Volleyball Gymkhana Championship 2022
                             </h2>
                             {/* <p>
                                 Welcome!

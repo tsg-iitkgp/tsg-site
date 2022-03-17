@@ -5,7 +5,7 @@ import Link from "next/link";
 import Styles from "../../styles/css/InterHall/sports.module.css";
 import * as Icon from "react-feather";
 import { useEffect, useState } from "react";
-import TTMatch from "../../components/InterHall/TTMatch";
+import VolleyballMatch from "../../components/InterHall/VolleyballMatch";
 import { BarLoader } from "react-spinners";
 import { css } from "@emotion/react";
 
@@ -15,7 +15,7 @@ const override = css`
   margin: auto;
 `;
 
-export default function TableTennis() {
+export default function Hockey() {
     const [isLoading, setIsLoading] = useState(true);
     const [matchesData, setMatchesData] = useState([]);
     const [matchesCategory, setMatchesCategory] = useState('upcoming');
@@ -24,7 +24,7 @@ export default function TableTennis() {
     const dataUrl = `https://script.google.com/macros/s/AKfycbwxaNPrASYpBstAdenTWx5H3sGV9nRL2NURPiMBpQbJrYspa7HnbukLeXvANR6rcjc1/exec`
 
     useEffect(() => {
-        fetch(dataUrl + '?sheetName=TableTennis')
+        fetch(dataUrl + '?sheetName=Volleyball')
             .then((response) => (response.json())).then((responseData) => {
                 setMatchesData(responseData.data);
                 setIsLoading(false);
@@ -42,7 +42,7 @@ export default function TableTennis() {
                     <div className={`facilities`}>
                         <section>
                             <h2>
-                                Inter Hall Table Tennis Gymkhana Championship 2022
+                                Inter Hall Hockey Gymkhana Championship 2022
                             </h2>
                             {/* <p>
                                 Welcome!
@@ -60,7 +60,7 @@ export default function TableTennis() {
                                         </div>
                                     ) : (
                                         matchesData.map((data, index) => (
-                                            <TTMatch key={index} data={data} />
+                                            <VolleyballMatch key={index} data={data} />
                                         )
                                         )
                                     )
