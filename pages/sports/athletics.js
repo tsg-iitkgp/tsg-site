@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { BarLoader } from "react-spinners";
 import { css } from "@emotion/react";
 
-import HockeyMatch from "../../components/InterHall/HockeyMatch";
+import FootballMatch from "../../components/InterHall/FootballMatch";
 
 
 const override = css`
@@ -16,7 +16,7 @@ const override = css`
   margin: auto;
 `;
 
-export default function Hockey() {
+export default function Athletics() {
     const [isLoading, setIsLoading] = useState(true);
     const [matchesData, setMatchesData] = useState([]);
     const [matchesCategory, setMatchesCategory] = useState('upcoming');
@@ -25,7 +25,7 @@ export default function Hockey() {
     const dataUrl = `https://script.google.com/macros/s/AKfycbwxaNPrASYpBstAdenTWx5H3sGV9nRL2NURPiMBpQbJrYspa7HnbukLeXvANR6rcjc1/exec`
 
     useEffect(() => {
-        fetch(dataUrl + '?sheetName=Hockey')
+        fetch(dataUrl + '?sheetName=Athletics')
             .then((response) => (response.json())).then((responseData) => {
                 setMatchesData(responseData.data);
                 setIsLoading(false);
@@ -43,7 +43,7 @@ export default function Hockey() {
                     <div className={`facilities`}>
                         <section>
                             <h2>
-                                Inter Hall Hockey 2022
+                                Inter Hall Hockey Gymkhana Championship 2022
                             </h2>
                             {/* <p>
                                 Welcome!
@@ -61,7 +61,7 @@ export default function Hockey() {
                                         </div>
                                     ) : (
                                         matchesData.map((data, index) => (
-                                            <HockeyMatch key={index} data={data} />
+                                            <FootballMatch key={index} data={data} />
                                         )
                                         )
                                     )
