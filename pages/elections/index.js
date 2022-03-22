@@ -38,11 +38,14 @@ export default function Elections() {
                                 Relevant Documents:
                             </h3>
                             <section className={Styles.buttonsContainer}>
-                                <a className={Styles.docBtn} href="/public/files/Elections-Notification.pdf">
+                                <a className={Styles.docBtn} href="/files/Elections-Notification.pdf">
                                     Notification
                                 </a>
-                                <a className={Styles.docBtn} href="/public/files/Election-Rules.pdf">
+                                <a className={Styles.docBtn} href="/files/Election-Rules.pdf">
                                     Rules
+                                </a>
+                                <a className={Styles.docBtn} href="/files/Election-Nominations-1_21-22.pdf">
+                                    Tentative List of Nominations
                                 </a>
                             </section>
                         </section>
