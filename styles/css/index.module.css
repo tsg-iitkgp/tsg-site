@@ -231,3 +231,28 @@ div.interHall {
     margin-top: 20px;
     padding: 5vw 0;
 }
+
+
+.tsgAwardsSection {
+    padding: 0px 30px;
+    padding-top: 30px;
+}
+
+.tsgAwardsSection .btnContainer {
+    padding: 30px;
+    text-align: center;
+}
+
+.tsgAwardsSection .btnContainer a {
+    background-color: #f75b2c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+    transition: all 0.2s ease;
+}
+
+.tsgAwardsSection .btnContainer a:hover {
+    background-color: #ff3c00;
+    transition: all 0.2s ease;
+}

@@ -40,7 +40,7 @@ function TTMatch({ data }) {
                 <div>
                     {data.highlight_line}
                 </div>
-                <div className={Styles.bestPlayer}>
+                {/* <div className={Styles.bestPlayer}>
                     <div className={Styles.iconContainer}>
                         <Icon.Award size={32} className={Styles.awardIcon} />
                         Best Player of the Match
@@ -48,7 +48,7 @@ function TTMatch({ data }) {
                     <div className={Styles.bestPlayerName}>
                         {data.best_player}
                     </div>
-                </div>
+                </div> */}
                 {/* <div className={Styles.formationBtnContainer}>
           <a className={Styles.formationBtn} href={data.formation_link} target='_blank'>
             Formation

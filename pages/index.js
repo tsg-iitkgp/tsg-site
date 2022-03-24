@@ -50,7 +50,7 @@ export default function Home() {
           <section className="events-slider">
             <h2>Highlights</h2>
             <AutoplaySlider play={true} interval={5000}>
-            <div
+              <div
                 data-src="/upcomingEvents/pl.jpg"
                 onClick={() => handlePosterClick("https://www.facebook.com/1375511306004699/posts/2977716442450836")}
               />
@@ -108,6 +108,76 @@ export default function Home() {
               Samyog - Connect IIT Kharagpur
             </Link>
           </section> */}
+          <section className={`facilities ${Styles.tsgAwardsSection}`}>
+            <h2>
+              Gymkhana Elections 2022
+            </h2>
+            <p>
+              Each year Technology Students’ Gymkhana (TSG), IIT Kharagpur carries out election to select office bearers from students for smooth conduction of student related activities.
+            </p>
+            <p>
+              This year election campaign will be carried out in hybrid mode following COVID protocol. However, the nomination, approval and voting will be done using digital platform developed by ERP, IIT Kharagpur. The date for Gymkhana Election is as follows: <br /><br />
+              Date of Election: 4th April 2022 (Monday) <br/>
+              Time of Election: 9:00 am to 6:00 pm <br/>
+              Platform: ERP
+            </p>
+            <div className={Styles.btnContainer}>
+              <Link href="/elections">
+                Read More
+              </Link>
+            </div>
+          </section>
+          <section className={`facilities ${Styles.tsgAwardsSection}`}>
+            <h2>Gymkhana Awards 2021-2022</h2>
+            <p>
+              The notice for inviting applications for the Gymkhana Awards 2021-22 has been uploaded on the web site {' '}
+              <a href="http://www.apna.iitkgp.ac.in">
+                http://www.apna.iitkgp.ac.in
+              </a> {' '}
+              (under Miscellaneous section).
+            </p>
+            <p>
+              Applications are invited from the eligible students for the following Awards and Honours:
+            </p>
+            <ol>
+              <li>
+                <b>
+                  Sports and Games Section: {' '}
+                </b>
+                BHANDARKAR CUP, ANKIK DHAR TROPHY, Alumni Cup,  INSTITUTE BLUE, HONOURABLE MENTION and SPECIAL MENTION.
+              </li>
+              <li>
+                <b>
+                  Social and Cultural Section: {' '}
+                </b>
+                SRIMATI CHANDIRAMANI CUP, Alumni Cup, INSTITUTE ORDER OF MERIT, HONOURABLE MENTION and SPECIAL MENTION.
+              </li>
+              <li>
+                <b>
+                  Technology Section: {' '}
+                </b>
+                PROF. G. S. SANYAL CUP, Alumni Cup, INSTITUTE ORDER OF MERIT, HONOURABLE MENTION and SPECIAL MENTION.
+              </li>
+              <li>
+                <b>
+                  Special Recognition: {' '}
+                </b>
+                AMRIT BARMAN MEMORIAL AWARD and PROF. ASHOKE MUKHERJEE CUP.
+              </li>
+            </ol>
+            <p>
+              You are requested to go through the forms and evaluation criteria mentioned in the attached document. Please send a scanned copy of the filled and signed application form along with all the supporting documents (in a single file of PDF format) to {' '}
+              <a href="mailto:presidenttsg@hijli.iitkgp.ac.in">
+                presidenttsg@hijli.iitkgp.ac.in
+              </a> {' '}
+              before 6th April 2022.
+            </p>
+            <div className={Styles.btnContainer}>
+              <a href="/files/notice-tsg-awards.pdf">
+                View Notice and Form
+              </a>
+            </div>
+          </section>
           <section className={`facilities ${Styles.covidSection}`}>
             <h2>Let's Together Fight Against Covid</h2>
             <div className={Styles.covidMeasures}>
