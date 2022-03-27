@@ -44,8 +44,8 @@ export default function Elections() {
                                 <a className={Styles.docBtn} href="/files/Election-Rules.pdf">
                                     Rules
                                 </a>
-                                <a className={Styles.docBtn} href="/files/Election-Nominations-1_21-22.pdf">
-                                    Tentative List of Nominations
+                                <a className={Styles.docBtn} href="/files/final-list_21-22.pdf">
+                                    Final List of Nominations
                                 </a>
                             </section>
                         </section>

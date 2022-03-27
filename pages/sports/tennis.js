@@ -5,7 +5,7 @@ import Link from "next/link";
 import Styles from "../../styles/css/InterHall/sports.module.css";
 import * as Icon from "react-feather";
 import { useEffect, useState } from "react";
-import TTMatch from "../../components/InterHall/TTMatch";
+import TennisMatch from "../../components/InterHall/TennisMatch";
 import { BarLoader } from "react-spinners";
 import { css } from "@emotion/react";
 
@@ -60,7 +60,7 @@ export default function Tennis() {
                                         </div>
                                     ) : (
                                         matchesData.map((data, index) => (
-                                            <TTMatch key={index} data={data} />
+                                            <TennisMatch key={index} data={data} />
                                         )
                                         )
                                     )
