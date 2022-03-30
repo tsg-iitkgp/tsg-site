@@ -184,7 +184,7 @@ export default {
       Hall: "RKH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20CH10044.pdf",
       FacebookLink: "",
     },
     {
@@ -195,7 +195,7 @@ export default {
       Hall: "JCB",
       Email: "",
       Proposal: "",
-      ProposalLink: "20CH10044.pdf",
+      ProposalLink: "20ME10072.pdf",
       FacebookLink: "",
     },
     {
