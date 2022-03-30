@@ -45,7 +45,7 @@ export default function Elections() {
         <title>TSG Elections</title>
       </Head>
       <section className="points content">
-        <h2>Technology Students' Gymkhana Elections 2021-2022</h2>
+        <h2>Technology Students' Gymkhana Elections 2022-2023</h2>
 
         <div className="tabs">
           <div className={`tab ${currentTab == "VP" ? "active" : ""}`} onClick={() => handleTabChange("VP")}>

@@ -33,6 +33,27 @@ export default function Elections() {
                                 Platform: ERP
                             </p>
                         </section>
+                        <section className={Styles.noticeSection}>
+                            <h3>
+                                Notices:
+                            </h3>
+                            <section className={Styles.noticesContainer}>
+                                <div className={Styles.notice}>
+                                    <div>
+                                        The date for submission of Revised Proposals the posts of Vice President and General
+                                        Secretaries is extended upto 10:00 am on March 29, 2022.
+                                    </div>
+                                    <a className={Styles.docBtn} href="/files/Extension-Final-Proposal_21-22.pdf">
+                                        View Notice &thinsp; <Icon.ExternalLink />
+                                    </a>
+                                </div>
+                            </section>
+                            <div className={Styles.propBtnContainer}>
+                                <Link href='candidates'>
+                                    Candidates and Proposals
+                                </Link>
+                            </div>
+                        </section>
                         <section className={Styles.docsContainer}>
                             <h3>
                                 Relevant Documents:

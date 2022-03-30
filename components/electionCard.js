@@ -8,8 +8,8 @@ export default function Card(props) {
       // onClick={() => Router.push(`/societies/${props.shortform}`)}
     >
       <div className="intro">
-        <ImageModal images={`/election/${props.RollNo}.jpeg`} title={props.Name} ProposalLink={props.ProposalLink} />
-        {/* <img src={require(`../public/societies/${props.shortform}.png`)} alt={`Picture of ${props.name}`} /> */}
+        {/* <ImageModal images={`/election/${props.RollNo}.jpeg`} title={props.Name} ProposalLink={props.ProposalLink} /> */}
+        <img src={`/election/candidate.png`} alt={`Picture of ${props.Name}`} />
       </div>
 
       <div className="card-content">
@@ -28,7 +28,7 @@ export default function Card(props) {
         {props.ProposalLink !== "" && (
           <a href={`/election/${props.ProposalLink}`} target="_blank" rel="noreferrer noopener">
             &thinsp;&thinsp;
-            <Icon.Airplay />
+            <Icon.BookOpen />
           </a>
         )}
         {props.Email !== "" && (
