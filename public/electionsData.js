@@ -1,7 +1,7 @@
 export default {
   VP: [
     {
-      RollNo: "19EX20014",
+      RollNo: "19EX20015",
       Description: "GG '24",
       Name: "Gaurav Garg",
       Contact: "XXX XXX XXX",
@@ -9,7 +9,7 @@ export default {
       Email: "",
       img: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "19EX20015.pdf",
       FacebookLink: "",
     },
     {
@@ -21,7 +21,7 @@ export default {
       Email: "",
       img: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "19GG20008.pdf",
       FacebookLink: "",
     },
     {
@@ -33,7 +33,7 @@ export default {
       Email: "",
       img: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "19HS20011.pdf",
       FacebookLink: "",
     },
   ],
@@ -46,7 +46,7 @@ export default {
       Hall: "JCB",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20AE10020.pdf",
       FacebookLink: "",
     },
     {
@@ -57,7 +57,7 @@ export default {
       Hall: "AZD",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20EX20029.pdf",
       FacebookLink: "",
     },
     {
@@ -68,7 +68,7 @@ export default {
       Hall: "MMH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20ME30076.pdf",
       FacebookLink: "",
     },
     {
@@ -79,7 +79,7 @@ export default {
       Hall: "VSH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20MT10039.pdf",
       FacebookLink: "",
     },
   ],
@@ -92,7 +92,7 @@ export default {
       Hall: "MSH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20EC30021.pdf",
       FacebookLink: "",
     },
     {
@@ -103,7 +103,7 @@ export default {
       Hall: "AZD",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20GG20038.pdf",
       FacebookLink: "",
     },
     {
@@ -114,7 +114,7 @@ export default {
       Hall: "LLR",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20ME30047.pdf",
       FacebookLink: "",
     },
     {
@@ -125,7 +125,7 @@ export default {
       Hall: "RPH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20ME30072.pdf",
       FacebookLink: "",
     },
   ],
@@ -138,7 +138,7 @@ export default {
       Hall: "MMH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20EE10091.pdf",
       FacebookLink: "",
     },
     {
@@ -149,7 +149,7 @@ export default {
       Hall: "RKH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20HS20025.pdf",
       FacebookLink: "",
     },
     {
@@ -160,7 +160,7 @@ export default {
       Hall: "RPH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20IM10020.pdf",
       FacebookLink: "",
     },
     {
@@ -171,7 +171,7 @@ export default {
       Hall: "MTH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20MA20031.pdf",
       FacebookLink: "",
     },
   ],
@@ -195,7 +195,7 @@ export default {
       Hall: "JCB",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20CH10044.pdf",
       FacebookLink: "",
     },
     {
@@ -206,7 +206,7 @@ export default {
       Hall: "MMH",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20MT10001.pdf",
       FacebookLink: "",
     },
   ],
@@ -219,7 +219,7 @@ export default {
       Hall: "SN/IG",
       Email: "",
       Proposal: "",
-      ProposalLink: "",
+      ProposalLink: "20ME10047.pdf",
       FacebookLink: "",
     },
   ],
