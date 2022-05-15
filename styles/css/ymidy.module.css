@@ -1,0 +1,31 @@
+.imgContainer {
+    text-align: center;
+}
+
+.imgContainer img {
+    width: 95%;
+    max-width: 700px;
+    object-fit: contain;
+}
+
+.btnContainer {
+    display: flex;
+}
+
+.btnContainer a {
+    margin: 10px 0;
+    padding: 10px;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+
+.btnContainer a:hover {
+    background-color: rgb(223, 8, 8);
+    transition: all 0.2s ease;
+}

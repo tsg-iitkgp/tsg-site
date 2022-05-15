@@ -28,16 +28,82 @@ export default function Elections() {
                                 This year election campaign will be carried out in hybrid mode following COVID protocol. However, the nomination, approval and voting will be done using digital platform developed by ERP, IIT Kharagpur. The date for Gymkhana Election is as follows:
                             </p>
                             <p>
-                                Date of Election: 4th April 2022 (Monday) <br />
-                                Time of Election: 9:00 am to 6:00 pm <br />
+                                Date of Election: 5th April 2022 (Monday) <br />
+                                Time of Election: 10:00 am to 6:00 pm <br />
                                 Platform: ERP
                             </p>
+                        </section>
+                        <section>
+                            <h3>
+                                Bus Service on 5th April 2022, on the occasion of Elections
+                            </h3>
+                            <p>
+                                <b>
+                                    Bus Route-1:
+                                </b> <br />
+                                RP, RK, MS, LLR, MMM, LBS, PAN LOOP, BRH, SNVH, MT, TAKSHASHILA
+                            </p>
+                            <p>
+                                <b>
+                                    Bus Route-2:
+                                </b> <br />
+                                BCR, SN/IG, GOKHALE, RLB, HJB, JCB, LBS, MMM, LLR, MS, RK, RP, ALUMNI CLOCK TOWER, TAKSHASHILA
+                            </p>
+                            <center>
+                                <b>
+                                    Bus Service will be available @30 minutes interval
+                                </b>
+                            </center>
                         </section>
                         <section className={Styles.noticeSection}>
                             <h3>
                                 Notices:
                             </h3>
                             <section className={Styles.noticesContainer}>
+                                <div className={Styles.notice}>
+                                    <div>
+                                        Results Notification of Gymkhana
+                                        Elections for the academic session 2022-23
+                                    </div>
+                                    <a className={Styles.docBtn} href="/files/Notification-Results-07042022.pdf">
+                                        View Notification &thinsp; <Icon.ExternalLink />
+                                    </a>
+                                </div>
+                                <div className={Styles.notice}>
+                                    <div>
+                                        Vote Count of Gymkhana
+                                        Elections for the academic session 2022-23
+                                    </div>
+                                    <a className={Styles.docBtn} href="/files/Annexure-I-Vote_Counts-signed.pdf">
+                                        View Document &thinsp; <Icon.ExternalLink />
+                                    </a>
+                                </div>
+                                <div className={Styles.notice}>
+                                    <div>
+                                        Voting Procedure Brochure of Gymkhana
+                                        Elections for the academic session 2022-23
+                                    </div>
+                                    <a className={Styles.docBtn} href="/files/voting_procedure-22-23.pdf">
+                                        View Document &thinsp; <Icon.ExternalLink />
+                                    </a>
+                                </div>
+                                <div className={Styles.notice}>
+                                    <div>
+                                        Due to some technical reasons, the schedule for election, counting & results and notification
+                                        of results is changed.
+                                    </div>
+                                    <a className={Styles.docBtn} href="/files/Revised_Schedule-03042022.pdf">
+                                        View Schedule &thinsp; <Icon.ExternalLink />
+                                    </a>
+                                </div>
+                                <div className={Styles.notice}>
+                                    <div>
+                                        SOAP has been scheduled on 1st and 2nd of April 2022.
+                                    </div>
+                                    <a className={Styles.docBtn} href="/files/SOAP_Schedule_21-22.pdf">
+                                        View Schedule &thinsp; <Icon.ExternalLink />
+                                    </a>
+                                </div>
                                 <div className={Styles.notice}>
                                     <div>
                                         The date for submission of Revised Proposals the posts of Vice President and General
