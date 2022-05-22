@@ -54,7 +54,11 @@ export default function Home() {
             <AutoplaySlider play={true} interval={5000}>
               <div
                 data-src="/upcomingEvents/yoga-banner.png"
-                onClick={() => handlePosterClick("https://www.sih.gov.in/sih2022PS")}
+                onClick={() => handlePosterClick("https://tinyurl.com/YogaMahotsav2022")}
+              />
+              <div
+                data-src="/upcomingEvents/yoga_mahotsav_banner.png"
+                onClick={() => handlePosterClick("https://tinyurl.com/YogaMahotsav2022")}
               />
               <div
                 data-src="/upcomingEvents/qs.jpg"
